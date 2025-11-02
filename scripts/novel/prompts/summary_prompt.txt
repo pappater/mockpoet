@@ -1,0 +1,13 @@
+Summarize the following chapter for continuity purposes. The summary should capture:
+- Key plot events
+- Character development and revelations
+- Important dialogue or decisions
+- Emotional tone and themes explored
+- Setup for future chapters
+
+Keep the summary concise (200-300 words) but comprehensive enough to maintain story continuity.
+
+CHAPTER {chapter_num}:
+{chapter_text}
+
+Provide only the summary without any preamble or meta-commentary.

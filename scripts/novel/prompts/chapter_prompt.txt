@@ -1,0 +1,24 @@
+You are writing Chapter {chapter_num} of a long-form novel in the style of Fyodor Dostoevsky.
+
+THEME: {theme}
+
+SERIES BIBLE:
+{series_bible}
+
+OUTLINE:
+{outline}
+
+PREVIOUS STORY SUMMARY:
+{previous_summary}
+
+Write Chapter {chapter_num} in a Dostoevsky-like voice:
+- Deep psychological exploration of characters' inner thoughts and moral struggles
+- Rich, detailed prose with philosophical undertones
+- Exploration of themes related to debt, mercy, redemption, and the weight of promises
+- Complex character relationships and ethical dilemmas
+- Natural dialogue that reveals character psychology
+- Vivid descriptions of settings and emotional states
+
+The chapter should be approximately 2000-3000 words, advance the plot according to the outline, maintain continuity with previous events, and end with a natural transition or moment of tension that invites the next chapter.
+
+Write only the chapter text, without any meta-commentary or notes. Begin directly with the narrative.
