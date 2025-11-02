@@ -17,6 +17,7 @@ from github import Github
 
 # Configuration
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 GIST_TOKEN = os.environ.get("GIST_TOKEN")
 GIST_ID = os.environ.get("GIST_ID")
 
@@ -42,6 +43,19 @@ def save_file(filepath, content):
         f.write(content)
 
 
+def _list_and_print_models():
+    """List available Gemini models for debugging purposes."""
+    try:
+        genai.configure(api_key=GEMINI_API_KEY)
+        print("\nAvailable Gemini models:")
+        for model in genai.list_models():
+            print(f"  - {model.name}")
+            if hasattr(model, 'supported_generation_methods'):
+                print(f"    Supported methods: {model.supported_generation_methods}")
+    except Exception as e:
+        print(f"  Unable to list models: {e}")
+
+
 def get_chapter_number():
     """Determine the next chapter number from the continuity log."""
     log_path = DOCS_DIR / "continuity_log.txt"
@@ -59,7 +73,7 @@ def generate_chapter(chapter_num, series_bible, outline, previous_summary):
     """Generate a new chapter using Gemini AI."""
     try:
         genai.configure(api_key=GEMINI_API_KEY)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel(GEMINI_MODEL)
         
         # Load chapter prompt template
         chapter_prompt_template = load_file(PROMPTS_DIR / "chapter_prompt.txt")
@@ -78,7 +92,9 @@ def generate_chapter(chapter_num, series_bible, outline, previous_summary):
         
         return response.text
     except Exception as e:
-        print(f"ERROR: Failed to generate chapter: {e}")
+        print(f"ERROR: Failed to generate chapter using model '{GEMINI_MODEL}': {e}")
+        print(f"Check if the model name is correct and available.")
+        _list_and_print_models()
         sys.exit(1)
 
 
@@ -86,7 +102,7 @@ def generate_summary(chapter_text, chapter_num):
     """Generate a summary of the chapter for continuity."""
     try:
         genai.configure(api_key=GEMINI_API_KEY)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel(GEMINI_MODEL)
         
         # Load summary prompt template
         summary_prompt_template = load_file(PROMPTS_DIR / "summary_prompt.txt")
@@ -101,7 +117,9 @@ def generate_summary(chapter_text, chapter_num):
         
         return response.text
     except Exception as e:
-        print(f"ERROR: Failed to generate summary: {e}")
+        print(f"ERROR: Failed to generate summary using model '{GEMINI_MODEL}': {e}")
+        print(f"Check if the model name is correct and available.")
+        _list_and_print_models()
         sys.exit(1)
 
 
