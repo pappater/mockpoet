@@ -13,7 +13,7 @@ from datetime import datetime
 from pathlib import Path
 
 import google.generativeai as genai
-from github import Github
+from github import Github, InputFileContent
 
 # Configuration
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -58,27 +58,26 @@ def _list_and_print_models():
 
 def _sanitize_gist_files(files: dict) -> dict:
     """
-    Ensure values passed to gist.edit are either None or dicts with a 'content' key.
+    Ensure values passed to gist.edit are either None or InputFileContent instances.
     Accepts:
-      - string -> {'content': string}
-      - dict already containing 'content' -> left as-is
+      - string -> InputFileContent(string)
+      - dict with 'content' key -> InputFileContent(content)
+      - InputFileContent -> left as-is
       - None -> left as-is (used to delete files)
     """
     sanitized = {}
     for name, value in (files or {}).items():
         if value is None:
             sanitized[name] = None
+        elif isinstance(value, InputFileContent):
+            sanitized[name] = value
         elif isinstance(value, dict):
-            if 'content' in value:
-                sanitized[name] = value
-            else:
-                # Convert arbitrary dict to content string
-                try:
-                    sanitized[name] = {'content': value.get('content') or str(value)}
-                except Exception:
-                    sanitized[name] = {'content': str(value)}
+            # Extract content from dict
+            content = value.get('content', str(value))
+            sanitized[name] = InputFileContent(content)
         else:
-            sanitized[name] = {'content': str(value)}
+            # Convert to string and wrap in InputFileContent
+            sanitized[name] = InputFileContent(str(value))
     return sanitized
 
 
