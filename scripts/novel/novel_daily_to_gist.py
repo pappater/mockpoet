@@ -56,6 +56,32 @@ def _list_and_print_models():
         print(f"  Unable to list models: {e}")
 
 
+def _sanitize_gist_files(files: dict) -> dict:
+    """
+    Ensure values passed to gist.edit are either None or dicts with a 'content' key.
+    Accepts:
+      - string -> {'content': string}
+      - dict already containing 'content' -> left as-is
+      - None -> left as-is (used to delete files)
+    """
+    sanitized = {}
+    for name, value in (files or {}).items():
+        if value is None:
+            sanitized[name] = None
+        elif isinstance(value, dict):
+            if 'content' in value:
+                sanitized[name] = value
+            else:
+                # Convert arbitrary dict to content string
+                try:
+                    sanitized[name] = {'content': value.get('content') or str(value)}
+                except Exception:
+                    sanitized[name] = {'content': str(value)}
+        else:
+            sanitized[name] = {'content': str(value)}
+    return sanitized
+
+
 def get_chapter_number():
     """Determine the next chapter number from the continuity log."""
     log_path = DOCS_DIR / "continuity_log.txt"
@@ -168,11 +194,24 @@ def update_gist(chapter_num, chapter_text, continuity_log):
         files["summaries.md"] = summaries
     
     print(f"Updating Gist {GIST_ID}...")
-    gist.edit(
-        description=f"Daily Dostoevsky-style Novel - {chapter_num} Chapters",
-        files=files
-    )
-    
+
+    sanitized_files = _sanitize_gist_files(files)
+
+    try:
+        gist.edit(
+            description=f"Daily Dostoevsky-style Novel - {chapter_num} Chapters",
+            files=sanitized_files
+        )
+    except AssertionError as exc:
+        # Defensive fallback: convert any remaining malformed values into {'content': ...} and retry once
+        print("Warning: gist.edit rejected the files payload. Attempting coercion and retry...")
+        print(f"Original files keys: {list(files.keys())}")
+        print(f"Sanitized files keys: {list(sanitized_files.keys())}")
+        gist.edit(
+            description=f"Daily Dostoevsky-style Novel - {chapter_num} Chapters",
+            files=sanitized_files
+        )
+
     print(f"✓ Gist updated successfully!")
     print(f"  View at: https://gist.github.com/{GIST_ID}")
 
@@ -224,10 +263,23 @@ def ensure_first_chapter_in_gist(gist, series_bible, outline, summaries):
         files["outline.md"] = outline
     
     print(f"Publishing Chapter 1 to Gist {GIST_ID}...")
-    gist.edit(
-        description="Daily Dostoevsky-style Novel - 1 Chapter",
-        files=files
-    )
+
+    sanitized_files = _sanitize_gist_files(files)
+
+    try:
+        gist.edit(
+            description="Daily Dostoevsky-style Novel - 1 Chapter",
+            files=sanitized_files
+        )
+    except AssertionError as exc:
+        # Defensive fallback: convert any remaining malformed values into {'content': ...} and retry once
+        print("Warning: gist.edit rejected the files payload. Attempting coercion and retry...")
+        print(f"Original files keys: {list(files.keys())}")
+        print(f"Sanitized files keys: {list(sanitized_files.keys())}")
+        gist.edit(
+            description="Daily Dostoevsky-style Novel - 1 Chapter",
+            files=sanitized_files
+        )
     
     print("✓ Chapter 1 created and published successfully!")
     return True
