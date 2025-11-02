@@ -81,17 +81,37 @@ def _sanitize_gist_files(files: dict) -> dict:
     return sanitized
 
 
-def get_chapter_number():
-    """Determine the next chapter number from the continuity log."""
-    log_path = DOCS_DIR / "continuity_log.txt"
-    log_content = load_file(log_path)
+def get_chapter_number(gist):
+    """
+    Determine the next chapter number by checking what chapters exist in the Gist.
     
-    if not log_content:
+    Args:
+        gist: PyGithub Gist object
+    
+    Returns:
+        int: The next chapter number to generate
+    """
+    # Get all chapter files from the Gist
+    chapter_files = [f for f in gist.files.keys() if f.startswith("chapter_") and f.endswith(".md")]
+    
+    if not chapter_files:
         return 1
     
-    # Count chapter entries
-    chapter_count = log_content.count("Chapter ")
-    return chapter_count + 1
+    # Extract chapter numbers from filenames (e.g., "chapter_001.md" -> 1)
+    chapter_numbers = []
+    for filename in chapter_files:
+        try:
+            # Extract the number part between "chapter_" and ".md"
+            num_str = filename.replace("chapter_", "").replace(".md", "")
+            chapter_numbers.append(int(num_str))
+        except ValueError:
+            continue
+    
+    if not chapter_numbers:
+        return 1
+    
+    # Return the next sequential chapter number
+    return max(chapter_numbers) + 1
 
 
 def generate_chapter(chapter_num, series_bible, outline, previous_summary):
@@ -162,11 +182,59 @@ def update_continuity_log(chapter_num, summary):
     return updated_log
 
 
-def update_gist(chapter_num, chapter_text, continuity_log):
-    """Update the GitHub Gist with new chapter and continuity log."""
-    g = Github(GIST_TOKEN)
-    gist = g.get_gist(GIST_ID)
+def update_chapters_json(gist):
+    """
+    Create/update chapters.json with all chapter mappings and their Gist URLs.
     
+    Args:
+        gist: PyGithub Gist object
+    
+    Returns:
+        str: JSON string of chapters mapping
+    """
+    # Get all chapter files from the Gist
+    chapter_files = sorted([f for f in gist.files.keys() if f.startswith("chapter_") and f.endswith(".md")])
+    
+    chapters = []
+    for filename in chapter_files:
+        try:
+            # Extract the number part between "chapter_" and ".md"
+            num_str = filename.replace("chapter_", "").replace(".md", "")
+            chapter_num = int(num_str)
+            
+            # Build the raw content URL for this chapter
+            raw_url = gist.files[filename].raw_url
+            
+            chapters.append({
+                "chapter": chapter_num,
+                "filename": filename,
+                "url": raw_url,
+                "gist_url": f"https://gist.github.com/{GIST_ID}#{filename}"
+            })
+        except (ValueError, KeyError):
+            continue
+    
+    chapters_data = {
+        "novel_title": "The Weight of Promises",
+        "total_chapters": len(chapters),
+        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
+        "gist_id": GIST_ID,
+        "chapters": chapters
+    }
+    
+    return json.dumps(chapters_data, indent=2)
+
+
+def update_gist(chapter_num, chapter_text, continuity_log, gist):
+    """
+    Update the GitHub Gist with new chapter, continuity log, and chapters.json.
+    
+    Args:
+        chapter_num: Chapter number being added
+        chapter_text: Chapter content
+        continuity_log: Updated continuity log content
+        gist: PyGithub Gist object (reused to avoid extra API calls)
+    """
     # Prepare files for the gist
     # PyGithub expects: filename -> string content (not nested dicts)
     files = {}
@@ -210,8 +278,22 @@ def update_gist(chapter_num, chapter_text, continuity_log):
             description=f"Daily Dostoevsky-style Novel - {chapter_num} Chapters",
             files=sanitized_files
         )
+    
+    # Refresh gist to get updated file URLs
+    gist = gist._requester.requestJsonAndCheck("GET", gist.url)[1]
+    gist = gist.__class__(gist._requester, gist._headers, gist, completed=True)
+    
+    # Update chapters.json with all chapter mappings
+    chapters_json = update_chapters_json(gist)
+    files_json = {"chapters.json": chapters_json}
+    sanitized_json = _sanitize_gist_files(files_json)
+    gist.edit(files=sanitized_json)
+    
+    # Also save chapters.json locally
+    save_file(DOCS_DIR / "chapters.json", chapters_json)
 
     print(f"✓ Gist updated successfully!")
+    print(f"✓ chapters.json updated with {chapter_num} chapter(s)")
     print(f"  View at: https://gist.github.com/{GIST_ID}")
 
 
@@ -280,7 +362,21 @@ def ensure_first_chapter_in_gist(gist, series_bible, outline, summaries):
             files=sanitized_files
         )
     
+    # Refresh gist to get updated file URLs
+    gist = gist._requester.requestJsonAndCheck("GET", gist.url)[1]
+    gist = gist.__class__(gist._requester, gist._headers, gist, completed=True)
+    
+    # Create initial chapters.json
+    chapters_json = update_chapters_json(gist)
+    files_json = {"chapters.json": chapters_json}
+    sanitized_json = _sanitize_gist_files(files_json)
+    gist.edit(files=sanitized_json)
+    
+    # Also save chapters.json locally
+    save_file(DOCS_DIR / "chapters.json", chapters_json)
+    
     print("✓ Chapter 1 created and published successfully!")
+    print("✓ chapters.json initialized")
     return True
 
 
@@ -327,8 +423,8 @@ def main():
         print("=" * 60)
         return
     
-    # Determine chapter number
-    chapter_num = get_chapter_number()
+    # Determine chapter number by checking what's already in the Gist
+    chapter_num = get_chapter_number(gist)
     print(f"\nGenerating Chapter {chapter_num}")
     print(f"Theme: {THEME}")
     
@@ -346,8 +442,8 @@ def main():
     summaries_content += f"\n\n## Chapter {chapter_num}\n\n{summary}"
     save_file(DOCS_DIR / "summaries.md", summaries_content)
     
-    # Update Gist
-    update_gist(chapter_num, chapter_text, continuity_log)
+    # Update Gist with new chapter and chapters.json
+    update_gist(chapter_num, chapter_text, continuity_log, gist)
     
     print("\n" + "=" * 60)
     print("✓ Daily chapter generation complete!")

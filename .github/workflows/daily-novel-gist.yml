@@ -42,6 +42,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/novel-gist/summaries.md docs/novel-gist/continuity_log.txt
+          git add docs/novel-gist/summaries.md docs/novel-gist/continuity_log.txt docs/novel-gist/chapters.json
           git diff --staged --quiet || git commit -m "Update novel files after Chapter generation"
           git push
