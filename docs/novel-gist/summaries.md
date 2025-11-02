@@ -2,3 +2,12 @@
 
 This file will be updated daily with summaries of each chapter to maintain continuity.
 
+
+
+## Chapter 1
+
+Chapter 1 introduces Dmitri Ivanovich Volkov, a weary 34-year-old former military officer, struggling to manage his dilapidated family estate six months after his father, Ivan Ilyich, passed away. The estate is deeply in debt, mirroring Dmitri's own financial precarity and responsibility for his younger sister, Katya. Overwhelmed by grief and the pervasive sense of decay, Dmitri finally forces himself to confront his father's ledger.
+
+The ledger, initially a record of financial transactions, reveals unsettling truths through marginal notes hinting at his father's questionable dealings, broken promises, and exploitation of others’ trust. As Dmitri delves deeper, a deathbed letter from his father falls out. The letter is a harrowing confession of Ivan Ilyich's "hubris, carelessness, and lack of scruple," admitting to accruing significant "moral debts" beyond mere financial ones. His father, seeking redemption, implores Dmitri, as a man of honor, to undertake a "sacred obligation" to "make amends" to those he wronged, seeking not just financial settlement but true atonement.
+
+Dmitri is horrified and enraged by this "inheritance." He views it as a cruel, impossible burden, questioning how he, impoverished and already struggling, can absolve his father’s sins. The chapter concludes with Dmitri confronting the immense, suffocating weight of this moral wilderness, realizing his life has irrevocably changed. He must now navigate this complex legacy of shame and obligation, setting up a journey of difficult choices and encounters with those his father wronged.
