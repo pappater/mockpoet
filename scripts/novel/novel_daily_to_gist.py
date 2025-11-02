@@ -279,21 +279,24 @@ def update_gist(chapter_num, chapter_text, continuity_log, gist):
             files=sanitized_files
         )
     
-    # Refresh gist to get updated file URLs
+    # Refresh gist to get updated file information after the edit
+    # PyGithub doesn't auto-update file URLs after edit(), but we need the
+    # fresh raw_url values for chapters.json. This requires a new API call.
     g = Github(GIST_TOKEN)
-    gist = g.get_gist(GIST_ID)
+    refreshed_gist = g.get_gist(GIST_ID)
     
-    # Update chapters.json with all chapter mappings
-    chapters_json = update_chapters_json(gist)
+    # Update chapters.json with all chapter mappings (including the newly added chapter)
+    chapters_json = update_chapters_json(refreshed_gist)
+    chapters_data = json.loads(chapters_json)
     files_json = {"chapters.json": chapters_json}
     sanitized_json = _sanitize_gist_files(files_json)
-    gist.edit(files=sanitized_json)
+    refreshed_gist.edit(files=sanitized_json)
     
     # Also save chapters.json locally
     save_file(DOCS_DIR / "chapters.json", chapters_json)
 
     print(f"✓ Gist updated successfully!")
-    print(f"✓ chapters.json updated with {chapter_num} chapter(s)")
+    print(f"✓ chapters.json updated (total: {chapters_data['total_chapters']} chapters)")
     print(f"  View at: https://gist.github.com/{GIST_ID}")
 
 
@@ -362,15 +365,17 @@ def ensure_first_chapter_in_gist(gist, series_bible, outline, summaries):
             files=sanitized_files
         )
     
-    # Refresh gist to get updated file URLs
+    # Refresh gist to get updated file information after the edit
+    # PyGithub doesn't auto-update file URLs after edit(), but we need the
+    # fresh raw_url values for chapters.json. This requires a new API call.
     g = Github(GIST_TOKEN)
-    gist = g.get_gist(GIST_ID)
+    refreshed_gist = g.get_gist(GIST_ID)
     
     # Create initial chapters.json
-    chapters_json = update_chapters_json(gist)
+    chapters_json = update_chapters_json(refreshed_gist)
     files_json = {"chapters.json": chapters_json}
     sanitized_json = _sanitize_gist_files(files_json)
-    gist.edit(files=sanitized_json)
+    refreshed_gist.edit(files=sanitized_json)
     
     # Also save chapters.json locally
     save_file(DOCS_DIR / "chapters.json", chapters_json)
