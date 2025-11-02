@@ -143,32 +143,29 @@ def update_gist(chapter_num, chapter_text, continuity_log):
     gist = g.get_gist(GIST_ID)
     
     # Prepare files for the gist
+    # PyGithub expects: filename -> string content (not nested dicts)
     files = {}
     
     # Add the new chapter
     chapter_filename = f"chapter_{chapter_num:03d}.md"
     chapter_content = f"# Chapter {chapter_num}\n\n{chapter_text}"
-    files[chapter_filename] = {
-        "content": chapter_content
-    }
+    files[chapter_filename] = chapter_content
     
     # Update continuity log
-    files["continuity_log.txt"] = {
-        "content": continuity_log
-    }
+    files["continuity_log.txt"] = continuity_log
     
     # Also update series bible, outline, and summaries if they exist
     series_bible = load_file(DOCS_DIR / "series_bible.md")
     if series_bible:
-        files["series_bible.md"] = {"content": series_bible}
+        files["series_bible.md"] = series_bible
     
     outline = load_file(DOCS_DIR / "outline.md")
     if outline:
-        files["outline.md"] = {"content": outline}
+        files["outline.md"] = outline
     
     summaries = load_file(DOCS_DIR / "summaries.md")
     if summaries:
-        files["summaries.md"] = {"content": summaries}
+        files["summaries.md"] = summaries
     
     print(f"Updating Gist {GIST_ID}...")
     gist.edit(
@@ -178,6 +175,62 @@ def update_gist(chapter_num, chapter_text, continuity_log):
     
     print(f"✓ Gist updated successfully!")
     print(f"  View at: https://gist.github.com/{GIST_ID}")
+
+
+def ensure_first_chapter_in_gist(gist, series_bible, outline, summaries):
+    """
+    Check if Chapter 1 exists in the Gist. If not, generate and publish it.
+    
+    Args:
+        gist: PyGithub Gist object
+        series_bible: Series bible content
+        outline: Outline content
+        summaries: Summaries content (may be None or empty)
+    
+    Returns:
+        bool: True if Chapter 1 was created, False if it already existed
+    """
+    # Check if chapter_001.md exists in the Gist
+    if "chapter_001.md" in gist.files:
+        print("✓ Chapter 1 already exists in Gist")
+        return False
+    
+    print("⚠ Chapter 1 not found in Gist. Generating initial chapter...")
+    
+    # Generate Chapter 1
+    chapter_text = generate_chapter(1, series_bible, outline, summaries)
+    
+    # Generate summary for Chapter 1
+    summary = generate_summary(chapter_text, 1)
+    
+    # Update continuity log locally
+    continuity_log = update_continuity_log(1, summary)
+    
+    # Update summaries file locally
+    summaries_content = summaries or "# Chapter Summaries\n"
+    summaries_content += f"\n\n## Chapter 1\n\n{summary}"
+    save_file(DOCS_DIR / "summaries.md", summaries_content)
+    
+    # Prepare files for Gist update (using correct format: filename -> string)
+    files = {}
+    files["chapter_001.md"] = f"# Chapter 1\n\n{chapter_text}"
+    files["continuity_log.txt"] = continuity_log
+    files["summaries.md"] = summaries_content
+    
+    # Also include canon files if they exist
+    if series_bible:
+        files["series_bible.md"] = series_bible
+    if outline:
+        files["outline.md"] = outline
+    
+    print(f"Publishing Chapter 1 to Gist {GIST_ID}...")
+    gist.edit(
+        description="Daily Dostoevsky-style Novel - 1 Chapter",
+        files=files
+    )
+    
+    print("✓ Chapter 1 created and published successfully!")
+    return True
 
 
 def main():
@@ -207,6 +260,21 @@ def main():
     if not series_bible or not outline:
         print("ERROR: Missing required canon files (series_bible.md, outline.md)")
         sys.exit(1)
+    
+    # Get Gist object for initial check
+    g = Github(GIST_TOKEN)
+    gist = g.get_gist(GIST_ID)
+    print(f"✓ Connected to Gist {GIST_ID}")
+    
+    # Ensure Chapter 1 exists in Gist (generate if missing)
+    chapter1_created = ensure_first_chapter_in_gist(gist, series_bible, outline, summaries)
+    
+    if chapter1_created:
+        # If we just created Chapter 1, we're done for this run
+        print("\n" + "=" * 60)
+        print("✓ Initial Chapter 1 generation complete!")
+        print("=" * 60)
+        return
     
     # Determine chapter number
     chapter_num = get_chapter_number()
