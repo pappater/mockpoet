@@ -197,8 +197,8 @@ def ensure_first_chapter_in_gist(gist, series_bible, outline, summaries):
     
     print("⚠ Chapter 1 not found in Gist. Generating initial chapter...")
     
-    # Generate Chapter 1
-    chapter_text = generate_chapter(1, series_bible, outline, summaries)
+    # Generate Chapter 1 (no previous summaries for first chapter)
+    chapter_text = generate_chapter(1, series_bible, outline, None)
     
     # Generate summary for Chapter 1
     summary = generate_summary(chapter_text, 1)
