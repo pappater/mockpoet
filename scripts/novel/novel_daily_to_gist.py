@@ -21,9 +21,13 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 GIST_TOKEN = os.environ.get("GIST_TOKEN")
 GIST_ID = os.environ.get("GIST_ID")
 
+# Novel completion configuration
+DEFAULT_TOTAL_CHAPTERS = 16  # Default based on outline
+THE_END_TEXT = "\n\n---\n\n**THE END**"
+
 # Parse TOTAL_CHAPTERS with error handling
 try:
-    TOTAL_CHAPTERS = int(os.environ.get("TOTAL_CHAPTERS", "16"))
+    TOTAL_CHAPTERS = int(os.environ.get("TOTAL_CHAPTERS", str(DEFAULT_TOTAL_CHAPTERS)))
 except ValueError:
     print(f"ERROR: TOTAL_CHAPTERS must be a valid integer, got: {os.environ.get('TOTAL_CHAPTERS')}")
     sys.exit(1)
@@ -254,7 +258,7 @@ def update_gist(chapter_num, chapter_text, continuity_log, gist, is_last_chapter
     
     # If this is the last chapter, append "THE END"
     if is_last_chapter:
-        chapter_content += "\n\n---\n\n**THE END**"
+        chapter_content += THE_END_TEXT
     
     files[chapter_filename] = chapter_content
     
