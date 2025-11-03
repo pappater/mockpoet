@@ -23,6 +23,10 @@ The system generates a continuous, long-form novel with the following characteri
    - Updates the continuity log
    - Updates the summaries file
 4. **Publication**: All outputs are uploaded to a single public GitHub Gist for easy reading and sharing
+5. **Automatic Completion**: When the final chapter is generated:
+   - The script appends "**THE END**" to the last chapter
+   - A completion marker file (`.novel_complete`) is created
+   - Future cron jobs will exit early without generating new chapters
 
 ## Directory Structure
 
@@ -134,6 +138,24 @@ schedule:
   - cron: '0 10 * * *'  # Daily at 10:00 UTC
 ```
 
+### Setting the Total Number of Chapters
+
+The novel is configured to generate a specific number of chapters (default: 16). To change this:
+
+Edit `.github/workflows/daily-novel-gist.yml` and modify the `TOTAL_CHAPTERS` environment variable:
+
+```yaml
+env:
+  TOTAL_CHAPTERS: 16  # Change to your desired total
+```
+
+Or set it as a repository secret for more flexibility.
+
+When the script generates the final chapter:
+- It will automatically append "**THE END**" to the chapter
+- A completion marker file will be created
+- Future runs will exit early without generating new content
+
 ### Theme and Style
 
 To change the novel's theme, edit the `THEME` variable in `scripts/novel/novel_daily_to_gist.py`:
@@ -168,6 +190,15 @@ Also update the series bible and prompts to reflect the new theme.
 - If you need to regenerate a chapter, you may need to manually update the summaries file
 - The chapter number is determined by checking what chapter files exist in the Gist
 - If you delete all gist files, the next run will generate Chapter 1
+
+### Novel Completion
+- Once the final chapter is generated, a `.novel_complete` marker file is created
+- The workflow will continue to run on schedule but will exit immediately
+- To restart or extend the novel:
+  - Delete the `.novel_complete` file from `docs/novel-gist/`
+  - Increase the `TOTAL_CHAPTERS` value in the workflow
+  - The next run will generate the next chapter
+- The completion marker prevents accidental generation of extra chapters
 
 ### Using chapters.json for UI Integration
 - The `chapters.json` file is automatically generated and updated with each chapter
