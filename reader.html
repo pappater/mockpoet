@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reader - rabbit</title>
+  
+  <!-- Global Styles -->
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+  
+  <!-- Component Styles -->
+  <link rel="stylesheet" href="components/header/header.css">
+  <link rel="stylesheet" href="components/chapter-list/chapter-list.css">
+  <link rel="stylesheet" href="components/chapter-content/chapter-content.css">
+  
+  <style>
+    .reader-layout {
+      display: flex;
+      height: calc(100vh - var(--header-height));
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="index.html" class="header-title">rabbit</a>
+  </header>
+
+  <!-- Reader Layout -->
+  <div class="reader-layout">
+    <!-- Chapter List Sidebar -->
+    <aside class="chapter-list">
+      <div class="chapter-list-header">
+        <h2 class="chapter-list-title">Chapters</h2>
+        <button id="back-button" class="back-button">← Back to Home</button>
+      </div>
+      <ul id="chapter-list-items" class="chapter-list-items"></ul>
+    </aside>
+
+    <!-- Chapter Content -->
+    <main class="chapter-content">
+      <div class="chapter-content-header">
+        <h1 id="chapter-content-title" class="chapter-content-title">Loading...</h1>
+      </div>
+      <div id="chapter-content-body" class="chapter-content-body"></div>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/api.js"></script>
+  <script src="scripts/reader.js"></script>
+</body>
+</html>

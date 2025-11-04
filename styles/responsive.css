@@ -1,0 +1,59 @@
+/* Responsive Styles */
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  :root {
+    --header-height: 50px;
+    --spacing-lg: 16px;
+    --spacing-xl: 24px;
+  }
+
+  .container {
+    padding: var(--spacing-md);
+  }
+
+  /* Two column layout becomes single column on mobile */
+  .reader-layout {
+    flex-direction: column !important;
+  }
+
+  .chapter-list {
+    width: 100% !important;
+    max-height: 200px !important;
+    overflow-y: auto !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+
+  .chapter-content {
+    width: 100% !important;
+    padding: var(--spacing-md) !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    padding: var(--spacing-sm);
+  }
+
+  .chapter-list {
+    max-height: 150px !important;
+  }
+}
