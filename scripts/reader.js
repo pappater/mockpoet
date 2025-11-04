@@ -8,6 +8,7 @@
 
   let chaptersData = null;
   let currentChapter = 1;
+  let currentNovelKey = sessionStorage.getItem('selectedNovel') || 'weight_of_promises';
 
   /**
    * Render the chapter list
@@ -66,7 +67,7 @@
         throw new Error('Chapter not found');
       }
 
-      const content = await API.fetchChapterContent(chapterData.url, chapterData.filename);
+      const content = await API.fetchChapterContent(chapterData.url, chapterData.filename, currentNovelKey);
       const html = API.parseMarkdown(content);
       
       chapterContentBody.innerHTML = html;
@@ -92,8 +93,14 @@
       // Show loading state
       chapterContentBody.innerHTML = '<div class="chapter-content-loading">Loading chapters...</div>';
       
-      // Fetch chapters data
-      chaptersData = await API.fetchChaptersData();
+      // Set the current novel in API
+      API.setCurrentNovel(currentNovelKey);
+      
+      // Fetch chapters data for the selected novel
+      chaptersData = await API.fetchChaptersData(currentNovelKey);
+      
+      // Update page title with novel name
+      document.title = `${chaptersData.novel_title} - rabbit`;
       
       // Render chapter list
       renderChapterList(chaptersData);

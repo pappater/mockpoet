@@ -5,8 +5,9 @@
   /**
    * Render the book card with data
    * @param {Object} data - The chapters data
+   * @param {string} novelKey - The novel key
    */
-  function renderBookCard(data) {
+  function renderBookCard(data, novelKey) {
     const card = document.createElement('div');
     card.className = 'book-card';
     card.innerHTML = `
@@ -22,6 +23,8 @@
     `;
 
     card.addEventListener('click', () => {
+      // Store selected novel in sessionStorage
+      sessionStorage.setItem('selectedNovel', novelKey);
       window.location.href = 'reader.html';
     });
 
@@ -55,9 +58,26 @@
   // Initialize
   try {
     showLoading();
-    const data = await API.fetchChaptersData();
     bookCardContainer.innerHTML = '';
-    renderBookCard(data);
+    
+    // Get all available novels
+    const novels = API.getAvailableNovels();
+    
+    // Load data for each novel
+    for (const novel of novels) {
+      try {
+        const data = await API.fetchChaptersData(novel.key);
+        renderBookCard(data, novel.key);
+      } catch (error) {
+        console.error(`Failed to load data for ${novel.title}:`, error);
+        // Continue loading other novels even if one fails
+      }
+    }
+    
+    // If no novels loaded successfully, show error
+    if (bookCardContainer.children.length === 0) {
+      showError('No novels could be loaded');
+    }
   } catch (error) {
     console.error('Failed to load book data:', error);
     showError(error.message);

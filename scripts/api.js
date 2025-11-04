@@ -1,15 +1,69 @@
 // API Module - Handles data fetching from GitHub Gist
 const API = (() => {
-  // Use configuration from config.js
-  const GIST_BASE_URL = `https://gist.githubusercontent.com/${CONFIG.gist.username}/${CONFIG.gist.id}/raw`;
-  const CHAPTERS_JSON_URL = `${GIST_BASE_URL}/chapters.json`;
-  const LOCAL_CHAPTERS_JSON_URL = `${CONFIG.localPath}/chapters.json`;
+  /**
+   * Get novel configuration by key
+   * @param {string} novelKey - The novel key (e.g., 'weight_of_promises', 'indifferent_shore')
+   * @returns {Object} Novel configuration
+   */
+  function getNovelConfig(novelKey) {
+    if (CONFIG.novels && CONFIG.novels[novelKey]) {
+      return CONFIG.novels[novelKey];
+    }
+    // Fallback to legacy config
+    return {
+      title: "The Weight of Promises",
+      gist: CONFIG.gist,
+      localPath: CONFIG.localPath
+    };
+  }
+
+  // Default to first novel or legacy config
+  let currentNovel = 'weight_of_promises';
+  
+  /**
+   * Set the current novel
+   * @param {string} novelKey - The novel key to set as current
+   */
+  function setCurrentNovel(novelKey) {
+    currentNovel = novelKey;
+  }
+  
+  /**
+   * Get the current novel key
+   * @returns {string} Current novel key
+   */
+  function getCurrentNovel() {
+    return currentNovel;
+  }
+  
+  /**
+   * Get all available novels
+   * @returns {Array} Array of novel objects with key and title
+   */
+  function getAvailableNovels() {
+    if (!CONFIG.novels) {
+      return [{
+        key: 'weight_of_promises',
+        title: 'The Weight of Promises'
+      }];
+    }
+    return Object.keys(CONFIG.novels).map(key => ({
+      key: key,
+      title: CONFIG.novels[key].title
+    }));
+  }
 
   /**
    * Fetch chapters metadata from the gist
+   * @param {string} novelKey - Optional novel key, uses current novel if not provided
    * @returns {Promise<Object>} The chapters data
    */
-  async function fetchChaptersData() {
+  async function fetchChaptersData(novelKey) {
+    const novel = getNovelConfig(novelKey || currentNovel);
+    const GIST_BASE_URL = `https://gist.githubusercontent.com/${novel.gist.username}/${novel.gist.id}/raw`;
+    const CHAPTERS_JSON_URL = `${GIST_BASE_URL}/chapters.json`;
+    const LOCAL_CHAPTERS_JSON_URL = `${novel.localPath}/chapters.json`;
+    
     try {
       // Try fetching from gist first
       try {
@@ -37,9 +91,12 @@ const API = (() => {
    * Fetch chapter content from the gist
    * @param {string} url - The URL of the chapter content
    * @param {string} filename - The filename of the chapter
+   * @param {string} novelKey - Optional novel key, uses current novel if not provided
    * @returns {Promise<string>} The chapter content as markdown
    */
-  async function fetchChapterContent(url, filename) {
+  async function fetchChapterContent(url, filename, novelKey) {
+    const novel = getNovelConfig(novelKey || currentNovel);
+    
     try {
       // Try fetching from gist first
       try {
@@ -52,7 +109,7 @@ const API = (() => {
       }
 
       // Fallback to local file
-      const localUrl = `${CONFIG.localPath}/${filename}`;
+      const localUrl = `${novel.localPath}/${filename}`;
       const response = await fetch(localUrl);
       if (!response.ok) {
         throw new Error(`Failed to fetch chapter content: ${response.status}`);
@@ -124,6 +181,9 @@ const API = (() => {
   return {
     fetchChaptersData,
     fetchChapterContent,
-    parseMarkdown
+    parseMarkdown,
+    setCurrentNovel,
+    getCurrentNovel,
+    getAvailableNovels
   };
 })();

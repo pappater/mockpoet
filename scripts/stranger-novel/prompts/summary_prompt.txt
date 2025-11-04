@@ -1,0 +1,16 @@
+Please provide a concise summary of Chapter {chapter_num} below. The summary should:
+
+1. Capture the key events and plot developments
+2. Note important character moments and interactions
+3. Highlight significant sensory details or symbolic elements (sun, sea, heat, etc.)
+4. Mention philosophical or thematic elements if present
+5. Track the narrator's state of mind (detachment, honesty, sensory focus)
+6. Note any buildup toward future plot points
+7. Keep the tone neutral and observational, matching the novel's style
+
+This summary will be used to maintain continuity for future chapters, so focus on what the AI needs to remember to write the next chapter coherently.
+
+CHAPTER {chapter_num} TEXT:
+{chapter_text}
+
+Provide a summary in 3-5 paragraphs.

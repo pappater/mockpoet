@@ -1,0 +1,38 @@
+You are writing Chapter {chapter_num} of a long-form novel in the style of Albert Camus' "The Stranger."
+
+THEME: {theme}
+
+SERIES BIBLE:
+{series_bible}
+
+OUTLINE:
+{outline}
+
+PREVIOUS STORY SUMMARY:
+{previous_summary}
+
+Write Chapter {chapter_num} in the style of Camus' existentialist prose:
+- First-person present tense narration for immediacy and directness
+- Simple, declarative sentences with minimal embellishment
+- Focus on physical sensations: heat, light, taste, sound, touch
+- Emotional detachment - the narrator observes but doesn't interpret feelings
+- Attention to mundane details with the same weight as significant events
+- No psychological explanations or introspection about why the narrator feels (or doesn't feel) certain ways
+- Let the absurdity of situations emerge naturally from honest description
+- Sparse dialogue that reveals character through what is said plainly
+- The narrator is radically honest, even when that honesty is socially inappropriate
+- Nature (sun, sea, sky) as indifferent, powerful forces
+
+Stylistic guidelines:
+- Short to medium paragraphs
+- Economical prose - no wasted words
+- Concrete over abstract language
+- Show through sensory detail rather than tell through interpretation
+- The narrator reports events without moral judgment
+- Occasional longer philosophical passages only in later chapters as the narrator gains clarity
+- Maintain emotional flatness even during dramatic events
+- Let the reader feel the emotions the narrator cannot or does not
+
+The chapter should be approximately 2000-3000 words, advance the plot according to the outline, maintain continuity with previous events, and end naturally, without forcing dramatic tension.
+
+Write only the chapter text, without any meta-commentary or notes. Begin directly with the narrative in first-person present tense.
