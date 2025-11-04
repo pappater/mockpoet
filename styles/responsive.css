@@ -82,10 +82,6 @@
     padding: var(--spacing-sm);
   }
 
-  .chapter-list {
-    max-height: 140px !important;
-  }
-
   .chapter-list-header {
     padding: var(--spacing-sm) var(--spacing-md);
   }

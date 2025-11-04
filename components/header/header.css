@@ -18,11 +18,12 @@
 
 .floating-title {
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: 700;
   color: var(--primary-color);
   text-transform: lowercase;
   letter-spacing: 1px;
   transition: opacity 0.2s ease;
+  mix-blend-mode: difference;
 }
 
 .floating-title:hover {
