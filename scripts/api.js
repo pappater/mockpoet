@@ -71,18 +71,18 @@ const API = (() => {
   function parseMarkdown(markdown) {
     let html = markdown;
 
-    // Headers
+    // Headers (process most specific first)
     html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
     html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
     html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
 
-    // Bold
+    // Bold (process before italic to avoid conflicts)
     html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     html = html.replace(/__(.*?)__/g, '<strong>$1</strong>');
 
-    // Italic
-    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
-    html = html.replace(/_(.*?)_/g, '<em>$1</em>');
+    // Italic (process after bold)
+    html = html.replace(/\*([^*]+?)\*/g, '<em>$1</em>');
+    html = html.replace(/_([^_]+?)_/g, '<em>$1</em>');
 
     // Line breaks and paragraphs
     const lines = html.split('\n');
