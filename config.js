@@ -14,7 +14,7 @@ const CONFIG = {
       title: "The Indifferent Shore",
       gist: {
         username: 'pappater',
-        id: ''  // Will be set via STRANGER_GIST_ID secret
+        id: 'b12ff3b5ea6e9f42a7becfc2cc1aeece'  // Will be set via STRANGER_GIST_ID secret
       },
       localPath: 'docs/stranger-novel'
     }
