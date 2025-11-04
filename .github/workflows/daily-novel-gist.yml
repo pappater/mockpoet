@@ -43,12 +43,13 @@ jobs:
           GIST_ID: ${{ secrets.GIST_ID }}
         run: |
           # Check if gist ID is empty in config.js for weight_of_promises section only
-          if awk '/weight_of_promises/,/^    \}/' config.js | grep -q "id: ''"; then
+          EMPTY_PATTERN="id: ''"
+          if awk "/weight_of_promises/,/^    \}/" config.js | grep -q "$EMPTY_PATTERN"; then
             echo "Updating config.js with GIST_ID for weight_of_promises"
-            awk -v gist_id="$GIST_ID" '
+            awk -v gist_id="$GIST_ID" -v pattern="$EMPTY_PATTERN" '
               /weight_of_promises/,/^    \}/ {
-                if (/id: '\'''\''/) {
-                  sub(/id: '\'''\''/, "id: '\''" gist_id "'\''")
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
                 }
               }
               {print}

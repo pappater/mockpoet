@@ -43,12 +43,13 @@ jobs:
           STRANGER_GIST_ID: ${{ secrets.STRANGER_GIST_ID }}
         run: |
           # Check if gist ID is empty in config.js for indifferent_shore section only
-          if awk '/indifferent_shore/,/^    \}/' config.js | grep -q "id: ''"; then
+          EMPTY_PATTERN="id: ''"
+          if awk "/indifferent_shore/,/^    \}/" config.js | grep -q "$EMPTY_PATTERN"; then
             echo "Updating config.js with STRANGER_GIST_ID for indifferent_shore"
-            awk -v gist_id="$STRANGER_GIST_ID" '
+            awk -v gist_id="$STRANGER_GIST_ID" -v pattern="$EMPTY_PATTERN" '
               /indifferent_shore/,/^    \}/ {
-                if (/id: '\'''\''/) {
-                  sub(/id: '\'''\''/, "id: '\''" gist_id "'\''")
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
                 }
               }
               {print}
