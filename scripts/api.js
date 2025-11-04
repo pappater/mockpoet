@@ -1,8 +1,9 @@
 // API Module - Handles data fetching from GitHub Gist
 const API = (() => {
-  const GIST_BASE_URL = 'https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw';
+  // Use configuration from config.js
+  const GIST_BASE_URL = `https://gist.githubusercontent.com/${CONFIG.gist.username}/${CONFIG.gist.id}/raw`;
   const CHAPTERS_JSON_URL = `${GIST_BASE_URL}/chapters.json`;
-  const LOCAL_CHAPTERS_JSON_URL = 'docs/novel-gist/chapters.json';
+  const LOCAL_CHAPTERS_JSON_URL = `${CONFIG.localPath}/chapters.json`;
 
   /**
    * Fetch chapters metadata from the gist
@@ -51,7 +52,7 @@ const API = (() => {
       }
 
       // Fallback to local file
-      const localUrl = `docs/novel-gist/${filename}`;
+      const localUrl = `${CONFIG.localPath}/${filename}`;
       const response = await fetch(localUrl);
       if (!response.ok) {
         throw new Error(`Failed to fetch chapter content: ${response.status}`);

@@ -1,9 +1,9 @@
 /* Chapter Content Component Styles */
 .chapter-content {
   flex: 1;
-  padding: var(--spacing-xl);
+  padding: var(--spacing-xl) calc(var(--spacing-xl) * 2);
   overflow-y: auto;
-  background: white;
+  background: var(--bg-color);
 }
 
 .chapter-content-header {
@@ -14,9 +14,10 @@
 
 .chapter-content-title {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--primary-color);
   margin-bottom: var(--spacing-sm);
+  letter-spacing: -0.5px;
 }
 
 .chapter-content-body {
@@ -31,6 +32,7 @@
 .chapter-content-body h3 {
   margin-top: var(--spacing-xl);
   margin-bottom: var(--spacing-md);
+  font-weight: 600;
 }
 
 .chapter-content-body p {
@@ -49,14 +51,15 @@
   text-align: center;
   padding: var(--spacing-xl);
   color: #e74c3c;
-  background-color: #ffe5e5;
-  border-radius: 4px;
+  background-color: var(--secondary-bg);
+  border: 1px solid #e74c3c;
+  border-radius: 6px;
   margin: var(--spacing-lg);
 }
 
 @media (max-width: 768px) {
   .chapter-content {
-    padding: var(--spacing-md);
+    padding: var(--spacing-lg) var(--spacing-md);
   }
 
   .chapter-content-title {
@@ -64,7 +67,12 @@
   }
 
   .chapter-content-body {
-    font-size: 1rem;
-    line-height: 1.7;
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .chapter-content-body p {
+    text-align: left;
+    margin-bottom: var(--spacing-md);
   }
 }

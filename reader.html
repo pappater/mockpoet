@@ -17,16 +17,19 @@
   <style>
     .reader-layout {
       display: flex;
-      height: calc(100vh - var(--header-height));
+      height: 100vh;
       overflow: hidden;
     }
   </style>
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <a href="index.html" class="header-title">rabbit</a>
-  </header>
+  <!-- Floating Header -->
+  <div class="floating-header">
+    <a href="index.html" class="floating-title">rabbit</a>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon">◐</span>
+    </button>
+  </div>
 
   <!-- Reader Layout -->
   <div class="reader-layout">
@@ -49,7 +52,15 @@
   </div>
 
   <!-- Scripts -->
+  <script src="config.js"></script>
+  <script src="scripts/theme.js"></script>
   <script src="scripts/api.js"></script>
   <script src="scripts/reader.js"></script>
+  <script>
+    // Theme toggle handler
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      ThemeManager.toggleTheme();
+    });
+  </script>
 </body>
 </html>

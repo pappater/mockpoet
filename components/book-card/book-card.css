@@ -1,10 +1,11 @@
 /* Book Card Component Styles */
 .book-card {
-  background: white;
-  border-radius: 8px;
-  padding: var(--spacing-xl);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: var(--bg-color);
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  padding: var(--spacing-xl) calc(var(--spacing-xl) * 1.5);
+  box-shadow: 0 2px 8px var(--shadow-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   cursor: pointer;
   max-width: 600px;
   margin: 0 auto;
@@ -12,14 +13,16 @@
 
 .book-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 16px var(--shadow-color);
+  border-color: var(--primary-color);
 }
 
 .book-card-title {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--primary-color);
   margin-bottom: var(--spacing-md);
+  letter-spacing: -0.5px;
 }
 
 .book-card-info {
@@ -32,12 +35,12 @@
 
 .book-card-chapters {
   font-weight: 600;
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 .book-card-updated {
   font-size: 0.9rem;
-  color: #7f8c8d;
+  color: var(--accent-color);
   font-style: italic;
 }
 
