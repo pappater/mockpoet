@@ -11,7 +11,7 @@
     padding: var(--spacing-md);
   }
 
-  /* Two column layout becomes single column on mobile */
+  /* Reader layout with sliding chapter list on mobile */
   .reader-layout {
     flex-direction: row !important;
     padding-top: 60px;
@@ -92,12 +92,6 @@
 
   .chapter-list-title {
     font-size: 1rem;
-  }
-
-  .back-button {
-    font-size: 0.85rem;
-    padding: var(--spacing-sm);
-    margin-top: var(--spacing-sm);
   }
 
   .chapter-item {
