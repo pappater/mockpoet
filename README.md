@@ -30,6 +30,13 @@ A contemporary werewolf fantasy romance in the style of popular Wattpad stories,
 - **Chapters**: 25 planned (~500-600 pages)
 - **Generated**: Daily at 12:00 UTC
 
+### Flying Banana
+A collection of short stories, each written in the distinctive style of a randomly selected modern classic author.
+- **Style**: Varies by author - emulating Hemingway, Camus, García Márquez, Morrison, and 21 other literary masters
+- **Stories**: Ongoing collection (never-ending series)
+- **Length**: 5,000-7,500 words per story
+- **Generated**: Daily at 13:00 UTC
+
 ## Quick Start
 
 1. Visit the [deployed site](#) or run locally:
@@ -47,6 +54,7 @@ A contemporary werewolf fantasy romance in the style of popular Wattpad stories,
 For detailed setup instructions, see:
 - [SETUP_STRANGER_NOVEL.md](SETUP_STRANGER_NOVEL.md) - Setup for "The Indifferent Shore"
 - [SETUP_WEREWOLF_NOVEL.md](SETUP_WEREWOLF_NOVEL.md) - Setup for "Moonbound Devotion"
+- [docs/flying-banana/README.md](docs/flying-banana/README.md) - Documentation for "Flying Banana"
 - [ENVIRONMENT_VARIABLES.md](ENVIRONMENT_VARIABLES.md) - Environment variables reference
 - [docs/novel-gist/README.md](docs/novel-gist/README.md) - Original novel documentation
 
@@ -58,17 +66,20 @@ rabbit/
 │   ├── daily-novel-gist.yml   # The Weight of Promises
 │   ├── daily-stranger-novel.yml # The Indifferent Shore
 │   ├── daily-werewolf-novel.yml # Moonbound Devotion
+│   ├── daily-flying-banana.yml # Flying Banana
 │   └── deploy.yml             # Deploy React app to GitHub Pages
 ├── docs/                       # Novel content files
 │   ├── novel-gist/            # The Weight of Promises
 │   ├── stranger-novel/        # The Indifferent Shore
-│   └── werewolf-novel/        # Moonbound Devotion
+│   ├── werewolf-novel/        # Moonbound Devotion
+│   └── flying-banana/         # Flying Banana
 ├── public/                     # Static assets (copied to dist)
 │   └── docs/                  # Novel content (symlinked)
 ├── scripts/                    # Backend scripts
 │   ├── novel/                 # Weight of Promises generation
 │   ├── stranger-novel/        # Indifferent Shore generation
-│   └── werewolf-novel/        # Moonbound Devotion generation
+│   ├── werewolf-novel/        # Moonbound Devotion generation
+│   └── flying-banana/         # Flying Banana generation
 ├── src/                        # React source code
 │   ├── components/            # Reusable React components
 │   ├── pages/                 # Page components (Home, Reader)

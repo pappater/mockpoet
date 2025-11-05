@@ -1,0 +1,95 @@
+name: Daily Flying Banana Short Story to Gist
+
+on:
+  # Run daily at 13:00 UTC (different from other novels to avoid conflicts)
+  schedule:
+    - cron: '0 13 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  generate-story:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/flying-banana/requirements.txt
+      
+      - name: Generate and publish short story
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          FLYING_BANANA_GIST_ID: ${{ secrets.FLYING_BANANA_GIST_ID }}
+        run: |
+          python scripts/flying-banana/flying_banana_daily_to_gist.py
+      
+      - name: Update config.js with gist ID if missing
+        env:
+          FLYING_BANANA_GIST_ID: ${{ secrets.FLYING_BANANA_GIST_ID }}
+        run: |
+          # Check if gist ID is empty in config.js for flying_banana section only
+          EMPTY_PATTERN="id: ''"
+          if awk "/flying_banana/,/^    \}/" config.js | grep -q "$EMPTY_PATTERN"; then
+            echo "Updating config.js with FLYING_BANANA_GIST_ID for flying_banana"
+            awk -v gist_id="$FLYING_BANANA_GIST_ID" -v pattern="$EMPTY_PATTERN" '
+              /flying_banana/,/^    \}/ {
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
+                }
+              }
+              {print}
+            ' config.js > config.js.tmp && mv config.js.tmp config.js
+          else
+            echo "Gist ID already set in config.js for flying_banana"
+          fi
+      
+      - name: Update src/config.js with gist ID if missing
+        env:
+          FLYING_BANANA_GIST_ID: ${{ secrets.FLYING_BANANA_GIST_ID }}
+        run: |
+          # Check if gist ID is empty in src/config.js for flying_banana section only
+          EMPTY_PATTERN="id: ''"
+          if awk "/flying_banana/,/^    \}/" src/config.js | grep -q "$EMPTY_PATTERN"; then
+            echo "Updating src/config.js with FLYING_BANANA_GIST_ID for flying_banana"
+            awk -v gist_id="$FLYING_BANANA_GIST_ID" -v pattern="$EMPTY_PATTERN" '
+              /flying_banana/,/^    \}/ {
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
+                }
+              }
+              {print}
+            ' src/config.js > src/config.js.tmp && mv src/config.js.tmp src/config.js
+          else
+            echo "Gist ID already set in src/config.js for flying_banana"
+          fi
+      
+      - name: Sync chapters.json to public folder
+        run: |
+          # Create directory if it doesn't exist
+          mkdir -p public/docs/flying-banana
+          # Copy chapters.json from docs to public for deployment
+          echo "Syncing chapters.json to public/docs/flying-banana/"
+          cp docs/flying-banana/chapters.json public/docs/flying-banana/chapters.json
+      
+      - name: Commit and push updated files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/flying-banana/chapters.json public/docs/flying-banana/chapters.json config.js src/config.js
+          git diff --staged --quiet || git commit -m "Update Flying Banana files after story generation"
+          git push

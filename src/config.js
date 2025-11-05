@@ -25,6 +25,15 @@ export const CONFIG = {
         id: 'af676da598e2040a0cdd2cb4b9ca48e3'
       },
       localPath: 'docs/werewolf-novel'
+    },
+    flying_banana: {
+      title: "Flying Banana",
+      gist: {
+        username: 'pappater',
+        id: ''  // Will be set via FLYING_BANANA_GIST_ID secret by GitHub Actions workflow
+      },
+      localPath: 'docs/flying-banana',
+      type: 'short_stories'  // Flag to indicate this is a short story collection
     }
   },
   

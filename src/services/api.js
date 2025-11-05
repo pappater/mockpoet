@@ -22,7 +22,7 @@ function getNovelConfig(novelKey) {
 
 /**
  * Get all available novels
- * @returns {Array} Array of novel objects with key and title
+ * @returns {Array} Array of novel objects with key, title, and type
  */
 export function getAvailableNovels() {
   if (!CONFIG.novels) {
@@ -33,7 +33,8 @@ export function getAvailableNovels() {
   }
   return Object.keys(CONFIG.novels).map(key => ({
     key: key,
-    title: CONFIG.novels[key].title
+    title: CONFIG.novels[key].title,
+    type: CONFIG.novels[key].type || 'novel'
   }));
 }
 

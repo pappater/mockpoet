@@ -6,19 +6,21 @@ This document lists all required environment variables for the rabbit repository
 
 All these secrets should be added in: **Settings** → **Secrets and variables** → **Actions**
 
-### Shared Secrets (Used by Both Novels)
+### Shared Secrets (Used by All Books)
 
 | Secret Name | Description | Required | Example |
 |-------------|-------------|----------|---------|
 | `GEMINI_API_KEY` | Google Gemini API key from AI Studio | Yes | `AIza...` |
 | `GIST_TOKEN` | GitHub Personal Access Token with `gist` scope | Yes | `ghp_...` |
 
-### Novel-Specific Secrets
+### Book-Specific Secrets
 
-| Secret Name | Description | Novel | Required | Example |
-|-------------|-------------|-------|----------|---------|
+| Secret Name | Description | Book | Required | Example |
+|-------------|-------------|------|----------|---------|
 | `GIST_ID` | Gist ID for "The Weight of Promises" | Weight of Promises | Yes | `51893c25959355bda1884804375ec3d8` |
 | `STRANGER_GIST_ID` | Gist ID for "The Indifferent Shore" | Indifferent Shore | Yes | `xyz789abc123` |
+| `WEREWOLF_GIST_ID` | Gist ID for "Moonbound Devotion" | Moonbound Devotion | Yes | `af676da598e2040a0cdd2cb4b9ca48e3` |
+| `FLYING_BANANA_GIST_ID` | Gist ID for "Flying Banana" | Flying Banana | Yes | `abc123xyz789` |
 
 ## Workflow Environment Variables
 
@@ -70,6 +72,28 @@ export STRANGER_GIST_ID="your-stranger-gist-id"
 python3 scripts/stranger-novel/stranger_novel_daily_to_gist.py
 ```
 
+### For "Moonbound Devotion"
+
+```bash
+export GEMINI_API_KEY="your-gemini-api-key"
+export GEMINI_MODEL="gemini-2.5-flash"
+export GIST_TOKEN="your-github-token"
+export WEREWOLF_GIST_ID="your-werewolf-gist-id"
+
+python3 scripts/werewolf-novel/werewolf_novel_daily_to_gist.py
+```
+
+### For "Flying Banana"
+
+```bash
+export GEMINI_API_KEY="your-gemini-api-key"
+export GEMINI_MODEL="gemini-2.5-flash"
+export GIST_TOKEN="your-github-token"
+export FLYING_BANANA_GIST_ID="your-flying-banana-gist-id"
+
+python3 scripts/flying-banana/flying_banana_daily_to_gist.py
+```
+
 ## How to Get Each Secret
 
 ### GEMINI_API_KEY
@@ -91,7 +115,7 @@ python3 scripts/stranger-novel/stranger_novel_daily_to_gist.py
 7. Copy the token (starts with `ghp_`)
 8. **Important**: Save it immediately - you won't see it again
 
-### GIST_ID / STRANGER_GIST_ID
+### GIST_ID / STRANGER_GIST_ID / WEREWOLF_GIST_ID / FLYING_BANANA_GIST_ID
 
 1. Go to [gist.github.com](https://gist.github.com)
 2. Click "Create a new gist"
@@ -102,7 +126,7 @@ python3 scripts/stranger-novel/stranger_novel_daily_to_gist.py
    - URL: `https://gist.github.com/username/51893c25959355bda1884804375ec3d8`
    - ID: `51893c25959355bda1884804375ec3d8`
 
-**Note**: Create separate Gists for each novel.
+**Note**: Create separate Gists for each book/collection.
 
 ## Configuration File
 
@@ -126,6 +150,23 @@ const CONFIG = {
         id: ''  // Update with your STRANGER_GIST_ID
       },
       localPath: 'docs/stranger-novel'
+    },
+    moonbound_devotion: {
+      title: "Moonbound Devotion",
+      gist: {
+        username: 'pappater',
+        id: ''  // Update with your WEREWOLF_GIST_ID
+      },
+      localPath: 'docs/werewolf-novel'
+    },
+    flying_banana: {
+      title: "Flying Banana",
+      gist: {
+        username: 'pappater',
+        id: ''  // Update with your FLYING_BANANA_GIST_ID
+      },
+      localPath: 'docs/flying-banana',
+      type: 'short_stories'
     }
   }
 };
@@ -141,7 +182,9 @@ Before running the workflows, verify:
 - [ ] `GIST_TOKEN` is set with correct permissions
 - [ ] `GIST_ID` is set (for Weight of Promises)
 - [ ] `STRANGER_GIST_ID` is set (for Indifferent Shore)
-- [ ] Both Gists are **public** (not secret)
+- [ ] `WEREWOLF_GIST_ID` is set (for Moonbound Devotion)
+- [ ] `FLYING_BANANA_GIST_ID` is set (for Flying Banana)
+- [ ] All Gists are **public** (not secret)
 - [ ] Gist IDs in `config.js` match the secrets
 - [ ] All secrets are added in repository settings
 
@@ -151,7 +194,7 @@ Before running the workflows, verify:
 2. **Use GitHub Secrets** for workflows
 3. **Use environment variables** for local development
 4. **Rotate tokens** periodically for security
-5. **Use separate Gists** for different novels to isolate content
+5. **Use separate Gists** for different books to isolate content
 6. **Make Gists public** so the UI can fetch content without authentication
 
 ## Troubleshooting
@@ -180,13 +223,15 @@ Check that:
 
 ## Summary Table
 
-| Variable | Scope | Novel | Type | Example |
-|----------|-------|-------|------|---------|
-| `GEMINI_API_KEY` | Both | Both | Secret | `AIza...` |
-| `GIST_TOKEN` | Both | Both | Secret | `ghp_...` |
-| `GEMINI_MODEL` | Both | Both | Config | `gemini-2.5-flash` |
-| `GIST_ID` | Novel 1 | Weight of Promises | Secret | `51893c...` |
-| `STRANGER_GIST_ID` | Novel 2 | Indifferent Shore | Secret | `xyz789...` |
+| Variable | Scope | Book | Type | Example |
+|----------|-------|------|------|---------|
+| `GEMINI_API_KEY` | All | All | Secret | `AIza...` |
+| `GIST_TOKEN` | All | All | Secret | `ghp_...` |
+| `GEMINI_MODEL` | All | All | Config | `gemini-2.5-flash` |
+| `GIST_ID` | Book 1 | Weight of Promises | Secret | `51893c...` |
+| `STRANGER_GIST_ID` | Book 2 | Indifferent Shore | Secret | `xyz789...` |
+| `WEREWOLF_GIST_ID` | Book 3 | Moonbound Devotion | Secret | `af676d...` |
+| `FLYING_BANANA_GIST_ID` | Book 4 | Flying Banana | Secret | `abc123...` |
 
 ## Quick Setup Commands
 
@@ -199,7 +244,9 @@ Check that:
 # 3. Verify by checking your Gists
 # https://gist.github.com/username/GIST_ID
 # https://gist.github.com/username/STRANGER_GIST_ID
+# https://gist.github.com/username/WEREWOLF_GIST_ID
+# https://gist.github.com/username/FLYING_BANANA_GIST_ID
 
 # 4. Check the UI
-# Both novels should appear on the home page
+# All books should appear on the home page
 ```

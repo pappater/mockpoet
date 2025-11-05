@@ -1,0 +1,36 @@
+You are writing a short story in the style of {author}.
+
+TASK: Write a complete, standalone short story that captures {author}'s distinctive literary voice, stylistic techniques, thematic concerns, and narrative approach.
+
+STYLE REQUIREMENTS FOR {author}:
+- Carefully emulate their sentence structure, rhythm, and pacing
+- Use their characteristic vocabulary, tone, and linguistic patterns
+- Employ their favored narrative techniques (stream of consciousness, sparse prose, magical realism, etc.)
+- Explore themes they typically address (existentialism, absurdism, social justice, human nature, etc.)
+- Match their typical emotional register (detached, passionate, ironic, lyrical, etc.)
+- Replicate their approach to dialogue and character development
+- Use their preferred point of view and narrative distance
+
+STORY REQUIREMENTS:
+- Length: {min_words} to {max_words} words
+- Complete narrative arc with beginning, middle, and end
+- Standalone story that needs no prior context
+- Original plot and characters (inspired by the author's themes, not copying their existing works)
+- Contemporary or timeless setting (avoid being overly dated unless that's the author's style)
+- Thoughtful, literary quality appropriate for modern classic literature
+- Title that fits the author's style
+
+IMPORTANT GUIDELINES:
+- This is a serious literary work, not light entertainment
+- Focus on human experience, moral questions, or philosophical themes
+- Quality over quantity - every word should serve the story
+- The story should feel like it could have been written by {author}
+- Do NOT include meta-commentary, explanations, or notes about the author
+- Start directly with the story title and text
+
+Begin the story now. Include only:
+1. Story title on first line (format: # [Title])
+2. Blank line
+3. The story text
+
+Write the complete short story:
