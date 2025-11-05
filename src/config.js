@@ -22,7 +22,7 @@ export const CONFIG = {
       title: "Moonbound Devotion",
       gist: {
         username: 'pappater',
-        id: ''  // Will be set via WEREWOLF_GIST_ID secret by GitHub Actions workflow
+        id: 'af676da598e2040a0cdd2cb4b9ca48e3'
       },
       localPath: 'docs/werewolf-novel'
     }

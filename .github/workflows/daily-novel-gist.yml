@@ -58,10 +58,16 @@ jobs:
             echo "Gist ID already set in config.js for weight_of_promises"
           fi
       
+      - name: Sync chapters.json to public folder
+        run: |
+          # Copy chapters.json from docs to public for deployment
+          echo "Syncing chapters.json to public/docs/novel-gist/"
+          cp docs/novel-gist/chapters.json public/docs/novel-gist/chapters.json
+      
       - name: Commit and push updated files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/novel-gist/summaries.md docs/novel-gist/continuity_log.txt docs/novel-gist/chapters.json config.js
+          git add docs/novel-gist/summaries.md docs/novel-gist/continuity_log.txt docs/novel-gist/chapters.json public/docs/novel-gist/chapters.json config.js
           git diff --staged --quiet || git commit -m "Update novel files after Chapter generation"
           git push

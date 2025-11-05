@@ -58,10 +58,16 @@ jobs:
             echo "Gist ID already set in config.js for moonbound_devotion"
           fi
       
+      - name: Sync chapters.json to public folder
+        run: |
+          # Copy chapters.json from docs to public for deployment
+          echo "Syncing chapters.json to public/docs/werewolf-novel/"
+          cp docs/werewolf-novel/chapters.json public/docs/werewolf-novel/chapters.json
+      
       - name: Commit and push updated files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/werewolf-novel/summaries.md docs/werewolf-novel/continuity_log.txt docs/werewolf-novel/chapters.json config.js
+          git add docs/werewolf-novel/summaries.md docs/werewolf-novel/continuity_log.txt docs/werewolf-novel/chapters.json public/docs/werewolf-novel/chapters.json config.js
           git diff --staged --quiet || git commit -m "Update werewolf novel files after Chapter generation"
           git push

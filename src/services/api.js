@@ -1,5 +1,8 @@
 import { CONFIG } from '../config';
 
+// Get the base path from Vite's BASE_URL environment variable
+const BASE_PATH = import.meta.env.BASE_URL;
+
 /**
  * Get novel configuration by key
  * @param {string} novelKey - The novel key
@@ -43,7 +46,7 @@ export async function fetchChaptersData(novelKey) {
   const novel = getNovelConfig(novelKey);
   const GIST_BASE_URL = `https://gist.githubusercontent.com/${novel.gist.username}/${novel.gist.id}/raw`;
   const CHAPTERS_JSON_URL = `${GIST_BASE_URL}/chapters.json`;
-  const LOCAL_CHAPTERS_JSON_URL = `${novel.localPath}/chapters.json`;
+  const LOCAL_CHAPTERS_JSON_URL = `${BASE_PATH}${novel.localPath}/chapters.json`;
   
   try {
     // Try fetching from gist first
@@ -90,7 +93,7 @@ export async function fetchChapterContent(url, filename, novelKey) {
     }
 
     // Fallback to local file
-    const localUrl = `${novel.localPath}/${filename}`;
+    const localUrl = `${BASE_PATH}${novel.localPath}/${filename}`;
     const response = await fetch(localUrl);
     if (!response.ok) {
       throw new Error(`Failed to fetch chapter content: ${response.status}`);
