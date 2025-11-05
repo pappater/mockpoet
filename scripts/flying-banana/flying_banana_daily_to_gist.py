@@ -265,17 +265,10 @@ def update_gist(story_num, story_text, author, gist):
     
     sanitized_files = _sanitize_gist_files(files)
     
-    try:
-        gist.edit(
-            description=f"Flying Banana - Short Story Collection - {story_num} Stories",
-            files=sanitized_files
-        )
-    except AssertionError as exc:
-        print("Warning: gist.edit rejected the files payload. Attempting retry...")
-        gist.edit(
-            description=f"Flying Banana - Short Story Collection - {story_num} Stories",
-            files=sanitized_files
-        )
+    gist.edit(
+        description=f"Flying Banana - Short Story Collection - {story_num} Stories",
+        files=sanitized_files
+    )
     
     # Refresh gist to get updated file information
     g = Github(GIST_TOKEN)
