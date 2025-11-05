@@ -1,7 +1,7 @@
 {
   "novel_title": "The Weight of Promises",
-  "total_chapters": 6,
-  "last_updated": "2025-11-05 08:56:55 UTC",
+  "total_chapters": 7,
+  "last_updated": "2025-11-05 10:22:29 UTC",
   "gist_id": "51893c25959355bda1884804375ec3d8",
   "completed": false,
   "chapters": [
@@ -46,6 +46,13 @@
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/84bd785b7fcec3a5b842b967f19865aa69394726/chapter_006.md",
       "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_006.md",
       "chapter_name": "Winter's Approach"
+    },
+    {
+      "chapter": 7,
+      "filename": "chapter_007.md",
+      "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/d997a36b5b3d33b9e355cc1f2098067ecf89a547/chapter_007.md",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_007.md",
+      "chapter_name": "An Unexpected Kindness"
     }
   ]
 }
