@@ -1,0 +1,67 @@
+name: Daily Gemini Werewolf Novel Chapter to Gist
+
+on:
+  # Run daily at 12:00 UTC (different from other novels to avoid conflicts)
+  schedule:
+    - cron: '0 12 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  generate-chapter:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/werewolf-novel/requirements.txt
+      
+      - name: Generate and publish chapter
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          WEREWOLF_GIST_ID: ${{ secrets.WEREWOLF_GIST_ID }}
+        run: |
+          python scripts/werewolf-novel/werewolf_novel_daily_to_gist.py
+      
+      - name: Update config.js with gist ID if missing
+        env:
+          WEREWOLF_GIST_ID: ${{ secrets.WEREWOLF_GIST_ID }}
+        run: |
+          # Check if gist ID is empty in config.js for moonbound_devotion section only
+          EMPTY_PATTERN="id: ''"
+          if awk "/moonbound_devotion/,/^    \}/" config.js | grep -q "$EMPTY_PATTERN"; then
+            echo "Updating config.js with WEREWOLF_GIST_ID for moonbound_devotion"
+            awk -v gist_id="$WEREWOLF_GIST_ID" -v pattern="$EMPTY_PATTERN" '
+              /moonbound_devotion/,/^    \}/ {
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
+                }
+              }
+              {print}
+            ' config.js > config.js.tmp && mv config.js.tmp config.js
+          else
+            echo "Gist ID already set in config.js for moonbound_devotion"
+          fi
+      
+      - name: Commit and push updated files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/werewolf-novel/summaries.md docs/werewolf-novel/continuity_log.txt docs/werewolf-novel/chapters.json config.js
+          git diff --staged --quiet || git commit -m "Update werewolf novel files after Chapter generation"
+          git push

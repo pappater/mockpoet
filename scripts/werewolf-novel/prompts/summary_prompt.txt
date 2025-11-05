@@ -1,0 +1,16 @@
+Summarize the following chapter of "Moonbound Devotion" in 3-4 paragraphs.
+
+CHAPTER TEXT:
+{chapter_text}
+
+Create a summary that captures:
+1. Key plot events and developments
+2. Important character moments and emotional beats
+3. Relationship progression between Lyra and Kael
+4. World-building or magical revelations
+5. How the chapter advances toward the story goals
+6. Any cliffhangers or unresolved tensions
+
+The summary should be clear, concise, and maintain narrative continuity for generating future chapters.
+
+Write only the summary, without any meta-commentary or labels.

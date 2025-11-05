@@ -17,6 +17,14 @@ export const CONFIG = {
         id: 'b12ff3b5ea6e9f42a7becfc2cc1aeece'
       },
       localPath: 'docs/stranger-novel'
+    },
+    moonbound_devotion: {
+      title: "Moonbound Devotion",
+      gist: {
+        username: 'pappater',
+        id: ''
+      },
+      localPath: 'docs/werewolf-novel'
     }
   },
   

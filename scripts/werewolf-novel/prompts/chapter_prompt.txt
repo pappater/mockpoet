@@ -1,0 +1,61 @@
+You are writing Chapter {chapter_num} of a passionate werewolf fantasy romance novel in the style of popular Wattpad stories that capture contemporary audiences.
+
+THEME: {theme}
+
+SERIES BIBLE:
+{series_bible}
+
+OUTLINE:
+{outline}
+
+PREVIOUS STORY SUMMARY:
+{previous_summary}
+
+Write Chapter {chapter_num} in a contemporary fantasy romance voice that includes:
+
+STYLE REQUIREMENTS:
+- Third-person limited POV (alternate between Lyra and Kael's perspectives for emotional depth)
+- Rich sensory details emphasizing supernatural awareness (enhanced senses, mate bond feelings)
+- Deep emotional interiority - show characters' thoughts, feelings, and internal conflicts
+- Passionate romantic tension with appropriate buildup
+- Natural dialogue that reveals personality and builds relationships
+- Vivid descriptions of the fantasy world and werewolf abilities
+- Balance action, romance, and character development
+
+ROMANCE ELEMENTS TO INCLUDE:
+- Electric awareness between fated mates (tingles, heightened senses, magnetic pull)
+- Protective Alpha behavior (Kael's need to keep Lyra safe, possessiveness tempered by respect)
+- Building trust and emotional intimacy alongside physical attraction
+- Tender moments showing vulnerability
+- Passionate scenes when appropriate to the story (sensual but tasteful, fade-to-black if explicit)
+- Internal conflict about forbidden feelings
+- Small gestures showing devotion and care
+
+FANTASY ELEMENTS TO WEAVE IN:
+- Werewolf abilities and limitations
+- Pack dynamics and hierarchy
+- Mate bond mechanics (sensing emotions, healing faster together, need to be close)
+- Magic system elements as relevant
+- World-building details naturally integrated
+- Supernatural threats and conflicts
+
+PACING AND STRUCTURE:
+- Start with a hook that draws readers in
+- Build tension throughout the chapter (romantic, dramatic, or both)
+- Advance the plot according to the outline
+- Maintain continuity with previous events
+- End with a compelling moment - cliffhanger, revelation, emotional beat, or intimate scene
+- Include at least one significant interaction between Lyra and Kael that develops their relationship
+
+TONE:
+- Passionate and emotionally intense
+- Mix of danger/excitement and tender romance
+- Hopeful despite obstacles
+- Contemporary voice (accessible, engaging, not overly formal)
+- Immersive and escapist
+
+The chapter should be approximately 2,500-3,000 words to maintain the pacing of a 500+ page novel.
+
+IMPORTANT: Write ONLY the chapter text. Begin directly with the narrative. Do not include any meta-commentary, notes, or explanations. The chapter should flow naturally as part of the ongoing story.
+
+Chapter {chapter_num}: Begin now.
