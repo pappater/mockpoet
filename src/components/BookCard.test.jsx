@@ -73,4 +73,22 @@ describe('BookCard', () => {
     );
     expect(screen.getByText('1 Short Story Available')).toBeInTheDocument();
   });
+
+  it('displays poems count for poem collections', () => {
+    render(
+      <BrowserRouter>
+        <BookCard {...defaultProps} chapters={3} isPoems={true} />
+      </BrowserRouter>
+    );
+    expect(screen.getByText('3 Poems Available')).toBeInTheDocument();
+  });
+
+  it('displays single poem text correctly', () => {
+    render(
+      <BrowserRouter>
+        <BookCard {...defaultProps} chapters={1} isPoems={true} />
+      </BrowserRouter>
+    );
+    expect(screen.getByText('1 Poem Available')).toBeInTheDocument();
+  });
 });
