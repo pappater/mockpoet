@@ -1,0 +1,55 @@
+/* Book Card Component Styles */
+.book-card {
+  background: var(--bg-color);
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  padding: var(--spacing-xl) calc(var(--spacing-xl) * 1.5);
+  box-shadow: 0 2px 8px var(--shadow-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px var(--shadow-color);
+  border-color: var(--primary-color);
+}
+
+.book-card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-md);
+  letter-spacing: -0.5px;
+}
+
+.book-card-info {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.book-card-chapters {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.book-card-updated {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .book-card {
+    padding: var(--spacing-lg);
+  }
+
+  .book-card-title {
+    font-size: 1.5rem;
+  }
+}

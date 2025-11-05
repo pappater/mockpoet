@@ -1,0 +1,13 @@
+.reader-layout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .reader-layout {
+    flex-direction: row;
+    padding-top: 60px;
+    position: relative;
+  }
+}

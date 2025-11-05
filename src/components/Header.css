@@ -1,0 +1,128 @@
+/* Floating Header Styles */
+.floating-header {
+  position: fixed;
+  top: var(--spacing-lg);
+  left: var(--spacing-lg);
+  right: var(--spacing-lg);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.floating-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.floating-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  transition: opacity 0.2s ease;
+  mix-blend-mode: difference;
+}
+
+.floating-title:hover {
+  opacity: 0.7;
+}
+
+.back-icon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.back-icon:hover {
+  opacity: 0.7;
+}
+
+.floating-header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.theme-toggle {
+  background: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.theme-toggle:hover {
+  background: var(--hover-bg);
+  transform: scale(1.05);
+}
+
+.theme-icon {
+  font-size: 1.2rem;
+}
+
+.hamburger-menu {
+  display: none;
+  background: var(--secondary-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hamburger-menu:hover {
+  background: var(--hover-bg);
+}
+
+.hamburger-line {
+  width: 20px;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .floating-header {
+    top: var(--spacing-md);
+    left: var(--spacing-md);
+    right: var(--spacing-md);
+  }
+
+  .floating-title {
+    font-size: 1.4rem;
+  }
+
+  .back-icon {
+    font-size: 1.3rem;
+  }
+
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    width: 36px;
+    height: 36px;
+  }
+}

@@ -1,0 +1,80 @@
+/* Chapter Content Component Styles */
+.chapter-content {
+  flex: 1;
+  padding: var(--spacing-xl) calc(var(--spacing-xl) * 2);
+  overflow-y: auto;
+  background: var(--bg-color);
+}
+
+.chapter-content-header {
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.chapter-content-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: -0.5px;
+}
+
+.chapter-content-body {
+  max-width: 800px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.chapter-content-body h1,
+.chapter-content-body h2,
+.chapter-content-body h3 {
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
+  font-weight: 600;
+}
+
+.chapter-content-body p {
+  margin-bottom: var(--spacing-lg);
+  text-align: justify;
+}
+
+.chapter-content-loading {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+.chapter-content-error {
+  text-align: center;
+  padding: var(--spacing-xl);
+  color: #e74c3c;
+  background-color: var(--secondary-bg);
+  border: 1px solid #e74c3c;
+  border-radius: 6px;
+  margin: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+  .chapter-content {
+    padding: var(--spacing-lg) var(--spacing-md);
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .chapter-content-title {
+    font-size: 1.5rem;
+  }
+
+  .chapter-content-body {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .chapter-content-body p {
+    text-align: left;
+    margin-bottom: var(--spacing-md);
+  }
+}
