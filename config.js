@@ -30,7 +30,7 @@ const CONFIG = {
       title: "Flying Banana",
       gist: {
         username: 'pappater',
-        id: ''  // Will be set via FLYING_BANANA_GIST_ID secret by GitHub Actions workflow
+        id: 'efc9cfe56f7bc265ec0043f0ffbd533c'  // Will be set via FLYING_BANANA_GIST_ID secret by GitHub Actions workflow
       },
       localPath: 'docs/flying-banana',
       type: 'short_stories'  // Flag to indicate this is a short story collection
