@@ -6,7 +6,7 @@ export default function BookCard({ novelKey, title, chapters, lastUpdated }) {
 
   const handleClick = () => {
     sessionStorage.setItem('selectedNovel', novelKey);
-    navigate('/reader');
+    navigate(`/reader/${novelKey}`);
   };
 
   return (

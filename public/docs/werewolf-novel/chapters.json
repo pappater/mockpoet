@@ -1,8 +1,23 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 0,
-  "last_updated": "",
-  "gist_id": "",
+  "total_chapters": 2,
+  "last_updated": "2025-11-05 11:36:49 UTC",
+  "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
-  "chapters": []
+  "chapters": [
+    {
+      "chapter": 1,
+      "filename": "chapter_001.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/38fc7b28069a430987820a36650663b28b2bd434/chapter_001.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_001.md",
+      "chapter_name": "The Raid"
+    },
+    {
+      "chapter": 2,
+      "filename": "chapter_002.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/b10a9058faaa20b0d3ed25ad8de6abfe3c1aa395/chapter_002.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_002.md",
+      "chapter_name": "The Alpha's Presence"
+    }
+  ]
 }

@@ -1,19 +1,29 @@
 import { useState, useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import ChapterList from '../components/ChapterList';
 import ChapterContent from '../components/ChapterContent';
 import { fetchChaptersData, fetchChapterContent, parseMarkdown } from '../services/api';
 import './Reader.css';
 
 export default function Reader() {
+  const { novelKey: urlNovelKey } = useParams();
+  const navigate = useNavigate();
   const [chaptersData, setChaptersData] = useState(null);
   const [currentChapter, setCurrentChapter] = useState(1);
   const [chapterContent, setChapterContent] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [novelKey] = useState(
-    sessionStorage.getItem('selectedNovel') || 'weight_of_promises'
-  );
+  
+  // Determine novelKey from URL parameter, sessionStorage, or default
+  const novelKey = urlNovelKey || sessionStorage.getItem('selectedNovel') || 'weight_of_promises';
+  
+  // If novelKey is not in URL, redirect to include it
+  useEffect(() => {
+    if (!urlNovelKey && novelKey) {
+      navigate(`/reader/${novelKey}`, { replace: true });
+    }
+  }, [urlNovelKey, novelKey, navigate]);
 
   useEffect(() => {
     async function loadChaptersData() {

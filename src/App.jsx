@@ -7,7 +7,7 @@ import { useTheme } from './hooks/useTheme';
 function AppContent() {
   const { toggleTheme } = useTheme();
   const location = useLocation();
-  const isReaderPage = location.pathname === '/reader';
+  const isReaderPage = location.pathname.startsWith('/reader');
 
   return (
     <>
@@ -23,6 +23,7 @@ function AppContent() {
       />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/reader/:novelKey" element={<Reader />} />
         <Route path="/reader" element={<Reader />} />
       </Routes>
     </>
