@@ -23,6 +23,7 @@ function AppContent() {
       />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/reader/:novelKey/:chapterSlug" element={<Reader />} />
         <Route path="/reader/:novelKey" element={<Reader />} />
         <Route path="/reader" element={<Reader />} />
       </Routes>

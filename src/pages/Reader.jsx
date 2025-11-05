@@ -3,10 +3,11 @@ import { useParams, useNavigate } from 'react-router-dom';
 import ChapterList from '../components/ChapterList';
 import ChapterContent from '../components/ChapterContent';
 import { fetchChaptersData, fetchChapterContent, parseMarkdown } from '../services/api';
+import { slugify, findChapterBySlug } from '../utils/slugify';
 import './Reader.css';
 
 export default function Reader() {
-  const { novelKey: urlNovelKey } = useParams();
+  const { novelKey: urlNovelKey, chapterSlug } = useParams();
   const navigate = useNavigate();
   const [chaptersData, setChaptersData] = useState(null);
   const [currentChapter, setCurrentChapter] = useState(1);
@@ -25,6 +26,24 @@ export default function Reader() {
     }
   }, [urlNovelKey, novelKey, navigate]);
 
+  // Handle chapter slug from URL
+  useEffect(() => {
+    if (chapterSlug && chaptersData) {
+      const chapter = findChapterBySlug(chaptersData.chapters, chapterSlug);
+      if (chapter) {
+        setCurrentChapter(chapter.chapter);
+      } else {
+        // If slug is invalid, redirect to first chapter
+        const firstChapter = chaptersData.chapters[0];
+        if (firstChapter?.chapter_name) {
+          navigate(`/reader/${novelKey}/${slugify(firstChapter.chapter_name)}`, { replace: true });
+        } else {
+          navigate(`/reader/${novelKey}`, { replace: true });
+        }
+      }
+    }
+  }, [chapterSlug, chaptersData, novelKey, navigate]);
+
   useEffect(() => {
     async function loadChaptersData() {
       try {
@@ -33,6 +52,15 @@ export default function Reader() {
         setChaptersData(data);
         document.title = `${data.novel_title} - rabbit`;
         setLoading(false);
+        
+        // If no chapter slug in URL, redirect to first chapter with slug
+        if (!chapterSlug && data.chapters.length > 0) {
+          const firstChapter = data.chapters[0];
+          if (firstChapter.chapter_name) {
+            const slug = slugify(firstChapter.chapter_name);
+            navigate(`/reader/${novelKey}/${slug}`, { replace: true });
+          }
+        }
       } catch (err) {
         setError(err.message);
         setLoading(false);
@@ -40,7 +68,7 @@ export default function Reader() {
     }
 
     loadChaptersData();
-  }, [novelKey]);
+  }, [novelKey, chapterSlug, navigate]);
 
   useEffect(() => {
     const handleToggle = () => {
@@ -86,6 +114,17 @@ export default function Reader() {
 
   const handleChapterSelect = (chapterNum) => {
     setCurrentChapter(chapterNum);
+    
+    // Update URL with chapter slug if chapter has a name
+    if (chaptersData) {
+      const chapter = chaptersData.chapters.find(ch => ch.chapter === chapterNum);
+      if (chapter?.chapter_name) {
+        const slug = slugify(chapter.chapter_name);
+        navigate(`/reader/${novelKey}/${slug}`, { replace: true });
+      } else {
+        navigate(`/reader/${novelKey}`, { replace: true });
+      }
+    }
   };
 
   const handleMenuClose = () => {
