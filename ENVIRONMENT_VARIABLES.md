@@ -21,6 +21,7 @@ All these secrets should be added in: **Settings** → **Secrets and variables**
 | `STRANGER_GIST_ID` | Gist ID for "The Indifferent Shore" | Indifferent Shore | Yes | `xyz789abc123` |
 | `WEREWOLF_GIST_ID` | Gist ID for "Moonbound Devotion" | Moonbound Devotion | Yes | `af676da598e2040a0cdd2cb4b9ca48e3` |
 | `FLYING_BANANA_GIST_ID` | Gist ID for "Flying Banana" | Flying Banana | Yes | `abc123xyz789` |
+| `HYDROGEN_JUKEBOX_GIST_ID` | Gist ID for "Hydrogen Jukebox" | Hydrogen Jukebox | Yes | `abc123xyz789` |
 
 ## Workflow Environment Variables
 
@@ -94,6 +95,17 @@ export FLYING_BANANA_GIST_ID="your-flying-banana-gist-id"
 python3 scripts/flying-banana/flying_banana_daily_to_gist.py
 ```
 
+### For "Hydrogen Jukebox"
+
+```bash
+export GEMINI_API_KEY="your-gemini-api-key"
+export GEMINI_MODEL="gemini-2.5-flash"
+export GIST_TOKEN="your-github-token"
+export HYDROGEN_JUKEBOX_GIST_ID="your-hydrogen-jukebox-gist-id"
+
+python3 scripts/hydrogen-jukebox/hydrogen_jukebox_daily_to_gist.py
+```
+
 ## How to Get Each Secret
 
 ### GEMINI_API_KEY
@@ -115,7 +127,7 @@ python3 scripts/flying-banana/flying_banana_daily_to_gist.py
 7. Copy the token (starts with `ghp_`)
 8. **Important**: Save it immediately - you won't see it again
 
-### GIST_ID / STRANGER_GIST_ID / WEREWOLF_GIST_ID / FLYING_BANANA_GIST_ID
+### GIST_ID / STRANGER_GIST_ID / WEREWOLF_GIST_ID / FLYING_BANANA_GIST_ID / HYDROGEN_JUKEBOX_GIST_ID
 
 1. Go to [gist.github.com](https://gist.github.com)
 2. Click "Create a new gist"
@@ -167,6 +179,15 @@ const CONFIG = {
       },
       localPath: 'docs/flying-banana',
       type: 'short_stories'
+    },
+    hydrogen_jukebox: {
+      title: "Hydrogen Jukebox",
+      gist: {
+        username: 'pappater',
+        id: ''  // Update with your HYDROGEN_JUKEBOX_GIST_ID
+      },
+      localPath: 'docs/hydrogen-jukebox',
+      type: 'poems'
     }
   }
 };
@@ -184,6 +205,7 @@ Before running the workflows, verify:
 - [ ] `STRANGER_GIST_ID` is set (for Indifferent Shore)
 - [ ] `WEREWOLF_GIST_ID` is set (for Moonbound Devotion)
 - [ ] `FLYING_BANANA_GIST_ID` is set (for Flying Banana)
+- [ ] `HYDROGEN_JUKEBOX_GIST_ID` is set (for Hydrogen Jukebox)
 - [ ] All Gists are **public** (not secret)
 - [ ] Gist IDs in `config.js` match the secrets
 - [ ] All secrets are added in repository settings
@@ -232,6 +254,7 @@ Check that:
 | `STRANGER_GIST_ID` | Book 2 | Indifferent Shore | Secret | `xyz789...` |
 | `WEREWOLF_GIST_ID` | Book 3 | Moonbound Devotion | Secret | `af676d...` |
 | `FLYING_BANANA_GIST_ID` | Book 4 | Flying Banana | Secret | `abc123...` |
+| `HYDROGEN_JUKEBOX_GIST_ID` | Book 5 | Hydrogen Jukebox | Secret | `abc123...` |
 
 ## Quick Setup Commands
 
@@ -246,6 +269,7 @@ Check that:
 # https://gist.github.com/username/STRANGER_GIST_ID
 # https://gist.github.com/username/WEREWOLF_GIST_ID
 # https://gist.github.com/username/FLYING_BANANA_GIST_ID
+# https://gist.github.com/username/HYDROGEN_JUKEBOX_GIST_ID
 
 # 4. Check the UI
 # All books should appear on the home page

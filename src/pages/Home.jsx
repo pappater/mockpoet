@@ -23,7 +23,8 @@ export default function Home() {
               title: data.novel_title,
               chapters: data.total_chapters,
               lastUpdated: data.last_updated,
-              isShortStories: novel.type === 'short_stories'
+              isShortStories: novel.type === 'short_stories',
+              isPoems: novel.type === 'poems'
             });
           } catch (err) {
             console.error(`Failed to load data for ${novel.title}:`, err);
@@ -67,6 +68,7 @@ export default function Home() {
             chapters={book.chapters}
             lastUpdated={book.lastUpdated}
             isShortStories={book.isShortStories}
+            isPoems={book.isPoems}
           />
         ))}
       </div>

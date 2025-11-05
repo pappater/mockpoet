@@ -1,0 +1,95 @@
+name: Daily Hydrogen Jukebox Poem to Gist
+
+on:
+  # Run daily at 14:00 UTC (different from other books to avoid conflicts)
+  schedule:
+    - cron: '0 14 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  generate-poem:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/hydrogen-jukebox/requirements.txt
+      
+      - name: Generate and publish poem
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          HYDROGEN_JUKEBOX_GIST_ID: ${{ secrets.HYDROGEN_JUKEBOX_GIST_ID }}
+        run: |
+          python scripts/hydrogen-jukebox/hydrogen_jukebox_daily_to_gist.py
+      
+      - name: Update config.js with gist ID if missing
+        env:
+          HYDROGEN_JUKEBOX_GIST_ID: ${{ secrets.HYDROGEN_JUKEBOX_GIST_ID }}
+        run: |
+          # Check if gist ID is empty in config.js for hydrogen_jukebox section only
+          EMPTY_PATTERN="id: ''"
+          if awk "/hydrogen_jukebox/,/^    \}/" config.js | grep -q "$EMPTY_PATTERN"; then
+            echo "Updating config.js with HYDROGEN_JUKEBOX_GIST_ID for hydrogen_jukebox"
+            awk -v gist_id="$HYDROGEN_JUKEBOX_GIST_ID" -v pattern="$EMPTY_PATTERN" '
+              /hydrogen_jukebox/,/^    \}/ {
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
+                }
+              }
+              {print}
+            ' config.js > config.js.tmp && mv config.js.tmp config.js
+          else
+            echo "Gist ID already set in config.js for hydrogen_jukebox"
+          fi
+      
+      - name: Update src/config.js with gist ID if missing
+        env:
+          HYDROGEN_JUKEBOX_GIST_ID: ${{ secrets.HYDROGEN_JUKEBOX_GIST_ID }}
+        run: |
+          # Check if gist ID is empty in src/config.js for hydrogen_jukebox section only
+          EMPTY_PATTERN="id: ''"
+          if awk "/hydrogen_jukebox/,/^    \}/" src/config.js | grep -q "$EMPTY_PATTERN"; then
+            echo "Updating src/config.js with HYDROGEN_JUKEBOX_GIST_ID for hydrogen_jukebox"
+            awk -v gist_id="$HYDROGEN_JUKEBOX_GIST_ID" -v pattern="$EMPTY_PATTERN" '
+              /hydrogen_jukebox/,/^    \}/ {
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
+                }
+              }
+              {print}
+            ' src/config.js > src/config.js.tmp && mv src/config.js.tmp src/config.js
+          else
+            echo "Gist ID already set in src/config.js for hydrogen_jukebox"
+          fi
+      
+      - name: Sync chapters.json to public folder
+        run: |
+          # Create directory if it doesn't exist
+          mkdir -p public/docs/hydrogen-jukebox
+          # Copy chapters.json from docs to public for deployment
+          echo "Syncing chapters.json to public/docs/hydrogen-jukebox/"
+          cp docs/hydrogen-jukebox/chapters.json public/docs/hydrogen-jukebox/chapters.json
+      
+      - name: Commit and push updated files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/hydrogen-jukebox/chapters.json public/docs/hydrogen-jukebox/chapters.json config.js src/config.js
+          git diff --staged --quiet || git commit -m "Update Hydrogen Jukebox files after poem generation"
+          git push

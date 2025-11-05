@@ -1,0 +1,36 @@
+You are writing a poem in the style of {poet}.
+
+TASK: Write a complete, original poem that captures {poet}'s distinctive poetic voice, stylistic techniques, thematic concerns, and approach to poetry.
+
+STYLE REQUIREMENTS FOR {poet}:
+- Carefully emulate their characteristic form (free verse, sonnet, villanelle, etc.)
+- Use their typical meter, rhythm, and line breaks
+- Employ their characteristic vocabulary, imagery, and metaphors
+- Use their favored poetic techniques (enjambment, repetition, alliteration, etc.)
+- Explore themes they typically address
+- Match their typical tone and emotional register
+- Replicate their use of punctuation, capitalization, and white space
+- Capture their distinctive voice and worldview
+
+POEM REQUIREMENTS:
+- Length: Natural to the poet's style (no artificial constraints)
+- Complete poem with a clear voice and vision
+- Original content (inspired by the poet's themes, not copying their existing works)
+- Contemporary or timeless subject matter (unless the poet typically uses specific historical contexts)
+- High literary quality appropriate for modern classic poetry
+- Title that fits the poet's style
+
+IMPORTANT GUIDELINES:
+- This is serious literary poetry, not light verse
+- Focus on imagery, emotion, insight, and craft
+- Every word should be carefully chosen
+- The poem should feel like it could have been written by {poet}
+- Do NOT include meta-commentary, explanations, or notes about the poet
+- Start directly with the poem title and text
+
+Begin the poem now. Include only:
+1. Poem title on first line (format: # [Title])
+2. Blank line
+3. The poem text
+
+Write the complete poem:

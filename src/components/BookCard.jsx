@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './BookCard.css';
 
-export default function BookCard({ novelKey, title, chapters, lastUpdated, isShortStories = false }) {
+export default function BookCard({ novelKey, title, chapters, lastUpdated, isShortStories = false, isPoems = false }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -9,9 +9,14 @@ export default function BookCard({ novelKey, title, chapters, lastUpdated, isSho
     navigate(`/reader/${novelKey}`);
   };
 
-  const contentLabel = isShortStories 
-    ? `${chapters} Short Stor${chapters !== 1 ? 'ies' : 'y'} Available`
-    : `${chapters} Chapter${chapters !== 1 ? 's' : ''} Available`;
+  let contentLabel;
+  if (isPoems) {
+    contentLabel = `${chapters} Poem${chapters !== 1 ? 's' : ''} Available`;
+  } else if (isShortStories) {
+    contentLabel = `${chapters} Short Stor${chapters !== 1 ? 'ies' : 'y'} Available`;
+  } else {
+    contentLabel = `${chapters} Chapter${chapters !== 1 ? 's' : ''} Available`;
+  }
 
   return (
     <div className="book-card" onClick={handleClick}>
