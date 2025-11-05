@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react';
 import './ChapterContent.css';
 
-export default function ChapterContent({ title, content, loading, error }) {
+export default function ChapterContent({ title, content, loading, error, isLastChapter, isBookComplete }) {
   const contentRef = useRef(null);
 
   useEffect(() => {
@@ -26,7 +26,14 @@ export default function ChapterContent({ title, content, loading, error }) {
           </div>
         )}
         {!loading && !error && content && (
-          <div dangerouslySetInnerHTML={{ __html: content }} />
+          <>
+            <div dangerouslySetInnerHTML={{ __html: content }} />
+            {isLastChapter && isBookComplete && (
+              <div className="chapter-end-indicator">
+                <p>— The End —</p>
+              </div>
+            )}
+          </>
         )}
       </div>
     </main>

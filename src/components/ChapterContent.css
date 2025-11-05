@@ -57,6 +57,22 @@
   margin: var(--spacing-lg);
 }
 
+.chapter-end-indicator {
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+  margin-top: var(--spacing-xl);
+  border-top: 2px solid var(--border-color);
+}
+
+.chapter-end-indicator p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-style: italic;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
   .chapter-content {
     padding: var(--spacing-lg) var(--spacing-md);

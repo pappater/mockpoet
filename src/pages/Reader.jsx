@@ -104,6 +104,29 @@ export default function Reader() {
     );
   }
 
+  const getChapterTitle = () => {
+    if (!chaptersData) return `Chapter ${currentChapter}`;
+    
+    const chapterData = chaptersData.chapters.find(
+      ch => ch.chapter === currentChapter
+    );
+    
+    if (chapterData?.chapter_name) {
+      return `Chapter ${currentChapter}: ${chapterData.chapter_name}`;
+    }
+    
+    return `Chapter ${currentChapter}`;
+  };
+
+  const isLastChapter = () => {
+    if (!chaptersData) return false;
+    return currentChapter === chaptersData.total_chapters;
+  };
+
+  const isBookComplete = () => {
+    return chaptersData?.completed || false;
+  };
+
   return (
     <div className="reader-layout">
       <ChapterList
@@ -114,10 +137,12 @@ export default function Reader() {
         onClose={handleMenuClose}
       />
       <ChapterContent
-        title={`Chapter ${currentChapter}`}
+        title={getChapterTitle()}
         content={chapterContent}
         loading={loading}
         error={error}
+        isLastChapter={isLastChapter()}
+        isBookComplete={isBookComplete()}
       />
     </div>
   );

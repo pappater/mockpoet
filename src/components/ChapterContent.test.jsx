@@ -10,6 +10,8 @@ describe('ChapterContent', () => {
         content="<p>Test content</p>"
         loading={false}
         error={null}
+        isLastChapter={false}
+        isBookComplete={false}
       />
     );
     expect(screen.getByText('Chapter 1')).toBeInTheDocument();
@@ -22,6 +24,8 @@ describe('ChapterContent', () => {
         content=""
         loading={true}
         error={null}
+        isLastChapter={false}
+        isBookComplete={false}
       />
     );
     expect(screen.getByText('Loading chapter...')).toBeInTheDocument();
@@ -34,6 +38,8 @@ describe('ChapterContent', () => {
         content=""
         loading={false}
         error="Failed to load"
+        isLastChapter={false}
+        isBookComplete={false}
       />
     );
     expect(screen.getByText(/Failed to load/)).toBeInTheDocument();
@@ -46,8 +52,52 @@ describe('ChapterContent', () => {
         content="<p>Test paragraph</p>"
         loading={false}
         error={null}
+        isLastChapter={false}
+        isBookComplete={false}
       />
     );
     expect(screen.getByText('Test paragraph')).toBeInTheDocument();
+  });
+
+  it('shows "The End" indicator on last chapter when book is complete', () => {
+    render(
+      <ChapterContent 
+        title="Chapter 10"
+        content="<p>Final chapter content</p>"
+        loading={false}
+        error={null}
+        isLastChapter={true}
+        isBookComplete={true}
+      />
+    );
+    expect(screen.getByText('— The End —')).toBeInTheDocument();
+  });
+
+  it('does not show "The End" indicator when not last chapter', () => {
+    render(
+      <ChapterContent 
+        title="Chapter 5"
+        content="<p>Middle chapter content</p>"
+        loading={false}
+        error={null}
+        isLastChapter={false}
+        isBookComplete={true}
+      />
+    );
+    expect(screen.queryByText('— The End —')).not.toBeInTheDocument();
+  });
+
+  it('does not show "The End" indicator when book is not complete', () => {
+    render(
+      <ChapterContent 
+        title="Chapter 10"
+        content="<p>Last chapter so far</p>"
+        loading={false}
+        error={null}
+        isLastChapter={true}
+        isBookComplete={false}
+      />
+    );
+    expect(screen.queryByText('— The End —')).not.toBeInTheDocument();
   });
 });

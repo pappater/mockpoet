@@ -182,6 +182,38 @@ def update_continuity_log(chapter_num, summary):
     return updated_log
 
 
+def parse_chapter_names_from_outline(outline_content):
+    """
+    Parse chapter names from outline.md.
+    
+    Args:
+        outline_content: Content of the outline.md file
+    
+    Returns:
+        dict: Mapping of chapter number to chapter name
+    """
+    chapter_names = {}
+    if not outline_content:
+        return chapter_names
+    
+    lines = outline_content.split('\n')
+    for line in lines:
+        # Look for lines like "### Chapter 1: The Ledger"
+        if line.strip().startswith('### Chapter '):
+            try:
+                # Extract the chapter number and name
+                # Format: "### Chapter 1: The Ledger"
+                parts = line.strip().replace('### Chapter ', '').split(':', 1)
+                if len(parts) == 2:
+                    chapter_num = int(parts[0].strip())
+                    chapter_name = parts[1].strip()
+                    chapter_names[chapter_num] = chapter_name
+            except (ValueError, IndexError):
+                continue
+    
+    return chapter_names
+
+
 def update_chapters_json(gist):
     """
     Create/update chapters.json with all chapter mappings and their Gist URLs.
@@ -195,6 +227,10 @@ def update_chapters_json(gist):
     # Get all chapter files from the Gist
     chapter_files = sorted([f for f in gist.files.keys() if f.startswith("chapter_") and f.endswith(".md")])
     
+    # Load outline to get chapter names
+    outline = load_file(DOCS_DIR / "outline.md")
+    chapter_names = parse_chapter_names_from_outline(outline)
+    
     chapters = []
     for filename in chapter_files:
         try:
@@ -205,12 +241,18 @@ def update_chapters_json(gist):
             # Build the raw content URL for this chapter
             raw_url = gist.files[filename].raw_url
             
-            chapters.append({
+            chapter_data = {
                 "chapter": chapter_num,
                 "filename": filename,
                 "url": raw_url,
                 "gist_url": f"https://gist.github.com/{GIST_ID}#{filename}"
-            })
+            }
+            
+            # Add chapter name if available
+            if chapter_num in chapter_names:
+                chapter_data["chapter_name"] = chapter_names[chapter_num]
+            
+            chapters.append(chapter_data)
         except (ValueError, KeyError):
             continue
     
@@ -219,6 +261,7 @@ def update_chapters_json(gist):
         "total_chapters": len(chapters),
         "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
         "gist_id": GIST_ID,
+        "completed": False,
         "chapters": chapters
     }
     

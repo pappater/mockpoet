@@ -4,9 +4,9 @@ import ChapterList from './ChapterList';
 
 describe('ChapterList', () => {
   const mockChapters = [
-    { chapter: 1, url: 'url1', filename: 'file1.md' },
-    { chapter: 2, url: 'url2', filename: 'file2.md' },
-    { chapter: 3, url: 'url3', filename: 'file3.md' }
+    { chapter: 1, chapter_name: 'The Beginning', url: 'url1', filename: 'file1.md' },
+    { chapter: 2, chapter_name: 'The Journey', url: 'url2', filename: 'file2.md' },
+    { chapter: 3, chapter_name: 'The End', url: 'url3', filename: 'file3.md' }
   ];
 
   it('renders chapter list title', () => {

@@ -42,7 +42,7 @@ export default function ChapterList({ chapters, currentChapter, onChapterSelect,
             onClick={() => handleChapterClick(chapter.chapter)}
           >
             <span className="chapter-number">Ch. {chapter.chapter}</span>
-            <span className="chapter-name">Chapter {chapter.chapter}</span>
+            <span className="chapter-name">{chapter.chapter_name || `Chapter ${chapter.chapter}`}</span>
           </li>
         ))}
       </ul>
