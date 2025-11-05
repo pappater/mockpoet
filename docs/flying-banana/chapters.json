@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 1,
-  "last_updated": "2025-11-05 16:28:40 UTC",
+  "total_chapters": 2,
+  "last_updated": "2025-11-05 16:35:48 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -12,6 +12,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_001.md",
       "chapter_name": "The Saltwater Heart",
       "published_date": "2025-11-05 16:28:39 UTC"
+    },
+    {
+      "chapter": 2,
+      "filename": "story_002.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/b2ec680c7482bb4efd8b89b08f98c0365a7fb769/story_002.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_002.md",
+      "chapter_name": "The River's Claim",
+      "published_date": "2025-11-05 16:35:47 UTC"
     }
   ]
 }
