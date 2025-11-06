@@ -1,44 +1,65 @@
 {
   "novel_title": "The Weight of Promises",
-  "total_chapters": 5,
-  "last_updated": "2025-11-04 10:23:29 UTC",
+  "total_chapters": 8,
+  "last_updated": "2025-11-06 10:22:06 UTC",
   "gist_id": "51893c25959355bda1884804375ec3d8",
   "completed": false,
   "chapters": [
     {
       "chapter": 1,
-      "chapter_name": "The Ledger",
       "filename": "chapter_001.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/2fa2b4586a12d36e794984a69e1639ba091a32ce/chapter_001.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_001.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_001.md",
+      "chapter_name": "The Ledger"
     },
     {
       "chapter": 2,
-      "chapter_name": "First Visit",
       "filename": "chapter_002.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/f300c6a508958b133c5c75c150a3302e7d0fe2a2/chapter_002.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_002.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_002.md",
+      "chapter_name": "First Visit"
     },
     {
       "chapter": 3,
-      "chapter_name": "The Merchant's Table",
       "filename": "chapter_003.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/63a13c5cc7d780d0eedf57c6014161c7c20424f8/chapter_003.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_003.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_003.md",
+      "chapter_name": "The Merchant's Table"
     },
     {
       "chapter": 4,
-      "chapter_name": "Katya's Awakening",
       "filename": "chapter_004.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/428ac6b5db36fb982b4ec3df701d39f2bbbcded3/chapter_004.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_004.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_004.md",
+      "chapter_name": "Katya's Awakening"
     },
     {
       "chapter": 5,
-      "chapter_name": "The Confession",
       "filename": "chapter_005.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/6ee02ceffef846e179491c13eea767c762a73078/chapter_005.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_005.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_005.md",
+      "chapter_name": "The Confession"
+    },
+    {
+      "chapter": 6,
+      "filename": "chapter_006.md",
+      "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/84bd785b7fcec3a5b842b967f19865aa69394726/chapter_006.md",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_006.md",
+      "chapter_name": "Winter's Approach"
+    },
+    {
+      "chapter": 7,
+      "filename": "chapter_007.md",
+      "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/d997a36b5b3d33b9e355cc1f2098067ecf89a547/chapter_007.md",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_007.md",
+      "chapter_name": "An Unexpected Kindness"
+    },
+    {
+      "chapter": 8,
+      "filename": "chapter_008.md",
+      "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/bd7ca3d4e51a877925f146b30787a8f30de275d0/chapter_008.md",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_008.md",
+      "chapter_name": "The Breaking Point"
     }
   ]
 }
