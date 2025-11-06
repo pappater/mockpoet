@@ -8,7 +8,7 @@ A poetry collection featuring diverse poetic forms and styles, generated hourly.
 
 ## Poetry Forms
 
-The collection draws from 96 different poetry types, including:
+The collection draws from 91 different poetry types, including:
 
 - Classical forms: Sonnet, Haiku, Villanelle, Sestina, Ballad
 - Modern styles: Free verse, Slam poetry, Spoken word, Performance poem

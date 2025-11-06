@@ -331,7 +331,7 @@ def main():
     update_gist(poem_num, poem_text, poetry_type, gist)
     
     print("\n" + "=" * 60)
-    print("✓ Daily poem generation complete!")
+    print("✓ Hourly poem generation complete!")
     print("=" * 60)
 
 
