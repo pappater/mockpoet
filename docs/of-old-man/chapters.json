@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 5,
-  "last_updated": "2025-11-06 20:44:30 UTC",
+  "total_chapters": 6,
+  "last_updated": "2025-11-06 21:42:25 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -49,6 +49,15 @@
       "chapter_name": "Upon Beauty's Passing",
       "published_date": "2025-11-06 20:44:29 UTC",
       "poetry_type": "Shakespearean sonnet"
+    },
+    {
+      "chapter": 6,
+      "filename": "poem_006.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/5e4db4d7a8b34c6ada558266f15c73d8b80fb1fe/poem_006.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_006.md",
+      "chapter_name": "Epithalamion of the Golden Dawn",
+      "published_date": "2025-11-06 21:42:24 UTC",
+      "poetry_type": "Epithalamium"
     }
   ]
 }
