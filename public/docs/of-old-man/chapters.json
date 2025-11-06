@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 3,
-  "last_updated": "2025-11-06 18:53:29 UTC",
+  "total_chapters": 4,
+  "last_updated": "2025-11-06 19:41:03 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -31,6 +31,15 @@
       "chapter_name": "The Lost Sole",
       "published_date": "2025-11-06 18:53:28 UTC",
       "poetry_type": "Parody poem"
+    },
+    {
+      "chapter": 4,
+      "filename": "poem_004.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/6ea61872b244c135feec94decd1910b41b06cb13/poem_004.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_004.md",
+      "chapter_name": "The Architect of Lies",
+      "published_date": "2025-11-06 19:41:02 UTC",
+      "poetry_type": "Political poem"
     }
   ]
 }
