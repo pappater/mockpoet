@@ -1,7 +1,8 @@
 import { useRef, useEffect } from 'react';
+import TextToSpeech from './TextToSpeech';
 import './ChapterContent.css';
 
-export default function ChapterContent({ title, content, loading, error, isLastChapter, isBookComplete }) {
+export default function ChapterContent({ title, content, loading, error, isLastChapter, isBookComplete, publishedDate }) {
   const contentRef = useRef(null);
 
   useEffect(() => {
@@ -14,6 +15,18 @@ export default function ChapterContent({ title, content, loading, error, isLastC
     <main className="chapter-content" ref={contentRef}>
       <div className="chapter-content-header">
         <h1 className="chapter-content-title">{title}</h1>
+        {publishedDate && (
+          <div className="chapter-published-date">
+            Published: {new Date(publishedDate).toLocaleString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              timeZoneName: 'short'
+            })}
+          </div>
+        )}
       </div>
       <div className="chapter-content-body">
         {loading && (
@@ -27,6 +40,7 @@ export default function ChapterContent({ title, content, loading, error, isLastC
         )}
         {!loading && !error && content && (
           <>
+            <TextToSpeech text={content} />
             <div dangerouslySetInnerHTML={{ __html: content }} />
             {isLastChapter && isBookComplete && (
               <div className="chapter-end-indicator">

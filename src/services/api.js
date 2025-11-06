@@ -21,6 +21,16 @@ function getNovelConfig(novelKey) {
 }
 
 /**
+ * Get book type by key
+ * @param {string} novelKey - The novel key
+ * @returns {string} Book type (novel, poems, short_stories)
+ */
+export function getBookType(novelKey) {
+  const novel = getNovelConfig(novelKey);
+  return novel.type || 'novel';
+}
+
+/**
  * Get all available novels
  * @returns {Array} Array of novel objects with key, title, and type
  */
