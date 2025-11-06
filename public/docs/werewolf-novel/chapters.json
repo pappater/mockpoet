@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 4,
-  "last_updated": "2025-11-05 12:26:18 UTC",
+  "total_chapters": 5,
+  "last_updated": "2025-11-06 12:21:16 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -32,6 +32,13 @@
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/b86c98e1e44c24c30818f8d2daec9a9770874185/chapter_004.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_004.md",
       "chapter_name": "The Prophecy Revealed"
+    },
+    {
+      "chapter": 5,
+      "filename": "chapter_005.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/39e6d8a3684433d0765b20e247bd0caca8f035bf/chapter_005.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_005.md",
+      "chapter_name": "First Full Moon"
     }
   ]
 }
