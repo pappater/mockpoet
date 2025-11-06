@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 2,
-  "last_updated": "2025-11-06 18:38:41 UTC",
+  "total_chapters": 3,
+  "last_updated": "2025-11-06 18:53:29 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -22,6 +22,15 @@
       "chapter_name": "Dusk's Echo",
       "published_date": "2025-11-06 18:38:40 UTC",
       "poetry_type": "Renga"
+    },
+    {
+      "chapter": 3,
+      "filename": "poem_003.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ba5772abb2d33a83a79ca371c735bb547d937eee/poem_003.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_003.md",
+      "chapter_name": "The Lost Sole",
+      "published_date": "2025-11-06 18:53:28 UTC",
+      "poetry_type": "Parody poem"
     }
   ]
 }
