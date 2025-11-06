@@ -31,14 +31,24 @@ export default function TextToSpeech({ text }) {
 
       const utterance = new SpeechSynthesisUtterance(plainText);
       
-      // Set voice to male (prefer male voices)
+      // Set voice preferences
       const voices = window.speechSynthesis.getVoices();
-      const maleVoice = voices.find(voice => 
-        voice.name.toLowerCase().includes('male') || 
-        voice.name.toLowerCase().includes('david') ||
-        voice.name.toLowerCase().includes('george') ||
-        voice.name.toLowerCase().includes('daniel')
-      ) || voices.find(voice => !voice.name.toLowerCase().includes('female'));
+      
+      // Try to find a male voice using multiple criteria
+      const maleVoice = voices.find(voice => {
+        const name = voice.name.toLowerCase();
+        const lang = voice.lang.toLowerCase();
+        
+        // Check for explicit male indicators in name
+        if (name.includes('male') && !name.includes('female')) return true;
+        
+        // Check for common male voice names
+        const maleNames = ['david', 'george', 'daniel', 'james', 'alex', 'thomas'];
+        if (maleNames.some(n => name.includes(n))) return true;
+        
+        // Prefer English voices as fallback
+        return lang.startsWith('en');
+      });
       
       if (maleVoice) {
         utterance.voice = maleVoice;

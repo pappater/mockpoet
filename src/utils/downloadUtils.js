@@ -86,20 +86,22 @@ export function generatePDF(bookTitle, chapters) {
 }
 
 /**
- * Generate EPUB from chapters
+ * Generate simplified EPUB HTML from chapters
+ * Note: This creates a simplified HTML file that can be read in browsers
+ * For a full EPUB package, consider using a dedicated library
  * @param {string} bookTitle - Title of the book
  * @param {Array} chapters - Array of chapter objects with content
  */
 export function generateEPUB(bookTitle, chapters) {
-  // Create EPUB content
-  const content = generateEPUBContent(bookTitle, chapters);
+  // Create EPUB HTML content
+  const content = generateEPUBHTML(bookTitle, chapters);
   
   // Create a blob and download
-  const blob = new Blob([content], { type: 'application/epub+zip' });
+  const blob = new Blob([content], { type: 'text/html' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `${bookTitle.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.epub`;
+  a.download = `${bookTitle.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.html`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -107,10 +109,10 @@ export function generateEPUB(bookTitle, chapters) {
 }
 
 /**
- * Generate EPUB HTML content
- * Note: This is a simplified version. A full EPUB would require proper packaging with ZIP
+ * Generate EPUB-style HTML content
+ * Creates a well-formatted HTML document suitable for reading
  */
-function generateEPUBContent(bookTitle, chapters) {
+function generateEPUBHTML(bookTitle, chapters) {
   let html = `<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
