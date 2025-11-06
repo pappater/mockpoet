@@ -1,6 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
 import './TextToSpeech.css';
 
+// Quality voice indicators for enhanced text-to-speech
+const QUALITY_VOICE_KEYWORDS = ['enhanced', 'premium', 'natural', 'neural'];
+
 export default function TextToSpeech({ text }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
@@ -31,30 +34,41 @@ export default function TextToSpeech({ text }) {
 
       const utterance = new SpeechSynthesisUtterance(plainText);
       
-      // Set voice preferences
+      // Set voice preferences - prioritize natural, high-quality voices
       const voices = window.speechSynthesis.getVoices();
       
-      // Try to find a male voice using multiple criteria
-      const maleVoice = voices.find(voice => {
+      // Try to find the best quality voice using multiple criteria
+      // Priority: Enhanced/Premium voices > Local voices > Remote voices
+      const bestVoice = voices.find(voice => {
         const name = voice.name.toLowerCase();
         const lang = voice.lang.toLowerCase();
         
-        // Check for explicit male indicators in name
-        if (name.includes('male') && !name.includes('female')) return true;
+        // Prioritize enhanced/premium/natural quality voices
+        if (QUALITY_VOICE_KEYWORDS.some(keyword => name.includes(keyword))) {
+          return lang.startsWith('en');
+        }
         
-        // Check for common male voice names
-        const maleNames = ['david', 'george', 'daniel', 'james', 'alex', 'thomas'];
-        if (maleNames.some(n => name.includes(n))) return true;
+        return false;
+      }) || voices.find(voice => {
+        const lang = voice.lang.toLowerCase();
         
-        // Prefer English voices as fallback
-        return lang.startsWith('en');
+        // Then try local/offline voices for better quality
+        if (voice.localService && lang.startsWith('en')) {
+          return true;
+        }
+        
+        return false;
+      }) || voices.find(voice => {
+        // Fallback to any English voice
+        return voice.lang.toLowerCase().startsWith('en');
       });
       
-      if (maleVoice) {
-        utterance.voice = maleVoice;
+      if (bestVoice) {
+        utterance.voice = bestVoice;
       }
 
-      utterance.rate = 1.0;
+      // Slightly slower rate for better clarity and podcast-like experience
+      utterance.rate = 0.9;
       utterance.pitch = 1.0;
       
       utterance.onend = () => {

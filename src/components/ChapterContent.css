@@ -82,9 +82,13 @@
 
 @media (max-width: 768px) {
   .chapter-content {
-    padding: var(--spacing-lg) var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-md);
     width: 100%;
     margin-left: 0;
+  }
+
+  .chapter-content-header {
+    display: none;
   }
 
   .chapter-content-title {

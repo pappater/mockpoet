@@ -7,7 +7,6 @@
 @media (max-width: 768px) {
   .reader-layout {
     flex-direction: row;
-    padding-top: 60px;
     position: relative;
   }
 }

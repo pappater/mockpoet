@@ -34,7 +34,7 @@ export default function ChapterList({ chapters, currentChapter, onChapterSelect,
     >
       <div className="chapter-list-header">
         <h2 className="chapter-list-title">Chapters</h2>
-        {allChaptersData && allChaptersData.length > 0 && (
+        {allChaptersData && (
           <DownloadButtons 
             bookTitle={bookTitle || 'Book'} 
             chapters={allChaptersData} 
