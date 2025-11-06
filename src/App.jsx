@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Reader from './pages/Reader';
 import { useTheme } from './hooks/useTheme';
@@ -27,6 +28,7 @@ function AppContent() {
         <Route path="/reader/:novelKey" element={<Reader />} />
         <Route path="/reader" element={<Reader />} />
       </Routes>
+      <Footer />
     </>
   );
 }

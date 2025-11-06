@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ChapterList from '../components/ChapterList';
 import ChapterContent from '../components/ChapterContent';
-import { fetchChaptersData, fetchChapterContent, parseMarkdown } from '../services/api';
+import { fetchChaptersData, fetchChapterContent, parseMarkdown, getBookType } from '../services/api';
 import { slugify, findChapterBySlug } from '../utils/slugify';
 import './Reader.css';
 
@@ -18,6 +18,7 @@ export default function Reader() {
   
   // Determine novelKey from URL parameter, sessionStorage, or default
   const novelKey = urlNovelKey || sessionStorage.getItem('selectedNovel') || 'weight_of_promises';
+  const bookType = getBookType(novelKey);
   
   // If novelKey is not in URL, redirect to include it
   useEffect(() => {
@@ -154,17 +155,22 @@ export default function Reader() {
   }
 
   const getChapterTitle = () => {
-    if (!chaptersData) return `Chapter ${currentChapter}`;
+    if (!chaptersData) return bookType === 'novel' ? `Chapter ${currentChapter}` : 'Loading...';
     
     const chapterData = chaptersData.chapters.find(
       ch => ch.chapter === currentChapter
     );
     
     if (chapterData?.chapter_name) {
-      return `Chapter ${currentChapter}: ${chapterData.chapter_name}`;
+      // For novels, show "Chapter X: Title", for others just the title
+      if (bookType === 'novel') {
+        return `Chapter ${currentChapter}: ${chapterData.chapter_name}`;
+      }
+      return chapterData.chapter_name;
     }
     
-    return `Chapter ${currentChapter}`;
+    // Fallback for novels
+    return bookType === 'novel' ? `Chapter ${currentChapter}` : `Entry ${currentChapter}`;
   };
 
   const isLastChapter = () => {
@@ -176,6 +182,54 @@ export default function Reader() {
     return chaptersData?.completed || false;
   };
 
+  const getPublishedDate = () => {
+    if (!chaptersData) return null;
+    const chapterData = chaptersData.chapters.find(
+      ch => ch.chapter === currentChapter
+    );
+    return chapterData?.published_date || null;
+  };
+
+  // Prepare chapters data for download (with placeholders for unloaded content)
+  const getAllChaptersForDownload = async () => {
+    if (!chaptersData) return [];
+    
+    const downloadChapters = await Promise.all(
+      chaptersData.chapters.map(async (chapter) => {
+        try {
+          const content = await fetchChapterContent(
+            chapter.url,
+            chapter.filename,
+            novelKey
+          );
+          const html = parseMarkdown(content);
+          
+          let title;
+          if (chapter.chapter_name) {
+            title = bookType === 'novel' 
+              ? `Chapter ${chapter.chapter}: ${chapter.chapter_name}`
+              : chapter.chapter_name;
+          } else {
+            title = bookType === 'novel' 
+              ? `Chapter ${chapter.chapter}` 
+              : `Entry ${chapter.chapter}`;
+          }
+          
+          return {
+            title,
+            content: html,
+            publishedDate: chapter.published_date || null
+          };
+        } catch (err) {
+          console.error(`Failed to load chapter ${chapter.chapter}:`, err);
+          return null;
+        }
+      })
+    );
+    
+    return downloadChapters.filter(ch => ch !== null);
+  };
+
   return (
     <div className="reader-layout">
       <ChapterList
@@ -184,6 +238,9 @@ export default function Reader() {
         onChapterSelect={handleChapterSelect}
         isOpen={isMenuOpen}
         onClose={handleMenuClose}
+        bookType={bookType}
+        bookTitle={chaptersData?.novel_title}
+        allChaptersData={chaptersData ? getAllChaptersForDownload : null}
       />
       <ChapterContent
         title={getChapterTitle()}
@@ -192,6 +249,7 @@ export default function Reader() {
         error={error}
         isLastChapter={isLastChapter()}
         isBookComplete={isBookComplete()}
+        publishedDate={getPublishedDate()}
       />
     </div>
   );

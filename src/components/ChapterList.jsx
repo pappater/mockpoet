@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react';
+import DownloadButtons from './DownloadButtons';
 import './ChapterList.css';
 
-export default function ChapterList({ chapters, currentChapter, onChapterSelect, isOpen, onClose }) {
+export default function ChapterList({ chapters, currentChapter, onChapterSelect, isOpen, onClose, bookType = 'novel', bookTitle, allChaptersData }) {
   const listRef = useRef(null);
 
   useEffect(() => {
@@ -33,6 +34,12 @@ export default function ChapterList({ chapters, currentChapter, onChapterSelect,
     >
       <div className="chapter-list-header">
         <h2 className="chapter-list-title">Chapters</h2>
+        {allChaptersData && allChaptersData.length > 0 && (
+          <DownloadButtons 
+            bookTitle={bookTitle || 'Book'} 
+            chapters={allChaptersData} 
+          />
+        )}
       </div>
       <ul className="chapter-list-items">
         {chapters.map((chapter) => (
@@ -41,8 +48,10 @@ export default function ChapterList({ chapters, currentChapter, onChapterSelect,
             className={`chapter-item ${chapter.chapter === currentChapter ? 'active' : ''}`}
             onClick={() => handleChapterClick(chapter.chapter)}
           >
-            <span className="chapter-number">Ch. {chapter.chapter}</span>
-            <span className="chapter-name">{chapter.chapter_name || `Chapter ${chapter.chapter}`}</span>
+            <span className="chapter-number">
+              {bookType === 'novel' ? `Ch. ${chapter.chapter}` : `#${chapter.chapter}`}
+            </span>
+            <span className="chapter-name">{chapter.chapter_name || (bookType === 'novel' ? `Chapter ${chapter.chapter}` : `Entry ${chapter.chapter}`)}</span>
           </li>
         ))}
       </ul>

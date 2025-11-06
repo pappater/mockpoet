@@ -102,9 +102,11 @@
 
 @media (max-width: 768px) {
   .floating-header {
-    top: var(--spacing-md);
-    left: var(--spacing-md);
-    right: var(--spacing-md);
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    padding: var(--spacing-md);
   }
 
   .floating-title {
