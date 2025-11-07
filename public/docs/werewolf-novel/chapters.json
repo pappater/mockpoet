@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 5,
-  "last_updated": "2025-11-06 12:21:16 UTC",
+  "total_chapters": 6,
+  "last_updated": "2025-11-07 12:20:20 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -39,6 +39,13 @@
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/39e6d8a3684433d0765b20e247bd0caca8f035bf/chapter_005.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_005.md",
       "chapter_name": "First Full Moon"
+    },
+    {
+      "chapter": 6,
+      "filename": "chapter_006.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/8f51e25cd4e8193e15a62b13f9e9bb364fcab1c7/chapter_006.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_006.md",
+      "chapter_name": "Learning to Trust"
     }
   ]
 }
