@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 24,
-  "last_updated": "2025-11-07 16:48:11 UTC",
+  "total_chapters": 25,
+  "last_updated": "2025-11-07 17:43:10 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -220,6 +220,15 @@
       "chapter_name": "Twilight's Echo",
       "published_date": "2025-11-07 16:48:10 UTC",
       "poetry_type": "Petrarchan sonnet"
+    },
+    {
+      "chapter": 25,
+      "filename": "poem_025.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/7ef152e4057319d50ebc11c7db5cdde0b107e41c/poem_025.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_025.md",
+      "chapter_name": "A Pilgrim's Plight",
+      "published_date": "2025-11-07 17:43:09 UTC",
+      "poetry_type": "Monorhyme"
     }
   ]
 }
