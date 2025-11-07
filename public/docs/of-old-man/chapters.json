@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 13,
-  "last_updated": "2025-11-07 05:44:04 UTC",
+  "total_chapters": 14,
+  "last_updated": "2025-11-07 06:53:06 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -121,6 +121,15 @@
       "chapter_name": "Dawn's Whisper",
       "published_date": "2025-11-07 05:44:04 UTC",
       "poetry_type": "ABC poem"
+    },
+    {
+      "chapter": 14,
+      "filename": "poem_014.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/7d4b3ff246d86b7de9974065dd86beb99699d4e6/poem_014.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_014.md",
+      "chapter_name": "Golden Hour",
+      "published_date": "2025-11-07 06:53:05 UTC",
+      "poetry_type": "Tetractys"
     }
   ]
 }
