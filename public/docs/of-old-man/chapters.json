@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 18,
-  "last_updated": "2025-11-07 10:46:39 UTC",
+  "total_chapters": 19,
+  "last_updated": "2025-11-07 11:41:59 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -166,6 +166,15 @@
       "chapter_name": "The Glassy Mirror",
       "published_date": "2025-11-07 10:46:38 UTC",
       "poetry_type": "Palindrome poem"
+    },
+    {
+      "chapter": 19,
+      "filename": "poem_019.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/9c8357310c18495b925bff7094f54ec5e48b10f7/poem_019.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_019.md",
+      "chapter_name": "Dionysian Delight",
+      "published_date": "2025-11-07 11:41:58 UTC",
+      "poetry_type": "Double dactyl"
     }
   ]
 }
