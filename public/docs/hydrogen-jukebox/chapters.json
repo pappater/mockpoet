@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 2,
-  "last_updated": "2025-11-06 14:25:08 UTC",
+  "total_chapters": 3,
+  "last_updated": "2025-11-07 14:24:09 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -20,6 +20,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_002.md",
       "chapter_name": "Syllables of Stone",
       "published_date": "2025-11-06 14:25:07 UTC"
+    },
+    {
+      "chapter": 3,
+      "filename": "poem_003.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/03c26a832a3ca44b1375c33ba68e4867828a9bef/poem_003.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_003.md",
+      "chapter_name": "Empty Bins",
+      "published_date": "2025-11-07 14:24:08 UTC"
     }
   ]
 }
