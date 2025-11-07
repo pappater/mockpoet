@@ -1,8 +1,184 @@
 {
   "novel_title": "The Sun Also Rises Again",
-  "total_chapters": 0,
-  "last_updated": "2025-11-07 11:33:00 UTC",
-  "gist_id": "",
-  "completed": false,
-  "chapters": []
+  "total_chapters": 25,
+  "last_updated": "2025-11-07 12:46:44 UTC",
+  "gist_id": "a438cb90b4c76029c58cf54d66b22135",
+  "completed": true,
+  "chapters": [
+    {
+      "chapter": 1,
+      "filename": "chapter_001.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_001.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_001.md",
+      "chapter_name": "The Empty Glass"
+    },
+    {
+      "chapter": 2,
+      "filename": "chapter_002.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_002.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_002.md",
+      "chapter_name": "El\u2019s Entrance"
+    },
+    {
+      "chapter": 3,
+      "filename": "chapter_003.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_003.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_003.md",
+      "chapter_name": "New Faces, Old Scars"
+    },
+    {
+      "chapter": 4,
+      "filename": "chapter_004.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_004.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_004.md",
+      "chapter_name": "The City's Pulse"
+    },
+    {
+      "chapter": 5,
+      "filename": "chapter_005.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_005.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_005.md",
+      "chapter_name": "A Morning After"
+    },
+    {
+      "chapter": 6,
+      "filename": "chapter_006.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_006.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_006.md",
+      "chapter_name": "A Walk Through the Village"
+    },
+    {
+      "chapter": 7,
+      "filename": "chapter_007.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_007.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_007.md",
+      "chapter_name": "A Proposition"
+    },
+    {
+      "chapter": 8,
+      "filename": "chapter_008.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_008.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_008.md",
+      "chapter_name": "Saying Goodbye to the City"
+    },
+    {
+      "chapter": 9,
+      "filename": "chapter_009.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_009.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_009.md",
+      "chapter_name": "Westward Bound"
+    },
+    {
+      "chapter": 10,
+      "filename": "chapter_010.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_010.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_010.md",
+      "chapter_name": "Arrival in Big Sky Country"
+    },
+    {
+      "chapter": 11,
+      "filename": "chapter_011.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_011.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_011.md",
+      "chapter_name": "The River's Embrace"
+    },
+    {
+      "chapter": 12,
+      "filename": "chapter_012.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_012.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_012.md",
+      "chapter_name": "Night in the Cabin"
+    },
+    {
+      "chapter": 13,
+      "filename": "chapter_013.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_013.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_013.md",
+      "chapter_name": "A Different Kind of Connection"
+    },
+    {
+      "chapter": 14,
+      "filename": "chapter_014.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_014.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_014.md",
+      "chapter_name": "Conversations by the Fire"
+    },
+    {
+      "chapter": 15,
+      "filename": "chapter_015.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_015.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_015.md",
+      "chapter_name": "Frank's Flashback"
+    },
+    {
+      "chapter": 16,
+      "filename": "chapter_016.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_016.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_016.md",
+      "chapter_name": "El's Confession"
+    },
+    {
+      "chapter": 17,
+      "filename": "chapter_017.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_017.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_017.md",
+      "chapter_name": "A Shared Silence"
+    },
+    {
+      "chapter": 18,
+      "filename": "chapter_018.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_018.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_018.md",
+      "chapter_name": "Leo's Awakening"
+    },
+    {
+      "chapter": 19,
+      "filename": "chapter_019.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_019.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_019.md",
+      "chapter_name": "The Storm"
+    },
+    {
+      "chapter": 20,
+      "filename": "chapter_020.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_020.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_020.md",
+      "chapter_name": "Aftermath and Decision"
+    },
+    {
+      "chapter": 21,
+      "filename": "chapter_021.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_021.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_021.md",
+      "chapter_name": "The Return Journey"
+    },
+    {
+      "chapter": 22,
+      "filename": "chapter_022.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_022.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_022.md",
+      "chapter_name": "The City's Pull Back"
+    },
+    {
+      "chapter": 23,
+      "filename": "chapter_023.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_023.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_023.md",
+      "chapter_name": "A Fading Echo"
+    },
+    {
+      "chapter": 24,
+      "filename": "chapter_024.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_024.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_024.md",
+      "chapter_name": "New Foundations"
+    },
+    {
+      "chapter": 25,
+      "filename": "chapter_025.md",
+      "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_025.md",
+      "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_025.md",
+      "chapter_name": "The Unspoken Future"
+    }
+  ]
 }

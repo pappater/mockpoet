@@ -57,7 +57,7 @@ const CONFIG = {
       title: "The Sun Also Rises Again",
       gist: {
         username: 'pappater',
-        id: ''  // Will be set via HEMINGWAY_GIST_ID secret
+        id: 'a438cb90b4c76029c58cf54d66b22135'  // Will be set via HEMINGWAY_GIST_ID secret
       },
       localPath: 'docs/hemingway-novel'
     }
