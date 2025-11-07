@@ -11,3 +11,10 @@
 .app-footer p {
   margin: 0;
 }
+
+/* Hide footer on reader page in mobile view */
+@media (max-width: 768px) {
+  body:has(.reader-layout) .app-footer {
+    display: none;
+  }
+}

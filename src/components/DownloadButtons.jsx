@@ -39,16 +39,18 @@ export default function DownloadButtons({ bookTitle, chapters }) {
           disabled={isGenerating}
           className="download-button download-pdf"
           aria-label="Download as PDF"
+          title="Download as PDF"
         >
-          {isGenerating ? '⏳ Generating...' : '📄 Download PDF'}
+          {isGenerating ? '⏳' : '📄 PDF'}
         </button>
         <button
           onClick={() => handleDownload('epub')}
           disabled={isGenerating}
           className="download-button download-epub"
-          aria-label="Download as EPUB"
+          aria-label="Download as HTML"
+          title="Download as HTML"
         >
-          {isGenerating ? '⏳ Generating...' : '📚 Download HTML'}
+          {isGenerating ? '⏳' : '📚 HTML'}
         </button>
       </div>
       {errorMessage && (

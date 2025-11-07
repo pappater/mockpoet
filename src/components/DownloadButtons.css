@@ -50,12 +50,14 @@
 @media (max-width: 768px) {
   .download-buttons {
     width: 100%;
+    gap: var(--spacing-xs);
   }
   
   .download-button {
     flex: 1;
     justify-content: center;
-    font-size: 0.9rem;
-    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: 0.85rem;
+    padding: var(--spacing-xs) var(--spacing-xs);
+    min-width: 0;
   }
 }

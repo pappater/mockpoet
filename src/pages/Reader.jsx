@@ -54,11 +54,21 @@ export default function Reader() {
         document.title = `${data.novel_title} - rabbit`;
         setLoading(false);
         
-        // If no chapter slug in URL, redirect to first chapter with slug
+        // If no chapter slug in URL, redirect to first or random chapter with slug
         if (!chapterSlug && data.chapters.length > 0) {
-          const firstChapter = data.chapters[0];
-          if (firstChapter.chapter_name) {
-            const slug = slugify(firstChapter.chapter_name);
+          let selectedChapter;
+          
+          // For poems and short_stories, select random chapter
+          if (bookType === 'poems' || bookType === 'short_stories') {
+            const randomIndex = Math.floor(Math.random() * data.chapters.length);
+            selectedChapter = data.chapters[randomIndex];
+          } else {
+            // For novels, use the first chapter
+            selectedChapter = data.chapters[0];
+          }
+          
+          if (selectedChapter.chapter_name) {
+            const slug = slugify(selectedChapter.chapter_name);
             navigate(`/reader/${novelKey}/${slug}`, { replace: true });
           }
         }
@@ -69,7 +79,7 @@ export default function Reader() {
     }
 
     loadChaptersData();
-  }, [novelKey, chapterSlug, navigate]);
+  }, [novelKey, chapterSlug, navigate, bookType]);
 
   useEffect(() => {
     const handleToggle = () => {

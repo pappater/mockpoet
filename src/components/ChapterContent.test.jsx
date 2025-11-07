@@ -14,7 +14,10 @@ describe('ChapterContent', () => {
         isBookComplete={false}
       />
     );
-    expect(screen.getByText('Chapter 1')).toBeInTheDocument();
+    // Since there are now two titles (desktop and mobile), use getAllByText
+    const titles = screen.getAllByText('Chapter 1');
+    expect(titles.length).toBeGreaterThan(0);
+    expect(titles[0]).toBeInTheDocument();
   });
 
   it('shows loading state', () => {

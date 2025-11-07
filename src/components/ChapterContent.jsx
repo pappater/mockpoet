@@ -40,6 +40,21 @@ export default function ChapterContent({ title, content, loading, error, isLastC
         )}
         {!loading && !error && content && (
           <>
+            {/* Mobile title and date above play button */}
+            <div className="mobile-chapter-header">
+              <h1 className="mobile-chapter-title">{title}</h1>
+              {publishedDate && (
+                <div className="mobile-chapter-date">
+                  {new Date(publishedDate).toLocaleString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                  })}
+                </div>
+              )}
+            </div>
             <TextToSpeech text={content} />
             <div dangerouslySetInnerHTML={{ __html: content }} />
             {isLastChapter && isBookComplete && (
