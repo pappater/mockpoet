@@ -1,0 +1,70 @@
+name: Manual Hemingway Novel Generation to Gist
+
+on:
+  # Allow manual triggering only
+  workflow_dispatch:
+
+jobs:
+  generate-novel:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/hemingway-novel/requirements.txt
+      
+      - name: Generate and publish complete novel
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          HEMINGWAY_GIST_ID: ${{ secrets.HEMINGWAY_GIST_ID }}
+        run: |
+          python scripts/hemingway-novel/hemingway_novel_to_gist.py
+      
+      - name: Update config.js with gist ID if missing
+        env:
+          HEMINGWAY_GIST_ID: ${{ secrets.HEMINGWAY_GIST_ID }}
+        run: |
+          # Check if gist ID is empty in config.js for sun_also_rises_again section only
+          EMPTY_PATTERN="id: ''"
+          if awk "/sun_also_rises_again/,/^    \}/" config.js | grep -q "$EMPTY_PATTERN"; then
+            echo "Updating config.js with HEMINGWAY_GIST_ID for sun_also_rises_again"
+            awk -v gist_id="$HEMINGWAY_GIST_ID" -v pattern="$EMPTY_PATTERN" '
+              /sun_also_rises_again/,/^    \}/ {
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
+                }
+              }
+              {print}
+            ' config.js > config.js.tmp && mv config.js.tmp config.js
+          else
+            echo "Gist ID already set in config.js for sun_also_rises_again"
+          fi
+      
+      - name: Sync chapters.json to public folder
+        run: |
+          # Copy chapters.json from docs to public for deployment
+          echo "Syncing chapters.json to public/docs/hemingway-novel/"
+          mkdir -p public/docs/hemingway-novel
+          cp docs/hemingway-novel/chapters.json public/docs/hemingway-novel/chapters.json
+      
+      - name: Commit and push updated files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/hemingway-novel/*.md docs/hemingway-novel/*.txt docs/hemingway-novel/chapters.json public/docs/hemingway-novel/chapters.json config.js
+          git diff --staged --quiet || git commit -m "Generate complete Hemingway novel: The Sun Also Rises Again"
+          git push
