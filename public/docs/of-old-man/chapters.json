@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 11,
-  "last_updated": "2025-11-07 03:57:34 UTC",
+  "total_chapters": 12,
+  "last_updated": "2025-11-07 04:45:55 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -103,6 +103,15 @@
       "chapter_name": "In the Hour Before Dark",
       "published_date": "2025-11-07 03:57:33 UTC",
       "poetry_type": "Free verse"
+    },
+    {
+      "chapter": 12,
+      "filename": "poem_012.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/4a1b39a96ed536e35369c8000450967d5aa0f63a/poem_012.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_012.md",
+      "chapter_name": "Window Rain",
+      "published_date": "2025-11-07 04:45:54 UTC",
+      "poetry_type": "Tanka"
     }
   ]
 }
