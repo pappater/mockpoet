@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 28,
-  "last_updated": "2025-11-07 20:42:40 UTC",
+  "total_chapters": 29,
+  "last_updated": "2025-11-07 21:41:20 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -256,6 +256,15 @@
       "chapter_name": "What Lingers Still",
       "published_date": "2025-11-07 20:42:39 UTC",
       "poetry_type": "Monorhyme"
+    },
+    {
+      "chapter": 29,
+      "filename": "poem_029.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/03f952a2f1e20f2955623056bb3adf34ae057baf/poem_029.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_029.md",
+      "chapter_name": "On Impermanence and Verse",
+      "published_date": "2025-11-07 21:41:19 UTC",
+      "poetry_type": "Shakespearean sonnet"
     }
   ]
 }
