@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 14,
-  "last_updated": "2025-11-07 06:53:06 UTC",
+  "total_chapters": 15,
+  "last_updated": "2025-11-07 07:42:07 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -130,6 +130,15 @@
       "chapter_name": "Golden Hour",
       "published_date": "2025-11-07 06:53:05 UTC",
       "poetry_type": "Tetractys"
+    },
+    {
+      "chapter": 15,
+      "filename": "poem_015.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ba896ded17b3a375b91c2e8e729fcfec2d54b21a/poem_015.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_015.md",
+      "chapter_name": "Elegy for the Vanished Stream",
+      "published_date": "2025-11-07 07:42:06 UTC",
+      "poetry_type": "Elegy"
     }
   ]
 }
