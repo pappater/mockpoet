@@ -1,0 +1,45 @@
+Create a complete outline for a novel titled "{novel_title}" with {total_chapters} chapters.
+
+Theme: {theme}
+
+Use the following series bible as your guide:
+
+{series_bible}
+
+Create a chapter-by-chapter outline that:
+
+1. **Follows Hemingway's narrative structure**:
+   - Clear, linear progression
+   - Each chapter advances the plot
+   - Focus on action and dialogue
+   - Minimal exposition
+   - Let the story unfold through what characters do and say
+
+2. **Story Arc**:
+   - Beginning: Establish characters and situation
+   - Middle: Develop conflicts and relationships
+   - End: Resolution (can be ambiguous, Hemingway-style)
+
+3. **Chapter Structure**:
+   - Each chapter should be 8-12 pages (2000-3000 words)
+   - Include key scenes, dialogue moments, revelations
+   - Show character development through action
+   - Maintain consistent tone and pacing
+
+4. **Hemingway Elements**:
+   - Lots of conversation between characters
+   - Simple, declarative sentences
+   - Focus on concrete details
+   - Understated emotion
+   - Show, don't tell
+
+For each chapter, provide:
+- Chapter number and title
+- 2-3 sentence summary of what happens
+- Key scenes or dialogue moments
+- Character developments
+- How it advances the main theme
+
+Write the outline in clear, direct prose. Keep it focused and practical.
+
+Output as a well-structured markdown document with each chapter clearly numbered.

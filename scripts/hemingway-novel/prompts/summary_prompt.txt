@@ -1,0 +1,13 @@
+Summarize Chapter {chapter_number} of the novel for continuity purposes.
+
+Chapter text:
+{chapter_text}
+
+Provide a concise summary (150-200 words) that captures:
+1. Key events that occurred
+2. Important dialogue or revelations
+3. Character developments
+4. How the chapter advances the plot
+5. Any setup for future chapters
+
+Write in clear, straightforward prose. This summary will be used to maintain continuity for future chapters.

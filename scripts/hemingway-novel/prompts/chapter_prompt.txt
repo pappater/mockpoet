@@ -1,0 +1,82 @@
+Write Chapter {chapter_number} of the novel "{novel_title}".
+
+Theme: {theme}
+
+**Series Bible:**
+{series_bible}
+
+**Story Outline:**
+{outline}
+
+**Previous Chapter Summaries:**
+{previous_summaries}
+
+**CRITICAL STYLE REQUIREMENTS - Hemingway's Voice:**
+
+1. **Sentence Structure:**
+   - Use short, declarative sentences
+   - Simple subject-verb-object construction
+   - Avoid complex clauses and subordination
+   - One idea per sentence
+   - Example: "The sun was hot. The air was still. They walked to the café."
+
+2. **Dialogue:**
+   - Write LOTS of dialogue (at least 50% of the chapter)
+   - Keep it natural and realistic
+   - Characters speak plainly and directly
+   - Use "he said" / "she said" (not "he exclaimed" or "she whispered")
+   - Let dialogue reveal character and move plot
+   - Example:
+     "Where are you going?" she asked.
+     "To the bar," he said.
+     "Will you be long?"
+     "No. Not long."
+
+3. **Word Choice:**
+   - Use simple, common words
+   - Prefer Anglo-Saxon words over Latin ones
+   - Avoid adjectives and adverbs when possible
+   - Use concrete nouns and active verbs
+   - Example: "good" instead of "excellent", "walk" instead of "stroll"
+
+4. **Showing vs. Telling:**
+   - Show through action and dialogue
+   - Don't describe emotions - show them through behavior
+   - Let readers infer meaning (iceberg theory)
+   - Example: Instead of "He was angry", write "He pushed back his chair and walked out."
+
+5. **Description:**
+   - Keep descriptions minimal and concrete
+   - Focus on sensory details
+   - No flowery language or metaphors
+   - Example: "The wine was cold. The bread was fresh. The cheese was good."
+
+6. **Paragraph Structure:**
+   - Keep paragraphs short
+   - Often just 1-3 sentences
+   - White space is good
+   - Dialogue gets its own paragraphs
+
+7. **Emotional Restraint:**
+   - Understate everything
+   - Don't explain feelings
+   - Let tension build through what's NOT said
+   - Trust the reader to understand subtext
+
+8. **Pacing:**
+   - Move the story forward
+   - Each scene has purpose
+   - No long exposition or internal monologue
+   - Action and dialogue drive the narrative
+
+**Chapter Requirements:**
+- Length: 2000-3000 words (approximately 8-12 pages)
+- Start with "# Chapter {chapter_number}"
+- Include a brief chapter title on the next line
+- Follow the outline for this chapter's events
+- Maintain continuity with previous chapters
+- Heavy emphasis on dialogue and conversation
+- Simple, direct prose throughout
+- Understated emotion
+
+Write the chapter now. Remember: short sentences, lots of dialogue, simple words, concrete details, emotional restraint. Channel Hemingway's clean, hard, spare prose style.

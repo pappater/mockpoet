@@ -1,0 +1,38 @@
+Create a series bible for a novel titled "{novel_title}" in the style of Ernest Hemingway.
+
+Theme: {theme}
+
+The series bible should include:
+
+1. **Main Characters** (3-5 key characters):
+   - Names, ages, backgrounds
+   - Personalities, motivations, conflicts
+   - Relationships with other characters
+   - Written in clear, direct prose
+
+2. **Setting**:
+   - Time period (preferably post-WWI America or Europe)
+   - Key locations
+   - Atmosphere and mood
+   - Social context
+
+3. **Core Themes**:
+   - Primary theme: {theme}
+   - Secondary themes
+   - How they manifest in the story
+
+4. **Tone and Style Guidelines**:
+   - Hemingway's minimalist, direct prose
+   - Short sentences and simple words
+   - Heavy use of dialogue
+   - "Iceberg theory" - leaving much unsaid
+   - Focus on action and dialogue over internal monologue
+   - Understated emotion
+
+5. **Story World Rules**:
+   - Any important facts or constraints
+   - Cultural/historical context
+
+Write this series bible in clear, concise prose that captures Hemingway's direct style. Keep descriptions tight and focused. No flowery language.
+
+Output the series bible as a well-structured markdown document.
