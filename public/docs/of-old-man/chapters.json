@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 22,
-  "last_updated": "2025-11-07 14:45:26 UTC",
+  "total_chapters": 23,
+  "last_updated": "2025-11-07 15:43:58 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -202,6 +202,15 @@
       "chapter_name": "Autumn's Whisper",
       "published_date": "2025-11-07 14:45:25 UTC",
       "poetry_type": "Triolet"
+    },
+    {
+      "chapter": 23,
+      "filename": "poem_023.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/2f93c2fc943cc3729b4ee2100b186d281aace4e7/poem_023.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_023.md",
+      "chapter_name": "Shepherd's Morning Song",
+      "published_date": "2025-11-07 15:43:57 UTC",
+      "poetry_type": "Pastoral"
     }
   ]
 }
