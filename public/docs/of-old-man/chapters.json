@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 23,
-  "last_updated": "2025-11-07 15:43:58 UTC",
+  "total_chapters": 24,
+  "last_updated": "2025-11-07 16:48:11 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -211,6 +211,15 @@
       "chapter_name": "Shepherd's Morning Song",
       "published_date": "2025-11-07 15:43:57 UTC",
       "poetry_type": "Pastoral"
+    },
+    {
+      "chapter": 24,
+      "filename": "poem_024.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e124cf1bc983f3308c06c3ac354000395e38cb1c/poem_024.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_024.md",
+      "chapter_name": "Twilight's Echo",
+      "published_date": "2025-11-07 16:48:10 UTC",
+      "poetry_type": "Petrarchan sonnet"
     }
   ]
 }
