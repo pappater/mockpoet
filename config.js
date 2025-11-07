@@ -52,6 +52,14 @@ const CONFIG = {
       },
       localPath: 'docs/of-old-man',
       type: 'poems'  // Flag to indicate this is a poem collection
+    },
+    sun_also_rises_again: {
+      title: "The Sun Also Rises Again",
+      gist: {
+        username: 'pappater',
+        id: ''  // Will be set via HEMINGWAY_GIST_ID secret
+      },
+      localPath: 'docs/hemingway-novel'
     }
   },
   

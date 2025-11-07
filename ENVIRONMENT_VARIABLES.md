@@ -23,6 +23,7 @@ All these secrets should be added in: **Settings** → **Secrets and variables**
 | `FLYING_BANANA_GIST_ID` | Gist ID for "Flying Banana" | Flying Banana | Yes | `abc123xyz789` |
 | `HYDROGEN_JUKEBOX_GIST_ID` | Gist ID for "Hydrogen Jukebox" | Hydrogen Jukebox | Yes | `abc123xyz789` |
 | `OF_OLD_MAN_GIST_ID` | Gist ID for "Of Old Man" | Of Old Man | Yes | `def456uvw890` |
+| `HEMINGWAY_GIST_ID` | Gist ID for "The Sun Also Rises Again" | The Sun Also Rises Again | Yes | `ghi789xyz123` |
 
 ## Workflow Environment Variables
 
@@ -118,6 +119,17 @@ export OF_OLD_MAN_GIST_ID="your-of-old-man-gist-id"
 python3 scripts/of-old-man/of_old_man_daily_to_gist.py
 ```
 
+### For "The Sun Also Rises Again"
+
+```bash
+export GEMINI_API_KEY="your-gemini-api-key"
+export GEMINI_MODEL="gemini-2.5-flash"
+export GIST_TOKEN="your-github-token"
+export HEMINGWAY_GIST_ID="your-hemingway-gist-id"
+
+python3 scripts/hemingway-novel/hemingway_novel_to_gist.py
+```
+
 ## How to Get Each Secret
 
 ### GEMINI_API_KEY
@@ -139,7 +151,7 @@ python3 scripts/of-old-man/of_old_man_daily_to_gist.py
 7. Copy the token (starts with `ghp_`)
 8. **Important**: Save it immediately - you won't see it again
 
-### GIST_ID / STRANGER_GIST_ID / WEREWOLF_GIST_ID / FLYING_BANANA_GIST_ID / HYDROGEN_JUKEBOX_GIST_ID / OF_OLD_MAN_GIST_ID
+### GIST_ID / STRANGER_GIST_ID / WEREWOLF_GIST_ID / FLYING_BANANA_GIST_ID / HYDROGEN_JUKEBOX_GIST_ID / OF_OLD_MAN_GIST_ID / HEMINGWAY_GIST_ID
 
 1. Go to [gist.github.com](https://gist.github.com)
 2. Click "Create a new gist"
@@ -209,6 +221,14 @@ const CONFIG = {
       },
       localPath: 'docs/of-old-man',
       type: 'poems'
+    },
+    sun_also_rises_again: {
+      title: "The Sun Also Rises Again",
+      gist: {
+        username: 'pappater',
+        id: ''  // Update with your HEMINGWAY_GIST_ID
+      },
+      localPath: 'docs/hemingway-novel'
     }
   }
 };
@@ -228,6 +248,7 @@ Before running the workflows, verify:
 - [ ] `FLYING_BANANA_GIST_ID` is set (for Flying Banana)
 - [ ] `HYDROGEN_JUKEBOX_GIST_ID` is set (for Hydrogen Jukebox)
 - [ ] `OF_OLD_MAN_GIST_ID` is set (for Of Old Man)
+- [ ] `HEMINGWAY_GIST_ID` is set (for The Sun Also Rises Again)
 - [ ] All Gists are **public** (not secret)
 - [ ] Gist IDs in `config.js` match the secrets
 - [ ] All secrets are added in repository settings
@@ -278,6 +299,7 @@ Check that:
 | `FLYING_BANANA_GIST_ID` | Book 4 | Flying Banana | Secret | `abc123...` |
 | `HYDROGEN_JUKEBOX_GIST_ID` | Book 5 | Hydrogen Jukebox | Secret | `abc123...` |
 | `OF_OLD_MAN_GIST_ID` | Book 6 | Of Old Man | Secret | `def456...` |
+| `HEMINGWAY_GIST_ID` | Book 7 | The Sun Also Rises Again | Secret | `ghi789...` |
 
 ## Quick Setup Commands
 
@@ -294,6 +316,7 @@ Check that:
 # https://gist.github.com/username/FLYING_BANANA_GIST_ID
 # https://gist.github.com/username/HYDROGEN_JUKEBOX_GIST_ID
 # https://gist.github.com/username/OF_OLD_MAN_GIST_ID
+# https://gist.github.com/username/HEMINGWAY_GIST_ID
 
 # 4. Check the UI
 # All books should appear on the home page
