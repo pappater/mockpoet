@@ -1,7 +1,7 @@
 {
   "novel_title": "The Weight of Promises",
-  "total_chapters": 8,
-  "last_updated": "2025-11-06 10:22:06 UTC",
+  "total_chapters": 9,
+  "last_updated": "2025-11-07 10:21:49 UTC",
   "gist_id": "51893c25959355bda1884804375ec3d8",
   "completed": false,
   "chapters": [
@@ -60,6 +60,13 @@
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/bd7ca3d4e51a877925f146b30787a8f30de275d0/chapter_008.md",
       "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_008.md",
       "chapter_name": "The Breaking Point"
+    },
+    {
+      "chapter": 9,
+      "filename": "chapter_009.md",
+      "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/67671872661a58cfda7a75fcbee6a9d816aac1eb/chapter_009.md",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_009.md",
+      "chapter_name": "Anna's Secret"
     }
   ]
 }
