@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 10,
-  "last_updated": "2025-11-07 03:32:14 UTC",
+  "total_chapters": 11,
+  "last_updated": "2025-11-07 03:57:34 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -94,6 +94,15 @@
       "chapter_name": "Polite Listener",
       "published_date": "2025-11-07 03:32:13 UTC",
       "poetry_type": "Senryu"
+    },
+    {
+      "chapter": 11,
+      "filename": "poem_011.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/b087b6b89ef9f0af6a0731a7298bafbfbb609a0c/poem_011.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_011.md",
+      "chapter_name": "In the Hour Before Dark",
+      "published_date": "2025-11-07 03:57:33 UTC",
+      "poetry_type": "Free verse"
     }
   ]
 }
