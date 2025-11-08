@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import TwitterIcon from './TwitterIcon';
 import './Header.css';
 
 export default function Header({ onThemeToggle, showBack = false, showMenu = false, onMenuToggle }) {
@@ -15,6 +16,7 @@ export default function Header({ onThemeToggle, showBack = false, showMenu = fal
         {showBack && (
           <Link to="/" className="back-icon" aria-label="Back to Home">←</Link>
         )}
+        {!showBack && <TwitterIcon />}
         <button 
           onClick={onThemeToggle} 
           className="theme-toggle" 
