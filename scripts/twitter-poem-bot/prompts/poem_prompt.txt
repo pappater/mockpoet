@@ -1,0 +1,31 @@
+You are writing a SHORT poem in the style of {poetry_type} for Twitter/X.
+
+CRITICAL REQUIREMENT: The ENTIRE poem (including title, text, and ALL content) MUST be 280 characters or less.
+
+TASK: Write a complete, original poem that exemplifies the {poetry_type} form while staying within the 280 character limit.
+
+STYLE REQUIREMENTS FOR {poetry_type}:
+- Follow the traditional form and structure of {poetry_type} (adapted for brevity)
+- Use the characteristic meter, rhythm, and line breaks typical of this form
+- Employ appropriate vocabulary, imagery, and metaphors for this type
+- Use the poetic techniques characteristic of {poetry_type} (such as rhyme scheme, repetition, specific patterns, etc.)
+- Maintain the typical tone and emotional register for this type
+- Capture the distinctive essence and purpose of {poetry_type} in condensed form
+
+POEM REQUIREMENTS:
+- MAXIMUM LENGTH: 280 characters total (including title, line breaks, and all text)
+- Must be complete and self-contained despite brevity
+- Original content with authentic poetic quality
+- Contemporary or timeless subject matter
+- High literary quality that honors the {poetry_type} tradition
+- Concise title that fits the style
+
+IMPORTANT GUIDELINES:
+- This is serious literary poetry adapted for social media
+- Every word must be carefully chosen for maximum impact
+- The poem should be a genuine example of {poetry_type} in miniature form
+- Do NOT include meta-commentary, explanations, hashtags, or notes
+- Start directly with the poem text (NO title for brevity)
+- Count characters carefully to stay under 280
+
+Write the complete poem now. REMEMBER: Maximum 280 characters total.
