@@ -1,7 +1,7 @@
 {
   "novel_title": "The Indifferent Shore",
-  "total_chapters": 7,
-  "last_updated": "2025-11-07 11:15:52 UTC",
+  "total_chapters": 8,
+  "last_updated": "2025-11-08 11:14:07 UTC",
   "gist_id": "b12ff3b5ea6e9f42a7becfc2cc1aeece",
   "chapters": [
     {
@@ -52,6 +52,13 @@
       "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/2165241127f1c4c9a6518f905502db5c0845aaa5/chapter_007.md",
       "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_007.md",
       "chapter_name": "Raymond's Trouble"
+    },
+    {
+      "chapter": 8,
+      "filename": "chapter_008.md",
+      "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/56a20ab2e1ea1a88cef185b15a0801a084828301/chapter_008.md",
+      "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_008.md",
+      "chapter_name": "The Invitation"
     }
   ]
 }
