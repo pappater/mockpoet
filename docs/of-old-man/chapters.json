@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 32,
-  "last_updated": "2025-11-08 02:12:29 UTC",
+  "total_chapters": 33,
+  "last_updated": "2025-11-08 03:24:45 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -292,6 +292,15 @@
       "chapter_name": "On Human Endeavour",
       "published_date": "2025-11-08 02:12:28 UTC",
       "poetry_type": "Heroic couplet"
+    },
+    {
+      "chapter": 33,
+      "filename": "poem_033.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/add6cd14cbb7f599483aa64d5475423110d7379c/poem_033.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_033.md",
+      "chapter_name": "On Transient Hues",
+      "published_date": "2025-11-08 03:24:44 UTC",
+      "poetry_type": "Petrarchan sonnet"
     }
   ]
 }
