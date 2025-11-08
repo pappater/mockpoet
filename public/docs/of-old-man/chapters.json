@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 35,
-  "last_updated": "2025-11-08 04:44:45 UTC",
+  "total_chapters": 36,
+  "last_updated": "2025-11-08 10:14:58 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -319,6 +319,15 @@
       "chapter_name": "The Tide's Unfolding",
       "published_date": "2025-11-08 04:44:44 UTC",
       "poetry_type": "Chain verse"
+    },
+    {
+      "chapter": 36,
+      "filename": "poem_036.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/33dcaa01a7c8545765e4f0a9514dee8ed3cbb293/poem_036.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_036.md",
+      "chapter_name": "On Sigmund Freud",
+      "published_date": "2025-11-08 10:14:58 UTC",
+      "poetry_type": "Clerihew"
     }
   ]
 }
