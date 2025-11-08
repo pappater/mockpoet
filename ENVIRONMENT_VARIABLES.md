@@ -13,6 +13,16 @@ All these secrets should be added in: **Settings** → **Secrets and variables**
 | `GEMINI_API_KEY` | Google Gemini API key from AI Studio | Yes | `AIza...` |
 | `GIST_TOKEN` | GitHub Personal Access Token with `gist` scope | Yes | `ghp_...` |
 
+### Twitter Bot Secrets
+
+| Secret Name | Description | Required | Example |
+|-------------|-------------|----------|---------|
+| `TWITTER_API_KEY` | Twitter API Key (Consumer Key) | Yes | `abc123...` |
+| `TWITTER_API_SECRET` | Twitter API Secret (Consumer Secret) | Yes | `xyz789...` |
+| `TWITTER_ACCESS_TOKEN` | Twitter Access Token | Yes | `1234567890-abc...` |
+| `TWITTER_ACCESS_TOKEN_SECRET` | Twitter Access Token Secret | Yes | `def456...` |
+| `TWITTER_BEARER_TOKEN` | Twitter Bearer Token | Yes | `AAAAAA...` |
+
 ### Book-Specific Secrets
 
 | Secret Name | Description | Book | Required | Example |
@@ -130,6 +140,20 @@ export HEMINGWAY_GIST_ID="your-hemingway-gist-id"
 python3 scripts/hemingway-novel/hemingway_novel_to_gist.py
 ```
 
+### For Twitter Poem Bot
+
+```bash
+export GEMINI_API_KEY="your-gemini-api-key"
+export GEMINI_MODEL="gemini-2.5-flash"
+export TWITTER_API_KEY="your-twitter-api-key"
+export TWITTER_API_SECRET="your-twitter-api-secret"
+export TWITTER_ACCESS_TOKEN="your-twitter-access-token"
+export TWITTER_ACCESS_TOKEN_SECRET="your-twitter-access-token-secret"
+export TWITTER_BEARER_TOKEN="your-twitter-bearer-token"
+
+python3 scripts/twitter-poem-bot/twitter_poem_bot.py
+```
+
 ## How to Get Each Secret
 
 ### GEMINI_API_KEY
@@ -150,6 +174,17 @@ python3 scripts/hemingway-novel/hemingway_novel_to_gist.py
 6. Click "Generate token"
 7. Copy the token (starts with `ghp_`)
 8. **Important**: Save it immediately - you won't see it again
+
+### Twitter API Credentials
+
+For detailed instructions on obtaining Twitter API credentials, see [SETUP_TWITTER_BOT.md](SETUP_TWITTER_BOT.md).
+
+**Quick Summary:**
+1. Create a Twitter Developer account at https://developer.twitter.com
+2. Create a new app in the Developer Portal
+3. Configure app permissions to "Read and write"
+4. Generate Access Tokens and Bearer Token from the "Keys and tokens" tab
+5. Copy all 5 credentials (API Key, API Secret, Access Token, Access Token Secret, Bearer Token)
 
 ### GIST_ID / STRANGER_GIST_ID / WEREWOLF_GIST_ID / FLYING_BANANA_GIST_ID / HYDROGEN_JUKEBOX_GIST_ID / OF_OLD_MAN_GIST_ID / HEMINGWAY_GIST_ID
 
@@ -240,8 +275,11 @@ const CONFIG = {
 
 Before running the workflows, verify:
 
+### General Secrets
 - [ ] `GEMINI_API_KEY` is set and valid
 - [ ] `GIST_TOKEN` is set with correct permissions
+
+### Book-Specific Gist IDs
 - [ ] `GIST_ID` is set (for Weight of Promises)
 - [ ] `STRANGER_GIST_ID` is set (for Indifferent Shore)
 - [ ] `WEREWOLF_GIST_ID` is set (for Moonbound Devotion)
@@ -251,6 +289,16 @@ Before running the workflows, verify:
 - [ ] `HEMINGWAY_GIST_ID` is set (for The Sun Also Rises Again)
 - [ ] All Gists are **public** (not secret)
 - [ ] Gist IDs in `config.js` match the secrets
+
+### Twitter Bot Secrets (Optional - only needed if using Twitter Bot)
+- [ ] `TWITTER_API_KEY` is set
+- [ ] `TWITTER_API_SECRET` is set
+- [ ] `TWITTER_ACCESS_TOKEN` is set
+- [ ] `TWITTER_ACCESS_TOKEN_SECRET` is set
+- [ ] `TWITTER_BEARER_TOKEN` is set
+- [ ] Twitter app permissions are set to "Read and write"
+
+### Final Checks
 - [ ] All secrets are added in repository settings
 
 ## Security Best Practices
@@ -286,12 +334,21 @@ Check that:
 2. API key hasn't expired
 3. You have quota remaining on Google AI Studio
 
+### Error: Twitter API errors (403, 401, 429)
+
+Check that:
+1. All 5 Twitter credentials are correct
+2. Twitter app permissions are set to "Read and write"
+3. Access tokens are generated for your app
+4. You haven't exceeded Twitter API rate limits
+5. Your Twitter Developer account is in good standing
+
 ## Summary Table
 
-| Variable | Scope | Book | Type | Example |
-|----------|-------|------|------|---------|
+| Variable | Scope | Book/Service | Type | Example |
+|----------|-------|--------------|------|---------|
 | `GEMINI_API_KEY` | All | All | Secret | `AIza...` |
-| `GIST_TOKEN` | All | All | Secret | `ghp_...` |
+| `GIST_TOKEN` | All | All Books | Secret | `ghp_...` |
 | `GEMINI_MODEL` | All | All | Config | `gemini-2.5-flash` |
 | `GIST_ID` | Book 1 | Weight of Promises | Secret | `51893c...` |
 | `STRANGER_GIST_ID` | Book 2 | Indifferent Shore | Secret | `xyz789...` |
@@ -300,6 +357,11 @@ Check that:
 | `HYDROGEN_JUKEBOX_GIST_ID` | Book 5 | Hydrogen Jukebox | Secret | `abc123...` |
 | `OF_OLD_MAN_GIST_ID` | Book 6 | Of Old Man | Secret | `def456...` |
 | `HEMINGWAY_GIST_ID` | Book 7 | The Sun Also Rises Again | Secret | `ghi789...` |
+| `TWITTER_API_KEY` | Twitter Bot | Twitter Poem Bot | Secret | `abc123...` |
+| `TWITTER_API_SECRET` | Twitter Bot | Twitter Poem Bot | Secret | `xyz789...` |
+| `TWITTER_ACCESS_TOKEN` | Twitter Bot | Twitter Poem Bot | Secret | `1234567890-abc...` |
+| `TWITTER_ACCESS_TOKEN_SECRET` | Twitter Bot | Twitter Poem Bot | Secret | `def456...` |
+| `TWITTER_BEARER_TOKEN` | Twitter Bot | Twitter Poem Bot | Secret | `AAAAAA...` |
 
 ## Quick Setup Commands
 

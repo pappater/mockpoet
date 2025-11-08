@@ -45,9 +45,16 @@ A poetry collection featuring poems in the distinctive styles of modern classic 
 
 ### Of Old Man
 A poetry collection exploring the full spectrum of poetic forms and traditions.
-- **Style**: Varies by poetry type - 91 different forms including Sonnet, Haiku, Villanelle, Ghazal, Free verse, and many more
+- **Style**: Varies by poetry type - 93 different forms including Sonnet, Haiku, Villanelle, Ghazal, Free verse, and many more
 - **Poems**: Ongoing collection (never-ending series)
 - **Generated**: Twice daily at 10:00 UTC and 22:00 UTC
+
+### Twitter Poem Bot (NEW!)
+An automated Twitter bot that posts short poems to Twitter/X.
+- **Style**: Varies by poetry type - 100 different forms including all classical and modern poetry types
+- **Poems**: Concise poems optimized for Twitter (max 280 characters)
+- **Posted**: Every 15 minutes to Twitter/X
+- **Setup**: See [SETUP_TWITTER_BOT.md](SETUP_TWITTER_BOT.md) for Twitter API configuration
 
 ## Quick Start
 
@@ -64,6 +71,7 @@ A poetry collection exploring the full spectrum of poetic forms and traditions.
 ## Setup
 
 For detailed setup instructions, see:
+- [SETUP_TWITTER_BOT.md](SETUP_TWITTER_BOT.md) - Setup for Twitter Poem Bot (NEW!)
 - [SETUP_STRANGER_NOVEL.md](SETUP_STRANGER_NOVEL.md) - Setup for "The Indifferent Shore"
 - [SETUP_WEREWOLF_NOVEL.md](SETUP_WEREWOLF_NOVEL.md) - Setup for "Moonbound Devotion"
 - [SETUP_FLYING_BANANA.md](SETUP_FLYING_BANANA.md) - Setup for "Flying Banana"
