@@ -1,4 +1,4 @@
-# rabbit
+# mockpoet
 
 A reading platform for AI-generated novels with daily chapter updates.
 
@@ -76,7 +76,7 @@ For detailed setup instructions, see:
 ## Repository Structure
 
 ```
-rabbit/
+mockpoet/
 ├── .github/workflows/          # GitHub Actions workflows
 │   ├── daily-novel-gist.yml   # The Weight of Promises
 │   ├── daily-stranger-novel.yml # The Indifferent Shore

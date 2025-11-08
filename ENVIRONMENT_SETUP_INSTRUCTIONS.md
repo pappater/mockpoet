@@ -1,10 +1,10 @@
 # Environment Variables Setup Instructions
 
-This document provides comprehensive instructions for setting up all environment variables and GitHub secrets needed to run the rabbit novel platform with all three novels.
+This document provides comprehensive instructions for setting up all environment variables and GitHub secrets needed to run the mockpoet novel platform with all three novels.
 
 ## Overview
 
-The rabbit platform hosts multiple AI-generated novels, each with its own Gist for content storage. All novels share common API keys but use separate Gist IDs.
+The mockpoet platform hosts multiple AI-generated novels, each with its own Gist for content storage. All novels share common API keys but use separate Gist IDs.
 
 ## Required Secrets
 
@@ -30,7 +30,7 @@ You need to configure **5 secrets** in your GitHub repository:
 **How to get**:
 1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
 2. Click "Generate new token (classic)"
-3. Give it a descriptive name (e.g., "Rabbit Novel Gist Access")
+3. Give it a descriptive name (e.g., "Mockpoet Novel Gist Access")
 4. Set expiration (recommend "No expiration" or long duration)
 5. Select scopes: **gist** (required - allows creating and editing gists)
 6. Click "Generate token"
@@ -279,4 +279,4 @@ Complete these steps in order:
 
 ## Done!
 
-Once all secrets are configured and workflows run successfully, your rabbit platform will automatically generate new chapters daily for all three novels. Each novel operates independently with its own content, theme, and schedule.
+Once all secrets are configured and workflows run successfully, your mockpoet platform will automatically generate new chapters daily for all three novels. Each novel operates independently with its own content, theme, and schedule.

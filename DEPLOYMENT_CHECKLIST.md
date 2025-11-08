@@ -29,7 +29,7 @@ Use this checklist to deploy the new Camus-inspired novel to production.
 
 ### 2. Add Repository Secret
 
-- [ ] Go to your repository: `https://github.com/pappater/rabbit`
+- [ ] Go to your repository: `https://github.com/pappater/mockpoet`
 - [ ] Navigate to: **Settings** → **Secrets and variables** → **Actions**
 - [ ] Click **"New repository secret"**
 - [ ] Add the new secret:
@@ -226,7 +226,7 @@ For issues or questions:
 
 ```bash
 # Test locally
-cd rabbit
+cd mockpoet
 python3 -m http.server 8000
 # Visit http://localhost:8000
 

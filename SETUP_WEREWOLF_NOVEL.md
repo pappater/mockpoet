@@ -1,6 +1,6 @@
 # Setup Instructions for "Moonbound Devotion" Novel
 
-This document provides step-by-step instructions for setting up the new werewolf fantasy romance novel "Moonbound Devotion" in the rabbit repository.
+This document provides step-by-step instructions for setting up the new werewolf fantasy romance novel "Moonbound Devotion" in the mockpoet repository.
 
 ## Overview
 
@@ -267,7 +267,7 @@ To test the UI locally:
 
 ```bash
 # Navigate to repository
-cd /path/to/rabbit
+cd /path/to/mockpoet
 
 # Install dependencies
 npm install

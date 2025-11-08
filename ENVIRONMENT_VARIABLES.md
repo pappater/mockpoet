@@ -1,6 +1,6 @@
 # Environment Variables Reference
 
-This document lists all required environment variables for the rabbit repository's novel generation system.
+This document lists all required environment variables for the mockpoet repository's novel generation system.
 
 ## GitHub Secrets (Repository Settings)
 
@@ -144,7 +144,7 @@ python3 scripts/hemingway-novel/hemingway_novel_to_gist.py
 
 1. Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
 2. Click "Generate new token (classic)"
-3. Give it a descriptive name (e.g., "Rabbit Novel Gist Access")
+3. Give it a descriptive name (e.g., "Mockpoet Novel Gist Access")
 4. Select scopes: Check ✅ **gist**
 5. Set expiration as desired (or no expiration)
 6. Click "Generate token"

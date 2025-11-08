@@ -1,6 +1,6 @@
 # Setup Instructions for "The Indifferent Shore" Novel
 
-This document provides step-by-step instructions for setting up the new Camus-inspired novel "The Indifferent Shore" in the rabbit repository.
+This document provides step-by-step instructions for setting up the new Camus-inspired novel "The Indifferent Shore" in the mockpoet repository.
 
 ## Overview
 
@@ -230,7 +230,7 @@ To test the UI locally:
 
 ```bash
 # Navigate to repository
-cd /path/to/rabbit
+cd /path/to/mockpoet
 
 # Start a local web server
 python3 -m http.server 8000

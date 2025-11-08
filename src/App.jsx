@@ -35,7 +35,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router basename="/rabbit">
+    <Router basename="/mockpoet">
       <AppContent />
     </Router>
   );

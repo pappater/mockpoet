@@ -10,7 +10,7 @@ describe('Header', () => {
         <Header onThemeToggle={() => {}} />
       </BrowserRouter>
     );
-    expect(screen.getByText('rabbit')).toBeInTheDocument();
+    expect(screen.getByText('mockpoet')).toBeInTheDocument();
   });
 
   it('calls onThemeToggle when theme button is clicked', () => {

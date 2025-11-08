@@ -1,4 +1,4 @@
-// Configuration file for rabbit app
+// Configuration file for mockpoet app
 export const CONFIG = {
   // Multiple novels configuration
   novels: {

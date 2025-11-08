@@ -6,9 +6,9 @@ export default function Header({ onThemeToggle, showBack = false, showMenu = fal
     <div className="floating-header">
       <div className="floating-header-left">
         {showBack ? (
-          <span className="floating-title">rabbit</span>
+          <span className="floating-title">mockpoet</span>
         ) : (
-          <Link to="/" className="floating-title">rabbit</Link>
+          <Link to="/" className="floating-title">mockpoet</Link>
         )}
       </div>
       <div className="floating-header-right">

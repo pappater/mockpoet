@@ -193,4 +193,4 @@ See the main novel's README.md for common troubleshooting steps, as most issues 
 
 ## License
 
-This novel generation system is part of the rabbit repository. The generated novel content is created by AI and may have its own considerations for use and attribution.
+This novel generation system is part of the mockpoet repository. The generated novel content is created by AI and may have its own considerations for use and attribution.

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const THEME_KEY = 'rabbit-theme';
+const THEME_KEY = 'mockpoet-theme';
 const THEMES = {
   LIGHT: 'light',
   DARK: 'dark'

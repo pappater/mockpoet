@@ -51,7 +51,7 @@ export default function Reader() {
         setLoading(true);
         const data = await fetchChaptersData(novelKey);
         setChaptersData(data);
-        document.title = `${data.novel_title} - rabbit`;
+        document.title = `${data.novel_title} - mockpoet`;
         setLoading(false);
         
         // If no chapter slug in URL, redirect to first or random chapter with slug

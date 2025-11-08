@@ -26,7 +26,7 @@ Before starting, ensure you have:
    
    A collection of AI-generated short stories in the styles of modern classic authors.
    
-   Stories generated daily by the rabbit platform.
+   Stories generated daily by the mockpoet platform.
    ```
 5. Make sure it's set to **Public** (not Secret)
 6. Click "Create public gist"
@@ -115,7 +115,7 @@ Once set up, the workflow runs automatically:
 ## File Structure
 
 ```
-rabbit/
+mockpoet/
 ├── .github/workflows/
 │   └── daily-flying-banana.yml      # Daily workflow
 ├── docs/flying-banana/

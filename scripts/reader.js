@@ -100,7 +100,7 @@
       chaptersData = await API.fetchChaptersData(currentNovelKey);
       
       // Update page title with novel name
-      document.title = `${chaptersData.novel_title} - rabbit`;
+      document.title = `${chaptersData.novel_title} - mockpoet`;
       
       // Render chapter list
       renderChapterList(chaptersData);

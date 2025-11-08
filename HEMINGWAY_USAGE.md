@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-The Hemingway-style novel "The Sun Also Rises Again" has been added to the rabbit platform. This document provides instructions for generating and using the novel.
+The Hemingway-style novel "The Sun Also Rises Again" has been added to the mockpoet platform. This document provides instructions for generating and using the novel.
 
 ## Novel Characteristics
 
@@ -89,7 +89,7 @@ All files are uploaded to your GitHub Gist.
 
 ```bash
 npm run dev
-# Visit http://localhost:5173/rabbit/
+# Visit http://localhost:5173/mockpoet/
 # The novel will appear on the home page
 ```
 
@@ -104,7 +104,7 @@ npm run build
 ## File Locations
 
 ```
-rabbit/
+mockpoet/
 ├── docs/hemingway-novel/          # Local copies
 │   ├── chapters.json              # Metadata
 │   └── (other generated files)
@@ -203,7 +203,7 @@ https://gist.githubusercontent.com/pappater/{GIST_ID}/raw/chapter_001.md
 
 ### Local URL
 ```
-/rabbit/docs/hemingway-novel/chapters.json
+/mockpoet/docs/hemingway-novel/chapters.json
 ```
 
 ## Integration with UI

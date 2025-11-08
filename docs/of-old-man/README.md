@@ -55,4 +55,4 @@ scripts/of-old-man/
 
 ## View the Collection
 
-Visit the [Of Old Man collection](https://pappater.github.io/rabbit/) to read the latest poems.
+Visit the [Of Old Man collection](https://pappater.github.io/mockpoet/) to read the latest poems.
