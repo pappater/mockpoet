@@ -28,7 +28,7 @@ Before starting, ensure you have:
    
    A collection of AI-generated poems in the styles of modern classic poets.
    
-   Poems generated daily by the rabbit platform.
+   Poems generated daily by the mockpoet platform.
    ```
 5. Make sure it's set to **Public** (not Secret)
 6. Click "Create public gist"

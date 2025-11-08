@@ -1,6 +1,6 @@
 # Implementation Summary: Multi-Novel Support
 
-This document summarizes the implementation of multi-novel support in the rabbit platform, specifically adding "The Indifferent Shore" as a second AI-generated novel alongside "The Weight of Promises".
+This document summarizes the implementation of multi-novel support in the mockpoet platform, specifically adding "The Indifferent Shore" as a second AI-generated novel alongside "The Weight of Promises".
 
 ## What Was Implemented
 
@@ -317,6 +317,6 @@ Before deploying to production:
 
 ## Conclusion
 
-The implementation successfully adds multi-novel support to the rabbit platform while maintaining backward compatibility and code quality. The system is extensible, well-documented, and ready for production deployment after adding the required `STRANGER_GIST_ID` secret.
+The implementation successfully adds multi-novel support to the mockpoet platform while maintaining backward compatibility and code quality. The system is extensible, well-documented, and ready for production deployment after adding the required `STRANGER_GIST_ID` secret.
 
 Both novels can coexist independently, generating chapters daily and displaying in a clean, unified UI. The architecture supports easy addition of future novels with minimal code changes.

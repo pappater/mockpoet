@@ -127,7 +127,7 @@ The workflow runs:
 ## File Structure
 
 ```
-rabbit/
+mockpoet/
 ├── .github/workflows/
 │   └── hourly-of-old-man.yml      # Twice daily workflow
 ├── docs/of-old-man/

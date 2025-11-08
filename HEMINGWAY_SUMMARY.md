@@ -2,7 +2,7 @@
 
 ## Overview
 
-Successfully implemented a new Hemingway-style novel generation system for the rabbit platform. The novel "The Sun Also Rises Again" can be generated all at once (not daily like other novels) and integrates seamlessly with the existing UI.
+Successfully implemented a new Hemingway-style novel generation system for the mockpoet platform. The novel "The Sun Also Rises Again" can be generated all at once (not daily like other novels) and integrates seamlessly with the existing UI.
 
 ## What Was Built
 
@@ -61,7 +61,7 @@ sun_also_rises_again: {
 ### 5. Directory Structure
 
 ```
-rabbit/
+mockpoet/
 ├── docs/hemingway-novel/
 │   ├── README.md
 │   └── chapters.json (placeholder)
