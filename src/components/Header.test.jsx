@@ -43,4 +43,22 @@ describe('Header', () => {
     );
     expect(screen.getByLabelText('Toggle chapter list')).toBeInTheDocument();
   });
+
+  it('shows twitter icon on home page (showBack is false)', () => {
+    render(
+      <BrowserRouter>
+        <Header onThemeToggle={() => {}} showBack={false} />
+      </BrowserRouter>
+    );
+    expect(screen.getByLabelText('Follow us on Twitter')).toBeInTheDocument();
+  });
+
+  it('does not show twitter icon on reader page (showBack is true)', () => {
+    render(
+      <BrowserRouter>
+        <Header onThemeToggle={() => {}} showBack={true} />
+      </BrowserRouter>
+    );
+    expect(screen.queryByLabelText('Follow us on Twitter')).not.toBeInTheDocument();
+  });
 });
