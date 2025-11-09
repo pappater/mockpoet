@@ -16,14 +16,19 @@ POEM REQUIREMENTS:
 - Contemporary or timeless subject matter
 - High literary quality that honors the {poetry_type} tradition
 - Appropriate length for the poetry type (can be short to medium length)
-- Concise title that fits the style (if appropriate for the form)
+- Title that fits the style
 
 IMPORTANT GUIDELINES:
 - This is serious literary poetry for social media
 - Every word must be carefully chosen for maximum impact
 - The poem should be a genuine example of {poetry_type}
 - Do NOT include meta-commentary or explanations
-- Start directly with the poem text (title optional, depending on the form)
+- Start directly with the poem title and text
 - Make it suitable for a Tumblr audience
+
+Begin the poem now. Include only:
+1. Poem title on first line (format: # [Title])
+2. Blank line
+3. The poem text
 
 Write the complete poem now.
