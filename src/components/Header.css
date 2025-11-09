@@ -16,13 +16,24 @@
   gap: var(--spacing-md);
 }
 
+/* Move mockpoet title to bottom-right on desktop */
 .floating-title {
+  position: fixed;
+  bottom: var(--spacing-lg);
+  right: var(--spacing-lg);
+  top: auto;
+  left: auto;
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--primary-color);
   text-transform: lowercase;
   letter-spacing: 1px;
   transition: opacity 0.2s ease;
+  background: var(--bg-color);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: 8px;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .floating-title:hover {
@@ -113,7 +124,14 @@
   }
 
   .floating-title {
+    position: static;
+    bottom: auto;
+    right: auto;
     font-size: 1.4rem;
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
   }
 
   .back-icon {

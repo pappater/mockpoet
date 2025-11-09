@@ -85,37 +85,6 @@
   display: none;
 }
 
-/* Floating title for desktop - bottom right */
-.floating-title-desktop {
-  position: fixed;
-  bottom: var(--spacing-xl);
-  right: var(--spacing-xl);
-  background: var(--bg-color);
-  border: 2px solid var(--border-color);
-  border-radius: 8px;
-  padding: var(--spacing-md) var(--spacing-lg);
-  box-shadow: 0 4px 12px var(--shadow-color);
-  max-width: 300px;
-  z-index: 100;
-  opacity: 0.95;
-  transition: opacity 0.3s ease;
-}
-
-.floating-title-desktop:hover {
-  opacity: 1;
-}
-
-.floating-title-text {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  margin: 0;
-  line-height: 1.4;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  hyphens: auto;
-}
-
 @media (max-width: 768px) {
   .chapter-content {
     padding: var(--spacing-md) var(--spacing-md);
@@ -130,11 +99,6 @@
   .mobile-chapter-header {
     display: block;
     margin-bottom: var(--spacing-md);
-  }
-
-  /* Hide floating title on mobile */
-  .floating-title-desktop {
-    display: none;
   }
 
   .mobile-chapter-title {

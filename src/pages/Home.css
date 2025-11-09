@@ -26,6 +26,7 @@
     gap: var(--spacing-xl);
     width: 100%;
     max-width: 1400px;
+    margin-top: 80px;
   }
 
   #book-card-container {
@@ -54,6 +55,7 @@
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: var(--primary-color) var(--secondary-bg);
+    justify-content: flex-start;
   }
 
   .book-group-scroll::-webkit-scrollbar {

@@ -28,10 +28,6 @@ export default function ChapterContent({ title, content, loading, error, isLastC
           </div>
         )}
       </div>
-      {/* Floating title for desktop view - bottom right */}
-      <div className="floating-title-desktop">
-        <h2 className="floating-title-text">{title}</h2>
-      </div>
       <div className="chapter-content-body">
         {loading && (
           <div className="chapter-content-loading">Loading chapter...</div>
