@@ -5,17 +5,9 @@
   border-radius: 12px;
   padding: var(--spacing-xl) calc(var(--spacing-xl) * 1.5);
   box-shadow: 0 2px 8px var(--shadow-color);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   cursor: pointer;
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
-}
-
-.book-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 16px var(--shadow-color);
-  border-color: var(--primary-color);
 }
 
 .book-card-title {

@@ -48,7 +48,8 @@
 
   .book-group-scroll {
     display: flex;
-    gap: 0;
+    justify-content: flex-start;
+    gap: var(--spacing-lg);
     overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: var(--spacing-md);
@@ -65,6 +66,7 @@
   .book-group-scroll .book-card {
     flex: 0 0 400px;
     max-width: 400px;
+    margin: 0;
     scroll-snap-align: start;
   }
 }

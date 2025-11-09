@@ -28,7 +28,7 @@ describe('TumblrIcon', () => {
     
     expect(windowOpenSpy).toHaveBeenCalledTimes(1);
     expect(windowOpenSpy).toHaveBeenCalledWith(
-      'https://www.tumblr.com/mockpoet',
+      'https://mockpoet.tumblr.com/',
       '_blank',
       'noopener,noreferrer'
     );

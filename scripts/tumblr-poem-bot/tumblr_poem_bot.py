@@ -122,6 +122,46 @@ def generate_poem(poetry_type):
         sys.exit(1)
 
 
+def generate_title_from_poem(poem_text):
+    """
+    Generate a unique, catchy title based on the poem content.
+    
+    Args:
+        poem_text: The poem text to generate title from
+        
+    Returns:
+        str: A unique title for the poem
+    """
+    try:
+        genai.configure(api_key=GEMINI_API_KEY)
+        model = genai.GenerativeModel(GEMINI_MODEL)
+        
+        title_prompt = f"""Based on this poem, create a short, evocative title (maximum 6 words).
+The title should capture the essence, mood, or a key image from the poem.
+Do NOT include the poetry type or generic phrases like "A Poem" or "Untitled".
+Just respond with the title itself, nothing else.
+
+Poem:
+{poem_text}
+
+Title:"""
+        
+        response = model.generate_content(title_prompt)
+        title = response.text.strip()
+        
+        # Remove quotes if AI added them
+        title = title.strip('"\'')
+        
+        print(f"Generated title: {title}")
+        return title
+        
+    except Exception as e:
+        print(f"WARNING: Failed to generate title: {e}")
+        # Fallback to first few words of poem
+        words = poem_text.split()[:4]
+        return " ".join(words) + "..."
+
+
 def generate_hashtags(poetry_type):
     """
     Generate relevant hashtags for the poem.
@@ -165,8 +205,8 @@ def post_to_tumblr(poem_text, poetry_type):
         # Generate hashtags
         hashtags = generate_hashtags(poetry_type)
         
-        # Create title
-        title = f"A {poetry_type}"
+        # Generate unique title from poem content
+        title = generate_title_from_poem(poem_text)
         
         # Format poem body
         body = f"{poem_text}"

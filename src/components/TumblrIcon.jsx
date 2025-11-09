@@ -2,7 +2,7 @@ import './TumblrIcon.css';
 
 export default function TumblrIcon() {
   const handleClick = () => {
-    window.open('https://www.tumblr.com/mockpoet', '_blank', 'noopener,noreferrer');
+    window.open('https://mockpoet.tumblr.com/', '_blank', 'noopener,noreferrer');
   };
 
   return (
