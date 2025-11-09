@@ -11,7 +11,7 @@ export default function Footer({ isReaderPage = false }) {
       <p>
         Mocking a poem every ten minutes{' '}
         <a 
-          href="https://www.tumblr.com/mockpoet" 
+          href="https://mockpoet.tumblr.com/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="footer-link"
