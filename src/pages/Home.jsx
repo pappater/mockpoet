@@ -17,7 +17,8 @@ export default function Home() {
       'weight_of_promises': 'Updated daily',
       'indifferent_shore': 'Updated daily',
       'moonbound_devotion': 'Updated daily',
-      'sun_also_rises_again': 'Updated daily'
+      'sun_also_rises_again': 'Updated daily',
+      'clueless_mind': 'Updated daily'
     };
     return frequencies[novelKey] || 'Updated periodically';
   };

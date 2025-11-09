@@ -50,6 +50,10 @@
   font-size: 3rem;
   margin-bottom: var(--spacing-md);
   animation: bounce 1s ease infinite;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes bounce {

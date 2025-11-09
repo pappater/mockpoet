@@ -60,6 +60,14 @@ export const CONFIG = {
         id: ''  // Will be set via HEMINGWAY_GIST_ID secret
       },
       localPath: 'docs/hemingway-novel'
+    },
+    clueless_mind: {
+      title: "Clueless Mind",
+      gist: {
+        username: 'pappater',
+        id: '3a3f09a5c44889a6f40419f080b15437'
+      },
+      localPath: 'docs/clueless-mind'
     }
   },
   
