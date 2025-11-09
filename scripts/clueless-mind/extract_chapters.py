@@ -1,0 +1,207 @@
+#!/usr/bin/env python3
+"""
+Extract chapters from Clueless Mind PDF and create necessary files.
+Creates chapter files, chapters.json, and README similar to the Hemingway novel structure.
+"""
+
+import os
+import json
+import pdfplumber
+from pathlib import Path
+from datetime import datetime, timezone
+from collections import defaultdict
+
+# Paths
+SCRIPT_DIR = Path(__file__).parent
+PDF_PATH = SCRIPT_DIR.parent.parent / "docs" / "archive" / "Aoasm.pdf"
+OUTPUT_DIR = SCRIPT_DIR.parent.parent / "docs" / "clueless-mind"
+PUBLIC_DIR = SCRIPT_DIR.parent.parent / "public" / "docs" / "clueless-mind"
+
+# Book configuration
+NOVEL_TITLE = "Clueless Mind"
+GIST_ID_ENV_VAR = "CLUELESS_MIND_GIST_ID"
+
+
+def detect_chapter_pages(pdf):
+    """Detect pages where chapters start based on large font size (72pt)."""
+    chapter_pages = []
+    
+    for page_num in range(len(pdf.pages)):
+        page = pdf.pages[page_num]
+        chars = page.chars
+        
+        if not chars:
+            continue
+        
+        # Group characters by line (y-position)
+        lines = defaultdict(list)
+        for char in chars:
+            y = round(char['top'])
+            lines[y].append(char)
+        
+        # Check first few lines for large text
+        for y in sorted(lines.keys())[:5]:
+            line_chars = lines[y]
+            if not line_chars:
+                continue
+            
+            # Get average font size for this line
+            avg_size = sum(c.get('size', 0) for c in line_chars) / len(line_chars)
+            
+            # Get the text content
+            line_text = ''.join(c.get('text', '') for c in line_chars).strip()
+            
+            # Look for 72pt text (chapter starts)
+            if avg_size >= 70 and len(line_text) > 2:
+                # Skip page numbers and very short text
+                if not line_text.isdigit() and len(line_text.split()) >= 2:
+                    chapter_pages.append({
+                        'page': page_num,
+                        'start_text': line_text[:100]
+                    })
+                    break
+    
+    return chapter_pages
+
+
+def extract_chapter_text(pdf, start_page, end_page):
+    """Extract text from a range of pages."""
+    chapter_text = []
+    
+    for page_num in range(start_page, end_page):
+        if page_num >= len(pdf.pages):
+            break
+        
+        page = pdf.pages[page_num]
+        text = page.extract_text()
+        
+        if text:
+            chapter_text.append(text)
+    
+    return '\n\n'.join(chapter_text)
+
+
+def save_file(filepath, content):
+    """Save text content to a file."""
+    filepath.parent.mkdir(parents=True, exist_ok=True)
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(content)
+
+
+def main():
+    """Main execution function."""
+    print("=" * 80)
+    print("Clueless Mind - Chapter Extraction")
+    print("=" * 80)
+    print(f"PDF: {PDF_PATH}")
+    print(f"Output: {OUTPUT_DIR}")
+    print()
+    
+    # Ensure output directories exist
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
+    
+    # Open PDF and detect chapters
+    print("Opening PDF and detecting chapters...")
+    with pdfplumber.open(PDF_PATH) as pdf:
+        total_pages = len(pdf.pages)
+        print(f"Total pages: {total_pages}")
+        
+        # Detect chapter boundaries
+        chapter_pages = detect_chapter_pages(pdf)
+        print(f"Detected {len(chapter_pages)} chapters\n")
+        
+        # Process each chapter
+        chapters_data = []
+        
+        for i, chapter_info in enumerate(chapter_pages, 1):
+            start_page = chapter_info['page']
+            # End page is start of next chapter (or end of book)
+            end_page = chapter_pages[i]['page'] if i < len(chapter_pages) else total_pages
+            
+            print(f"Processing Chapter {i}...")
+            print(f"  Pages: {start_page + 1} to {end_page}")
+            print(f"  Start text: {chapter_info['start_text']}")
+            
+            # Extract chapter text
+            chapter_text = extract_chapter_text(pdf, start_page, end_page)
+            
+            # Create chapter markdown
+            chapter_md = f"# Chapter {i}\n\n{chapter_text}"
+            
+            # Save chapter file
+            chapter_filename = f"chapter_{i:03d}.md"
+            chapter_path = OUTPUT_DIR / chapter_filename
+            save_file(chapter_path, chapter_md)
+            
+            print(f"  Saved: {chapter_filename} ({len(chapter_text)} characters)")
+            
+            # Add to chapters data
+            chapters_data.append({
+                "chapter": i,
+                "filename": chapter_filename,
+                "chapter_name": f"Chapter {i}"
+            })
+    
+    print(f"\n✓ Extracted {len(chapters_data)} chapters")
+    
+    # Create README.md
+    readme_content = f"""# {NOVEL_TITLE}
+
+A novel extracted from PDF.
+
+Generated by the mockpoet platform.
+
+## About
+
+This book contains {len(chapters_data)} chapters.
+
+"""
+    save_file(OUTPUT_DIR / "README.md", readme_content)
+    print("✓ Created README.md")
+    
+    # Create chapters.json
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    
+    # Get gist ID from environment (or use placeholder)
+    gist_id = os.environ.get(GIST_ID_ENV_VAR, "PLACEHOLDER_GIST_ID")
+    
+    chapters_json = {
+        "novel_title": NOVEL_TITLE,
+        "total_chapters": len(chapters_data),
+        "last_updated": timestamp,
+        "gist_id": gist_id,
+        "completed": True,
+        "chapters": []
+    }
+    
+    # Add chapter details with URLs
+    for chapter_info in chapters_data:
+        chapters_json["chapters"].append({
+            "chapter": chapter_info["chapter"],
+            "filename": chapter_info["filename"],
+            "url": f"https://gist.githubusercontent.com/pappater/{gist_id}/raw/{chapter_info['filename']}",
+            "gist_url": f"https://gist.github.com/{gist_id}#{chapter_info['filename']}",
+            "chapter_name": chapter_info["chapter_name"]
+        })
+    
+    # Save chapters.json
+    chapters_json_str = json.dumps(chapters_json, indent=2)
+    save_file(OUTPUT_DIR / "chapters.json", chapters_json_str)
+    save_file(PUBLIC_DIR / "chapters.json", chapters_json_str)
+    print("✓ Created chapters.json")
+    
+    print()
+    print("=" * 80)
+    print(f"Extraction complete!")
+    print(f"Total chapters: {len(chapters_data)}")
+    print(f"Output directory: {OUTPUT_DIR}")
+    print(f"Public directory: {PUBLIC_DIR}")
+    print()
+    print(f"Note: Set the {GIST_ID_ENV_VAR} environment variable")
+    print(f"      and re-run to update the gist URLs in chapters.json")
+    print("=" * 80)
+
+
+if __name__ == "__main__":
+    main()
