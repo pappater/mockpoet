@@ -40,6 +40,42 @@
 .book-card-chapters {
   font-weight: 600;
   color: var(--text-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.book-card-metadata {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) 0;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  margin: var(--spacing-sm) 0;
+}
+
+.book-card-meta-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.meta-label {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.meta-value {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.meta-value.completed {
+  color: #27ae60;
+}
+
+.meta-value.ongoing {
+  color: #3498db;
 }
 
 .book-card-updated {

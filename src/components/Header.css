@@ -16,7 +16,13 @@
   gap: var(--spacing-md);
 }
 
+/* Move mockpoet title to bottom-right on desktop */
 .floating-title {
+  position: fixed;
+  bottom: var(--spacing-lg);
+  right: var(--spacing-lg);
+  top: auto;
+  left: auto;
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--primary-color);
@@ -113,7 +119,14 @@
   }
 
   .floating-title {
+    position: static;
+    bottom: auto;
+    right: auto;
     font-size: 1.4rem;
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
   }
 
   .back-icon {

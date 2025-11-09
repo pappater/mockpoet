@@ -11,28 +11,18 @@
   cursor: pointer;
   transition: all 0.2s ease;
   padding: 0;
-  color: var(--twitter-icon-color);
+  color: var(--primary-color);
 }
 
 .twitter-icon-button:hover {
   background: var(--hover-bg);
   transform: scale(1.05);
-  border-color: var(--twitter-icon-color);
+  border-color: var(--primary-color);
 }
 
 .twitter-icon {
   width: 20px;
   height: 20px;
-}
-
-/* Twitter Icon Color based on Theme */
-:root,
-[data-theme="light"] {
-  --twitter-icon-color: #1DA1F2; /* Twitter blue */
-}
-
-[data-theme="dark"] {
-  --twitter-icon-color: #ffffff; /* White for dark theme */
 }
 
 @media (max-width: 768px) {
