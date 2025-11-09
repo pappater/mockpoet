@@ -1,6 +1,5 @@
-# Chapter 29
+# It is really
 
-49
 It is really
 hard to break up with a friend. It is an awkward thing and doesn’t seem to be a serious one. It is
 even harder when they are of the same gender. It has to be accepted from the other side as well.

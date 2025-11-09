@@ -1,6 +1,5 @@
-# Chapter 65
+# The Idiot notes
 
-113
 The Idiot
 notes.
 Prince Lyov Nikolayevtch Myshkin - the fella , the last Myshkin prince

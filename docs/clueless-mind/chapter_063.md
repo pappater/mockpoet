@@ -1,6 +1,5 @@
-# Chapter 63
+# Panruti Feb 03
 
-106
 Panruti, Feb
 03, 2024.
 It was early in the morning, waiting at the bus stand, watching over the buses nameboards that

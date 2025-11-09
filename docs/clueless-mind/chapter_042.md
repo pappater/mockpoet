@@ -1,6 +1,5 @@
-# Chapter 42
+# The morning thought
 
-77
 The morning
 thought
 was on people debate over the definition and leaving off the point that they are intent over the

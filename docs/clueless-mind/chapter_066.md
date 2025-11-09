@@ -1,6 +1,5 @@
-# Chapter 66
+# A DAY AND
 
-121
 A DAY AND
 THE FAMILY
 The clap echoed, their presence was showcased, and the entrance they were entering was

@@ -1,6 +1,5 @@
-# Chapter 18
+# Crane the author
 
-33
 Crane, the
 author,
 not been to any war makes this realistic civil war picture to reader through young henry who

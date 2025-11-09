@@ -1,6 +1,5 @@
-# Chapter 32
+# It was a
 
-53
 It was a
 rightly balanced spectacle that was hanging at the tip of the nose and the temple end of it was
 rightfully placed at the ears steep so that it made the viewers betting on whether it would fall or

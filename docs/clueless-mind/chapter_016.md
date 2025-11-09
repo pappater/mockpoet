@@ -1,6 +1,5 @@
-# Chapter 16
+# It just happened
 
-28
 It just
 happened
 a week back. I parked at the curb and thought of getting some stuff from the subway restaurant.

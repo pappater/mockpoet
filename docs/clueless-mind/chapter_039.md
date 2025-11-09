@@ -1,6 +1,5 @@
-# Chapter 39
+# The pain is
 
-73
 The pain is
 in the left ear, and that gives the left a headache and it also, the consciousness, confuses me to
 ask, maybe because of a wisdom tooth ? And as it keeps on asking the question, the pain gets

@@ -1,6 +1,5 @@
-# Chapter 20
+# I was discussing
 
-35
 I was
 discussing
 with people what the hell is happening in North korea. Why they are so secretive and why

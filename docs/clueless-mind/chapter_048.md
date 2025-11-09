@@ -1,6 +1,5 @@
-# Chapter 48
+# “Andha light oru
 
-86
 “Andha light
 oru masam eriyala thambi'' said the old man, blurting out while walking and settling under the
 banyan tree. It was the public school name board light, he was referring to. Behind the school

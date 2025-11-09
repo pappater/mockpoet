@@ -84,6 +84,49 @@ def extract_chapter_text(pdf, start_page, end_page):
     return '\n\n'.join(chapter_text)
 
 
+def clean_chapter_text(text):
+    """Clean chapter text by removing standalone numbers at the beginning."""
+    lines = text.split('\n')
+    cleaned_lines = []
+    
+    # Skip initial standalone numbers (lines that contain only digits and whitespace)
+    skip_mode = True
+    for line in lines:
+        stripped = line.strip()
+        if skip_mode:
+            # Skip lines that are only numbers or whitespace
+            if stripped and not stripped.isdigit():
+                skip_mode = False
+                cleaned_lines.append(line)
+        else:
+            cleaned_lines.append(line)
+    
+    return '\n'.join(cleaned_lines)
+
+
+def extract_first_three_words(text):
+    """Extract the first three words from the text to use as chapter title."""
+    # Clean the text and split into words
+    cleaned = text.strip()
+    words = []
+    
+    # Extract words (alphanumeric sequences)
+    for line in cleaned.split('\n'):
+        line_words = line.split()
+        for word in line_words:
+            # Remove punctuation from start/end but keep the word
+            clean_word = word.strip('.,!?;:()[]{}""\'')
+            if clean_word:
+                words.append(clean_word)
+            if len(words) >= 3:
+                break
+        if len(words) >= 3:
+            break
+    
+    # Return first three words, or whatever we got
+    return ' '.join(words[:3]) if words else "Untitled"
+
+
 def save_file(filepath, content):
     """Save text content to a file."""
     filepath.parent.mkdir(parents=True, exist_ok=True)
@@ -147,21 +190,28 @@ def main():
             # Extract chapter text
             chapter_text = extract_chapter_text(pdf, start_page, end_page)
             
-            # Create chapter markdown
-            chapter_md = f"# Chapter {i}\n\n{chapter_text}"
+            # Clean the chapter text (remove standalone numbers)
+            cleaned_text = clean_chapter_text(chapter_text)
+            
+            # Extract first three words for chapter title
+            first_three_words = extract_first_three_words(cleaned_text)
+            
+            # Create chapter markdown with first three words as title
+            chapter_md = f"# {first_three_words}\n\n{cleaned_text}"
             
             # Save chapter file
             chapter_filename = f"chapter_{i:03d}.md"
             chapter_path = OUTPUT_DIR / chapter_filename
             save_file(chapter_path, chapter_md)
             
-            print(f"  Saved: {chapter_filename} ({len(chapter_text)} characters)")
+            print(f"  Saved: {chapter_filename} ({len(cleaned_text)} characters)")
+            print(f"  Title: {first_three_words}")
             
             # Add to chapters data
             chapters_data.append({
                 "chapter": i,
                 "filename": chapter_filename,
-                "chapter_name": f"Chapter {i}"
+                "chapter_name": first_three_words
             })
     
     print(f"\n✓ Extracted {len(chapters_data)} chapters")

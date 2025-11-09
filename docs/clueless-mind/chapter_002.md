@@ -1,6 +1,5 @@
-# Chapter 2
+# People why are
 
-7
 People, why
 are
 people troubling people ? It ain’t like they are troubling intentionally by doing stuff but if people

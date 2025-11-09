@@ -1,6 +1,5 @@
-# Chapter 4
+# That day was
 
-10
 That day was
 a nightmare. It was a moment when you hear a phone call and the conversation that is about to
 be made seems to be an oracle from the future. If at all we had an intuition that the anecdote

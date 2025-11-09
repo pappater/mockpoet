@@ -1,6 +1,5 @@
-# Chapter 13
+# The good thing
 
-24
 The good
 thing
 about being born during the 80s and 90s is that we witness the major change from one

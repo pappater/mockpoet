@@ -1,6 +1,5 @@
-# Chapter 51
+# It was said
 
-91
 It was said
 that people live in the past in their mind mostly. Sometimes the present seems to be less
 interesting than the past and it dominates the brain as it yields the enough pleasure and emotion

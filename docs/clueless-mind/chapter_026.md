@@ -1,6 +1,5 @@
-# Chapter 26
+# Recently I was
 
-45
 Recently I was
 watching a documentary series on Netflix. Sudden change in mood may lead us anywhere and
 this time it took me to a Formula 1 race. There is a documentary called Formula 1 on Netflix

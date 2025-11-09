@@ -1,6 +1,5 @@
-# Chapter 27
+# Anything can cross
 
-46
 Anything can
 cross
 our path, impact us, change the flow, result in good or bad, become wise or foolish and
