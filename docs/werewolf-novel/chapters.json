@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 7,
-  "last_updated": "2025-11-08 12:18:19 UTC",
+  "total_chapters": 8,
+  "last_updated": "2025-11-09 12:18:25 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -53,6 +53,13 @@
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/29c9e1bf9b97340e9e52b0a742d906a0fb00e5f3/chapter_007.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_007.md",
       "chapter_name": "The Betrothal Challenge"
+    },
+    {
+      "chapter": 8,
+      "filename": "chapter_008.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/ea4d1ed51faaa1be3df74179d3d0b7391fba9577/chapter_008.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_008.md",
+      "chapter_name": "Assassination Attempt"
     }
   ]
 }
