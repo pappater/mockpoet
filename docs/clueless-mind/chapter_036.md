@@ -1,6 +1,5 @@
-# Chapter 36
+# Raj kumar a
 
-59
 Raj kumar,
 a mid aged fella, wearing a blue shirt, was in the posture of taking a hitchhike, was standing at
 the corner of Adhavan rice mill, which was painted yellow and it looks vintage. It was an off

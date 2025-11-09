@@ -1,6 +1,5 @@
-# Chapter 9
+# No man will
 
-16
 No man will
 like to stay low. If at all he thinks/decides to stay low. If an external thing acts upon him to stay
 low or a slave kind of stuff, he won’t accept that fact. A man feels inferiority complex when he

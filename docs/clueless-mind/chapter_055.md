@@ -1,6 +1,5 @@
-# Chapter 55
+# It was my
 
-95
 It was my
 first road trip after getting a Yamaha FZ FI. I was cruising at a maximum of 80 kmph and the
 mileage seems to be good. For a full tank fuel capacity of 13 Litres gave around 600 km of ride

@@ -1,6 +1,5 @@
-# Chapter 62
+# Jan 22 2024
 
-105
 Jan 22, 2024.
 It is said that if you have anus, don’t laugh at neighbours fart. It is an African proverb. I always
 admire the African way. They were straight to the point in simple terms. Just like the Chinese or

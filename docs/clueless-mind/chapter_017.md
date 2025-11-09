@@ -1,6 +1,5 @@
-# Chapter 17
+# “It is strange
 
-30
 “It is strange
 how we hold on to the pieces of the past while we wait for our futures.”
 Everything is rare and precious those days. I Watch a new release once a month. Eating biryani

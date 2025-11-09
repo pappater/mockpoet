@@ -1,6 +1,5 @@
-# Chapter 14
+# I always wanted
 
-26
 I always
 wanted
 to live in a tiny room. A Cozy one. Since I have been travelling for the past four years and out of

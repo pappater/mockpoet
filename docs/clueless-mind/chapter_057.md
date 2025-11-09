@@ -1,6 +1,5 @@
-# Chapter 57
+# The very beginning
 
-98
 The very
 beginning
 of the day before like three hours back on the highway 45 that one couldn’t see clearly what is in

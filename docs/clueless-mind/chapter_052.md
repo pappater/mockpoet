@@ -1,6 +1,5 @@
-# Chapter 52
+# As mentioned in
 
-92
 As mentioned
 in
 the earlier post, figma is a pretty good online tool where we can replace XD totally. I saw today

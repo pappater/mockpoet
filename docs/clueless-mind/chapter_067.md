@@ -1,6 +1,5 @@
-# Chapter 67
+# I was listening
 
-124
 I was listening
 to the audiobook Amma Vanthal. Initially, I was drawn in by the narration, and soon found
 myself absorbed in the story. At first glance, it seems like a simple tale, but upon deeper

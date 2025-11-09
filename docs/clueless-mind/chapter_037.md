@@ -1,6 +1,5 @@
-# Chapter 37
+# Already 30 sambar
 
-62
 Already 30
 sambar
 sadham poiduchi, nee enna nalla illangura, said by the waiter at J.R.Jana restaurant. The enquiry

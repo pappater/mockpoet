@@ -1,6 +1,5 @@
-# Chapter 34
+# The little shop
 
-57
 The little shop
 at the corner filled the space with dust, cigarette smoke, and sipping tea. The atmosphere is
 golden yellow from the evening sun, hot, and smelling of spicy snacks. There was a queue of

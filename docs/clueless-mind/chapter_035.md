@@ -1,6 +1,5 @@
-# Chapter 35
+# The ground was
 
-58
 The ground
 was
 green and home for the dog family. They play nicely day and night and hunt when they hunger.

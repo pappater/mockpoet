@@ -1,6 +1,5 @@
-# Chapter 40
+# The nurse with
 
-74
 The nurse
 with
 the trolley and the child. The frames of desertion were seen and there was an intermittent

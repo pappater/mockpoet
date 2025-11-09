@@ -1,6 +1,5 @@
-# Chapter 56
+# Blues is everywhere
 
-96
 Blues is
 everywhere.
 It is a music genre which can be played for years by knowing a single blues scale. He used to play

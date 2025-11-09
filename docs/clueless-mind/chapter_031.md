@@ -1,6 +1,5 @@
-# Chapter 31
+# 1 Design and
 
-52
 1. Design and
 Development of B2B e-commerce web application for a leading retailer using front end
 technologies like React Js, Redux, Saga, Material UI, HTML5, CSS3. Worked on an Agile

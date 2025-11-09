@@ -1,6 +1,5 @@
-# Chapter 5
+# I was walking
 
-11
 I was walking
 on the sidewalk and a scene brought me attention to it. It was an ant taking dry leaves to
 somewhere I don't know where. I was brooding over it for quite a long time and wondered why

@@ -1,6 +1,5 @@
-# Chapter 50
+# It is disappointing
 
-90
 It is
 disappointing
 if life doesn't have any disasters.

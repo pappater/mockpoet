@@ -1,6 +1,5 @@
-# Chapter 41
+# And it is
 
-75
 And it is
 still December in mind that it was the case when the date was mentioned in the journal; was
 rectified; and realised it was something that the month had impacted unknowingly; blurred;

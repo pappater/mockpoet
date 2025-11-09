@@ -1,6 +1,5 @@
-# Chapter 12
+# Hi I'm Amare
 
-19
 Hi, I'm Amare.
 I was born in Irbit, a town in Sverdlovsk Oblast, Russia, located 203 kilometers from
 Yekaterinburg by train or 250 kilometers by cart, on the right bank of the Nitsa. The town was

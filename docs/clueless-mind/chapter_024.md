@@ -1,6 +1,5 @@
-# Chapter 24
+# After a long
 
-40
 After a long
 time I was into the photoshoot near my native. I was using Fujifilm monochrome. It was cloudy
 already and the wind was just blowin all directions resembling an abyss. I rode on xl heavy duty

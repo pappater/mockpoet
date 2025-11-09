@@ -1,6 +1,5 @@
-# Chapter 7
+# Call me Ishmael
 
-14
 Call me
 Ishmael.
 All it started from there and it just made me fall into the vortex for a month and half of reading

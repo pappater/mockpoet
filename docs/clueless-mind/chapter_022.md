@@ -1,6 +1,5 @@
-# Chapter 22
+# Frida Kahlo the
 
-37
 Frida Kahlo,
 the one and only female artist portrait I hung in my living room has been admired by many
 people for decades. She just got struck in the head when you see her for the first time. I have two

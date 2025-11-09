@@ -1,6 +1,5 @@
-# Chapter 60
+# The blue dizzy
 
-102
 The blue dizzy
 sky is slowly disappearing to a golden wheat. I was on the way from trivandrum to somewhere.
 The draft was to go along the sea at the right side till it reached somewhere. The fuel tank was

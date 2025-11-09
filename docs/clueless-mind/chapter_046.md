@@ -1,6 +1,5 @@
-# Chapter 46
+# It was unexpected
 
-82
 It was
 unexpected
 weather that turned dark before dusk, and the strong wind dominated initially, but later was
