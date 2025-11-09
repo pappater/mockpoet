@@ -28,6 +28,7 @@ jobs:
       - name: Extract chapters from PDF
         env:
           CLUELESS_MIND_GIST_ID: ${{ secrets.CLUELESS_MIND_GIST_ID }}
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: |
           python scripts/clueless-mind/extract_chapters.py
       

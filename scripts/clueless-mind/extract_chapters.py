@@ -2,6 +2,7 @@
 """
 Extract chapters from Clueless Mind PDF and create necessary files.
 Creates chapter files, chapters.json, and README similar to the Hemingway novel structure.
+Uploads all files to GitHub Gist.
 """
 
 import os
@@ -10,6 +11,7 @@ import pdfplumber
 from pathlib import Path
 from datetime import datetime, timezone
 from collections import defaultdict
+from github import Github, InputFileContent
 
 # Paths
 SCRIPT_DIR = Path(__file__).parent
@@ -20,6 +22,7 @@ PUBLIC_DIR = SCRIPT_DIR.parent.parent / "public" / "docs" / "clueless-mind"
 # Book configuration
 NOVEL_TITLE = "Clueless Mind"
 GIST_ID_ENV_VAR = "CLUELESS_MIND_GIST_ID"
+GIST_TOKEN_ENV_VAR = "GIST_TOKEN"
 
 
 def detect_chapter_pages(pdf):
@@ -86,6 +89,24 @@ def save_file(filepath, content):
     filepath.parent.mkdir(parents=True, exist_ok=True)
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
+
+
+def _sanitize_gist_files(files: dict) -> dict:
+    """
+    Ensure values passed to gist.edit are either None or InputFileContent instances.
+    """
+    sanitized = {}
+    for name, value in (files or {}).items():
+        if value is None:
+            sanitized[name] = None
+        elif isinstance(value, InputFileContent):
+            sanitized[name] = value
+        elif isinstance(value, dict):
+            content = value.get('content', str(value))
+            sanitized[name] = InputFileContent(content)
+        else:
+            sanitized[name] = InputFileContent(str(value))
+    return sanitized
 
 
 def main():
@@ -191,15 +212,62 @@ This book contains {len(chapters_data)} chapters.
     save_file(PUBLIC_DIR / "chapters.json", chapters_json_str)
     print("✓ Created chapters.json")
     
+    # Upload to Gist if credentials are available
+    gist_token = os.environ.get(GIST_TOKEN_ENV_VAR)
+    if gist_token and gist_id != "PLACEHOLDER_GIST_ID":
+        print()
+        print("=" * 80)
+        print("Uploading files to GitHub Gist...")
+        print("=" * 80)
+        
+        try:
+            # Connect to GitHub
+            gh = Github(gist_token)
+            gist = gh.get_gist(gist_id)
+            print(f"Connected to Gist: {gist.html_url}")
+            
+            # Prepare files for upload
+            gist_files = {
+                "README.md": InputFileContent(readme_content)
+            }
+            
+            # Add all chapter files
+            for chapter_info in chapters_data:
+                chapter_filename = chapter_info["filename"]
+                chapter_path = OUTPUT_DIR / chapter_filename
+                with open(chapter_path, 'r', encoding='utf-8') as f:
+                    chapter_content = f.read()
+                gist_files[chapter_filename] = InputFileContent(chapter_content)
+            
+            # Add chapters.json
+            gist_files["chapters.json"] = InputFileContent(chapters_json_str)
+            
+            # Upload all files to Gist
+            print(f"Uploading {len(gist_files)} files to Gist...")
+            sanitized_files = _sanitize_gist_files(gist_files)
+            gist.edit(files=sanitized_files)
+            print(f"✓ Successfully uploaded {len(gist_files)} files to Gist")
+            print(f"✓ Gist URL: {gist.html_url}")
+            
+        except Exception as e:
+            print(f"ERROR uploading to Gist: {e}")
+            print("Files were saved locally but not uploaded to Gist.")
+    else:
+        print()
+        print("=" * 80)
+        print("Skipping Gist upload (credentials not provided)")
+        if not gist_token:
+            print(f"Note: Set the {GIST_TOKEN_ENV_VAR} environment variable to enable upload")
+        if gist_id == "PLACEHOLDER_GIST_ID":
+            print(f"Note: Set the {GIST_ID_ENV_VAR} environment variable to enable upload")
+        print("=" * 80)
+    
     print()
     print("=" * 80)
     print(f"Extraction complete!")
     print(f"Total chapters: {len(chapters_data)}")
     print(f"Output directory: {OUTPUT_DIR}")
     print(f"Public directory: {PUBLIC_DIR}")
-    print()
-    print(f"Note: Set the {GIST_ID_ENV_VAR} environment variable")
-    print(f"      and re-run to update the gist URLs in chapters.json")
     print("=" * 80)
 
 
