@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 7,
-  "last_updated": "2025-11-08 13:27:05 UTC",
+  "total_chapters": 8,
+  "last_updated": "2025-11-09 13:27:33 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -60,6 +60,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_007.md",
       "chapter_name": "The Long Cold",
       "published_date": "2025-11-08 13:27:04 UTC"
+    },
+    {
+      "chapter": 8,
+      "filename": "story_008.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/69b314790c173ded54cec8eeba60da333c207e75/story_008.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_008.md",
+      "chapter_name": "The High Ground",
+      "published_date": "2025-11-09 13:27:33 UTC"
     }
   ]
 }
