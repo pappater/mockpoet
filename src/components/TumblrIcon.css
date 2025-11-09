@@ -1,0 +1,38 @@
+/* Tumblr Icon Button Styles */
+.tumblr-icon-button {
+  background: var(--secondary-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+  color: var(--primary-color);
+}
+
+.tumblr-icon-button:hover {
+  background: var(--hover-bg);
+  transform: scale(1.05);
+  border-color: var(--primary-color);
+}
+
+.tumblr-icon {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 768px) {
+  .tumblr-icon-button {
+    width: 36px;
+    height: 36px;
+  }
+
+  .tumblr-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

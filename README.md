@@ -49,11 +49,19 @@ A poetry collection exploring the full spectrum of poetic forms and traditions.
 - **Poems**: Ongoing collection (never-ending series)
 - **Generated**: Twice daily at 10:00 UTC and 22:00 UTC
 
-### Twitter Poem Bot (NEW!)
+### Tumblr Poem Bot (NEW!)
+An automated Tumblr bot that posts poems to Tumblr.
+- **Style**: Varies by poetry type - 100 different forms including all classical and modern poetry types
+- **Poems**: Full-length poems in various styles
+- **Posted**: Every 10 minutes to Tumblr
+- **Hashtags**: Automatically includes relevant poetry hashtags for better reach
+- **Setup**: See [SETUP_TUMBLR_BOT.md](SETUP_TUMBLR_BOT.md) for Tumblr API configuration
+
+### Twitter Poem Bot
 An automated Twitter bot that posts short poems to Twitter/X.
 - **Style**: Varies by poetry type - 100 different forms including all classical and modern poetry types
 - **Poems**: Concise poems optimized for Twitter (max 280 characters)
-- **Posted**: Every 15 minutes to Twitter/X
+- **Posted**: Every 2 hours to Twitter/X
 - **Setup**: See [SETUP_TWITTER_BOT.md](SETUP_TWITTER_BOT.md) for Twitter API configuration
 
 ## Quick Start
@@ -71,7 +79,8 @@ An automated Twitter bot that posts short poems to Twitter/X.
 ## Setup
 
 For detailed setup instructions, see:
-- [SETUP_TWITTER_BOT.md](SETUP_TWITTER_BOT.md) - Setup for Twitter Poem Bot (NEW!)
+- [SETUP_TUMBLR_BOT.md](SETUP_TUMBLR_BOT.md) - Setup for Tumblr Poem Bot (NEW!)
+- [SETUP_TWITTER_BOT.md](SETUP_TWITTER_BOT.md) - Setup for Twitter Poem Bot
 - [SETUP_STRANGER_NOVEL.md](SETUP_STRANGER_NOVEL.md) - Setup for "The Indifferent Shore"
 - [SETUP_WEREWOLF_NOVEL.md](SETUP_WEREWOLF_NOVEL.md) - Setup for "Moonbound Devotion"
 - [SETUP_FLYING_BANANA.md](SETUP_FLYING_BANANA.md) - Setup for "Flying Banana"
@@ -92,6 +101,8 @@ mockpoet/
 │   ├── daily-flying-banana.yml # Flying Banana
 │   ├── daily-hydrogen-jukebox.yml # Hydrogen Jukebox
 │   ├── hourly-of-old-man.yml  # Of Old Man (twice daily)
+│   ├── tumblr-poem-bot.yml    # Tumblr Poem Bot (every 10 minutes)
+│   ├── twitter-poem-bot.yml   # Twitter Poem Bot (every 2 hours)
 │   └── deploy.yml             # Deploy React app to GitHub Pages
 ├── docs/                       # Novel content files
 │   ├── novel-gist/            # The Weight of Promises
@@ -108,7 +119,9 @@ mockpoet/
 │   ├── werewolf-novel/        # Moonbound Devotion generation
 │   ├── flying-banana/         # Flying Banana generation
 │   ├── hydrogen-jukebox/      # Hydrogen Jukebox generation
-│   └── of-old-man/            # Of Old Man generation
+│   ├── of-old-man/            # Of Old Man generation
+│   ├── tumblr-poem-bot/       # Tumblr Poem Bot generation
+│   └── twitter-poem-bot/      # Twitter Poem Bot generation
 ├── src/                        # React source code
 │   ├── components/            # Reusable React components
 │   ├── pages/                 # Page components (Home, Reader)

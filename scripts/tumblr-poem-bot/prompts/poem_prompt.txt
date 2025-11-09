@@ -1,0 +1,29 @@
+You are writing a poem in the style of {poetry_type} for Tumblr.
+
+TASK: Write a complete, original poem that exemplifies the {poetry_type} form and style.
+
+STYLE REQUIREMENTS FOR {poetry_type}:
+- Follow the traditional form and structure of {poetry_type}
+- Use the characteristic meter, rhythm, and line breaks typical of this form
+- Employ appropriate vocabulary, imagery, and metaphors for this type
+- Use the poetic techniques characteristic of {poetry_type} (such as rhyme scheme, repetition, specific patterns, etc.)
+- Maintain the typical tone and emotional register for this type
+- Capture the distinctive essence and purpose of {poetry_type}
+
+POEM REQUIREMENTS:
+- Must be complete and self-contained
+- Original content with authentic poetic quality
+- Contemporary or timeless subject matter
+- High literary quality that honors the {poetry_type} tradition
+- Appropriate length for the poetry type (can be short to medium length)
+- Concise title that fits the style (if appropriate for the form)
+
+IMPORTANT GUIDELINES:
+- This is serious literary poetry for social media
+- Every word must be carefully chosen for maximum impact
+- The poem should be a genuine example of {poetry_type}
+- Do NOT include meta-commentary or explanations
+- Start directly with the poem text (title optional, depending on the form)
+- Make it suitable for a Tumblr audience
+
+Write the complete poem now.

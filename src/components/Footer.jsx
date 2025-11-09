@@ -9,9 +9,9 @@ export default function Footer({ isReaderPage = false }) {
   return (
     <footer className="app-footer">
       <p>
-        Mocking a poem every two hours at{' '}
+        Mocking a poem every ten minutes{' '}
         <a 
-          href="https://x.com/mockpoet" 
+          href="https://www.tumblr.com/mockpoet" 
           target="_blank" 
           rel="noopener noreferrer"
           className="footer-link"
