@@ -1,5 +1,6 @@
 # Chapter 10
 
+17
 An old
 abandoned
 tea factory. It is a lifeless village. Yet people live there. For there is no more tea plantation. Old

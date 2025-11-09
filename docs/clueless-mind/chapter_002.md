@@ -1,5 +1,6 @@
 # Chapter 2
 
+7
 People, why
 are
 people troubling people ? It ain’t like they are troubling intentionally by doing stuff but if people
@@ -35,6 +36,7 @@ in the world. And the very happiest moment is partially satisfying because happi
 when it is shared. There comes the trouble oh man. There comes the real trouble. Now the lone
 man needs someone to share his happiness. Yes, he needs people. He knows, if people are there,
 
+8
 troubles will be marching towards him. Even though he won’t care about that. Trouble ain’t
 bothering him at that very moment. He wants someone to share his feelings. And if he follows
 that emotion it is like the cat catching her tail. Again people trouble people. Becoming an aloof

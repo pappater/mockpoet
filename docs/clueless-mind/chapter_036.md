@@ -1,5 +1,6 @@
 # Chapter 36
 
+59
 Raj kumar,
 a mid aged fella, wearing a blue shirt, was in the posture of taking a hitchhike, was standing at
 the corner of Adhavan rice mill, which was painted yellow and it looks vintage. It was an off
@@ -36,6 +37,7 @@ There was a shout and playing of school boys, inside the dutch cemetery, of king
 minister, in marvellos structure, now ruined a little but the artwork and the writings still
 remains, was not cared a bit by those littles. Our lady shrine was standing tall near the cemetery.
 
+60
 Painted white, bordered blue, and standing majestically, among the small hut of slum. The tiny
 streets of the slum, all of sudden, show a building from 1950, where an old lady, converted it to a
 convenience store, and doing her business there, was in focus on clearing her tooth set.
@@ -75,5 +77,6 @@ they didn't care either. The empty shop owner was in conversation with a mentall
 lady, who was already occupied in feeding hot strong tea to the stray dog, which she called her
 julie, but failed at it after pouring it on the pedestrian. The empty shop owner started giving life
 
+61
 advice and philosophy to her. She was already sick of it as this was the same saying that she
 hears from the empty shop owner all time.

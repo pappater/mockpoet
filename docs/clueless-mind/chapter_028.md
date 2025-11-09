@@ -1,5 +1,6 @@
 # Chapter 28
 
+48
 I opted for
 Natgeo Magazine two months back and I read about a lot of problems that the world is facing.
 For the last three issues, I can see there existed an African issue. And Africa was a good place to

@@ -1,5 +1,6 @@
 # Chapter 29
 
+49
 It is really
 hard to break up with a friend. It is an awkward thing and doesn’t seem to be a serious one. It is
 even harder when they are of the same gender. It has to be accepted from the other side as well.
@@ -19,4 +20,5 @@ resolved in future ? I feel like countries need an enemy to run in peace. Else t
 I learned a lot about feminine from my queen cat.
 The funny thing is that we eventually forget pain, how painful it really was.
 
+50
 Handpicked stuff from a horse. Not a bot.

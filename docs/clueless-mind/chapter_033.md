@@ -1,5 +1,6 @@
 # Chapter 33
 
+55
 The father,
 the son upon long walk on the pedestrian heading towards the sun that was about to set which
 results in dimming the natural light of it and alerting the street vendors to light up the man
@@ -36,5 +37,6 @@ think that it has to be for them or for none.
 The soulless house suffered a lot, and slowly it melted due to the extreme weather where
 eventually its roof, paint, floor melted and stood there like a shapeless form which changed
 
+56
 accordingly to provide shelter for weeds and small animals. Yet the people's stubbornness never
 changed.

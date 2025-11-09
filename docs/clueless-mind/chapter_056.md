@@ -1,5 +1,6 @@
 # Chapter 56
 
+96
 Blues is
 everywhere.
 It is a music genre which can be played for years by knowing a single blues scale. He used to play
@@ -30,6 +31,7 @@ read bigger books. He hesitated for a while but he got some courage there to get
 book. He returned back to the same restaurant, sat opposite to the cat and started to read some
 pages.
 
+97
 He completed the book within half an hour. Something is revealed to him when he finishes
 reading the book. He liked to reread it again. He does that. And again he got something from the
 book. He started to enjoy reading those lines. He again headed over to the same book stall and

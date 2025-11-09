@@ -1,5 +1,6 @@
 # Chapter 48
 
+86
 “Andha light
 oru masam eriyala thambi'' said the old man, blurting out while walking and settling under the
 banyan tree. It was the public school name board light, he was referring to. Behind the school
@@ -37,6 +38,7 @@ He, the younger, started to imagine his childhood memories, when his left canine
 urge to drop off, and using his tongue, sensed it movement forward and backward and it was an
 unexpected moment that the space was empty and the canine dropped off. In search of it on the
 
+87
 mud, found and buried and slept. It was the same sensation, he felt and used his tongue, sensed
 the canine, but this time, it was strong enough not to be dropped off, but was blurting out his
 disappointment to his fellow drunkards, inside the darkness with mist and birds and mosquitos,
@@ -59,6 +61,7 @@ enjoyed and rolled and did crackers and it was blasting on to the dark sky and s
 couple were missing at this celebration as they were waiting for their sons arrival for the
 celebration at home.
 
+88
 The
 Thalassery
 beach

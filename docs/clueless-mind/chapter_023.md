@@ -1,5 +1,6 @@
 # Chapter 23
 
+39
 Kite runners,
 an emotional roller coaster. I have read it slowly, hating that it is going to end. The good thing
 about reading the world's literary books is that we can learn their cultural thing which is so

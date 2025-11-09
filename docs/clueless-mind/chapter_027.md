@@ -1,5 +1,6 @@
 # Chapter 27
 
+46
 Anything can
 cross
 our path, impact us, change the flow, result in good or bad, become wise or foolish and
@@ -32,6 +33,7 @@ doing 80kmp with braking often and quarrelling with two wheeler. The plan was no
 destination so just went by the name board and saw Poompuhar. I know it is an old port area.
 Managed to visit vaitheeswarar koil which is so empty and explored the entire temple in 5 mins.
 
+47
 Outside, the temple is filled with naadi josiyar shops and asking all the devotees to know nadi
 yosiyam.
 In Front of me, the name board says straight to mayavaram and so on. I know I just took a side

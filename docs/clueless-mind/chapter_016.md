@@ -1,5 +1,6 @@
 # Chapter 16
 
+28
 It just
 happened
 a week back. I parked at the curb and thought of getting some stuff from the subway restaurant.
@@ -31,6 +32,7 @@ but some people with vanity choose to be like this. I’ve faced many scenarios 
 realisation. If a fella unlearns something which is in trend there he was made to be embarrassed
 by the learned person. It is just a tiny line that divides this vanity and sharing. If he really wants
 
+29
 to share his learning, he should make others understand what and how to proceed rather than
 make it embarrassing.
 Internally he is forced to conceal this embarrassment by following some shitty trend. This trend

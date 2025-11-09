@@ -1,5 +1,6 @@
 # Chapter 25
 
+44
 I was doing
 some UX work in figma. I usually visit webpages for their typography, graphic design, scrolling
 effect, animations and stuff. I was recently checking the UX community in reddit. People were

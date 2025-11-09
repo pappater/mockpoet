@@ -1,5 +1,6 @@
 # Chapter 3
 
+9
 It’s the stage
 of your mind where you feel like a preacher to volunteer yourself to let people know what’s
 going on in your head. People might take it or leave it but you are just willing to let them know

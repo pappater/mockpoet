@@ -1,5 +1,6 @@
 # Chapter 5
 
+11
 I was walking
 on the sidewalk and a scene brought me attention to it. It was an ant taking dry leaves to
 somewhere I don't know where. I was brooding over it for quite a long time and wondered why
@@ -22,6 +23,7 @@ design. There is no sin or karma. It's just people doing stuff. It doesn't matte
 or bad.
 Here my brain tells me strongly not to believe in KARMA or SIN.
 
+12
 People.
 The river is flooded with people. Hundreds of people.
 The source of the river is always unexplored. It gets ruined when it is explored. It is a wonderful

@@ -1,5 +1,6 @@
 # Chapter 24
 
+40
 After a long
 time I was into the photoshoot near my native. I was using Fujifilm monochrome. It was cloudy
 already and the wind was just blowin all directions resembling an abyss. I rode on xl heavy duty
@@ -17,6 +18,7 @@ of Jesus on hearing the old lady's prayer. The family members were safe and they
 the hospital. The old lady's lips widened after hearing this. She just thanked “JESUS” tilting her
 head. Both were smiling.
 
+41
 I was reading some articles for the coming week Fakeleghorse weekly digest and I came across
 http:www.baubauhaus.com/ and started to admire the site. It is simple and the content is of my
 kind. I started seeing some Black and White illustrations and similar art forms. Thought of
@@ -24,6 +26,7 @@ doing an UX in Black and White but this time with purple instead of white. So I 
 Poikkal Kuthirai image and removed the background using removebg and started creating some
 stuff at figma.com. If struck at some point, I scrolled baubauhaus and got some ideas from it. Just
 
+42
 drew some horizontal and vertical lines, formed a box, diagonal lines, increased the font size,
 and played with words. Again I struck with the words to put in and I used today's date and day
 and gave them some tinted cool overlay. Koi strikes again and I search for koi with the looks of
@@ -35,6 +38,7 @@ I used a pencil tool to draw the face which I drew yesterday in my journal. Gave
 and painted him purple and placed him in the top centre.
 Painting Koi Purple
 
+43
 Fakeleghorse,
 a weekly digest, all about art, culture, books, music, movie and stuff non political mostly. I read
 stuff on the internet and pick the right one worth reading for a week. I scan some art and

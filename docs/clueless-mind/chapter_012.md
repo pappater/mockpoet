@@ -1,5 +1,6 @@
 # Chapter 12
 
+19
 Hi, I'm Amare.
 I was born in Irbit, a town in Sverdlovsk Oblast, Russia, located 203 kilometers from
 Yekaterinburg by train or 250 kilometers by cart, on the right bank of the Nitsa. The town was
@@ -35,6 +36,7 @@ the steed a marble stall, an ivory manger, a jeweled collar and even a house. Th
 any ivory jewellery, he made his barn like the one.
 (Me and Erasyl turned 17)
 
+20
 It was dusk and the pinkish sky turned into the dark clouds with the twinkling stars. It was
 disturbed day. Something unknown is bothering me inside. So many questions are echoing on
 my header yet the answers are unknown. Why do poor people become even poorer but rich yet
@@ -70,11 +72,13 @@ with a lit up candle. It diverted me a little. I read more books. The shelf got 
 The astounding knowledge the books have turned me to write something on the paper that
 strikes my head. Whenever I dozed off, I started writing poetry. Of people, of nature, of culture,
 
+21
 of troubles, of wonders, of lunatics, of eerie, of all the varied emotions that I felt during
 solidarity. This urge of poetry makes me move outside of the house. I visited markets, streets.
 Meeting people of different cultures. Observed the inner and external things and turned them to
 poetry.
 
+22
 The
 machinery
 sounds
@@ -103,6 +107,7 @@ the stuff on his way. It settles him down. It ain’t supposed to be a river or 
 rye but just exploring places makes him settle. He settled in the non reality world. When he
 returns to reality, he follows the same to settle himself.
 
+23
 I was meeting some group of people in an old abandoned house surrounded by a sea salt
 extraction field. Those people were not nice. This old place has strange statues and stuff but my
 intuition told me not to take them home as I was so fond of them. There was some strange game

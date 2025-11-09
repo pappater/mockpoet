@@ -1,5 +1,6 @@
 # Chapter 32
 
+53
 It was a
 rightly balanced spectacle that was hanging at the tip of the nose and the temple end of it was
 rightfully placed at the ears steep so that it made the viewers betting on whether it would fall or
@@ -37,5 +38,6 @@ but was not revealed publicly and as he was aware that nothing can be done over 
 assumption that he moved to the next post which is of a video where thousands of party
 members welcomed the party leader. Thus again the series of assumed events and jealous
 
+54
 emotioned rooted into the old man's mind and that is how he spent his time till one in the
 morning until he closed his eyes to sleep.

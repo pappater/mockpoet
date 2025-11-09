@@ -1,5 +1,6 @@
 # Chapter 41
 
+75
 And it is
 still December in mind that it was the case when the date was mentioned in the journal; was
 rectified; and realised it was something that the month had impacted unknowingly; blurred;
@@ -37,6 +38,7 @@ tribal and was opened on sunday but the little ones were playing in front, shout
 and there was a group gather in front of the temple, not sure on what to do was staring at the
 pig that was eating her rice; tied at her neck; was filled with full of fat and stuff; and her sudden
 
+76
 drop down and sleep mode made them chuckle and that made their conversation to kill some
 time at the 10 AM morning hours. And the way that is to the direction of north was of a slop
 where a JCB trying hard to move a overloaded stuff and the owner who was not strong with the

@@ -1,5 +1,6 @@
 # Chapter 13
 
+24
 The good
 thing
 about being born during the 80s and 90s is that we witness the major change from one
@@ -33,6 +34,7 @@ single device and we just use them without any connection. And it just controls 
 This incident happened recently. I was just driving with my friend and we were discussing some
 restaurant But didn't intend to visit. We just navigated to some other hardware shop which is
 
+25
 totally opposite to the restaurant and blindly took the route, it just took us to the restaurant
 which we were discussing in the car. We had dinner there.
 Maybe the latest technology made everything possible, but it lessened the value of it. Anyone

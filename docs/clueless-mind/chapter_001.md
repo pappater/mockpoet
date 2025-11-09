@@ -1,5 +1,6 @@
 # Chapter 1
 
+4
 It was
 unconscious
 and infinite numbers of time, the tea master had twizzled and poured the tea to the glass, that
@@ -33,6 +34,7 @@ stuff; with the improvisation in the thought; pleasured; was all of sudden inter
 bang on the table, by the tea master who dropped the freshly poured tea glass, on table, where he
 moved his stare from the lower left leg to the table slab, picked, paned, sipped, and settled to
 
+5
 present for some time, ecstasy, blissed, realised, dried, tilted, witnessed, heard, some random
 news from the television, that was blurting about some suicide case.
 And at the back, there was a laugh, a pale man, aged 40, hair dyed, showcased two rows of
@@ -53,6 +55,7 @@ himself with false conversation, for the justice, to build the public toilet; wa
 to the direction of television that was blurting about the forest fire that killed 90% of animals
 and other living being thither.
 
+6
 “
 I used to analyze myself down to the last thread, used to compare myself with others, recalled all
 the smallest glances, smiles and words of those to whom I’d tried to be frank, interpreted

@@ -1,5 +1,6 @@
 # Chapter 21
 
+36
 It is a
 known fact by all highway riders that wherever the rows of trucks halted at night for the dinner,
 the chances of getting tasty food is high. The hotel lights are painted green indicating that it is a

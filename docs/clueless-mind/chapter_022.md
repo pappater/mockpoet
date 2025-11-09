@@ -1,5 +1,6 @@
 # Chapter 22
 
+37
 Frida Kahlo,
 the one and only female artist portrait I hung in my living room has been admired by many
 people for decades. She just got struck in the head when you see her for the first time. I have two
@@ -9,6 +10,7 @@ and so much detailing of her native towns.
 This XXL monograph combines all of Kahlo's 152 paintings with rarely seen photographs, diary
 pages, letters, and an illustrated biography.
 
+38
 Brita
 Olofsdotter
 (died 1569), was a Finnish soldier of the Swedish cavalry. She is the likely first confirmed female

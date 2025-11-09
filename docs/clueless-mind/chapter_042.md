@@ -1,5 +1,6 @@
 # Chapter 42
 
+77
 The morning
 thought
 was on people debate over the definition and leaving off the point that they are intent over the
@@ -32,6 +33,7 @@ any reason unknown. Who is that actually ? It is not the true self. All of sudde
 oneself and in a zone, an extraordinary thing gets executed or a very basic stuff on the contrary
 and nothing to blame the self as it seems it is not responsible for something that happened
 
+78
 without consciousness. It is like someone’s soul, that was roaming there, got into the body and
 acted differently out or nowhere, made the self to wonder and admire and in expectation to
 occur the same in future and get disappointed.

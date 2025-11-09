@@ -1,5 +1,6 @@
 # Chapter 46
 
+82
 It was
 unexpected
 weather that turned dark before dusk, and the strong wind dominated initially, but later was
@@ -33,6 +34,7 @@ was chaos in front of the office building. People gathered, and all their eyes l
 opposite apartment, a third-floor veranda, where a similar wailing sound echoed. It was from a
 lady about 30 years old. She beats her husband and curses. The man getting hit didn’t show any
 
+83
 violence or anger, instead he accepted it as if he deserved to get hit. The lady didn't care about
 the others but was wailing in a ruined tone that none was able to get what the issue was. The
 crowd just passed various rumours, and it doesn't make sense for such a violent event. Both the
@@ -41,6 +43,7 @@ the violence. He was trying to get the couple suffering to feel like what he fel
 were wailing from yesterday's rain. But he couldn’t. He was trying hard to grasp their suffering,
 but no, it was not happening this time.
 
+84
 Friday.
 Created an account in chat gpt, a popular AI chat based bot where I google how to write non
 fiction books and stuff. The topic that was in my mind was how to be a poor man. Currently, I

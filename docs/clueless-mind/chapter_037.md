@@ -1,5 +1,6 @@
 # Chapter 37
 
+62
 Already 30
 sambar
 sadham poiduchi, nee enna nalla illangura, said by the waiter at J.R.Jana restaurant. The enquiry
@@ -32,6 +33,7 @@ field and it was a look one can admire for hours.
 It was a dark smoke, that was emitting from the truck, the whole truck body was decorated with
 all sort of decorating item available, was struggling to climb on the steep hill road, and its whole
 
+63
 body was settled by the smoke for the opposite truck that was emitting the same dark smoke and
 this time it also hit on the fella, who was tailgating back with his black splendour bike, was
 making a disgusting face, as it was the first time, his face receives such an amount of smoke and

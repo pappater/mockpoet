@@ -1,5 +1,6 @@
 # Chapter 6
 
+13
 Right now we
 are the best form of us. What we do now is a damn experienced decision from us. It is perfect. It
 is flawless. It is fascinating. Right now. Yet this very fascinating thing just fades from our
