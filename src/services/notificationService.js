@@ -122,34 +122,62 @@ export function shouldSendNotification() {
 }
 
 /**
+ * Calculate minutes until next poem post (every 2 hours on the hour)
+ * Twitter bot runs at 00:00, 02:00, 04:00, etc. UTC
+ */
+function getMinutesUntilNextPost() {
+  const now = new Date();
+  const currentMinutes = now.getUTCMinutes();
+  const currentHour = now.getUTCHours();
+  
+  // Calculate minutes until the next even hour
+  const minutesUntilNextHour = 60 - currentMinutes;
+  
+  // If current hour is even, next post is in minutesUntilNextHour
+  // If current hour is odd, next post is in minutesUntilNextHour + 60
+  if (currentHour % 2 === 0) {
+    return minutesUntilNextHour;
+  } else {
+    return minutesUntilNextHour + 60;
+  }
+}
+
+/**
  * Initialize notification polling
- * This would typically check a backend API for new poems
- * For now, we'll simulate with a timer
+ * Sends notifications aligned with Twitter bot's 2-hour posting schedule
+ * Twitter bot posts every 2 hours on the hour (00:00, 02:00, 04:00, etc. UTC)
  */
 export function initializeNotificationPolling() {
   if (!areNotificationsEnabled()) {
     return;
   }
 
-  // Check every 30 minutes if we should send a notification
-  const checkInterval = 30 * 60 * 1000; // 30 minutes in ms
-  
-  setInterval(() => {
-    if (shouldSendNotification()) {
-      // In a real implementation, you would fetch from an API
-      // For now, we'll send a generic notification
+  // Function to schedule next notification
+  function scheduleNextNotification() {
+    const minutesUntil = getMinutesUntilNextPost();
+    // Add 2 minutes buffer after the post time to ensure poem is published
+    const delay = (minutesUntil + 2) * 60 * 1000;
+    
+    setTimeout(() => {
       sendPoemNotification({
         title: '📝 New Poem at @mockpoet',
-        body: 'A new poem has been posted! Check it out on Twitter.'
+        body: 'A new poem has just been posted! Check it out on Twitter.'
       });
-    }
-  }, checkInterval);
+      
+      // Schedule the next notification (2 hours from now)
+      scheduleNextNotification();
+    }, delay);
+  }
 
-  // Also check immediately
-  if (shouldSendNotification()) {
+  // Check if we missed a recent post (within last 5 minutes)
+  const hoursSinceLast = getHoursSinceLastNotification();
+  if (hoursSinceLast >= 2 && hoursSinceLast < 2.1) {
     sendPoemNotification({
       title: '📝 New Poem at @mockpoet',
       body: 'A new poem has been posted! Check it out on Twitter.'
     });
   }
+  
+  // Start the notification schedule
+  scheduleNextNotification();
 }
