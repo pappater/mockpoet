@@ -73,7 +73,7 @@ const CONFIG = {
       title: "The Absurd Ascent",
       gist: {
         username: 'pappater',
-        id: ''  // Will be set via FARCE_DRAMA_GIST_ID secret by GitHub Actions workflow
+        id: 'e8e6f2e6c00d3abcf9a407e2d014d8bd'  // Will be set via FARCE_DRAMA_GIST_ID secret by GitHub Actions workflow
       },
       localPath: 'docs/farce-drama',
       type: 'drama'  // Flag to indicate this is a drama
