@@ -1,0 +1,15 @@
+Please provide a concise summary of Act {act_num}, Scene {scene_num} from the farce drama below.
+
+The summary should:
+- Be 2-4 paragraphs
+- Capture the key comedic moments and plot developments
+- Note important character interactions and revelations
+- Highlight any physical comedy or farcical situations
+- Identify setup for future complications or payoffs
+- Mention entrances/exits of key characters
+- Be useful for maintaining continuity in subsequent scenes
+
+SCENE TEXT:
+{scene_text}
+
+Write only the summary, without any preamble or meta-commentary.

@@ -8,6 +8,9 @@ export default function BookCard({
   lastUpdated, 
   isShortStories = false, 
   isPoems = false,
+  isDrama = false,
+  genre = null,
+  subgenre = null,
   completed = false,
   updateFrequency = 'Updated periodically',
   wordCount = null,
@@ -25,6 +28,8 @@ export default function BookCard({
     contentLabel = `${chapters} Poem${chapters !== 1 ? 's' : ''} Available`;
   } else if (isShortStories) {
     contentLabel = `${chapters} Short Stor${chapters !== 1 ? 'ies' : 'y'} Available`;
+  } else if (isDrama) {
+    contentLabel = `${chapters} Scene${chapters !== 1 ? 's' : ''} Available`;
   } else {
     contentLabel = `${chapters} Chapter${chapters !== 1 ? 's' : ''} Available`;
   }
@@ -45,6 +50,11 @@ export default function BookCard({
         <div className="book-card-chapters">
           {contentLabel}
         </div>
+        {subgenre && (
+          <div className="book-card-genre">
+            <span className="genre-badge">{subgenre}</span>
+          </div>
+        )}
         <div className="book-card-metadata">
           <div className="book-card-meta-item">
             <span className="meta-label">Status:</span>

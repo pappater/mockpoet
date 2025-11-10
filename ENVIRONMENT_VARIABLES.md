@@ -34,6 +34,7 @@ All these secrets should be added in: **Settings** → **Secrets and variables**
 | `HYDROGEN_JUKEBOX_GIST_ID` | Gist ID for "Hydrogen Jukebox" | Hydrogen Jukebox | Yes | `abc123xyz789` |
 | `OF_OLD_MAN_GIST_ID` | Gist ID for "Of Old Man" | Of Old Man | Yes | `def456uvw890` |
 | `HEMINGWAY_GIST_ID` | Gist ID for "The Sun Also Rises Again" | The Sun Also Rises Again | Yes | `ghi789xyz123` |
+| `FARCE_DRAMA_GIST_ID` | Gist ID for "The Absurd Ascent" (Farce Drama) | The Absurd Ascent | Yes | `jkl012mno345` |
 
 ## Workflow Environment Variables
 
@@ -138,6 +139,17 @@ export GIST_TOKEN="your-github-token"
 export HEMINGWAY_GIST_ID="your-hemingway-gist-id"
 
 python3 scripts/hemingway-novel/hemingway_novel_to_gist.py
+```
+
+### For "The Absurd Ascent" (Farce Drama)
+
+```bash
+export GEMINI_API_KEY="your-gemini-api-key"
+export GEMINI_MODEL="gemini-2.5-flash"
+export GIST_TOKEN="your-github-token"
+export FARCE_DRAMA_GIST_ID="your-farce-drama-gist-id"
+
+python3 scripts/farce-drama/farce_drama_to_gist.py
 ```
 
 ### For Twitter Poem Bot
@@ -287,6 +299,7 @@ Before running the workflows, verify:
 - [ ] `HYDROGEN_JUKEBOX_GIST_ID` is set (for Hydrogen Jukebox)
 - [ ] `OF_OLD_MAN_GIST_ID` is set (for Of Old Man)
 - [ ] `HEMINGWAY_GIST_ID` is set (for The Sun Also Rises Again)
+- [ ] `FARCE_DRAMA_GIST_ID` is set (for The Absurd Ascent)
 - [ ] All Gists are **public** (not secret)
 - [ ] Gist IDs in `config.js` match the secrets
 
@@ -357,6 +370,7 @@ Check that:
 | `HYDROGEN_JUKEBOX_GIST_ID` | Book 5 | Hydrogen Jukebox | Secret | `abc123...` |
 | `OF_OLD_MAN_GIST_ID` | Book 6 | Of Old Man | Secret | `def456...` |
 | `HEMINGWAY_GIST_ID` | Book 7 | The Sun Also Rises Again | Secret | `ghi789...` |
+| `FARCE_DRAMA_GIST_ID` | Book 8 | The Absurd Ascent | Secret | `jkl012...` |
 | `TWITTER_API_KEY` | Twitter Bot | Twitter Poem Bot | Secret | `abc123...` |
 | `TWITTER_API_SECRET` | Twitter Bot | Twitter Poem Bot | Secret | `xyz789...` |
 | `TWITTER_ACCESS_TOKEN` | Twitter Bot | Twitter Poem Bot | Secret | `1234567890-abc...` |

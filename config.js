@@ -68,6 +68,15 @@ const CONFIG = {
         id: '3a3f09a5c44889a6f40419f080b15437'
       },
       localPath: 'docs/clueless-mind'
+    },
+    absurd_ascent: {
+      title: "The Absurd Ascent",
+      gist: {
+        username: 'pappater',
+        id: ''  // Will be set via FARCE_DRAMA_GIST_ID secret by GitHub Actions workflow
+      },
+      localPath: 'docs/farce-drama',
+      type: 'drama'  // Flag to indicate this is a drama
     }
   },
   

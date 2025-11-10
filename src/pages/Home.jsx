@@ -18,7 +18,8 @@ export default function Home() {
       'indifferent_shore': 'Updated daily',
       'moonbound_devotion': 'Updated daily',
       'sun_also_rises_again': 'Updated daily',
-      'clueless_mind': 'Updated daily'
+      'clueless_mind': 'Updated daily',
+      'absurd_ascent': 'Complete drama'
     };
     return frequencies[novelKey] || 'Updated periodically';
   };
@@ -41,6 +42,9 @@ export default function Home() {
               type: novel.type || 'novel',
               isShortStories: novel.type === 'short_stories',
               isPoems: novel.type === 'poems',
+              isDrama: novel.type === 'drama',
+              genre: data.genre,
+              subgenre: data.subgenre,
               completed: data.completed || false,
               updateFrequency: getUpdateFrequency(novel.key)
             });
@@ -80,6 +84,7 @@ export default function Home() {
       case 'novel': return 'Novels';
       case 'poems': return 'Poetry Collections';
       case 'short_stories': return 'Short Stories';
+      case 'drama': return 'Drama';
       default: return 'Other';
     }
   };
@@ -114,6 +119,9 @@ export default function Home() {
                       lastUpdated={book.lastUpdated}
                       isShortStories={book.isShortStories}
                       isPoems={book.isPoems}
+                      isDrama={book.isDrama}
+                      genre={book.genre}
+                      subgenre={book.subgenre}
                       completed={book.completed}
                       updateFrequency={book.updateFrequency}
                     />
@@ -133,6 +141,9 @@ export default function Home() {
                 lastUpdated={book.lastUpdated}
                 isShortStories={book.isShortStories}
                 isPoems={book.isPoems}
+                isDrama={book.isDrama}
+                genre={book.genre}
+                subgenre={book.subgenre}
                 completed={book.completed}
                 updateFrequency={book.updateFrequency}
               />

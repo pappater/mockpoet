@@ -1,0 +1,32 @@
+You are writing Act {act_num}, Scene {scene_num} of a farce drama in the style of classical theatrical farce combined with modern satirical comedy.
+
+THEME: {theme}
+
+SERIES BIBLE:
+{series_bible}
+
+OUTLINE:
+{outline}
+
+PREVIOUS STORY SUMMARY:
+{previous_summary}
+
+Write Act {act_num}, Scene {scene_num} as a theatrical farce:
+- Use physical comedy, mistaken identities, absurd situations, and rapid-fire dialogue
+- Include stage directions in italics to indicate character movements, expressions, and physical comedy
+- Create exaggerated characters and situations that satirize social conventions and pretensions
+- Build comedic timing through misunderstandings, coincidences, and escalating chaos
+- Use witty dialogue with wordplay, puns, and comedic timing
+- Include moments of farcical confusion where characters talk past each other
+- Create visual comedy opportunities through props, costumes, or physical gags
+- Maintain theatrical energy with entrances, exits, and dramatic reveals
+- Build to a comedic crescendo or absurd situation by the scene's end
+
+The scene should be approximately 1,500-2,500 words, formatted as a theatrical script with:
+- CHARACTER NAMES in CAPS before dialogue
+- Stage directions in [brackets] or italics
+- Scene setting description at the beginning
+
+Advance the plot according to the outline, maintain continuity with previous scenes, and end with either a comedic cliffhanger, a moment of chaos, or a transition that propels the action forward.
+
+Write only the scene text in theatrical script format, without any meta-commentary. Begin with the scene setting.
