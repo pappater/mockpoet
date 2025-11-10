@@ -1,7 +1,7 @@
 {
   "novel_title": "The Indifferent Shore",
-  "total_chapters": 9,
-  "last_updated": "2025-11-09 11:14:08 UTC",
+  "total_chapters": 10,
+  "last_updated": "2025-11-10 11:17:01 UTC",
   "gist_id": "b12ff3b5ea6e9f42a7becfc2cc1aeece",
   "chapters": [
     {
@@ -66,6 +66,13 @@
       "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/58c3f4f22feb46124436314697481fecc23388b9/chapter_009.md",
       "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_009.md",
       "chapter_name": "Sunday Morning"
+    },
+    {
+      "chapter": 10,
+      "filename": "chapter_010.md",
+      "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/a3f033b2272110d85399c7a32df83a4fc4a446a5/chapter_010.md",
+      "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_010.md",
+      "chapter_name": "The Return to the Beach"
     }
   ]
 }
