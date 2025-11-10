@@ -169,9 +169,96 @@ def update_chapters_json(scenes_data):
     return chapters_data
 
 
+def check_existing_scenes(drama_structure):
+    """
+    Check if all scenes already exist locally.
+    
+    Args:
+        drama_structure: List of (act_num, num_scenes) tuples
+    
+    Returns:
+        tuple: (bool indicating all scenes exist, dict of existing scenes)
+    """
+    all_scenes = {}
+    all_exist = True
+    
+    for act_num, num_scenes in drama_structure:
+        for scene_num in range(1, num_scenes + 1):
+            scene_filename = f"act_{act_num}_scene_{scene_num:02d}.md"
+            scene_path = DOCS_DIR / scene_filename
+            
+            scene_text = load_file(scene_path)
+            if scene_text:
+                all_scenes[scene_filename] = scene_text
+            else:
+                all_exist = False
+                break
+        
+        if not all_exist:
+            break
+    
+    return all_exist, all_scenes
+
+
+def load_existing_drama_data(drama_structure, scene_names):
+    """
+    Load existing scene data and build chapters data from local files.
+    
+    Args:
+        drama_structure: List of (act_num, num_scenes) tuples
+        scene_names: Dict mapping (act, scene) to scene names
+    
+    Returns:
+        tuple: (dict of scenes, chapters_data dict)
+    """
+    all_scenes = {}
+    scene_counter = 1
+    scenes_data = []
+    
+    for act_num, num_scenes in drama_structure:
+        for scene_num in range(1, num_scenes + 1):
+            scene_filename = f"act_{act_num}_scene_{scene_num:02d}.md"
+            scene_path = DOCS_DIR / scene_filename
+            
+            scene_text = load_file(scene_path)
+            if not scene_text:
+                print(f"ERROR: Missing scene file: {scene_filename}")
+                sys.exit(1)
+            
+            all_scenes[scene_filename] = scene_text
+            
+            # Get scene name
+            scene_name = scene_names.get((act_num, scene_num), f"Scene {scene_num}")
+            
+            # Add to chapters data
+            if GIST_ID:
+                gist_url_base = f"https://gist.github.com/{GIST_ID}#{scene_filename}"
+                raw_url = f"https://gist.githubusercontent.com/pappater/{GIST_ID}/raw/{scene_filename}"
+            else:
+                gist_url_base = ""
+                raw_url = ""
+            
+            scenes_data.append({
+                "chapter": scene_counter,
+                "act": act_num,
+                "scene": scene_num,
+                "filename": scene_filename,
+                "url": raw_url,
+                "gist_url": gist_url_base,
+                "chapter_name": scene_name
+            })
+            
+            scene_counter += 1
+    
+    # Update chapters.json
+    chapters_data = update_chapters_json(scenes_data)
+    
+    return all_scenes, chapters_data
+
+
 def generate_complete_drama():
     """Generate the complete drama with all acts and scenes."""
-    print("Starting complete drama generation...")
+    print("Starting drama processing...")
     
     # Load seed files
     series_bible = load_file(DOCS_DIR / "series_bible.md") or ""
@@ -188,6 +275,17 @@ def generate_complete_drama():
         (2, 5),  # Act 2: 5 scenes (complications)
         (3, 4)   # Act 3: 4 scenes (resolution)
     ]
+    
+    # Check if all scenes already exist
+    all_exist, existing_scenes = check_existing_scenes(drama_structure)
+    
+    if all_exist:
+        print("\n✓ All scenes already exist locally. Skipping generation (0 API calls).")
+        print("  Loading existing scenes for republishing to gist...")
+        return load_existing_drama_data(drama_structure, scene_names)
+    
+    # If scenes don't all exist, generate them
+    print("\n⚠ Some scenes are missing. Generating all scenes...")
     
     all_scenes = {}
     summaries_content = "# Scene Summaries\n\n"
