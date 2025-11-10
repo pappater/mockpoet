@@ -49,9 +49,9 @@ export default function ChapterList({ chapters, currentChapter, onChapterSelect,
             onClick={() => handleChapterClick(chapter.chapter)}
           >
             <span className="chapter-number">
-              {bookType === 'novel' ? `Ch. ${chapter.chapter}` : `#${chapter.chapter}`}
+              {bookType === 'drama' ? `${chapter.chapter}` : bookType === 'novel' ? `Ch. ${chapter.chapter}` : `#${chapter.chapter}`}
             </span>
-            <span className="chapter-name">{chapter.chapter_name || (bookType === 'novel' ? `Chapter ${chapter.chapter}` : `Entry ${chapter.chapter}`)}</span>
+            <span className="chapter-name">{chapter.chapter_name || (bookType === 'drama' ? `Scene ${chapter.chapter}` : bookType === 'novel' ? `Chapter ${chapter.chapter}` : `Entry ${chapter.chapter}`)}</span>
           </li>
         ))}
       </ul>

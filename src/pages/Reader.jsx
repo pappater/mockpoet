@@ -172,14 +172,21 @@ export default function Reader() {
     );
     
     if (chapterData?.chapter_name) {
+      // For dramas, show the full chapter_name as-is (already includes act/scene info)
       // For novels, show "Chapter X: Title", for others just the title
+      if (bookType === 'drama') {
+        return chapterData.chapter_name;
+      }
       if (bookType === 'novel') {
         return `Chapter ${currentChapter}: ${chapterData.chapter_name}`;
       }
       return chapterData.chapter_name;
     }
     
-    // Fallback for novels
+    // Fallback
+    if (bookType === 'drama') {
+      return `Scene ${currentChapter}`;
+    }
     return bookType === 'novel' ? `Chapter ${currentChapter}` : `Entry ${currentChapter}`;
   };
 
