@@ -289,7 +289,11 @@ def update_gist(chapter_num, chapter_text, continuity_log, gist):
     # Update continuity log
     files["continuity_log.txt"] = continuity_log
     
-    # Also update series bible, outline, and summaries if they exist
+    # Also update series bible, outline, summaries, and README if they exist
+    readme = load_file(DOCS_DIR / "README.md")
+    if readme:
+        files["README.md"] = readme
+    
     series_bible = load_file(DOCS_DIR / "series_bible.md")
     if series_bible:
         files["series_bible.md"] = series_bible

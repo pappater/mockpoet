@@ -261,6 +261,11 @@ def update_gist(story_num, story_text, author, gist):
     story_content = f"{story_text}\n\n<!-- Author Style: {author} -->\n<!-- Published: {publish_datetime} -->"
     files[story_filename] = story_content
     
+    # Also update README if it exists
+    readme = load_file(DOCS_DIR / "README.md")
+    if readme:
+        files["README.md"] = readme
+    
     print(f"Updating Gist {FLYING_BANANA_GIST_ID}...")
     
     sanitized_files = _sanitize_gist_files(files)

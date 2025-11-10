@@ -262,6 +262,11 @@ def update_gist(poem_num, poem_text, poet, gist):
     poem_content = f"{poem_text}\n\n<!-- Poet Style: {poet} -->\n<!-- Published: {publish_datetime} -->"
     files[poem_filename] = poem_content
     
+    # Also update README if it exists
+    readme = load_file(DOCS_DIR / "README.md")
+    if readme:
+        files["README.md"] = readme
+    
     print(f"Updating Gist {HYDROGEN_JUKEBOX_GIST_ID}...")
     
     sanitized_files = _sanitize_gist_files(files)
