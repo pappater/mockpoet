@@ -14,10 +14,17 @@ This document provides setup instructions for "The Absurd Ascent," a farce drama
 ## Architecture
 
 Unlike the daily novel workflows, the farce drama workflow:
-1. Generates all 14 scenes in a single execution
-2. Publishes all content to a GitHub Gist at once
-3. Is manually triggered (not scheduled)
-4. Follows the same structure as novels but uses "acts" and "scenes" instead of "chapters"
+1. Generates all 14 scenes in a single execution (only when needed)
+2. **Optimized**: Checks for existing scenes first to avoid unnecessary API calls
+3. Publishes all content to a GitHub Gist at once
+4. Is manually triggered (not scheduled)
+5. Follows the same structure as novels but uses "acts" and "scenes" instead of "chapters"
+
+**Important Note on Rate Limits**:
+- The script intelligently checks if all 14 scenes already exist locally
+- If they exist, it skips generation entirely (0 API calls) and just republishes to gist
+- If scenes are missing, it generates all 14 scenes (28 API calls total)
+- This prevents rate limit errors when manually re-running the workflow
 
 ## Directory Structure
 

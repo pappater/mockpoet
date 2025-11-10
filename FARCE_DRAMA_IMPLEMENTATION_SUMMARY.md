@@ -44,7 +44,8 @@ public/docs/farce-drama/
 **File**: `scripts/farce-drama/farce_drama_to_gist.py`
 
 **Features**:
-- Generates all 14 scenes in a single execution
+- Generates all 14 scenes in a single execution (when needed)
+- **Optimized**: Checks for existing scenes before generating (avoids rate limits)
 - Uses Google Gemini API (same as existing novels)
 - Maintains continuity across all scenes
 - Publishes everything to GitHub Gist at once
@@ -52,11 +53,13 @@ public/docs/farce-drama/
 - Uses theatrical terminology (Acts/Scenes instead of Chapters)
 
 **Key Functions**:
+- `check_existing_scenes()` - Detects if all scenes already exist locally
+- `load_existing_drama_data()` - Loads existing scenes without API calls
 - `generate_scene()` - Generates individual scenes with theatrical format
 - `generate_summary()` - Creates scene summaries for continuity
 - `parse_scene_names_from_outline()` - Maps scene numbers to names
 - `update_chapters_json()` - Creates metadata with genre/subgenre
-- `generate_complete_drama()` - Orchestrates full drama generation
+- `generate_complete_drama()` - Orchestrates drama generation (with existence check)
 - `publish_to_gist()` - Uploads all content to gist
 
 ### 4. Configuration Updates (✅ Complete)
@@ -102,6 +105,7 @@ absurd_ascent: {
 - Uses Python 3.11
 - Installs dependencies from requirements.txt
 - Runs complete drama generation script
+- **Optimized for rate limits**: Skips regeneration if all scenes exist (0 API calls)
 - Updates config.js with gist ID if empty
 - Syncs chapters.json to public folder
 - Commits and pushes all generated files
@@ -111,6 +115,11 @@ absurd_ascent: {
 - `GEMINI_MODEL` - Model name (gemini-2.5-flash)
 - `GIST_TOKEN` - GitHub token with gist scope
 - `FARCE_DRAMA_GIST_ID` - Gist ID for this drama
+
+**API Usage**:
+- **First run**: 28 API calls (14 scenes + 14 summaries)
+- **Subsequent runs**: 0 API calls (loads existing scenes from disk)
+- This prevents rate limit errors when manually re-running the workflow
 
 ### 7. Documentation (✅ Complete)
 
