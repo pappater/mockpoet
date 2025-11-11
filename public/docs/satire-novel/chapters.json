@@ -2,9 +2,17 @@
   "novel_title": "The Bureaucratic Odyssey",
   "genre": "Fiction",
   "subgenre": "Satire",
-  "total_chapters": 0,
-  "last_updated": "2025-11-11 12:54:00 UTC",
-  "gist_id": "",
+  "total_chapters": 1,
+  "last_updated": "2025-11-11 13:31:06 UTC",
+  "gist_id": "ff59af4ea49a2da689e6e9ba91909ccf",
   "completed": false,
-  "chapters": []
+  "chapters": [
+    {
+      "chapter": 1,
+      "filename": "chapter_001.md",
+      "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/0b5aebe34805e3c5971d4ea7b5c76b2f3026d4ce/chapter_001.md",
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_001.md",
+      "chapter_name": "The Morning Ritual"
+    }
+  ]
 }

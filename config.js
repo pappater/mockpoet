@@ -82,7 +82,7 @@ const CONFIG = {
       title: "The Bureaucratic Odyssey",
       gist: {
         username: 'pappater',
-        id: ''  // Will be set via SATIRE_GIST_ID secret by GitHub Actions workflow
+        id: 'ff59af4ea49a2da689e6e9ba91909ccf'  // Will be set via SATIRE_GIST_ID secret by GitHub Actions workflow
       },
       localPath: 'docs/satire-novel',
       type: 'novel'  // Fiction novel
