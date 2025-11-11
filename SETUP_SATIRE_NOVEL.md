@@ -1,13 +1,13 @@
 # Setup Instructions: The Bureaucratic Odyssey (Satire Fiction Novel)
 
-This document provides detailed setup instructions for "The Bureaucratic Odyssey," a 100-chapter satirical fiction novel that lampoons modern bureaucracy and corporate culture.
+This document provides detailed setup instructions for "The Bureaucratic Odyssey," a satirical fiction novel that lampoons modern bureaucracy and corporate culture.
 
 ## Overview
 
 - **Title**: The Bureaucratic Odyssey
 - **Genre**: Fiction
 - **Subgenre**: Satire
-- **Length**: 100 chapters (approximately 500-600 pages)
+- **Length**: 25 chapters (approximately 100 pages)
 - **Generation**: One chapter per day using Google Gemini AI
 - **Publication**: All chapters published to a single public GitHub Gist
 - **Update Schedule**: Daily at 14:00 UTC
@@ -94,7 +94,7 @@ After the workflow completes:
 3. You should see these files:
    - `chapter_001.md` - The first chapter
    - `series_bible.md` - Character and setting information
-   - `outline.md` - Story structure for all 100 chapters
+   - `outline.md` - Story structure for all 25 chapters
    - `summaries.md` - Chapter summaries (updated with chapter 1)
    - `continuity_log.txt` - Timestamped generation log
    - `chapters.json` - Chapter index with URLs for UI integration
@@ -145,7 +145,7 @@ The script includes intelligent gap detection:
 docs/satire-novel/
 ├── README.md              # Novel context and synopsis
 ├── series_bible.md        # Characters, setting, themes
-├── outline.md             # All 100 chapters outlined
+├── outline.md             # All 25 chapters outlined
 ├── summaries.md           # Generated chapter summaries
 ├── continuity_log.txt     # Generation log with timestamps
 └── chapters.json          # Chapter index with URLs
@@ -167,7 +167,7 @@ scripts/satire-novel/
 ### Gist Files
 
 The public gist will contain:
-- `chapter_001.md` through `chapter_100.md` (as generated)
+- `chapter_001.md` through `chapter_025.md` (as generated)
 - `README.md` - Novel context
 - `series_bible.md` - Reference material
 - `outline.md` - Story structure
@@ -182,7 +182,7 @@ The novel will appear in the UI with:
 - **Category**: Novels (Fiction)
 - **Subgenre Badge**: "Satire"
 - **Update Frequency**: "Updated daily"
-- **Status**: "Ongoing" (until all 100 chapters complete)
+- **Status**: "Ongoing" (until all 25 chapters complete)
 
 The chapters.json file provides:
 ```json
@@ -286,7 +286,7 @@ Change the cron expression to your preferred schedule.
 - **Day 2**: Chapter 2 generated
 - **Day 3**: Chapter 3 generated
 - ...
-- **Day 100**: Final chapter generated, novel complete
+- **Day 25**: Final chapter generated, novel complete
 
 If any day's workflow fails, the next run will detect missing chapters and generate them.
 
@@ -295,7 +295,7 @@ If any day's workflow fails, the next run will detect missing chapters and gener
 - **Google Gemini API**: Check [Google AI pricing](https://ai.google.dev/pricing) for current rates
   - Uses `gemini-2.5-flash` model
   - 2 API calls per chapter (chapter + summary)
-  - ~200 calls total for 100 chapters
+  - ~50 calls total for 25 chapters
 - **GitHub Gist API**: Free for public gists
 - **GitHub Actions**: Free for public repositories within usage limits
 
@@ -322,7 +322,7 @@ If you encounter issues:
 - **Genre**: Fiction / Satire
 - **Style**: Kafkaesque corporate satire meets Terry Pratchett humor
 - **Themes**: Bureaucratic absurdity, human connection, finding meaning in work
-- **Target Length**: 100 chapters, ~500-600 pages
+- **Target Length**: 25 chapters, ~100 pages
 - **Protagonist**: Gordon Paperwork, middle manager turned reluctant revolutionary
 - **Tone**: Sharp satirical wit balanced with genuine humanity
 

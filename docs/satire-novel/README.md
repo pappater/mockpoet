@@ -57,7 +57,7 @@ The satire aims to be sharp without being bitter, to lampoon without losing empa
 
 ## Length
 
-100 chapters, approximately 500-600 pages
+25 chapters, approximately 100 pages
 
 ## Status
 
