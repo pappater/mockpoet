@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 41,
-  "last_updated": "2025-11-10 22:16:26 UTC",
+  "total_chapters": 42,
+  "last_updated": "2025-11-11 10:18:33 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -373,6 +373,15 @@
       "chapter_name": "The Veiled Reality",
       "published_date": "2025-11-10 22:16:25 UTC",
       "poetry_type": "Heroic couplet"
+    },
+    {
+      "chapter": 42,
+      "filename": "poem_042.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/eab07c7863661e1c658969c700e7e31a8a76553a/poem_042.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_042.md",
+      "chapter_name": "Morning's Forge",
+      "published_date": "2025-11-11 10:18:32 UTC",
+      "poetry_type": "Curtal sonnet"
     }
   ]
 }
