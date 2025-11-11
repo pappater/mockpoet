@@ -1,0 +1,78 @@
+You are writing Chapter {chapter_num} of a satirical fiction novel that lampoons modern bureaucracy and corporate culture with sharp wit and absurdist humor.
+
+THEME: {theme}
+
+SERIES BIBLE:
+{series_bible}
+
+OUTLINE:
+{outline}
+
+PREVIOUS STORY SUMMARY:
+{previous_summary}
+
+Write Chapter {chapter_num} in a satirical voice that includes:
+
+STYLE REQUIREMENTS:
+- Third-person omniscient narrator with a wry, knowing voice
+- Sharp observational humor that escalates absurdity while staying grounded in recognizable reality
+- Rich descriptive details of bureaucratic environments (office spaces, forms, procedures)
+- Internal monologue revealing Gordon's growing awareness of absurdity
+- Clever dialogue featuring corporate jargon used both straight and satirically
+- Balance comedy with genuine human moments
+- Running gags and callbacks to earlier chapters
+
+SATIRICAL ELEMENTS TO INCLUDE:
+- Corporate buzzwords and business jargon (synergy, leverage, circle back, deep dive, etc.)
+- Meaningless procedures and unnecessary complexity
+- Meeting culture and email etiquette disasters
+- Status symbols and office politics
+- Contradictory directives and circular logic
+- Innovation theater vs. actual innovation
+- The gap between corporate values and reality
+
+CHARACTER ELEMENTS:
+- Gordon's evolving perspective (awareness growing gradually)
+- Supporting characters' quirks and hidden depths
+- Moments of genuine human connection amid the absurdity
+- Small rebellions and acts of resistance
+- Individual personalities shining through standardization
+
+TONE:
+- Satirical but not mean-spirited
+- Absurdist escalation grounded in reality
+- Witty and clever rather than sarcastic and bitter
+- Humanist - ultimately about finding meaning and connection
+- Kafkaesque meets Terry Pratchett
+- Sharp social commentary wrapped in entertaining narrative
+
+PACING AND STRUCTURE:
+- Start with a hook that establishes the chapter's central absurdity
+- Build the situation through accumulating details and escalations
+- Include at least one memorable setpiece or comedic scenario
+- Advance the plot according to the outline
+- Maintain continuity with previous events and running gags
+- End with either a punchline, revelation, or moment of genuine emotion
+- Weave in recurring elements (coffee machine, missing staplers, Steve from IT, etc.)
+
+HUMOR TECHNIQUES:
+- Juxtaposition of serious tone describing ridiculous situations
+- Understated reactions to absurd events
+- Corporate jargon taken to logical extremes
+- Literal interpretations of metaphors
+- Bureaucratic procedures applied to trivial matters
+- Characters completely missing the obvious
+- Deadpan delivery of ridiculous lines
+
+BALANCE:
+While satirical and comedic, include moments of:
+- Genuine human connection between characters
+- Small victories and meaningful gestures
+- Recognition of real human needs beneath the absurdity
+- Hope and resilience amid dysfunction
+
+The chapter should be approximately 2,000-2,500 words to maintain pacing suitable for a 500-page novel.
+
+IMPORTANT: Write ONLY the chapter text. Begin directly with the narrative. Do not include any meta-commentary, notes, or explanations. The chapter should read as a seamless continuation of the story, maintaining the satirical tone while advancing plot and character development.
+
+Chapter {chapter_num}: Begin now.

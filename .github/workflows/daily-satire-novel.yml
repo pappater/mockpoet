@@ -1,0 +1,93 @@
+name: Daily Gemini Satire Novel Chapter to Gist
+
+on:
+  # Run daily at 14:00 UTC (different from other novels to avoid conflicts)
+  schedule:
+    - cron: '0 14 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  generate-chapter:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/satire-novel/requirements.txt
+      
+      - name: Generate and publish chapter
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          SATIRE_GIST_ID: ${{ secrets.SATIRE_GIST_ID }}
+        run: |
+          python scripts/satire-novel/satire_novel_daily_to_gist.py
+      
+      - name: Update config.js with gist ID if missing
+        env:
+          SATIRE_GIST_ID: ${{ secrets.SATIRE_GIST_ID }}
+        run: |
+          # Check if gist ID is empty in config.js for bureaucratic_odyssey section only
+          EMPTY_PATTERN="id: ''"
+          if awk "/bureaucratic_odyssey/,/^    \}/" config.js | grep -q "$EMPTY_PATTERN"; then
+            echo "Updating config.js with SATIRE_GIST_ID for bureaucratic_odyssey"
+            awk -v gist_id="$SATIRE_GIST_ID" -v pattern="$EMPTY_PATTERN" '
+              /bureaucratic_odyssey/,/^    \}/ {
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
+                }
+              }
+              {print}
+            ' config.js > config.js.tmp && mv config.js.tmp config.js
+          else
+            echo "Gist ID already set in config.js for bureaucratic_odyssey"
+          fi
+      
+      - name: Update src/config.js with gist ID if missing
+        env:
+          SATIRE_GIST_ID: ${{ secrets.SATIRE_GIST_ID }}
+        run: |
+          # Check if gist ID is empty in src/config.js for bureaucratic_odyssey section only
+          EMPTY_PATTERN="id: ''"
+          if awk "/bureaucratic_odyssey/,/^    \}/" src/config.js | grep -q "$EMPTY_PATTERN"; then
+            echo "Updating src/config.js with SATIRE_GIST_ID for bureaucratic_odyssey"
+            awk -v gist_id="$SATIRE_GIST_ID" -v pattern="$EMPTY_PATTERN" '
+              /bureaucratic_odyssey/,/^    \}/ {
+                if ($0 ~ pattern) {
+                  sub(pattern, "id: '\''" gist_id "'\''")
+                }
+              }
+              {print}
+            ' src/config.js > src/config.js.tmp && mv src/config.js.tmp src/config.js
+          else
+            echo "Gist ID already set in src/config.js for bureaucratic_odyssey"
+          fi
+      
+      - name: Sync chapters.json to public folder
+        run: |
+          # Copy chapters.json from docs to public for deployment
+          echo "Syncing chapters.json to public/docs/satire-novel/"
+          cp docs/satire-novel/chapters.json public/docs/satire-novel/chapters.json
+      
+      - name: Commit and push updated files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/satire-novel/summaries.md docs/satire-novel/continuity_log.txt docs/satire-novel/chapters.json public/docs/satire-novel/chapters.json config.js src/config.js
+          git diff --staged --quiet || git commit -m "Update satire novel files after Chapter generation"
+          git push

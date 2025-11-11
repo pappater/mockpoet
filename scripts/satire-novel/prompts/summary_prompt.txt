@@ -1,0 +1,17 @@
+Summarize the following chapter of "The Bureaucratic Odyssey" in 3-4 paragraphs.
+
+CHAPTER TEXT:
+{chapter_text}
+
+Create a summary that captures:
+1. Key plot events and developments in Gordon's journey
+2. Important character moments and relationship developments
+3. Satirical elements and running gags introduced or continued
+4. Bureaucratic absurdities featured in this chapter
+5. How the chapter advances the overall story arc
+6. Any revelations or turning points
+7. Emotional or thematic beats amid the comedy
+
+The summary should be clear, concise, and maintain narrative and comedic continuity for generating future chapters.
+
+Write only the summary, without any meta-commentary or labels.

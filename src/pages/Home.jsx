@@ -19,7 +19,8 @@ export default function Home() {
       'moonbound_devotion': 'Updated daily',
       'sun_also_rises_again': 'Updated daily',
       'clueless_mind': 'Updated daily',
-      'absurd_ascent': 'Complete drama'
+      'absurd_ascent': 'Complete drama',
+      'bureaucratic_odyssey': 'Updated daily'
     };
     return frequencies[novelKey] || 'Updated periodically';
   };

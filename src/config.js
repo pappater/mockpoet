@@ -77,6 +77,15 @@ export const CONFIG = {
       },
       localPath: 'docs/farce-drama',
       type: 'drama'  // Flag to indicate this is a drama
+    },
+    bureaucratic_odyssey: {
+      title: "The Bureaucratic Odyssey",
+      gist: {
+        username: 'pappater',
+        id: ''  // Will be set via SATIRE_GIST_ID secret by GitHub Actions workflow
+      },
+      localPath: 'docs/satire-novel',
+      type: 'novel'  // Fiction novel
     }
   },
   
