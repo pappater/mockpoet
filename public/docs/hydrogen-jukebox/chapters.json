@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 6,
-  "last_updated": "2025-11-10 14:25:19 UTC",
+  "total_chapters": 7,
+  "last_updated": "2025-11-11 14:26:02 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -52,6 +52,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_006.md",
       "chapter_name": "The Unwritten Work",
       "published_date": "2025-11-10 14:25:18 UTC"
+    },
+    {
+      "chapter": 7,
+      "filename": "poem_007.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/440bce62045cc9e4ce07f289fa2009cd4d1548d0/poem_007.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_007.md",
+      "chapter_name": "Cante del Olivo Roto",
+      "published_date": "2025-11-11 14:26:01 UTC"
     }
   ]
 }
