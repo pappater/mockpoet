@@ -1,7 +1,7 @@
 {
   "novel_title": "The Weight of Promises",
-  "total_chapters": 12,
-  "last_updated": "2025-11-10 10:22:55 UTC",
+  "total_chapters": 14,
+  "last_updated": "2025-11-12 10:22:56 UTC",
   "gist_id": "51893c25959355bda1884804375ec3d8",
   "completed": false,
   "chapters": [
@@ -88,6 +88,18 @@
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/277ebad87c5a76e43e715020c8a07ee2dece06bf/chapter_012.md",
       "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_012.md",
       "chapter_name": "Spring's Promise"
+    },
+    {
+      "chapter": 13,
+      "filename": "chapter_013.md",
+      "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/a11d2ecba633321c96883f6bdfea2741ad6bb751/chapter_013.md",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_013.md"
+    },
+    {
+      "chapter": 14,
+      "filename": "chapter_014.md",
+      "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/ee3eac7c7f04b4744f72aebeb9f949633e78c5f3/chapter_014.md",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_014.md"
     }
   ]
 }
