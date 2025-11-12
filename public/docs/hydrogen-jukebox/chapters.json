@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 7,
-  "last_updated": "2025-11-11 14:26:02 UTC",
+  "total_chapters": 8,
+  "last_updated": "2025-11-12 14:26:36 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -60,6 +60,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_007.md",
       "chapter_name": "Cante del Olivo Roto",
       "published_date": "2025-11-11 14:26:01 UTC"
+    },
+    {
+      "chapter": 8,
+      "filename": "poem_008.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b3a61f97eaa0d7d4b020fe81d5595a1cdc05e20c/poem_008.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_008.md",
+      "chapter_name": "Le Souffle des Lampes \u00c9teintes",
+      "published_date": "2025-11-12 14:26:35 UTC"
     }
   ]
 }
