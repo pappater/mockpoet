@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 10,
-  "last_updated": "2025-11-11 13:34:52 UTC",
+  "total_chapters": 11,
+  "last_updated": "2025-11-12 13:37:21 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -84,6 +84,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_010.md",
       "chapter_name": "The Stone's Hum",
       "published_date": "2025-11-11 13:34:51 UTC"
+    },
+    {
+      "chapter": 11,
+      "filename": "story_011.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/8d65ae247a3ea474d18990fdda2d09e43d861a2b/story_011.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_011.md",
+      "chapter_name": "The Luminescence of Unsaid Things",
+      "published_date": "2025-11-12 13:37:20 UTC"
     }
   ]
 }
