@@ -1,7 +1,7 @@
 {
   "novel_title": "The Indifferent Shore",
-  "total_chapters": 12,
-  "last_updated": "2025-11-12 11:17:29 UTC",
+  "total_chapters": 13,
+  "last_updated": "2025-11-13 11:17:47 UTC",
   "gist_id": "b12ff3b5ea6e9f42a7becfc2cc1aeece",
   "chapters": [
     {
@@ -87,6 +87,13 @@
       "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/f4723fb266e3c6f871178d00d52706fb6ae35f6d/chapter_012.md",
       "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_012.md",
       "chapter_name": "Investigation"
+    },
+    {
+      "chapter": 13,
+      "filename": "chapter_013.md",
+      "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/0a6adad1625af89422a01b9a35870dc10e29ee4e/chapter_013.md",
+      "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_013.md",
+      "chapter_name": "The Defense"
     }
   ]
 }
