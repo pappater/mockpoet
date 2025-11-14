@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 48,
-  "last_updated": "2025-11-14 10:18:37 UTC",
+  "total_chapters": 49,
+  "last_updated": "2025-11-14 22:15:26 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -436,6 +436,15 @@
       "chapter_name": "Couch Archaeology",
       "published_date": "2025-11-14 10:18:36 UTC",
       "poetry_type": "Senryu"
+    },
+    {
+      "chapter": 49,
+      "filename": "poem_049.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e47cad423b930ddef26895f9f57067e6671ff5c0/poem_049.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_049.md",
+      "chapter_name": "The Lingering Trace",
+      "published_date": "2025-11-14 22:15:25 UTC",
+      "poetry_type": "Octave"
     }
   ]
 }
