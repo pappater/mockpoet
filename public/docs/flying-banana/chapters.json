@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 11,
-  "last_updated": "2025-11-12 13:37:21 UTC",
+  "total_chapters": 12,
+  "last_updated": "2025-11-14 13:35:06 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -92,6 +92,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_011.md",
       "chapter_name": "The Luminescence of Unsaid Things",
       "published_date": "2025-11-12 13:37:20 UTC"
+    },
+    {
+      "chapter": 12,
+      "filename": "story_012.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/bc29ea12263c6c20e16456b14665308ba1e84655/story_012.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_012.md",
+      "chapter_name": "The Perambulations of the Vanishing Point",
+      "published_date": "2025-11-14 13:35:05 UTC"
     }
   ]
 }
