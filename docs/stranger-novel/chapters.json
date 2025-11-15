@@ -1,7 +1,7 @@
 {
   "novel_title": "The Indifferent Shore",
-  "total_chapters": 14,
-  "last_updated": "2025-11-14 11:16:25 UTC",
+  "total_chapters": 15,
+  "last_updated": "2025-11-15 11:14:18 UTC",
   "gist_id": "b12ff3b5ea6e9f42a7becfc2cc1aeece",
   "chapters": [
     {
@@ -101,6 +101,13 @@
       "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/691a00cede3cdc2419af642acde47cd4b681ccf8/chapter_014.md",
       "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_014.md",
       "chapter_name": "Imprisonment"
+    },
+    {
+      "chapter": 15,
+      "filename": "chapter_015.md",
+      "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/2f0e723fe7fa06f3fc271d74cca5d9c3d0181471/chapter_015.md",
+      "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_015.md",
+      "chapter_name": "The Trial Begins"
     }
   ]
 }
