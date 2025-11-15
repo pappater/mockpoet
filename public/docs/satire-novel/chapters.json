@@ -2,8 +2,8 @@
   "novel_title": "The Bureaucratic Odyssey",
   "genre": "Fiction",
   "subgenre": "Satire",
-  "total_chapters": 4,
-  "last_updated": "2025-11-14 14:22:27 UTC",
+  "total_chapters": 5,
+  "last_updated": "2025-11-15 14:17:38 UTC",
   "gist_id": "ff59af4ea49a2da689e6e9ba91909ccf",
   "completed": false,
   "chapters": [
@@ -34,6 +34,13 @@
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/a242165126d72cc876c90244592b37fba8706d0c/chapter_004.md",
       "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_004.md",
       "chapter_name": "Performance and Process"
+    },
+    {
+      "chapter": 5,
+      "filename": "chapter_005.md",
+      "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/c124511bb5d6159a6234b21523c33182395f2843/chapter_005.md",
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_005.md",
+      "chapter_name": "Communication Breakdown"
     }
   ]
 }
