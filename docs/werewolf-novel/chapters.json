@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 13,
-  "last_updated": "2025-11-14 12:22:53 UTC",
+  "total_chapters": 14,
+  "last_updated": "2025-11-15 12:18:21 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -95,6 +95,13 @@
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/54a6bee6444e5c07553dacb200aaa96e89fbda2f/chapter_013.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_013.md",
       "chapter_name": "Training the Luna"
+    },
+    {
+      "chapter": 14,
+      "filename": "chapter_014.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/b9472213fb8f54a3865014f9550d0628ad5b4487/chapter_014.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_014.md",
+      "chapter_name": "Political Maneuvering"
     }
   ]
 }
