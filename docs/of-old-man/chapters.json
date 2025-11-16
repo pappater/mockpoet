@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 51,
-  "last_updated": "2025-11-15 22:11:58 UTC",
+  "total_chapters": 52,
+  "last_updated": "2025-11-16 10:15:49 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -463,6 +463,15 @@
       "chapter_name": "To the Enduring Image",
       "published_date": "2025-11-15 22:11:57 UTC",
       "poetry_type": "Petrarchan sonnet"
+    },
+    {
+      "chapter": 52,
+      "filename": "poem_052.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/034a9ff621ed38c6b1567baf61ba097798bfaefa/poem_052.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_052.md",
+      "chapter_name": "The Unseen Threads of a House",
+      "published_date": "2025-11-16 10:15:48 UTC",
+      "poetry_type": "List poem"
     }
   ]
 }
