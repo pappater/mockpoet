@@ -2,8 +2,8 @@
   "novel_title": "The Bureaucratic Odyssey",
   "genre": "Fiction",
   "subgenre": "Satire",
-  "total_chapters": 5,
-  "last_updated": "2025-11-15 14:17:38 UTC",
+  "total_chapters": 6,
+  "last_updated": "2025-11-16 14:17:24 UTC",
   "gist_id": "ff59af4ea49a2da689e6e9ba91909ccf",
   "completed": false,
   "chapters": [
@@ -41,6 +41,13 @@
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/c124511bb5d6159a6234b21523c33182395f2843/chapter_005.md",
       "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_005.md",
       "chapter_name": "Communication Breakdown"
+    },
+    {
+      "chapter": 6,
+      "filename": "chapter_006.md",
+      "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/9935d982c32b30389c3bc082116b30614f821449/chapter_006.md",
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_006.md",
+      "chapter_name": "Hidden Depths"
     }
   ]
 }
