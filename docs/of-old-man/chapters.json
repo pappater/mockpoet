@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 52,
-  "last_updated": "2025-11-16 10:15:49 UTC",
+  "total_chapters": 53,
+  "last_updated": "2025-11-16 22:14:35 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -472,6 +472,15 @@
       "chapter_name": "The Unseen Threads of a House",
       "published_date": "2025-11-16 10:15:48 UTC",
       "poetry_type": "List poem"
+    },
+    {
+      "chapter": 53,
+      "filename": "poem_053.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/62127d8b8e64e2227b4cf7f29ec8a287038fcbcc/poem_053.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_053.md",
+      "chapter_name": "The Bibliographer",
+      "published_date": "2025-11-16 22:14:34 UTC",
+      "poetry_type": "Double dactyl"
     }
   ]
 }
