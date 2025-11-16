@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 3,
-  "last_updated": "2025-11-15 14:18:32 UTC",
+  "total_chapters": 4,
+  "last_updated": "2025-11-16 14:18:24 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -34,6 +34,15 @@
       "chapter_name": "The Ballad of Finn's Stone",
       "published_date": "2025-11-15 14:18:32 UTC",
       "poetry_type": "Story ballad"
+    },
+    {
+      "chapter": 4,
+      "filename": "poem_004.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/6f839c6231bba7977edfd047c51fa4783ecc2305/poem_004.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_004.md",
+      "chapter_name": "The Ring from the Sea",
+      "published_date": "2025-11-16 14:18:23 UTC",
+      "poetry_type": "Legendary ballad"
     }
   ]
 }
