@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 15,
-  "last_updated": "2025-11-16 12:18:26 UTC",
+  "total_chapters": 16,
+  "last_updated": "2025-11-17 12:24:25 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -109,6 +109,13 @@
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/3afa143de2b87ce5b87e42bacdcbd7de7b806d7e/chapter_015.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_015.md",
       "chapter_name": "The Grand Council"
+    },
+    {
+      "chapter": 16,
+      "filename": "chapter_016.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/5968c5b682975bc1f2dc8e9f2c922150fb655a6f/chapter_016.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_016.md",
+      "chapter_name": "Betrayal's Price"
     }
   ]
 }
