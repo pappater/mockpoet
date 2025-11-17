@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 54,
-  "last_updated": "2025-11-17 10:19:28 UTC",
+  "total_chapters": 55,
+  "last_updated": "2025-11-17 22:15:43 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -490,6 +490,15 @@
       "chapter_name": "To the Echo in the Well",
       "published_date": "2025-11-17 10:19:27 UTC",
       "poetry_type": "Epistolary poem"
+    },
+    {
+      "chapter": 55,
+      "filename": "poem_055.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/d23d558ba26efae3bf022efa38dfcc508438614f/poem_055.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_055.md",
+      "chapter_name": "Ancient Oak",
+      "published_date": "2025-11-17 22:15:42 UTC",
+      "poetry_type": "Tetractys"
     }
   ]
 }
