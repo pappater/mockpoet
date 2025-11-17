@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 53,
-  "last_updated": "2025-11-16 22:14:35 UTC",
+  "total_chapters": 54,
+  "last_updated": "2025-11-17 10:19:28 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -481,6 +481,15 @@
       "chapter_name": "The Bibliographer",
       "published_date": "2025-11-16 22:14:34 UTC",
       "poetry_type": "Double dactyl"
+    },
+    {
+      "chapter": 54,
+      "filename": "poem_054.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/a32d6a28ecee7640216a6efed15aa74e197cfbe8/poem_054.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_054.md",
+      "chapter_name": "To the Echo in the Well",
+      "published_date": "2025-11-17 10:19:27 UTC",
+      "poetry_type": "Epistolary poem"
     }
   ]
 }
