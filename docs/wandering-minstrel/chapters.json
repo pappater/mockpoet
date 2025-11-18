@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 4,
-  "last_updated": "2025-11-16 14:18:24 UTC",
+  "total_chapters": 5,
+  "last_updated": "2025-11-18 14:22:37 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -43,6 +43,15 @@
       "chapter_name": "The Ring from the Sea",
       "published_date": "2025-11-16 14:18:23 UTC",
       "poetry_type": "Legendary ballad"
+    },
+    {
+      "chapter": 5,
+      "filename": "poem_005.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/ade4b433687d06be7f23132fbca11617c21d6e9e/poem_005.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_005.md",
+      "chapter_name": "The Gold Seeker's Lament",
+      "published_date": "2025-11-18 14:22:36 UTC",
+      "poetry_type": "Broadside ballad"
     }
   ]
 }
