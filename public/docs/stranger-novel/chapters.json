@@ -1,7 +1,7 @@
 {
   "novel_title": "The Indifferent Shore",
-  "total_chapters": 17,
-  "last_updated": "2025-11-17 11:18:07 UTC",
+  "total_chapters": 18,
+  "last_updated": "2025-11-18 11:18:24 UTC",
   "gist_id": "b12ff3b5ea6e9f42a7becfc2cc1aeece",
   "chapters": [
     {
@@ -122,6 +122,13 @@
       "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/b42c9819d094ae5ae13e36f25e81c9c9ad9d2395/chapter_017.md",
       "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_017.md",
       "chapter_name": "The Defense and Verdict"
+    },
+    {
+      "chapter": 18,
+      "filename": "chapter_018.md",
+      "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/2c78a5098042b8e4382180154be7aeb06283241a/chapter_018.md",
+      "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_018.md",
+      "chapter_name": "The Cell and the Chaplain"
     }
   ]
 }
