@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 55,
-  "last_updated": "2025-11-17 22:15:43 UTC",
+  "total_chapters": 56,
+  "last_updated": "2025-11-18 10:20:37 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -499,6 +499,15 @@
       "chapter_name": "Ancient Oak",
       "published_date": "2025-11-17 22:15:42 UTC",
       "poetry_type": "Tetractys"
+    },
+    {
+      "chapter": 56,
+      "filename": "poem_056.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/a7f6ca761c183369faed9bdbd37a50e0fd7fd822/poem_056.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_056.md",
+      "chapter_name": "The Bearer of the Lantern",
+      "published_date": "2025-11-18 10:20:35 UTC",
+      "poetry_type": "Narrative poem"
     }
   ]
 }
