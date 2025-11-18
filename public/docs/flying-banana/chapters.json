@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 14,
-  "last_updated": "2025-11-16 13:28:14 UTC",
+  "total_chapters": 15,
+  "last_updated": "2025-11-18 13:35:58 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -116,6 +116,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_014.md",
       "chapter_name": "The Moon-Silvered Loom",
       "published_date": "2025-11-16 13:28:13 UTC"
+    },
+    {
+      "chapter": 15,
+      "filename": "story_015.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/bc99be2445cb8a8f1ae9592328bdf6256ea9d610/story_015.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_015.md",
+      "chapter_name": "A Measure of Dust",
+      "published_date": "2025-11-18 13:35:57 UTC"
     }
   ]
 }
