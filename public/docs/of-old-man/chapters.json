@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 57,
-  "last_updated": "2025-11-18 22:16:23 UTC",
+  "total_chapters": 58,
+  "last_updated": "2025-11-19 10:18:40 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -517,6 +517,15 @@
       "chapter_name": "Tragic Romance",
       "published_date": "2025-11-18 22:16:22 UTC",
       "poetry_type": "Double dactyl"
+    },
+    {
+      "chapter": 58,
+      "filename": "poem_058.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/52733c6937da3e3fdc2c3a283c88c0f24f611838/poem_058.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_058.md",
+      "chapter_name": "Our Steadfast Guide",
+      "published_date": "2025-11-19 10:18:39 UTC",
+      "poetry_type": "Hymn"
     }
   ]
 }
