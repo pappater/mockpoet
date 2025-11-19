@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 58,
-  "last_updated": "2025-11-19 10:18:40 UTC",
+  "total_chapters": 59,
+  "last_updated": "2025-11-19 22:15:58 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -526,6 +526,15 @@
       "chapter_name": "Our Steadfast Guide",
       "published_date": "2025-11-19 10:18:39 UTC",
       "poetry_type": "Hymn"
+    },
+    {
+      "chapter": 59,
+      "filename": "poem_059.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e4558ef3d72ecec000a9a2ee9858e64928076412/poem_059.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_059.md",
+      "chapter_name": "The Deep Weaver",
+      "published_date": "2025-11-19 22:15:57 UTC",
+      "poetry_type": "Mythic poem"
     }
   ]
 }
