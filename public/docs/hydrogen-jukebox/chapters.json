@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 12,
-  "last_updated": "2025-11-18 14:25:33 UTC",
+  "total_chapters": 13,
+  "last_updated": "2025-11-19 14:25:00 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -100,6 +100,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_012.md",
       "chapter_name": "The Small Gardens",
       "published_date": "2025-11-18 14:25:32 UTC"
+    },
+    {
+      "chapter": 13,
+      "filename": "poem_013.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/d12a4d6536867a174b7d3e3d5384179a3ba3a618/poem_013.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_013.md",
+      "chapter_name": "The Auroral Fact of the Empty Room",
+      "published_date": "2025-11-19 14:24:58 UTC"
     }
   ]
 }
