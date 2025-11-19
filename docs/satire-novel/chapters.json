@@ -2,8 +2,8 @@
   "novel_title": "The Bureaucratic Odyssey",
   "genre": "Fiction",
   "subgenre": "Satire",
-  "total_chapters": 7,
-  "last_updated": "2025-11-18 14:21:16 UTC",
+  "total_chapters": 8,
+  "last_updated": "2025-11-19 14:20:57 UTC",
   "gist_id": "ff59af4ea49a2da689e6e9ba91909ccf",
   "completed": false,
   "chapters": [
@@ -55,6 +55,13 @@
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/1ce0f49ced4fed49a0bf74e945cb0c69194b9754/chapter_007.md",
       "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_007.md",
       "chapter_name": "Innovation Theater"
+    },
+    {
+      "chapter": 8,
+      "filename": "chapter_008.md",
+      "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/2256660324858cc21b1d1783efe0d19d7d3ede26/chapter_008.md",
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_008.md",
+      "chapter_name": "The Contradiction"
     }
   ]
 }
