@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 60,
-  "last_updated": "2025-11-20 10:18:07 UTC",
+  "total_chapters": 61,
+  "last_updated": "2025-11-20 22:15:38 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -544,6 +544,15 @@
       "chapter_name": "The Unveiling",
       "published_date": "2025-11-20 10:18:06 UTC",
       "poetry_type": "Dramatic monologue"
+    },
+    {
+      "chapter": 61,
+      "filename": "poem_061.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e0ee4c32d45c3f9455110dd7e5804ec62aec1249/poem_061.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_061.md",
+      "chapter_name": "A Shepherd's Sweet Repose",
+      "published_date": "2025-11-20 22:15:37 UTC",
+      "poetry_type": "Pastoral"
     }
   ]
 }
