@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 6,
-  "last_updated": "2025-11-19 14:22:00 UTC",
+  "total_chapters": 7,
+  "last_updated": "2025-11-20 14:23:02 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -61,6 +61,15 @@
       "chapter_name": "Elara's Longing",
       "published_date": "2025-11-19 14:21:59 UTC",
       "poetry_type": "Story poem"
+    },
+    {
+      "chapter": 7,
+      "filename": "poem_007.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/a4d7119b4f5156d7252dfc4bcfd4015a34e771dd/poem_007.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_007.md",
+      "chapter_name": "The Grey Sea's Bride",
+      "published_date": "2025-11-20 14:23:01 UTC",
+      "poetry_type": "Tale in verse"
     }
   ]
 }
