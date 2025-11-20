@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 59,
-  "last_updated": "2025-11-19 22:15:58 UTC",
+  "total_chapters": 60,
+  "last_updated": "2025-11-20 10:18:07 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -535,6 +535,15 @@
       "chapter_name": "The Deep Weaver",
       "published_date": "2025-11-19 22:15:57 UTC",
       "poetry_type": "Mythic poem"
+    },
+    {
+      "chapter": 60,
+      "filename": "poem_060.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/dbcaede3696e0ed87e5b610e5e2a61964be05d9f/poem_060.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_060.md",
+      "chapter_name": "The Unveiling",
+      "published_date": "2025-11-20 10:18:06 UTC",
+      "poetry_type": "Dramatic monologue"
     }
   ]
 }
