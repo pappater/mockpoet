@@ -2,8 +2,8 @@
   "novel_title": "The Bureaucratic Odyssey",
   "genre": "Fiction",
   "subgenre": "Satire",
-  "total_chapters": 8,
-  "last_updated": "2025-11-19 14:20:57 UTC",
+  "total_chapters": 9,
+  "last_updated": "2025-11-20 14:20:49 UTC",
   "gist_id": "ff59af4ea49a2da689e6e9ba91909ccf",
   "completed": false,
   "chapters": [
@@ -62,6 +62,13 @@
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/2256660324858cc21b1d1783efe0d19d7d3ede26/chapter_008.md",
       "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_008.md",
       "chapter_name": "The Contradiction"
+    },
+    {
+      "chapter": 9,
+      "filename": "chapter_009.md",
+      "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/2ee45da53ab27f4dd32b5d566a92340e6f1dffa4/chapter_009.md",
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_009.md",
+      "chapter_name": "The Cascade"
     }
   ]
 }
