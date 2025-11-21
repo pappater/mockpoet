@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 19,
-  "last_updated": "2025-11-20 12:21:20 UTC",
+  "total_chapters": 20,
+  "last_updated": "2025-11-21 12:20:12 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -137,6 +137,13 @@
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/5194c0fbfb707ec6f0ecb0e50a9f81c781a871dd/chapter_019.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_019.md",
       "chapter_name": "The First Battle"
+    },
+    {
+      "chapter": 20,
+      "filename": "chapter_020.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/7180a62a8078ec174ba480e7637dbcf5ef8ea9de/chapter_020.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_020.md",
+      "chapter_name": "Lyra's Power Awakens"
     }
   ]
 }
