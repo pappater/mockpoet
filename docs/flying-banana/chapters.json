@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 15,
-  "last_updated": "2025-11-20 13:34:22 UTC",
+  "total_chapters": 17,
+  "last_updated": "2025-11-21 13:32:33 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -124,6 +124,22 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_015.md",
       "chapter_name": "A Measure of Dust",
       "published_date": "2025-11-18 13:35:57 UTC"
+    },
+    {
+      "chapter": 16,
+      "filename": "story_016.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/30849a32ad8905873192f78706b17d09902f5d18/story_016.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_016.md",
+      "chapter_name": "The Earth\u2019s Unquiet Ledger",
+      "published_date": "2025-11-20 13:34:20 UTC"
+    },
+    {
+      "chapter": 17,
+      "filename": "story_017.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/61571c343c90b5a01f034d37bcff901fa880f08d/story_017.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_017.md",
+      "chapter_name": "The Cold Heart of Carrowmore",
+      "published_date": "2025-11-21 13:32:32 UTC"
     }
   ]
 }
