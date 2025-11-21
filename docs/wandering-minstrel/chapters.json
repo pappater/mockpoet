@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 7,
-  "last_updated": "2025-11-20 14:23:02 UTC",
+  "total_chapters": 8,
+  "last_updated": "2025-11-21 14:21:57 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -70,6 +70,15 @@
       "chapter_name": "The Grey Sea's Bride",
       "published_date": "2025-11-20 14:23:01 UTC",
       "poetry_type": "Tale in verse"
+    },
+    {
+      "chapter": 8,
+      "filename": "poem_008.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/644bc68b5aff3302fe9aaef1eac31d888dbf2ca5/poem_008.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_008.md",
+      "chapter_name": "The Ballad of Elara's Watch",
+      "published_date": "2025-11-21 14:21:56 UTC",
+      "poetry_type": "Narrative lyric"
     }
   ]
 }
