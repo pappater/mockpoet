@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 14,
-  "last_updated": "2025-11-20 14:25:20 UTC",
+  "total_chapters": 15,
+  "last_updated": "2025-11-21 14:24:19 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -116,6 +116,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_014.md",
       "chapter_name": "The Pole",
       "published_date": "2025-11-20 14:25:19 UTC"
+    },
+    {
+      "chapter": 15,
+      "filename": "poem_015.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b7cd35dceb8e7a31ca20390a9fee7ae894b50865/poem_015.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_015.md",
+      "chapter_name": "Field Notes on a Buried Language",
+      "published_date": "2025-11-21 14:24:18 UTC"
     }
   ]
 }
