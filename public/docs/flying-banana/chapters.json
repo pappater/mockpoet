@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 17,
-  "last_updated": "2025-11-21 13:32:33 UTC",
+  "total_chapters": 18,
+  "last_updated": "2025-11-22 13:27:25 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -140,6 +140,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_017.md",
       "chapter_name": "The Cold Heart of Carrowmore",
       "published_date": "2025-11-21 13:32:32 UTC"
+    },
+    {
+      "chapter": 18,
+      "filename": "story_018.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/48f8eacde8b8a72561b1cd977ce718a3b516740f/story_018.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_018.md",
+      "chapter_name": "The Loom's Song",
+      "published_date": "2025-11-22 13:27:24 UTC"
     }
   ]
 }
