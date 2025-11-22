@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 63,
-  "last_updated": "2025-11-21 22:16:00 UTC",
+  "total_chapters": 64,
+  "last_updated": "2025-11-22 10:15:48 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -571,6 +571,15 @@
       "chapter_name": "Woven Evening",
       "published_date": "2025-11-21 22:15:59 UTC",
       "poetry_type": "Renga"
+    },
+    {
+      "chapter": 64,
+      "filename": "poem_064.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c2e5a8e2460f76d92bd2ab72f3c865c9944aba06/poem_064.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_064.md",
+      "chapter_name": "The Ancient Stone",
+      "published_date": "2025-11-22 10:15:47 UTC",
+      "poetry_type": "Monorhyme"
     }
   ]
 }
