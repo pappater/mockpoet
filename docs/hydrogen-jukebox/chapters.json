@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 15,
-  "last_updated": "2025-11-21 14:24:19 UTC",
+  "total_chapters": 16,
+  "last_updated": "2025-11-22 14:20:24 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -124,6 +124,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_015.md",
       "chapter_name": "Field Notes on a Buried Language",
       "published_date": "2025-11-21 14:24:18 UTC"
+    },
+    {
+      "chapter": 16,
+      "filename": "poem_016.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/17aaf1597102ea07b80384b111f2fe51ae946634/poem_016.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_016.md",
+      "chapter_name": "Pavement Blues",
+      "published_date": "2025-11-22 14:20:23 UTC"
     }
   ]
 }
