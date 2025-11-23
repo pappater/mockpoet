@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 9,
-  "last_updated": "2025-11-22 14:18:36 UTC",
+  "total_chapters": 10,
+  "last_updated": "2025-11-23 14:18:44 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -88,6 +88,15 @@
       "chapter_name": "The Old Stone Bench",
       "published_date": "2025-11-22 14:18:36 UTC",
       "poetry_type": "Contemporary ballad"
+    },
+    {
+      "chapter": 10,
+      "filename": "poem_010.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/d2c86b92e0e7b14c87c53342f7d46d55b236a3f5/poem_010.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_010.md",
+      "chapter_name": "The Ballad of Lyra's Lantern",
+      "published_date": "2025-11-23 14:18:44 UTC",
+      "poetry_type": "Modern narrative verse"
     }
   ]
 }
