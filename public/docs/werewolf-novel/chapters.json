@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 21,
-  "last_updated": "2025-11-22 12:17:49 UTC",
+  "total_chapters": 22,
+  "last_updated": "2025-11-23 12:17:50 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -151,6 +151,13 @@
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/391f0e8eed963a3bbb66bf93ab4085fdc17a6803/chapter_021.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_021.md",
       "chapter_name": "The Turning Tide"
+    },
+    {
+      "chapter": 22,
+      "filename": "chapter_022.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/2af5c66e82f88de8f05d837523649c2415e5e4db/chapter_022.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_022.md",
+      "chapter_name": "Seraphina's Last Stand"
     }
   ]
 }
