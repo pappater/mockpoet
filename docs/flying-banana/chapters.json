@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 18,
-  "last_updated": "2025-11-22 13:27:25 UTC",
+  "total_chapters": 19,
+  "last_updated": "2025-11-23 13:27:15 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -148,6 +148,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_018.md",
       "chapter_name": "The Loom's Song",
       "published_date": "2025-11-22 13:27:24 UTC"
+    },
+    {
+      "chapter": 19,
+      "filename": "story_019.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/3fec1e46df1c4ee360f5f6c5b3ca3cfd54fee6b2/story_019.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_019.md",
+      "chapter_name": "The Weight of Sunder Creek",
+      "published_date": "2025-11-23 13:27:14 UTC"
     }
   ]
 }
