@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 66,
-  "last_updated": "2025-11-23 10:15:55 UTC",
+  "total_chapters": 67,
+  "last_updated": "2025-11-23 22:15:08 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -598,6 +598,15 @@
       "chapter_name": "The Morning Mist",
       "published_date": "2025-11-23 10:15:54 UTC",
       "poetry_type": "Rondelet"
+    },
+    {
+      "chapter": 67,
+      "filename": "poem_067.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c5ed16ecd1115ac451a57e74a21df4439d40dba7/poem_067.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_067.md",
+      "chapter_name": "The Poem's Measure",
+      "published_date": "2025-11-23 22:15:07 UTC",
+      "poetry_type": "Ars Poetica"
     }
   ]
 }
