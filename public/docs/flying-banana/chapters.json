@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 19,
-  "last_updated": "2025-11-23 13:27:15 UTC",
+  "total_chapters": 20,
+  "last_updated": "2025-11-24 13:37:09 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -156,6 +156,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_019.md",
       "chapter_name": "The Weight of Sunder Creek",
       "published_date": "2025-11-23 13:27:14 UTC"
+    },
+    {
+      "chapter": 20,
+      "filename": "story_020.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/7c2da163ae746634d4f6e920ac517f9f3ab630ec/story_020.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_020.md",
+      "chapter_name": "A Measure of Discord",
+      "published_date": "2025-11-24 13:37:07 UTC"
     }
   ]
 }
