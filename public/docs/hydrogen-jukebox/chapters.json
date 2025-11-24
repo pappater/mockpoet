@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 17,
-  "last_updated": "2025-11-23 14:20:33 UTC",
+  "total_chapters": 18,
+  "last_updated": "2025-11-24 14:26:20 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -140,6 +140,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_017.md",
       "chapter_name": "just a leaf",
       "published_date": "2025-11-23 14:20:32 UTC"
+    },
+    {
+      "chapter": 18,
+      "filename": "poem_018.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/ff3a6b6b28ba55bc59d0a61c5b371e6d1fee7b42/poem_018.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_018.md",
+      "chapter_name": "The Electric Hum of Being",
+      "published_date": "2025-11-24 14:26:19 UTC"
     }
   ]
 }
