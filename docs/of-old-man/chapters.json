@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 68,
-  "last_updated": "2025-11-24 10:19:26 UTC",
+  "total_chapters": 69,
+  "last_updated": "2025-11-24 22:15:51 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -616,6 +616,15 @@
       "chapter_name": "The Epic of the Frozen Screen",
       "published_date": "2025-11-24 10:19:25 UTC",
       "poetry_type": "Mock epic"
+    },
+    {
+      "chapter": 69,
+      "filename": "poem_069.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/272253f13480cff80b52e9e847b3fa207e62c105/poem_069.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_069.md",
+      "chapter_name": "Dawn's Embrace",
+      "published_date": "2025-11-24 22:15:50 UTC",
+      "poetry_type": "Etheree"
     }
   ]
 }
