@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 69,
-  "last_updated": "2025-11-24 22:15:51 UTC",
+  "total_chapters": 70,
+  "last_updated": "2025-11-25 10:20:07 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -625,6 +625,15 @@
       "chapter_name": "Dawn's Embrace",
       "published_date": "2025-11-24 22:15:50 UTC",
       "poetry_type": "Etheree"
+    },
+    {
+      "chapter": 70,
+      "filename": "poem_070.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/cb5f8cc9d883d8d4a12022838453661e4fc8e7dc/poem_070.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_070.md",
+      "chapter_name": "The Silent Grave",
+      "published_date": "2025-11-25 10:20:06 UTC",
+      "poetry_type": "Dirge"
     }
   ]
 }
