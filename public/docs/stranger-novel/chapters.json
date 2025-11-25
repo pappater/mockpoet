@@ -1,7 +1,7 @@
 {
   "novel_title": "The Indifferent Shore",
-  "total_chapters": 23,
-  "last_updated": "2025-11-23 11:14:57 UTC",
+  "total_chapters": 25,
+  "last_updated": "2025-11-25 11:17:32 UTC",
   "gist_id": "b12ff3b5ea6e9f42a7becfc2cc1aeece",
   "chapters": [
     {
@@ -160,6 +160,18 @@
       "filename": "chapter_023.md",
       "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/5fb087fd344e539dc8cd23dc113ee00aed8127e8/chapter_023.md",
       "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_023.md"
+    },
+    {
+      "chapter": 24,
+      "filename": "chapter_024.md",
+      "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/7c98ac7996fbffe9f073ca3b45d9a0a6fee65395/chapter_024.md",
+      "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_024.md"
+    },
+    {
+      "chapter": 25,
+      "filename": "chapter_025.md",
+      "url": "https://gist.githubusercontent.com/pappater/b12ff3b5ea6e9f42a7becfc2cc1aeece/raw/c8b82664e57dbb27f0376ab3c4f42f8a1a79f3d8/chapter_025.md",
+      "gist_url": "https://gist.github.com/b12ff3b5ea6e9f42a7becfc2cc1aeece#chapter_025.md"
     }
   ]
 }
