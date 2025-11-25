@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 18,
-  "last_updated": "2025-11-24 14:26:20 UTC",
+  "total_chapters": 19,
+  "last_updated": "2025-11-25 14:26:09 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -148,6 +148,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_018.md",
       "chapter_name": "The Electric Hum of Being",
       "published_date": "2025-11-24 14:26:19 UTC"
+    },
+    {
+      "chapter": 19,
+      "filename": "poem_019.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/cf55f396a9ffe633f2aac0478f87335f42d594da/poem_019.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_019.md",
+      "chapter_name": "Winter's Will",
+      "published_date": "2025-11-25 14:26:07 UTC"
     }
   ]
 }
