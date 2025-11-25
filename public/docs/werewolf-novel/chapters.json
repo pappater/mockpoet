@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 23,
-  "last_updated": "2025-11-24 12:21:36 UTC",
+  "total_chapters": 24,
+  "last_updated": "2025-11-25 12:22:37 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -165,6 +165,13 @@
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/96ce1ef8bed43afd4b09fe88b8337240572eff18/chapter_023.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_023.md",
       "chapter_name": "Trial by Moon"
+    },
+    {
+      "chapter": 24,
+      "filename": "chapter_024.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/ce931931ef797a0db8b339183db8e3bfd08afbef/chapter_024.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_024.md",
+      "chapter_name": "Peace and Promise"
     }
   ]
 }
