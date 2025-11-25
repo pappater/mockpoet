@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 70,
-  "last_updated": "2025-11-25 10:20:07 UTC",
+  "total_chapters": 71,
+  "last_updated": "2025-11-25 22:16:08 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -634,6 +634,15 @@
       "chapter_name": "The Silent Grave",
       "published_date": "2025-11-25 10:20:06 UTC",
       "poetry_type": "Dirge"
+    },
+    {
+      "chapter": 71,
+      "filename": "poem_071.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/4459610febbf74401a064b2b22c0ea082c2469f4/poem_071.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_071.md",
+      "chapter_name": "PUSH. PULL. PAUSE.",
+      "published_date": "2025-11-25 22:16:07 UTC",
+      "poetry_type": "Performance poem"
     }
   ]
 }
