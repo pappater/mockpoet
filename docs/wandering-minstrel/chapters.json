@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 11,
-  "last_updated": "2025-11-24 14:23:48 UTC",
+  "total_chapters": 12,
+  "last_updated": "2025-11-25 14:23:14 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -106,6 +106,15 @@
       "chapter_name": "The Ballad of Sir Kael and the Wyrmwood Beast",
       "published_date": "2025-11-24 14:23:47 UTC",
       "poetry_type": "Heroic ballad"
+    },
+    {
+      "chapter": 12,
+      "filename": "poem_012.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7074f0723e710fe5a82b9ed6dd355d286e6ac6b5/poem_012.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_012.md",
+      "chapter_name": "The Ballad of the Grey Moors",
+      "published_date": "2025-11-25 14:23:13 UTC",
+      "poetry_type": "Tale in verse"
     }
   ]
 }
