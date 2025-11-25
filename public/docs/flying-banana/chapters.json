@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 20,
-  "last_updated": "2025-11-24 13:37:09 UTC",
+  "total_chapters": 21,
+  "last_updated": "2025-11-25 13:37:58 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -164,6 +164,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_020.md",
       "chapter_name": "A Measure of Discord",
       "published_date": "2025-11-24 13:37:07 UTC"
+    },
+    {
+      "chapter": 21,
+      "filename": "story_021.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/54aac3f95293b5b5f507632c27d59ad54a9060f5/story_021.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_021.md",
+      "chapter_name": "The Unity Principle",
+      "published_date": "2025-11-25 13:37:57 UTC"
     }
   ]
 }
