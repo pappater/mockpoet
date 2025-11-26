@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 12,
-  "last_updated": "2025-11-25 14:23:14 UTC",
+  "total_chapters": 13,
+  "last_updated": "2025-11-26 14:23:58 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -115,6 +115,15 @@
       "chapter_name": "The Ballad of the Grey Moors",
       "published_date": "2025-11-25 14:23:13 UTC",
       "poetry_type": "Tale in verse"
+    },
+    {
+      "chapter": 13,
+      "filename": "poem_013.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/0a61824e9bd363fa4ede06e544575a28df4b7ada/poem_013.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_013.md",
+      "chapter_name": "The Grey Stone Shore",
+      "published_date": "2025-11-26 14:23:56 UTC",
+      "poetry_type": "Ballad stanza poem"
     }
   ]
 }
