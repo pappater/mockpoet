@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 19,
-  "last_updated": "2025-11-25 14:26:09 UTC",
+  "total_chapters": 20,
+  "last_updated": "2025-11-26 14:26:31 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -156,6 +156,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_019.md",
       "chapter_name": "Winter's Will",
       "published_date": "2025-11-25 14:26:07 UTC"
+    },
+    {
+      "chapter": 20,
+      "filename": "poem_020.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/521c142e3e738c2bea77c2f48aaec4d27e911d7f/poem_020.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_020.md",
+      "chapter_name": "The Small Bay",
+      "published_date": "2025-11-26 14:26:30 UTC"
     }
   ]
 }
