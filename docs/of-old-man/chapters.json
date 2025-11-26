@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 71,
-  "last_updated": "2025-11-25 22:16:08 UTC",
+  "total_chapters": 72,
+  "last_updated": "2025-11-26 10:19:18 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -643,6 +643,15 @@
       "chapter_name": "PUSH. PULL. PAUSE.",
       "published_date": "2025-11-25 22:16:07 UTC",
       "poetry_type": "Performance poem"
+    },
+    {
+      "chapter": 72,
+      "filename": "poem_072.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/06fd15861b0238828760d8a3034e0213d076e1c5/poem_072.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_072.md",
+      "chapter_name": "A Stone's Resolve",
+      "published_date": "2025-11-26 10:19:16 UTC",
+      "poetry_type": "Sonnet"
     }
   ]
 }
