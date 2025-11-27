@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 20,
-  "last_updated": "2025-11-26 14:26:31 UTC",
+  "total_chapters": 21,
+  "last_updated": "2025-11-27 14:25:18 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -164,6 +164,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_020.md",
       "chapter_name": "The Small Bay",
       "published_date": "2025-11-26 14:26:30 UTC"
+    },
+    {
+      "chapter": 21,
+      "filename": "poem_021.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/1584c621f77f5e7f660fd53d9227ddfc50fa797e/poem_021.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_021.md",
+      "chapter_name": "L'Encre des Chim\u00e8res",
+      "published_date": "2025-11-27 14:25:17 UTC"
     }
   ]
 }
