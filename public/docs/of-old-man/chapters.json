@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 73,
-  "last_updated": "2025-11-26 22:16:15 UTC",
+  "total_chapters": 74,
+  "last_updated": "2025-11-27 10:19:03 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -661,6 +661,15 @@
       "chapter_name": "The Pilgrim's Passage",
       "published_date": "2025-11-26 22:16:14 UTC",
       "poetry_type": "Allegory poem"
+    },
+    {
+      "chapter": 74,
+      "filename": "poem_074.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/961289f65e419a733d9e2d247d06b6ac2c03e10b/poem_074.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_074.md",
+      "chapter_name": "Ars Poetica",
+      "published_date": "2025-11-27 10:19:02 UTC",
+      "poetry_type": "Ars Poetica"
     }
   ]
 }
