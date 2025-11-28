@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 21,
-  "last_updated": "2025-11-27 14:25:18 UTC",
+  "total_chapters": 22,
+  "last_updated": "2025-11-28 14:24:55 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -172,6 +172,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_021.md",
       "chapter_name": "L'Encre des Chim\u00e8res",
       "published_date": "2025-11-27 14:25:17 UTC"
+    },
+    {
+      "chapter": 22,
+      "filename": "poem_022.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/00c05ed52b144b2663586ef82e16cd2bbcf58878/poem_022.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_022.md",
+      "chapter_name": "The Uncharted Ground",
+      "published_date": "2025-11-28 14:24:54 UTC"
     }
   ]
 }
