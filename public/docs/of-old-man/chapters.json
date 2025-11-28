@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 76,
-  "last_updated": "2025-11-28 10:19:03 UTC",
+  "total_chapters": 77,
+  "last_updated": "2025-11-28 22:14:41 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -688,6 +688,15 @@
       "chapter_name": "The Newsreel Door",
       "published_date": "2025-11-28 10:19:01 UTC",
       "poetry_type": "Confessional poem"
+    },
+    {
+      "chapter": 77,
+      "filename": "poem_077.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/b8d1dafd23cdcae21b71f69251b362fef998421e/poem_077.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_077.md",
+      "chapter_name": "Daybreak",
+      "published_date": "2025-11-28 22:14:40 UTC",
+      "poetry_type": "Diamante"
     }
   ]
 }
