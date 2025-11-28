@@ -1,7 +1,7 @@
 {
   "novel_title": "The Weight of Promises",
-  "total_chapters": 29,
-  "last_updated": "2025-11-27 10:23:08 UTC",
+  "total_chapters": 30,
+  "last_updated": "2025-11-28 10:21:50 UTC",
   "gist_id": "51893c25959355bda1884804375ec3d8",
   "completed": false,
   "chapters": [
@@ -190,6 +190,12 @@
       "filename": "chapter_029.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/0a75d0800bf5d7cc9bfce1fe06ae849f6152fcc4/chapter_029.md",
       "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_029.md"
+    },
+    {
+      "chapter": 30,
+      "filename": "chapter_030.md",
+      "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/52773c22e45310015aa6165ca1a9494b611795ff/chapter_030.md",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_030.md"
     }
   ]
 }
