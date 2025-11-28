@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 75,
-  "last_updated": "2025-11-27 22:15:13 UTC",
+  "total_chapters": 76,
+  "last_updated": "2025-11-28 10:19:03 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -679,6 +679,15 @@
       "chapter_name": "Twilight's Echo",
       "published_date": "2025-11-27 22:15:12 UTC",
       "poetry_type": "Lyric poem"
+    },
+    {
+      "chapter": 76,
+      "filename": "poem_076.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/f227cd9aa338a6166a22ff5035c72cf0b94639d5/poem_076.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_076.md",
+      "chapter_name": "The Newsreel Door",
+      "published_date": "2025-11-28 10:19:01 UTC",
+      "poetry_type": "Confessional poem"
     }
   ]
 }
