@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 78,
-  "last_updated": "2025-11-29 10:16:31 UTC",
+  "total_chapters": 79,
+  "last_updated": "2025-11-29 22:15:29 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -706,6 +706,15 @@
       "chapter_name": "The Unseen Stitch",
       "published_date": "2025-11-29 10:16:29 UTC",
       "poetry_type": "Performance poem"
+    },
+    {
+      "chapter": 79,
+      "filename": "poem_079.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/7310837d867d18da65515c636dd9d39c5041e933/poem_079.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_079.md",
+      "chapter_name": "The Quiet Lane's Thought",
+      "published_date": "2025-11-29 22:15:28 UTC",
+      "poetry_type": "Paradelle"
     }
   ]
 }
