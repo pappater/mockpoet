@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 22,
-  "last_updated": "2025-11-28 14:24:55 UTC",
+  "total_chapters": 23,
+  "last_updated": "2025-11-29 14:21:37 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -180,6 +180,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_022.md",
       "chapter_name": "The Uncharted Ground",
       "published_date": "2025-11-28 14:24:54 UTC"
+    },
+    {
+      "chapter": 23,
+      "filename": "poem_023.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/ffbf9cee2f1f04500f55988dbe802e966f7c53f0/poem_023.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_023.md",
+      "chapter_name": "The Window Screen",
+      "published_date": "2025-11-29 14:21:36 UTC"
     }
   ]
 }
