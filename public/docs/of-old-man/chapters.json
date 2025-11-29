@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 77,
-  "last_updated": "2025-11-28 22:14:41 UTC",
+  "total_chapters": 78,
+  "last_updated": "2025-11-29 10:16:31 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -697,6 +697,15 @@
       "chapter_name": "Daybreak",
       "published_date": "2025-11-28 22:14:40 UTC",
       "poetry_type": "Diamante"
+    },
+    {
+      "chapter": 78,
+      "filename": "poem_078.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/96dde03e25e08015f6614b3f79af46f15f17b87b/poem_078.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_078.md",
+      "chapter_name": "The Unseen Stitch",
+      "published_date": "2025-11-29 10:16:29 UTC",
+      "poetry_type": "Performance poem"
     }
   ]
 }
