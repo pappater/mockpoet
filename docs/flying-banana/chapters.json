@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 24,
-  "last_updated": "2025-11-28 13:34:11 UTC",
+  "total_chapters": 25,
+  "last_updated": "2025-11-29 13:30:31 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -196,6 +196,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_024.md",
       "chapter_name": "The Weight of Stillness",
       "published_date": "2025-11-28 13:34:10 UTC"
+    },
+    {
+      "chapter": 25,
+      "filename": "story_025.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/9190066337fc99096a668907d085d21efc195ca9/story_025.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_025.md",
+      "chapter_name": "The Island's Measure",
+      "published_date": "2025-11-29 13:30:30 UTC"
     }
   ]
 }
