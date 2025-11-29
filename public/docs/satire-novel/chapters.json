@@ -2,8 +2,8 @@
   "novel_title": "The Bureaucratic Odyssey",
   "genre": "Fiction",
   "subgenre": "Satire",
-  "total_chapters": 17,
-  "last_updated": "2025-11-28 14:21:19 UTC",
+  "total_chapters": 18,
+  "last_updated": "2025-11-29 14:18:02 UTC",
   "gist_id": "ff59af4ea49a2da689e6e9ba91909ccf",
   "completed": false,
   "chapters": [
@@ -125,6 +125,13 @@
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/dfc49c399460540d9371eab261a8e071904e9dda/chapter_017.md",
       "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_017.md",
       "chapter_name": "System Overload"
+    },
+    {
+      "chapter": 18,
+      "filename": "chapter_018.md",
+      "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/cf1fed05519b7600e15f5a521028af67f6beda30/chapter_018.md",
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_018.md",
+      "chapter_name": "Human Element Returns"
     }
   ]
 }
