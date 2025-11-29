@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 15,
-  "last_updated": "2025-11-28 14:22:24 UTC",
+  "total_chapters": 16,
+  "last_updated": "2025-11-29 14:19:33 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -142,6 +142,15 @@
       "chapter_name": "The Ballad of the Shadowthorn's Bloom",
       "published_date": "2025-11-28 14:22:23 UTC",
       "poetry_type": "Quest ballad"
+    },
+    {
+      "chapter": 16,
+      "filename": "poem_016.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c9c51aa7e0b270415508e0b86b4dec1eeb23fade/poem_016.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_016.md",
+      "chapter_name": "The Ballad of Elara's Locket",
+      "published_date": "2025-11-29 14:19:32 UTC",
+      "poetry_type": "Story ballad"
     }
   ]
 }
