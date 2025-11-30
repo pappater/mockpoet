@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 25,
-  "last_updated": "2025-11-29 13:30:31 UTC",
+  "total_chapters": 26,
+  "last_updated": "2025-11-30 13:30:24 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -204,6 +204,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_025.md",
       "chapter_name": "The Island's Measure",
       "published_date": "2025-11-29 13:30:30 UTC"
+    },
+    {
+      "chapter": 26,
+      "filename": "story_026.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/e776c797dec7777ddb420e445742ef041112bbd6/story_026.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_026.md",
+      "chapter_name": "The Cadence of Ruin",
+      "published_date": "2025-11-30 13:30:23 UTC"
     }
   ]
 }
