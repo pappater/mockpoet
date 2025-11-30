@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 16,
-  "last_updated": "2025-11-29 14:19:33 UTC",
+  "total_chapters": 17,
+  "last_updated": "2025-11-30 14:19:33 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -151,6 +151,15 @@
       "chapter_name": "The Ballad of Elara's Locket",
       "published_date": "2025-11-29 14:19:32 UTC",
       "poetry_type": "Story ballad"
+    },
+    {
+      "chapter": 17,
+      "filename": "poem_017.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/e9ffb8f974e7ecab0e9e21e9b796e3dabfd8f605/poem_017.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_017.md",
+      "chapter_name": "The Ballad of Lyra's Veil",
+      "published_date": "2025-11-30 14:19:33 UTC",
+      "poetry_type": "Mythical ballad"
     }
   ]
 }
