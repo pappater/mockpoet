@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 17,
-  "last_updated": "2025-11-30 14:19:33 UTC",
+  "total_chapters": 18,
+  "last_updated": "2025-12-01 14:25:36 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -160,6 +160,15 @@
       "chapter_name": "The Ballad of Lyra's Veil",
       "published_date": "2025-11-30 14:19:33 UTC",
       "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 18,
+      "filename": "poem_018.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/1c303d6a0fea753077e492ed00e7863ae63e6751/poem_018.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_018.md",
+      "chapter_name": "Jamie o' the Brae",
+      "published_date": "2025-12-01 14:25:35 UTC",
+      "poetry_type": "Border ballad"
     }
   ]
 }
