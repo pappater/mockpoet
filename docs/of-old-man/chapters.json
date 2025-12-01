@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 82,
-  "last_updated": "2025-12-01 10:20:16 UTC",
+  "total_chapters": 83,
+  "last_updated": "2025-12-01 22:14:30 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -742,6 +742,15 @@
       "chapter_name": "On Fleeting Grace",
       "published_date": "2025-12-01 10:20:15 UTC",
       "poetry_type": "Petrarchan sonnet"
+    },
+    {
+      "chapter": 83,
+      "filename": "poem_083.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/91f7994efa040f9ce2495d2b7770311a6a407acc/poem_083.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_083.md",
+      "chapter_name": "Static Hum",
+      "published_date": "2025-12-01 22:14:28 UTC",
+      "poetry_type": "Blitz poem"
     }
   ]
 }
