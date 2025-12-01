@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 23,
-  "last_updated": "2025-11-30 14:21:53 UTC",
+  "total_chapters": 25,
+  "last_updated": "2025-12-01 14:28:05 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -188,6 +188,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_023.md",
       "chapter_name": "The Window Screen",
       "published_date": "2025-11-29 14:21:36 UTC"
+    },
+    {
+      "chapter": 24,
+      "filename": "poem_024.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/fd4accfa02ee0d97cfbc7cebfa0f5d1cdf17a646/poem_024.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_024.md",
+      "chapter_name": "Poema del Silencio Verde",
+      "published_date": "2025-11-30 14:21:52 UTC"
+    },
+    {
+      "chapter": 25,
+      "filename": "poem_025.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/e1b483f210cb5b6a80a26fdf521e2217436d5129/poem_025.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_025.md",
+      "chapter_name": "The Rooted Rise",
+      "published_date": "2025-12-01 14:28:04 UTC"
     }
   ]
 }
