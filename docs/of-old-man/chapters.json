@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 80,
-  "last_updated": "2025-11-30 22:15:16 UTC",
+  "total_chapters": 82,
+  "last_updated": "2025-12-01 10:20:16 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -724,6 +724,24 @@
       "chapter_name": "Still Sheen",
       "published_date": "2025-11-30 10:15:50 UTC",
       "poetry_type": "Palindrome poem"
+    },
+    {
+      "chapter": 81,
+      "filename": "poem_081.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/5478d88ac2ab13b684b38d3b96c4849ee81f0b01/poem_081.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_081.md",
+      "chapter_name": "The Usual Suspect",
+      "published_date": "2025-11-30 22:15:15 UTC",
+      "poetry_type": "Senryu"
+    },
+    {
+      "chapter": 82,
+      "filename": "poem_082.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/4899b0861d0ba93c08dc276d31b5915b20479c3d/poem_082.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_082.md",
+      "chapter_name": "On Fleeting Grace",
+      "published_date": "2025-12-01 10:20:15 UTC",
+      "poetry_type": "Petrarchan sonnet"
     }
   ]
 }
