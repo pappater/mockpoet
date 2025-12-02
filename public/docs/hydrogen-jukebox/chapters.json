@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 25,
-  "last_updated": "2025-12-01 14:28:05 UTC",
+  "total_chapters": 26,
+  "last_updated": "2025-12-02 14:28:21 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -204,6 +204,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_025.md",
       "chapter_name": "The Rooted Rise",
       "published_date": "2025-12-01 14:28:04 UTC"
+    },
+    {
+      "chapter": 26,
+      "filename": "poem_026.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/8307545f2fe8dca157bc8c290baf4d1703005096/poem_026.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_026.md",
+      "chapter_name": "The Polished Room",
+      "published_date": "2025-12-02 14:28:20 UTC"
     }
   ]
 }
