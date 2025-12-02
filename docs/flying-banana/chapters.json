@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 27,
-  "last_updated": "2025-12-01 13:39:15 UTC",
+  "total_chapters": 28,
+  "last_updated": "2025-12-02 13:40:33 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -220,6 +220,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_027.md",
       "chapter_name": "The Weight of Unspoken Truths",
       "published_date": "2025-12-01 13:39:13 UTC"
+    },
+    {
+      "chapter": 28,
+      "filename": "story_028.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/aa406698d07bbf9442a5ba9dcfa7bcc3bdcf3c3f/story_028.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_028.md",
+      "chapter_name": "The Architect of Silence",
+      "published_date": "2025-12-02 13:40:31 UTC"
     }
   ]
 }
