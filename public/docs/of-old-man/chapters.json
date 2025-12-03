@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 86,
-  "last_updated": "2025-12-03 10:20:07 UTC",
+  "total_chapters": 87,
+  "last_updated": "2025-12-03 22:16:47 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -778,6 +778,15 @@
       "chapter_name": "The Ballad of Elara's Tide",
       "published_date": "2025-12-03 10:20:06 UTC",
       "poetry_type": "Ballad"
+    },
+    {
+      "chapter": 87,
+      "filename": "poem_087.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/34c324dd4cb5f7ecb2f574887780720c4dfae9f0/poem_087.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_087.md",
+      "chapter_name": "The Alchemy of Light",
+      "published_date": "2025-12-03 22:16:46 UTC",
+      "poetry_type": "Couplet"
     }
   ]
 }
