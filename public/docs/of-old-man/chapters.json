@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 85,
-  "last_updated": "2025-12-02 22:14:44 UTC",
+  "total_chapters": 86,
+  "last_updated": "2025-12-03 10:20:07 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -769,6 +769,15 @@
       "chapter_name": "Twilight Reverie",
       "published_date": "2025-12-02 22:14:43 UTC",
       "poetry_type": "Lyric poem"
+    },
+    {
+      "chapter": 86,
+      "filename": "poem_086.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/31ab16f1499f1b0e3d5909d1535ddbd3451ccfc6/poem_086.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_086.md",
+      "chapter_name": "The Ballad of Elara's Tide",
+      "published_date": "2025-12-03 10:20:06 UTC",
+      "poetry_type": "Ballad"
     }
   ]
 }
