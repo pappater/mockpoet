@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 28,
-  "last_updated": "2025-12-02 13:40:33 UTC",
+  "total_chapters": 29,
+  "last_updated": "2025-12-03 13:39:48 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -228,6 +228,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_028.md",
       "chapter_name": "The Architect of Silence",
       "published_date": "2025-12-02 13:40:31 UTC"
+    },
+    {
+      "chapter": 29,
+      "filename": "story_029.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/6456d6e4c680851bb928579aca00e95d25ddae03/story_029.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_029.md",
+      "chapter_name": "The Cartographer of Whispers",
+      "published_date": "2025-12-03 13:39:47 UTC"
     }
   ]
 }
