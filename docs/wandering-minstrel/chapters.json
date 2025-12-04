@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 20,
-  "last_updated": "2025-12-03 14:25:06 UTC",
+  "total_chapters": 21,
+  "last_updated": "2025-12-04 14:24:44 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -187,6 +187,15 @@
       "chapter_name": "The Lay of Eldrin's Star",
       "published_date": "2025-12-03 14:25:05 UTC",
       "poetry_type": "Adventure ballad"
+    },
+    {
+      "chapter": 21,
+      "filename": "poem_021.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/6b9afd35a5c2f7e4f2a05c32f5ce557353e85de4/poem_021.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_021.md",
+      "chapter_name": "The Sailor's Vow and Lily's Watch",
+      "published_date": "2025-12-04 14:24:43 UTC",
+      "poetry_type": "Love ballad"
     }
   ]
 }
