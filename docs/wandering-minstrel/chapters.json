@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 21,
-  "last_updated": "2025-12-04 14:24:44 UTC",
+  "total_chapters": 22,
+  "last_updated": "2025-12-05 14:24:01 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -196,6 +196,15 @@
       "chapter_name": "The Sailor's Vow and Lily's Watch",
       "published_date": "2025-12-04 14:24:43 UTC",
       "poetry_type": "Love ballad"
+    },
+    {
+      "chapter": 22,
+      "filename": "poem_022.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/a33b13a5236cda504262fea26b337f1e697cc196/poem_022.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_022.md",
+      "chapter_name": "The Ballad of the Wreck of the Sea Serpent",
+      "published_date": "2025-12-05 14:24:00 UTC",
+      "poetry_type": "Sea ballad"
     }
   ]
 }
