@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 89,
-  "last_updated": "2025-12-04 22:17:46 UTC",
+  "total_chapters": 90,
+  "last_updated": "2025-12-05 10:18:57 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -805,6 +805,15 @@
       "chapter_name": "Morning's Thread",
       "published_date": "2025-12-04 22:17:44 UTC",
       "poetry_type": "Minute poem"
+    },
+    {
+      "chapter": 90,
+      "filename": "poem_090.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/07edd9cee025f2b55a0de3ca02541e8fc29b3ea3/poem_090.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_090.md",
+      "chapter_name": "The Router of the Realms",
+      "published_date": "2025-12-05 10:18:56 UTC",
+      "poetry_type": "Parody poem"
     }
   ]
 }
