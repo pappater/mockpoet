@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 30,
-  "last_updated": "2025-12-04 13:41:00 UTC",
+  "total_chapters": 31,
+  "last_updated": "2025-12-05 13:36:25 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -244,6 +244,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_030.md",
       "chapter_name": "The Beacon",
       "published_date": "2025-12-04 13:40:59 UTC"
+    },
+    {
+      "chapter": 31,
+      "filename": "story_031.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/b98831bcac0bba6538559c21b665242d678afa50/story_031.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_031.md",
+      "chapter_name": "The Glimmer in the Ledger",
+      "published_date": "2025-12-05 13:36:24 UTC"
     }
   ]
 }
