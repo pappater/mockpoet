@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 92,
-  "last_updated": "2025-12-06 10:16:11 UTC",
+  "total_chapters": 93,
+  "last_updated": "2025-12-06 22:15:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -832,6 +832,15 @@
       "chapter_name": "Evening Echoes",
       "published_date": "2025-12-06 10:16:09 UTC",
       "poetry_type": "Lyric poem"
+    },
+    {
+      "chapter": 93,
+      "filename": "poem_093.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e6846f99dd15cc49c180dfcd41517eabfbe3807e/poem_093.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_093.md",
+      "chapter_name": "The Stone and the River",
+      "published_date": "2025-12-06 22:15:00 UTC",
+      "poetry_type": "Sestina"
     }
   ]
 }
