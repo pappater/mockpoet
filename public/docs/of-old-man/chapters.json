@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 91,
-  "last_updated": "2025-12-05 22:15:54 UTC",
+  "total_chapters": 92,
+  "last_updated": "2025-12-06 10:16:11 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -823,6 +823,15 @@
       "chapter_name": "The Dust of Ages",
       "published_date": "2025-12-05 22:15:53 UTC",
       "poetry_type": "Than-Bauk"
+    },
+    {
+      "chapter": 92,
+      "filename": "poem_092.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/dd03d3d74eaef7e907d92df42713ec365242b74a/poem_092.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_092.md",
+      "chapter_name": "Evening Echoes",
+      "published_date": "2025-12-06 10:16:09 UTC",
+      "poetry_type": "Lyric poem"
     }
   ]
 }
