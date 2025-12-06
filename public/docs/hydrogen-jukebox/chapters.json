@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 29,
-  "last_updated": "2025-12-05 14:26:42 UTC",
+  "total_chapters": 30,
+  "last_updated": "2025-12-06 14:21:17 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -236,6 +236,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_029.md",
       "chapter_name": "The Deep Current",
       "published_date": "2025-12-05 14:26:41 UTC"
+    },
+    {
+      "chapter": 30,
+      "filename": "poem_030.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/7a00e6cd87542d9991562f18a90a64d21b384090/poem_030.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_030.md",
+      "chapter_name": "The New Provision",
+      "published_date": "2025-12-06 14:21:16 UTC"
     }
   ]
 }
