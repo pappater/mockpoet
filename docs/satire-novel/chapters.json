@@ -2,8 +2,8 @@
   "novel_title": "The Bureaucratic Odyssey",
   "genre": "Fiction",
   "subgenre": "Satire",
-  "total_chapters": 24,
-  "last_updated": "2025-12-05 14:22:04 UTC",
+  "total_chapters": 25,
+  "last_updated": "2025-12-06 14:18:03 UTC",
   "gist_id": "ff59af4ea49a2da689e6e9ba91909ccf",
   "completed": false,
   "chapters": [
@@ -174,6 +174,13 @@
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/4ea979295e8120a66ad5e3598dd10b2f6bdc7456/chapter_024.md",
       "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_024.md",
       "chapter_name": "The Balance"
+    },
+    {
+      "chapter": 25,
+      "filename": "chapter_025.md",
+      "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/02cb504ee4df01d761cc56ead6dae409e26498c9/chapter_025.md",
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_025.md",
+      "chapter_name": "The Future"
     }
   ]
 }
