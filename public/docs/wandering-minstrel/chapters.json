@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 23,
-  "last_updated": "2025-12-06 14:18:55 UTC",
+  "total_chapters": 24,
+  "last_updated": "2025-12-07 14:19:31 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -214,6 +214,15 @@
       "chapter_name": "The Ballad of Sir Kaelen and the Gloomwood",
       "published_date": "2025-12-06 14:18:53 UTC",
       "poetry_type": "Legendary ballad"
+    },
+    {
+      "chapter": 24,
+      "filename": "poem_024.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/cfb265c0a8942aaa1b1b8bbbc4354a4c140fbeb9/poem_024.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_024.md",
+      "chapter_name": "The Maiden of Saltwater Shore",
+      "published_date": "2025-12-07 14:19:30 UTC",
+      "poetry_type": "Folklore ballad"
     }
   ]
 }
