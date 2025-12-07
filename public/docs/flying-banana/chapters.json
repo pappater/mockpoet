@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 32,
-  "last_updated": "2025-12-06 13:30:32 UTC",
+  "total_chapters": 33,
+  "last_updated": "2025-12-07 13:29:19 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -260,6 +260,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_032.md",
       "chapter_name": "The Chronicler of Echoes",
       "published_date": "2025-12-06 13:30:31 UTC"
+    },
+    {
+      "chapter": 33,
+      "filename": "story_033.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/407c84b1024d440fff68b83af4e126e6d5a4ec9a/story_033.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_033.md",
+      "chapter_name": "The Weight of the Mountain",
+      "published_date": "2025-12-07 13:29:17 UTC"
     }
   ]
 }
