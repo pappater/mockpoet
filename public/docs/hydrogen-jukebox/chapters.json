@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 30,
-  "last_updated": "2025-12-06 14:21:17 UTC",
+  "total_chapters": 31,
+  "last_updated": "2025-12-07 14:21:39 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -244,6 +244,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_030.md",
       "chapter_name": "The New Provision",
       "published_date": "2025-12-06 14:21:16 UTC"
+    },
+    {
+      "chapter": 31,
+      "filename": "poem_031.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/654d034b92d9890a36a306ee3d033deab65aa344/poem_031.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_031.md",
+      "chapter_name": "The Scaffolding",
+      "published_date": "2025-12-07 14:21:38 UTC"
     }
   ]
 }
