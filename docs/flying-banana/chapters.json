@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 33,
-  "last_updated": "2025-12-07 13:29:19 UTC",
+  "total_chapters": 34,
+  "last_updated": "2025-12-08 13:38:41 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -268,6 +268,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_033.md",
       "chapter_name": "The Weight of the Mountain",
       "published_date": "2025-12-07 13:29:17 UTC"
+    },
+    {
+      "chapter": 34,
+      "filename": "story_034.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/9ffc434d824ddd449a88319fe511ae860b27f455/story_034.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_034.md",
+      "chapter_name": "The Dry Season",
+      "published_date": "2025-12-08 13:38:39 UTC"
     }
   ]
 }
