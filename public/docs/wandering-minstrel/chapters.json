@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 24,
-  "last_updated": "2025-12-07 14:19:31 UTC",
+  "total_chapters": 25,
+  "last_updated": "2025-12-08 14:26:00 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -223,6 +223,15 @@
       "chapter_name": "The Maiden of Saltwater Shore",
       "published_date": "2025-12-07 14:19:30 UTC",
       "poetry_type": "Folklore ballad"
+    },
+    {
+      "chapter": 25,
+      "filename": "poem_025.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/eaae917ae60c836c13da36800489a208bcda8b5f/poem_025.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_025.md",
+      "chapter_name": "The Lad of Lea-side Hill",
+      "published_date": "2025-12-08 14:25:59 UTC",
+      "poetry_type": "War ballad"
     }
   ]
 }
