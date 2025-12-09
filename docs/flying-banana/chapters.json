@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 34,
-  "last_updated": "2025-12-08 13:38:41 UTC",
+  "total_chapters": 35,
+  "last_updated": "2025-12-09 13:40:27 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -276,6 +276,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_034.md",
       "chapter_name": "The Dry Season",
       "published_date": "2025-12-08 13:38:39 UTC"
+    },
+    {
+      "chapter": 35,
+      "filename": "story_035.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/eada9e8e2388581ab076bf8ec0b0c54d39b1cc86/story_035.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_035.md",
+      "chapter_name": "The Unfurling of Asphalt",
+      "published_date": "2025-12-09 13:40:25 UTC"
     }
   ]
 }
