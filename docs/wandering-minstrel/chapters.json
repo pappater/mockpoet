@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 25,
-  "last_updated": "2025-12-08 14:26:00 UTC",
+  "total_chapters": 26,
+  "last_updated": "2025-12-09 14:25:33 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -232,6 +232,15 @@
       "chapter_name": "The Lad of Lea-side Hill",
       "published_date": "2025-12-08 14:25:59 UTC",
       "poetry_type": "War ballad"
+    },
+    {
+      "chapter": 26,
+      "filename": "poem_026.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/413ff7cbb6d13ae4cdac5697e9909aee33381b29/poem_026.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_026.md",
+      "chapter_name": "The Ballad of Elara's Flight",
+      "published_date": "2025-12-09 14:25:32 UTC",
+      "poetry_type": "Traditional ballad"
     }
   ]
 }
