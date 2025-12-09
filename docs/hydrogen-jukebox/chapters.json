@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 32,
-  "last_updated": "2025-12-08 14:27:39 UTC",
+  "total_chapters": 33,
+  "last_updated": "2025-12-09 14:28:10 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -260,6 +260,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_032.md",
       "chapter_name": "a tiny pause",
       "published_date": "2025-12-08 14:27:38 UTC"
+    },
+    {
+      "chapter": 33,
+      "filename": "poem_033.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/452152af086fff22dfd3e345fa25c08db1037e15/poem_033.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_033.md",
+      "chapter_name": "Field Notes on Dispersal",
+      "published_date": "2025-12-09 14:28:09 UTC"
     }
   ]
 }
