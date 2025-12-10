@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 96,
-  "last_updated": "2025-12-09 10:19:58 UTC",
+  "total_chapters": 97,
+  "last_updated": "2025-12-10 10:20:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -868,6 +868,15 @@
       "chapter_name": "What the Air Remembers",
       "published_date": "2025-12-09 10:19:56 UTC",
       "poetry_type": "Prose poem"
+    },
+    {
+      "chapter": 97,
+      "filename": "poem_097.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/a5ce1769a91a3c59ed7410ec7f66da0782b94be2/poem_097.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_097.md",
+      "chapter_name": "On Passing Light",
+      "published_date": "2025-12-10 10:20:00 UTC",
+      "poetry_type": "Sonnet"
     }
   ]
 }
