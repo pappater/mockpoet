@@ -1,7 +1,7 @@
 {
   "novel_title": "Moonbound Devotion",
-  "total_chapters": 39,
-  "last_updated": "2025-12-10 12:22:30 UTC",
+  "total_chapters": 40,
+  "last_updated": "2025-12-11 12:23:23 UTC",
   "gist_id": "af676da598e2040a0cdd2cb4b9ca48e3",
   "completed": false,
   "chapters": [
@@ -263,6 +263,12 @@
       "filename": "chapter_039.md",
       "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/efbdd284567b074744a85e952864ef0f3904be7f/chapter_039.md",
       "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_039.md"
+    },
+    {
+      "chapter": 40,
+      "filename": "chapter_040.md",
+      "url": "https://gist.githubusercontent.com/pappater/af676da598e2040a0cdd2cb4b9ca48e3/raw/5f67a4cdc64b9fa3686b5d21c3c715ed4b59580d/chapter_040.md",
+      "gist_url": "https://gist.github.com/af676da598e2040a0cdd2cb4b9ca48e3#chapter_040.md"
     }
   ]
 }
