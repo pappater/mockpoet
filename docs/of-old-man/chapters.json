@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 97,
-  "last_updated": "2025-12-10 10:20:01 UTC",
+  "total_chapters": 98,
+  "last_updated": "2025-12-11 10:20:38 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -877,6 +877,15 @@
       "chapter_name": "On Passing Light",
       "published_date": "2025-12-10 10:20:00 UTC",
       "poetry_type": "Sonnet"
+    },
+    {
+      "chapter": 98,
+      "filename": "poem_098.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/5caa6d43b1b7c77d4f7998a5c4c7d9427caa56d2/poem_098.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_098.md",
+      "chapter_name": "The Door's Recall",
+      "published_date": "2025-12-11 10:20:37 UTC",
+      "poetry_type": "Sestina"
     }
   ]
 }
