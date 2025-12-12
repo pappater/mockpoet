@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 36,
-  "last_updated": "2025-12-11 13:43:44 UTC",
+  "total_chapters": 37,
+  "last_updated": "2025-12-12 13:38:30 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -292,6 +292,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_036.md",
       "chapter_name": "Patterns of Light",
       "published_date": "2025-12-11 13:43:42 UTC"
+    },
+    {
+      "chapter": 37,
+      "filename": "story_037.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/3ae3ae7fe0c1bc49dc0fd2e1729a490573246e7a/story_037.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_037.md",
+      "chapter_name": "The Fading Chant of Carricklea",
+      "published_date": "2025-12-12 13:38:28 UTC"
     }
   ]
 }
