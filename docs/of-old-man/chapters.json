@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 100,
-  "last_updated": "2025-12-12 22:16:24 UTC",
+  "total_chapters": 101,
+  "last_updated": "2025-12-13 10:16:24 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -904,6 +904,15 @@
       "chapter_name": "The Garden's Steadfast Breath",
       "published_date": "2025-12-12 22:16:23 UTC",
       "poetry_type": "Paradelle"
+    },
+    {
+      "chapter": 101,
+      "filename": "poem_101.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c9565764c65d3a5c993c71c9ac136f37d7970d4e/poem_101.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_101.md",
+      "chapter_name": "The Curator of Souls",
+      "published_date": "2025-12-13 10:16:23 UTC",
+      "poetry_type": "Dramatic monologue"
     }
   ]
 }
