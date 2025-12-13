@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 33,
-  "last_updated": "2025-12-09 14:28:10 UTC",
+  "total_chapters": 34,
+  "last_updated": "2025-12-13 14:22:05 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -268,6 +268,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_033.md",
       "chapter_name": "Field Notes on Dispersal",
       "published_date": "2025-12-09 14:28:09 UTC"
+    },
+    {
+      "chapter": 34,
+      "filename": "poem_034.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/7efbae60ef5d0fe81fc4c577868308c7dc152f21/poem_034.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_034.md",
+      "chapter_name": "That Gray Bird",
+      "published_date": "2025-12-13 14:22:04 UTC"
     }
   ]
 }
