@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 102,
-  "last_updated": "2025-12-13 22:15:18 UTC",
+  "total_chapters": 103,
+  "last_updated": "2025-12-14 10:16:19 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -922,6 +922,15 @@
       "chapter_name": "The Steadfast Heart",
       "published_date": "2025-12-13 22:15:16 UTC",
       "poetry_type": "Heroic couplet"
+    },
+    {
+      "chapter": 103,
+      "filename": "poem_103.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/19aafaa6cc8a239e9de4dd390c1373de2f378d45/poem_103.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_103.md",
+      "chapter_name": "The Garden's Sigh",
+      "published_date": "2025-12-14 10:16:17 UTC",
+      "poetry_type": "Octave"
     }
   ]
 }
