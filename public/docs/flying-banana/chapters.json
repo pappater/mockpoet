@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 38,
-  "last_updated": "2025-12-13 13:31:22 UTC",
+  "total_chapters": 39,
+  "last_updated": "2025-12-14 13:31:23 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -308,6 +308,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_038.md",
       "chapter_name": "The Weight of the Printed Word",
       "published_date": "2025-12-13 13:31:20 UTC"
+    },
+    {
+      "chapter": 39,
+      "filename": "story_039.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/e0c6655d180175d1608c0b7439cfb409dd498635/story_039.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_039.md",
+      "chapter_name": "The Perimeter of Knowledge",
+      "published_date": "2025-12-14 13:31:22 UTC"
     }
   ]
 }
