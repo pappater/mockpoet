@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 34,
-  "last_updated": "2025-12-13 14:22:05 UTC",
+  "total_chapters": 35,
+  "last_updated": "2025-12-14 14:22:20 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -276,6 +276,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_034.md",
       "chapter_name": "That Gray Bird",
       "published_date": "2025-12-13 14:22:04 UTC"
+    },
+    {
+      "chapter": 35,
+      "filename": "poem_035.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/0d85e030fe90ffb87347c54db57979b30893c9a7/poem_035.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_035.md",
+      "chapter_name": "The Street of Echoes",
+      "published_date": "2025-12-14 14:22:19 UTC"
     }
   ]
 }
