@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 105,
-  "last_updated": "2025-12-15 10:21:40 UTC",
+  "total_chapters": 106,
+  "last_updated": "2025-12-15 22:17:22 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -949,6 +949,15 @@
       "chapter_name": "Things Found in the Third Drawer Down",
       "published_date": "2025-12-15 10:21:38 UTC",
       "poetry_type": "List poem"
+    },
+    {
+      "chapter": 106,
+      "filename": "poem_106.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/a7c0d0c80e49eee8dbefa60431afb80e11beb1b2/poem_106.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_106.md",
+      "chapter_name": "The Hour-Glass and the Rose",
+      "published_date": "2025-12-15 22:17:21 UTC",
+      "poetry_type": "Rubaiyat"
     }
   ]
 }
