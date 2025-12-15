@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 39,
-  "last_updated": "2025-12-14 13:31:23 UTC",
+  "total_chapters": 40,
+  "last_updated": "2025-12-15 13:44:48 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -316,6 +316,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_039.md",
       "chapter_name": "The Perimeter of Knowledge",
       "published_date": "2025-12-14 13:31:22 UTC"
+    },
+    {
+      "chapter": 40,
+      "filename": "story_040.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/30a4ba128b3ef268143bc32115b3f03206861c17/story_040.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_040.md",
+      "chapter_name": "The Wick's End",
+      "published_date": "2025-12-15 13:44:47 UTC"
     }
   ]
 }
