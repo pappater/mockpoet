@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 104,
-  "last_updated": "2025-12-14 22:15:08 UTC",
+  "total_chapters": 105,
+  "last_updated": "2025-12-15 10:21:40 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -940,6 +940,15 @@
       "chapter_name": "A Letter to the Unseen",
       "published_date": "2025-12-14 22:15:07 UTC",
       "poetry_type": "Epistolary poem"
+    },
+    {
+      "chapter": 105,
+      "filename": "poem_105.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/fb6f0466c11d34c11552ab1aac63ec24ddeb825d/poem_105.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_105.md",
+      "chapter_name": "Things Found in the Third Drawer Down",
+      "published_date": "2025-12-15 10:21:38 UTC",
+      "poetry_type": "List poem"
     }
   ]
 }
