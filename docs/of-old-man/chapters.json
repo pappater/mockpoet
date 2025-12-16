@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 106,
-  "last_updated": "2025-12-15 22:17:22 UTC",
+  "total_chapters": 107,
+  "last_updated": "2025-12-16 10:20:30 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -958,6 +958,15 @@
       "chapter_name": "The Hour-Glass and the Rose",
       "published_date": "2025-12-15 22:17:21 UTC",
       "poetry_type": "Rubaiyat"
+    },
+    {
+      "chapter": 107,
+      "filename": "poem_107.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/934ec743be7494ff72a5064dc54527bc2d18c091/poem_107.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_107.md",
+      "chapter_name": "Reflection",
+      "published_date": "2025-12-16 10:20:28 UTC",
+      "poetry_type": "Imagist poem"
     }
   ]
 }
