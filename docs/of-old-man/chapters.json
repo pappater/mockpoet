@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 107,
-  "last_updated": "2025-12-16 10:20:30 UTC",
+  "total_chapters": 108,
+  "last_updated": "2025-12-17 22:16:54 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -967,6 +967,15 @@
       "chapter_name": "Reflection",
       "published_date": "2025-12-16 10:20:28 UTC",
       "poetry_type": "Imagist poem"
+    },
+    {
+      "chapter": 108,
+      "filename": "poem_108.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/1e9e02372d3c38bfb400e6db29d8efe48911373e/poem_108.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_108.md",
+      "chapter_name": "The Lay of the Sundered Star",
+      "published_date": "2025-12-17 22:16:52 UTC",
+      "poetry_type": "Epic"
     }
   ]
 }
