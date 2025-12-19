@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 35,
-  "last_updated": "2025-12-14 14:22:20 UTC",
+  "total_chapters": 36,
+  "last_updated": "2025-12-19 14:27:15 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -284,6 +284,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_035.md",
       "chapter_name": "The Street of Echoes",
       "published_date": "2025-12-14 14:22:19 UTC"
+    },
+    {
+      "chapter": 36,
+      "filename": "poem_036.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/5887feaeec9e918a71b84a4ef95ce38b6dab88b6/poem_036.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_036.md",
+      "chapter_name": "Highway Haiku Blues",
+      "published_date": "2025-12-19 14:27:14 UTC"
     }
   ]
 }
