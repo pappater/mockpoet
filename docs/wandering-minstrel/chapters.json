@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 28,
-  "last_updated": "2025-12-14 14:20:25 UTC",
+  "total_chapters": 29,
+  "last_updated": "2025-12-19 14:24:27 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -259,6 +259,15 @@
       "chapter_name": "The Ballad of Sir Kael and the Sunstone",
       "published_date": "2025-12-14 14:20:24 UTC",
       "poetry_type": "Quest ballad"
+    },
+    {
+      "chapter": 29,
+      "filename": "poem_029.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/00ad98af007b410573b08f87748944e6ad2b90cb/poem_029.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_029.md",
+      "chapter_name": "The Ballad of Elara's Grief",
+      "published_date": "2025-12-19 14:24:26 UTC",
+      "poetry_type": "Lyric ballad"
     }
   ]
 }
