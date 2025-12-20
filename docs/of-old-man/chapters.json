@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 111,
-  "last_updated": "2025-12-20 10:16:41 UTC",
+  "total_chapters": 112,
+  "last_updated": "2025-12-20 22:15:03 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1003,6 +1003,15 @@
       "chapter_name": "The Ocean's Recall",
       "published_date": "2025-12-20 10:16:39 UTC",
       "poetry_type": "Paradelle"
+    },
+    {
+      "chapter": 112,
+      "filename": "poem_112.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/179bdeb20f2e1de8ea17795d2f1216d7a568ed0f/poem_112.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_112.md",
+      "chapter_name": "Lament for the Fading Echo",
+      "published_date": "2025-12-20 22:15:01 UTC",
+      "poetry_type": "Dirge"
     }
   ]
 }
