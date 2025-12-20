@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 36,
-  "last_updated": "2025-12-19 14:27:15 UTC",
+  "total_chapters": 37,
+  "last_updated": "2025-12-20 14:22:02 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -292,6 +292,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_036.md",
       "chapter_name": "Highway Haiku Blues",
       "published_date": "2025-12-19 14:27:14 UTC"
+    },
+    {
+      "chapter": 37,
+      "filename": "poem_037.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/ed1a616b783d1eba0c87e0dc854b9e30029d7b92/poem_037.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_037.md",
+      "chapter_name": "The Root-Soul",
+      "published_date": "2025-12-20 14:22:00 UTC"
     }
   ]
 }
