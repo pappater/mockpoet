@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 42,
-  "last_updated": "2025-12-20 13:31:14 UTC",
+  "total_chapters": 43,
+  "last_updated": "2025-12-21 13:32:34 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -340,6 +340,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_042.md",
       "chapter_name": "The Stillness of the Lake",
       "published_date": "2025-12-20 13:31:13 UTC"
+    },
+    {
+      "chapter": 43,
+      "filename": "story_043.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/e7185e59d381c162fb82b1b173acee3dc92c5013/story_043.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_043.md",
+      "chapter_name": "The Unvanquished Dust of Vancewood",
+      "published_date": "2025-12-21 13:32:32 UTC"
     }
   ]
 }
