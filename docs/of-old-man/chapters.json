@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 112,
-  "last_updated": "2025-12-20 22:15:03 UTC",
+  "total_chapters": 113,
+  "last_updated": "2025-12-21 10:16:49 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1012,6 +1012,15 @@
       "chapter_name": "Lament for the Fading Echo",
       "published_date": "2025-12-20 22:15:01 UTC",
       "poetry_type": "Dirge"
+    },
+    {
+      "chapter": 113,
+      "filename": "poem_113.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/302f7186e0a5f98fcc2a2f34f2326a27161541a4/poem_113.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_113.md",
+      "chapter_name": "Forgotten Tome",
+      "published_date": "2025-12-21 10:16:45 UTC",
+      "poetry_type": "Nonet"
     }
   ]
 }
