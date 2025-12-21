@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 37,
-  "last_updated": "2025-12-20 14:22:02 UTC",
+  "total_chapters": 38,
+  "last_updated": "2025-12-21 14:23:00 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -300,6 +300,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_037.md",
       "chapter_name": "The Root-Soul",
       "published_date": "2025-12-20 14:22:00 UTC"
+    },
+    {
+      "chapter": 38,
+      "filename": "poem_038.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/e09a4e6835eddd36d58a04ad767eb4f06f80b4cc/poem_038.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_038.md",
+      "chapter_name": "The Scrawled Apocalypse",
+      "published_date": "2025-12-21 14:22:59 UTC"
     }
   ]
 }
