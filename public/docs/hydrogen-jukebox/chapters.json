@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 38,
-  "last_updated": "2025-12-21 14:23:00 UTC",
+  "total_chapters": 39,
+  "last_updated": "2025-12-22 14:26:45 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -308,6 +308,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_038.md",
       "chapter_name": "The Scrawled Apocalypse",
       "published_date": "2025-12-21 14:22:59 UTC"
+    },
+    {
+      "chapter": 39,
+      "filename": "poem_039.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/2c98fdf4f0695136978bc679bca39d323884d56e/poem_039.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_039.md",
+      "chapter_name": "Demolition on Boylston",
+      "published_date": "2025-12-22 14:26:43 UTC"
     }
   ]
 }
