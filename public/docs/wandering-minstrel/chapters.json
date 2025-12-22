@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 31,
-  "last_updated": "2025-12-21 14:20:23 UTC",
+  "total_chapters": 32,
+  "last_updated": "2025-12-22 14:24:22 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -286,6 +286,15 @@
       "chapter_name": "The Ballad of Mist-Veiled Crags",
       "published_date": "2025-12-21 14:20:22 UTC",
       "poetry_type": "Story ballad"
+    },
+    {
+      "chapter": 32,
+      "filename": "poem_032.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/dad89655ff2506436b537a8b9d31e62c1bde9ea7/poem_032.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_032.md",
+      "chapter_name": "The Maiden and the Far-Off Knight",
+      "published_date": "2025-12-22 14:24:21 UTC",
+      "poetry_type": "Love ballad"
     }
   ]
 }
