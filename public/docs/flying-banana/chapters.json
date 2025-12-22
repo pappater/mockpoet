@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 43,
-  "last_updated": "2025-12-21 13:32:34 UTC",
+  "total_chapters": 44,
+  "last_updated": "2025-12-22 13:38:19 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -348,6 +348,14 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_043.md",
       "chapter_name": "The Unvanquished Dust of Vancewood",
       "published_date": "2025-12-21 13:32:32 UTC"
+    },
+    {
+      "chapter": 44,
+      "filename": "story_044.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/9dd487865e4ccb850455e4cbc830a515c777302c/story_044.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_044.md",
+      "chapter_name": "The Residual Light",
+      "published_date": "2025-12-22 13:38:15 UTC"
     }
   ]
 }
