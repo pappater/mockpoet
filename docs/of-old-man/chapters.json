@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 115,
-  "last_updated": "2025-12-22 10:19:19 UTC",
+  "total_chapters": 116,
+  "last_updated": "2025-12-23 10:19:24 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1039,6 +1039,15 @@
       "chapter_name": "Cloud Memory",
       "published_date": "2025-12-22 10:19:18 UTC",
       "poetry_type": "Minute poem"
+    },
+    {
+      "chapter": 116,
+      "filename": "poem_116.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e2f7411f879db5dd423dd1e31954dd14f1297ce1/poem_116.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_116.md",
+      "chapter_name": "An Elegy for the Unreturning",
+      "published_date": "2025-12-23 10:19:22 UTC",
+      "poetry_type": "Elegy"
     }
   ]
 }
