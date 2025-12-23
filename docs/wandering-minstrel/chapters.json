@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 32,
-  "last_updated": "2025-12-22 14:24:22 UTC",
+  "total_chapters": 33,
+  "last_updated": "2025-12-23 14:23:53 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -295,6 +295,15 @@
       "chapter_name": "The Maiden and the Far-Off Knight",
       "published_date": "2025-12-22 14:24:21 UTC",
       "poetry_type": "Love ballad"
+    },
+    {
+      "chapter": 33,
+      "filename": "poem_033.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/058b80805cc8cd9efafd134a09b8463da7e7bcb7/poem_033.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_033.md",
+      "chapter_name": "The Ballad of the Sunken Star",
+      "published_date": "2025-12-23 14:23:52 UTC",
+      "poetry_type": "Quest ballad"
     }
   ]
 }
