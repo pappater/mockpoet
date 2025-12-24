@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 33,
-  "last_updated": "2025-12-23 14:23:53 UTC",
+  "total_chapters": 34,
+  "last_updated": "2025-12-24 14:22:00 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -304,6 +304,15 @@
       "chapter_name": "The Ballad of the Sunken Star",
       "published_date": "2025-12-23 14:23:52 UTC",
       "poetry_type": "Quest ballad"
+    },
+    {
+      "chapter": 34,
+      "filename": "poem_034.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/4b60dc671f9fbf73bd81f0ad5d04f0c62c2c8752/poem_034.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_034.md",
+      "chapter_name": "The Widow of Westerfell",
+      "published_date": "2025-12-24 14:21:59 UTC",
+      "poetry_type": "Dramatic ballad"
     }
   ]
 }
