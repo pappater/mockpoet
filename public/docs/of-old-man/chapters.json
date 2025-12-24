@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 116,
-  "last_updated": "2025-12-23 10:19:24 UTC",
+  "total_chapters": 117,
+  "last_updated": "2025-12-24 10:18:33 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1048,6 +1048,15 @@
       "chapter_name": "An Elegy for the Unreturning",
       "published_date": "2025-12-23 10:19:22 UTC",
       "poetry_type": "Elegy"
+    },
+    {
+      "chapter": 117,
+      "filename": "poem_117.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/f53a3ac53e5a7c5461ffa5f1c5db21dd2f6539f4/poem_117.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_117.md",
+      "chapter_name": "Dusk's Gentle Hold",
+      "published_date": "2025-12-24 10:18:32 UTC",
+      "poetry_type": "Rondelet"
     }
   ]
 }
