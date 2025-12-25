@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 117,
-  "last_updated": "2025-12-24 10:18:33 UTC",
+  "total_chapters": 118,
+  "last_updated": "2025-12-25 10:18:27 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1057,6 +1057,15 @@
       "chapter_name": "Dusk's Gentle Hold",
       "published_date": "2025-12-24 10:18:32 UTC",
       "poetry_type": "Rondelet"
+    },
+    {
+      "chapter": 118,
+      "filename": "poem_118.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/41227034a399a8ea471a31f86a22eb2b7d673c73/poem_118.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_118.md",
+      "chapter_name": "What the Tide Brings In",
+      "published_date": "2025-12-25 10:18:25 UTC",
+      "poetry_type": "List poem"
     }
   ]
 }
