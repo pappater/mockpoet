@@ -1,7 +1,7 @@
 {
   "novel_title": "Flying Banana",
-  "total_chapters": 46,
-  "last_updated": "2025-12-24 13:36:19 UTC",
+  "total_chapters": 47,
+  "last_updated": "2025-12-25 13:36:00 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
   "completed": false,
   "chapters": [
@@ -371,6 +371,13 @@
       "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/21a72ba6e3ddc2916b94859d5e928ced6ed8b167/story_046.md",
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_046.md",
       "chapter_name": "The Unheard Cadence"
+    },
+    {
+      "chapter": 47,
+      "filename": "story_047.md",
+      "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/3242b6005575f8f411ddd2e0737fea00bf9e769e/story_047.md",
+      "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_047.md",
+      "chapter_name": "Story 2025-12-25"
     }
   ]
 }
