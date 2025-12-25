@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 34,
-  "last_updated": "2025-12-24 14:22:00 UTC",
+  "total_chapters": 35,
+  "last_updated": "2025-12-25 14:22:05 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -313,6 +313,15 @@
       "chapter_name": "The Widow of Westerfell",
       "published_date": "2025-12-24 14:21:59 UTC",
       "poetry_type": "Dramatic ballad"
+    },
+    {
+      "chapter": 35,
+      "filename": "poem_035.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/78cc000b0d6a06cd10bffc54986e75395a0364a5/poem_035.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_035.md",
+      "chapter_name": "The Ballad of Elara's Tide",
+      "published_date": "2025-12-25 14:22:04 UTC",
+      "poetry_type": "Tale in verse"
     }
   ]
 }
