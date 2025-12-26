@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 42,
-  "last_updated": "2025-12-25 14:25:05 UTC",
+  "total_chapters": 43,
+  "last_updated": "2025-12-26 14:25:43 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -340,6 +340,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_042.md",
       "chapter_name": "The Gate and Its Shadow",
       "published_date": "2025-12-25 14:25:04 UTC"
+    },
+    {
+      "chapter": 43,
+      "filename": "poem_043.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/be5746ad9d6eba2329ec25dc991ca8faaf8c4a59/poem_043.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_043.md",
+      "chapter_name": "The Puddle",
+      "published_date": "2025-12-26 14:25:42 UTC"
     }
   ]
 }
