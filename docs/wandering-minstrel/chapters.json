@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 35,
-  "last_updated": "2025-12-25 14:22:05 UTC",
+  "total_chapters": 36,
+  "last_updated": "2025-12-26 14:22:38 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -322,6 +322,15 @@
       "chapter_name": "The Ballad of Elara's Tide",
       "published_date": "2025-12-25 14:22:04 UTC",
       "poetry_type": "Tale in verse"
+    },
+    {
+      "chapter": 36,
+      "filename": "poem_036.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/81c8af9c7ae685ee14a18c3ff03165f55e2e9e33/poem_036.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_036.md",
+      "chapter_name": "The Last Drum Call",
+      "published_date": "2025-12-26 14:22:37 UTC",
+      "poetry_type": "War ballad"
     }
   ]
 }
