@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 118,
-  "last_updated": "2025-12-25 10:18:27 UTC",
+  "total_chapters": 119,
+  "last_updated": "2025-12-26 10:18:23 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1066,6 +1066,15 @@
       "chapter_name": "What the Tide Brings In",
       "published_date": "2025-12-25 10:18:25 UTC",
       "poetry_type": "List poem"
+    },
+    {
+      "chapter": 119,
+      "filename": "poem_119.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/5f5eb3e29c824d7f9473ad8d632758da62cd9551/poem_119.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_119.md",
+      "chapter_name": "The Unfolding Hours",
+      "published_date": "2025-12-26 10:18:22 UTC",
+      "poetry_type": "Sestina"
     }
   ]
 }
