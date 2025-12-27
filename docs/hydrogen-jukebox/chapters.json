@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 43,
-  "last_updated": "2025-12-26 14:25:43 UTC",
+  "total_chapters": 44,
+  "last_updated": "2025-12-27 14:22:48 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -348,6 +348,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_043.md",
       "chapter_name": "The Puddle",
       "published_date": "2025-12-26 14:25:42 UTC"
+    },
+    {
+      "chapter": 44,
+      "filename": "poem_044.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b6d70f54325b113e4484f747ff434e9318b4b3bb/poem_044.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_044.md",
+      "chapter_name": "Green Glass",
+      "published_date": "2025-12-27 14:22:47 UTC"
     }
   ]
 }
