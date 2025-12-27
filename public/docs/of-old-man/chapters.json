@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 119,
-  "last_updated": "2025-12-26 10:18:23 UTC",
+  "total_chapters": 120,
+  "last_updated": "2025-12-27 10:16:32 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1075,6 +1075,15 @@
       "chapter_name": "The Unfolding Hours",
       "published_date": "2025-12-26 10:18:22 UTC",
       "poetry_type": "Sestina"
+    },
+    {
+      "chapter": 120,
+      "filename": "poem_120.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/efa5c414c6dd2513bc9d50d34ee694c985fcd95b/poem_120.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_120.md",
+      "chapter_name": "The Dawn's Embrace",
+      "published_date": "2025-12-27 10:16:30 UTC",
+      "poetry_type": "Acrostic"
     }
   ]
 }
