@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 45,
-  "last_updated": "2025-12-28 14:24:08 UTC",
+  "total_chapters": 46,
+  "last_updated": "2025-12-29 14:27:21 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -364,6 +364,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_045.md",
       "chapter_name": "The Salt-Stained Pane",
       "published_date": "2025-12-28 14:24:07 UTC"
+    },
+    {
+      "chapter": 46,
+      "filename": "poem_046.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/f1e6f20e4e9130fa8e2550031229a313bd6387b2/poem_046.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_046.md",
+      "chapter_name": "The Asphalt Patch",
+      "published_date": "2025-12-29 14:27:20 UTC"
     }
   ]
 }
