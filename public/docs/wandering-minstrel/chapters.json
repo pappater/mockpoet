@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 38,
-  "last_updated": "2025-12-28 14:21:54 UTC",
+  "total_chapters": 39,
+  "last_updated": "2025-12-29 14:24:45 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -349,6 +349,15 @@
       "chapter_name": "The Spectre of Greybeard's Crag",
       "published_date": "2025-12-28 14:21:52 UTC",
       "poetry_type": "Ghost ballad"
+    },
+    {
+      "chapter": 39,
+      "filename": "poem_039.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/32e8e45f4481735f7187145c298aa800a3227021/poem_039.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_039.md",
+      "chapter_name": "The Ballad of Finn and the Fading Star",
+      "published_date": "2025-12-29 14:24:43 UTC",
+      "poetry_type": "Narrative lyric"
     }
   ]
 }
