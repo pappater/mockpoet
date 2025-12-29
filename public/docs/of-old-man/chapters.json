@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 121,
-  "last_updated": "2025-12-28 10:16:54 UTC",
+  "total_chapters": 122,
+  "last_updated": "2025-12-29 10:19:37 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1093,6 +1093,15 @@
       "chapter_name": "The Mind's Enduring Light",
       "published_date": "2025-12-28 10:16:53 UTC",
       "poetry_type": "Shakespearean sonnet"
+    },
+    {
+      "chapter": 122,
+      "filename": "poem_122.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/98560327f750926c418dc84722c4b9df703f34d9/poem_122.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_122.md",
+      "chapter_name": "Epistle to My Friend, on Seasons Past",
+      "published_date": "2025-12-29 10:19:35 UTC",
+      "poetry_type": "Epistle (letter poem)"
     }
   ]
 }
