@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 46,
-  "last_updated": "2025-12-29 14:27:21 UTC",
+  "total_chapters": 47,
+  "last_updated": "2025-12-30 14:27:24 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -372,6 +372,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_046.md",
       "chapter_name": "The Asphalt Patch",
       "published_date": "2025-12-29 14:27:20 UTC"
+    },
+    {
+      "chapter": 47,
+      "filename": "poem_047.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/22a8335772ff8085296150e3a3c104a114a71cd1/poem_047.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_047.md",
+      "chapter_name": "The Measure of a Soul",
+      "published_date": "2025-12-30 14:27:22 UTC"
     }
   ]
 }
