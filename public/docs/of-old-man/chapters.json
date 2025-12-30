@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 122,
-  "last_updated": "2025-12-29 10:19:37 UTC",
+  "total_chapters": 123,
+  "last_updated": "2025-12-30 10:19:09 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1102,6 +1102,15 @@
       "chapter_name": "Epistle to My Friend, on Seasons Past",
       "published_date": "2025-12-29 10:19:35 UTC",
       "poetry_type": "Epistle (letter poem)"
+    },
+    {
+      "chapter": 123,
+      "filename": "poem_123.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/586fe93a509e64038db9ebf39127a4bb21a7b021/poem_123.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_123.md",
+      "chapter_name": "Evening Glow",
+      "published_date": "2025-12-30 10:19:07 UTC",
+      "poetry_type": "Triolet"
     }
   ]
 }
