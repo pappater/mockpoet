@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 123,
-  "last_updated": "2025-12-30 10:19:09 UTC",
+  "total_chapters": 124,
+  "last_updated": "2025-12-31 10:18:27 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1111,6 +1111,15 @@
       "chapter_name": "Evening Glow",
       "published_date": "2025-12-30 10:19:07 UTC",
       "poetry_type": "Triolet"
+    },
+    {
+      "chapter": 124,
+      "filename": "poem_124.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/54b4c35826684ca7807fbd597cdb6c271ec2e1f2/poem_124.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_124.md",
+      "chapter_name": "The Virtues of the Viral Age",
+      "published_date": "2025-12-31 10:18:26 UTC",
+      "poetry_type": "Satirical poem"
     }
   ]
 }
