@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 47,
-  "last_updated": "2025-12-30 14:27:24 UTC",
+  "total_chapters": 49,
+  "last_updated": "2026-01-01 14:25:12 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -380,6 +380,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_047.md",
       "chapter_name": "The Measure of a Soul",
       "published_date": "2025-12-30 14:27:22 UTC"
+    },
+    {
+      "chapter": 48,
+      "filename": "poem_048.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/8dafa3444f9704848cae0630b8a40ae6868e13ef/poem_048.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_048.md",
+      "chapter_name": "My Winter Throne",
+      "published_date": "2025-12-31 14:25:27 UTC"
+    },
+    {
+      "chapter": 49,
+      "filename": "poem_049.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b9580658b6722de3e0a02ab76f2142e7106f5094/poem_049.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_049.md",
+      "chapter_name": "The Glass Cabinet",
+      "published_date": "2026-01-01 14:25:11 UTC"
     }
   ]
 }
