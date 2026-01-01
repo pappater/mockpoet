@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 124,
-  "last_updated": "2025-12-31 10:18:27 UTC",
+  "total_chapters": 125,
+  "last_updated": "2026-01-01 10:19:20 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1120,6 +1120,15 @@
       "chapter_name": "The Virtues of the Viral Age",
       "published_date": "2025-12-31 10:18:26 UTC",
       "poetry_type": "Satirical poem"
+    },
+    {
+      "chapter": 125,
+      "filename": "poem_125.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/d84e9cd66cbec0299fa0e3dbae36bdde18b22482/poem_125.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_125.md",
+      "chapter_name": "The Unfolding Scroll",
+      "published_date": "2026-01-01 10:19:19 UTC",
+      "poetry_type": "Septet"
     }
   ]
 }
