@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 49,
-  "last_updated": "2026-01-01 14:25:12 UTC",
+  "total_chapters": 50,
+  "last_updated": "2026-01-02 14:26:19 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -396,6 +396,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_049.md",
       "chapter_name": "The Glass Cabinet",
       "published_date": "2026-01-01 14:25:11 UTC"
+    },
+    {
+      "chapter": 50,
+      "filename": "poem_050.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/4db965d4b39849b25df70127e3e073fe655f6bda/poem_050.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_050.md",
+      "chapter_name": "The Sun's Pale Eye",
+      "published_date": "2026-01-02 14:26:17 UTC"
     }
   ]
 }
