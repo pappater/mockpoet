@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 125,
-  "last_updated": "2026-01-01 10:19:20 UTC",
+  "total_chapters": 126,
+  "last_updated": "2026-01-02 10:17:51 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1129,6 +1129,15 @@
       "chapter_name": "The Unfolding Scroll",
       "published_date": "2026-01-01 10:19:19 UTC",
       "poetry_type": "Septet"
+    },
+    {
+      "chapter": 126,
+      "filename": "poem_126.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/350c0d109fba8aa3696ca88d73cc860b1c8175d1/poem_126.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_126.md",
+      "chapter_name": "Puddle",
+      "published_date": "2026-01-02 10:17:50 UTC",
+      "poetry_type": "Imagist poem"
     }
   ]
 }
