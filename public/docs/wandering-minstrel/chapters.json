@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 42,
-  "last_updated": "2026-01-01 14:22:35 UTC",
+  "total_chapters": 44,
+  "last_updated": "2026-01-03 14:21:27 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -385,6 +385,24 @@
       "chapter_name": "Elara's Vow",
       "published_date": "2026-01-01 14:22:34 UTC",
       "poetry_type": "Love ballad"
+    },
+    {
+      "chapter": 43,
+      "filename": "poem_043.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/66809f124060c6420a0de3c20946881ab606c69b/poem_043.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_043.md",
+      "chapter_name": "The Ballad of Sir Kael and the Serpent's Eye",
+      "published_date": "2026-01-02 14:23:29 UTC",
+      "poetry_type": "Adventure ballad"
+    },
+    {
+      "chapter": 44,
+      "filename": "poem_044.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/fdeac9ae922d0f0036bbda123f7f0f29c57b52b8/poem_044.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_044.md",
+      "chapter_name": "Lady Elara's Lament",
+      "published_date": "2026-01-03 14:21:26 UTC",
+      "poetry_type": "Traditional ballad"
     }
   ]
 }
