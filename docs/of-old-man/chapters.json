@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 127,
-  "last_updated": "2026-01-02 22:17:07 UTC",
+  "total_chapters": 128,
+  "last_updated": "2026-01-03 10:17:07 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1147,6 +1147,15 @@
       "chapter_name": "The Nightingale's Sorrow",
       "published_date": "2026-01-02 22:17:06 UTC",
       "poetry_type": "Madrigal"
+    },
+    {
+      "chapter": 128,
+      "filename": "poem_128.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/d0f62bd7dfe900143c26d23416858af14735f3eb/poem_128.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_128.md",
+      "chapter_name": "The Sundering Glimpse",
+      "published_date": "2026-01-03 10:17:06 UTC",
+      "poetry_type": "Curtal sonnet"
     }
   ]
 }
