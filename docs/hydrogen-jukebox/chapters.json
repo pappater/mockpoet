@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 50,
-  "last_updated": "2026-01-02 14:26:19 UTC",
+  "total_chapters": 51,
+  "last_updated": "2026-01-03 14:23:46 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -404,6 +404,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_050.md",
       "chapter_name": "The Sun's Pale Eye",
       "published_date": "2026-01-02 14:26:17 UTC"
+    },
+    {
+      "chapter": 51,
+      "filename": "poem_051.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/51f67a831a95e82b1e1d136ada770a71ae34709e/poem_051.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_051.md",
+      "chapter_name": "The Unseen Road",
+      "published_date": "2026-01-03 14:23:45 UTC"
     }
   ]
 }
