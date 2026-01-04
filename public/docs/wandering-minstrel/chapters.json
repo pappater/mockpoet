@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 44,
-  "last_updated": "2026-01-03 14:21:27 UTC",
+  "total_chapters": 45,
+  "last_updated": "2026-01-04 14:20:59 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -403,6 +403,15 @@
       "chapter_name": "Lady Elara's Lament",
       "published_date": "2026-01-03 14:21:26 UTC",
       "poetry_type": "Traditional ballad"
+    },
+    {
+      "chapter": 45,
+      "filename": "poem_045.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/24ed1dd99fdc4e6dd73298c6bf055a6e9cc9a08d/poem_045.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_045.md",
+      "chapter_name": "The Well of Weeping Stones",
+      "published_date": "2026-01-04 14:20:58 UTC",
+      "poetry_type": "Tragic ballad"
     }
   ]
 }
