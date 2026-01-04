@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 128,
-  "last_updated": "2026-01-03 10:17:07 UTC",
+  "total_chapters": 129,
+  "last_updated": "2026-01-04 10:17:34 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1156,6 +1156,15 @@
       "chapter_name": "The Sundering Glimpse",
       "published_date": "2026-01-03 10:17:06 UTC",
       "poetry_type": "Curtal sonnet"
+    },
+    {
+      "chapter": 129,
+      "filename": "poem_129.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/8ec97376317c561f329fefa0b0a1534272fb932f/poem_129.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_129.md",
+      "chapter_name": "Enduring Stone",
+      "published_date": "2026-01-04 10:17:33 UTC",
+      "poetry_type": "Sijo"
     }
   ]
 }
