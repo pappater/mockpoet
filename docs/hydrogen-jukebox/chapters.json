@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 52,
-  "last_updated": "2026-01-04 14:23:17 UTC",
+  "total_chapters": 53,
+  "last_updated": "2026-01-05 14:30:03 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -420,6 +420,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_052.md",
       "chapter_name": "Winter Milk",
       "published_date": "2026-01-04 14:23:16 UTC"
+    },
+    {
+      "chapter": 53,
+      "filename": "poem_053.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/ecad1531aa7faa96b78a6b9b0b303390a244d5d6/poem_053.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_053.md",
+      "chapter_name": "Fugue of the Gaslamp",
+      "published_date": "2026-01-05 14:30:01 UTC"
     }
   ]
 }
