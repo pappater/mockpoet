@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 130,
-  "last_updated": "2026-01-04 22:16:35 UTC",
+  "total_chapters": 131,
+  "last_updated": "2026-01-05 10:21:12 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1174,6 +1174,15 @@
       "chapter_name": "The Quiet Recurrence",
       "published_date": "2026-01-04 22:16:34 UTC",
       "poetry_type": "Pantoum"
+    },
+    {
+      "chapter": 131,
+      "filename": "poem_131.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/3c67331b21988bbe15acf75968d7a3da97afc0d4/poem_131.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_131.md",
+      "chapter_name": "The Turning Hour",
+      "published_date": "2026-01-05 10:21:10 UTC",
+      "poetry_type": "Rubaiyat"
     }
   ]
 }
