@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 53,
-  "last_updated": "2026-01-05 14:30:03 UTC",
+  "total_chapters": 54,
+  "last_updated": "2026-01-06 14:28:25 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -428,6 +428,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_053.md",
       "chapter_name": "Fugue of the Gaslamp",
       "published_date": "2026-01-05 14:30:01 UTC"
+    },
+    {
+      "chapter": 54,
+      "filename": "poem_054.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/07f2c979804a406010a31e0828bbd3b797281bd8/poem_054.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_054.md",
+      "chapter_name": "The Shore-Song of Bone and Bloom",
+      "published_date": "2026-01-06 14:28:24 UTC"
     }
   ]
 }
