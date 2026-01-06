@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 131,
-  "last_updated": "2026-01-05 10:21:12 UTC",
+  "total_chapters": 132,
+  "last_updated": "2026-01-06 10:19:33 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1183,6 +1183,15 @@
       "chapter_name": "The Turning Hour",
       "published_date": "2026-01-05 10:21:10 UTC",
       "poetry_type": "Rubaiyat"
+    },
+    {
+      "chapter": 132,
+      "filename": "poem_132.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/bd8dfc124134a1d6ebf51902c500b943f9336964/poem_132.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_132.md",
+      "chapter_name": "The Quiet Hum",
+      "published_date": "2026-01-06 10:19:31 UTC",
+      "poetry_type": "Rondeau"
     }
   ]
 }
