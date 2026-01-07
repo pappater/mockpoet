@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 133,
-  "last_updated": "2026-01-07 10:20:17 UTC",
+  "total_chapters": 134,
+  "last_updated": "2026-01-07 22:17:26 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1201,6 +1201,15 @@
       "chapter_name": "The Epic of the Unstable Stream",
       "published_date": "2026-01-07 10:20:15 UTC",
       "poetry_type": "Mock epic"
+    },
+    {
+      "chapter": 134,
+      "filename": "poem_134.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ef5d43d14ae9ed7f72edf7445e8a25335a8dd247/poem_134.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_134.md",
+      "chapter_name": "Ode to a Blinkered Box",
+      "published_date": "2026-01-07 22:17:25 UTC",
+      "poetry_type": "Parody poem"
     }
   ]
 }
