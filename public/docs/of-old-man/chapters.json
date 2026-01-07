@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 132,
-  "last_updated": "2026-01-06 10:19:33 UTC",
+  "total_chapters": 133,
+  "last_updated": "2026-01-07 10:20:17 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1192,6 +1192,15 @@
       "chapter_name": "The Quiet Hum",
       "published_date": "2026-01-06 10:19:31 UTC",
       "poetry_type": "Rondeau"
+    },
+    {
+      "chapter": 133,
+      "filename": "poem_133.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/87a42599c2d8a24aa49694d7485a101f935626aa/poem_133.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_133.md",
+      "chapter_name": "The Epic of the Unstable Stream",
+      "published_date": "2026-01-07 10:20:15 UTC",
+      "poetry_type": "Mock epic"
     }
   ]
 }
