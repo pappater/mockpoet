@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 135,
-  "last_updated": "2026-01-08 10:20:38 UTC",
+  "total_chapters": 136,
+  "last_updated": "2026-01-08 22:17:44 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1219,6 +1219,15 @@
       "chapter_name": "House Dust",
       "published_date": "2026-01-08 10:20:36 UTC",
       "poetry_type": "Confessional poem"
+    },
+    {
+      "chapter": 136,
+      "filename": "poem_136.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/0f54031069dafde7e60a797c23dd80485a04c1c6/poem_136.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_136.md",
+      "chapter_name": "The Pilgrim's Ascent",
+      "published_date": "2026-01-08 22:17:43 UTC",
+      "poetry_type": "Allegory poem"
     }
   ]
 }
