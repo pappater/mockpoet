@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 134,
-  "last_updated": "2026-01-07 22:17:26 UTC",
+  "total_chapters": 135,
+  "last_updated": "2026-01-08 10:20:38 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1210,6 +1210,15 @@
       "chapter_name": "Ode to a Blinkered Box",
       "published_date": "2026-01-07 22:17:25 UTC",
       "poetry_type": "Parody poem"
+    },
+    {
+      "chapter": 135,
+      "filename": "poem_135.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/2eced229441dff0b9e1e3eb68616e6c36f9a6a39/poem_135.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_135.md",
+      "chapter_name": "House Dust",
+      "published_date": "2026-01-08 10:20:36 UTC",
+      "poetry_type": "Confessional poem"
     }
   ]
 }
