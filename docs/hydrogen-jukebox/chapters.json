@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 54,
-  "last_updated": "2026-01-06 14:28:25 UTC",
+  "total_chapters": 55,
+  "last_updated": "2026-01-09 14:29:31 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -436,6 +436,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_054.md",
       "chapter_name": "The Shore-Song of Bone and Bloom",
       "published_date": "2026-01-06 14:28:24 UTC"
+    },
+    {
+      "chapter": 55,
+      "filename": "poem_055.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/d2b0f258624628ed84cc540a85f8eff7349d8e51/poem_055.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_055.md",
+      "chapter_name": "The Stone Keel",
+      "published_date": "2026-01-09 14:29:30 UTC"
     }
   ]
 }
