@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 47,
-  "last_updated": "2026-01-06 14:25:57 UTC",
+  "total_chapters": 48,
+  "last_updated": "2026-01-09 14:28:05 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -430,6 +430,15 @@
       "chapter_name": "The Ballad of Elara's Wharf",
       "published_date": "2026-01-06 14:25:56 UTC",
       "poetry_type": "Contemporary ballad"
+    },
+    {
+      "chapter": 48,
+      "filename": "poem_048.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/e36df44bdeac8db59387fe659914267e481cf7ad/poem_048.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_048.md",
+      "chapter_name": "The Lament of Elara Mae",
+      "published_date": "2026-01-09 14:28:03 UTC",
+      "poetry_type": "Tragic ballad"
     }
   ]
 }
