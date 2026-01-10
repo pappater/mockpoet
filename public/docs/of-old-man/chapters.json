@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 138,
-  "last_updated": "2026-01-10 10:16:52 UTC",
+  "total_chapters": 139,
+  "last_updated": "2026-01-10 22:16:14 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1246,6 +1246,15 @@
       "chapter_name": "Emergent Landscape",
       "published_date": "2026-01-10 10:16:51 UTC",
       "poetry_type": "Found poem"
+    },
+    {
+      "chapter": 139,
+      "filename": "poem_139.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e8e19db71a0d174bfd158f1445a279fb68aa6c5f/poem_139.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_139.md",
+      "chapter_name": "Glimpse",
+      "published_date": "2026-01-10 22:16:12 UTC",
+      "poetry_type": "Imagist poem"
     }
   ]
 }
