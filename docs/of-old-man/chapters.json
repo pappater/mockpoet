@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 137,
-  "last_updated": "2026-01-09 10:18:58 UTC",
+  "total_chapters": 138,
+  "last_updated": "2026-01-10 10:16:52 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1237,6 +1237,15 @@
       "chapter_name": "The Quiet Keeper",
       "published_date": "2026-01-09 10:18:57 UTC",
       "poetry_type": "Epitaph"
+    },
+    {
+      "chapter": 138,
+      "filename": "poem_138.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/cd8211d943d967ce4e903184ac263e9f6f70fc0f/poem_138.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_138.md",
+      "chapter_name": "Emergent Landscape",
+      "published_date": "2026-01-10 10:16:51 UTC",
+      "poetry_type": "Found poem"
     }
   ]
 }
