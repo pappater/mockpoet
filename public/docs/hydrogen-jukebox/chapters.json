@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 56,
-  "last_updated": "2026-01-10 14:23:57 UTC",
+  "total_chapters": 57,
+  "last_updated": "2026-01-11 14:24:26 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -452,6 +452,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_056.md",
       "chapter_name": "Late Afternoon, By the Tracks",
       "published_date": "2026-01-10 14:23:55 UTC"
+    },
+    {
+      "chapter": 57,
+      "filename": "poem_057.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/f080d6efff2a5b3019a3a7b1b9b953c0f6e20829/poem_057.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_057.md",
+      "chapter_name": "The Corner Woman",
+      "published_date": "2026-01-11 14:24:24 UTC"
     }
   ]
 }
