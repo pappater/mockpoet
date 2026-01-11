@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 139,
-  "last_updated": "2026-01-10 22:16:14 UTC",
+  "total_chapters": 140,
+  "last_updated": "2026-01-11 10:17:36 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1255,6 +1255,15 @@
       "chapter_name": "Glimpse",
       "published_date": "2026-01-10 22:16:12 UTC",
       "poetry_type": "Imagist poem"
+    },
+    {
+      "chapter": 140,
+      "filename": "poem_140.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/a403b47b2f8282c96e652ea9f630d690c534fc00/poem_140.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_140.md",
+      "chapter_name": "The Ancient Room",
+      "published_date": "2026-01-11 10:17:34 UTC",
+      "poetry_type": "Rondel"
     }
   ]
 }
