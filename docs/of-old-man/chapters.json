@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 140,
-  "last_updated": "2026-01-11 10:17:36 UTC",
+  "total_chapters": 141,
+  "last_updated": "2026-01-12 10:21:44 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1264,6 +1264,15 @@
       "chapter_name": "The Ancient Room",
       "published_date": "2026-01-11 10:17:34 UTC",
       "poetry_type": "Rondel"
+    },
+    {
+      "chapter": 141,
+      "filename": "poem_141.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/48b9d84202dba2039029c89e3c8c963a7ddcfe67/poem_141.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_141.md",
+      "chapter_name": "The Baker's Art",
+      "published_date": "2026-01-12 10:21:42 UTC",
+      "poetry_type": "Limerick"
     }
   ]
 }
