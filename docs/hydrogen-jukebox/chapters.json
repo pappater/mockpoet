@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 57,
-  "last_updated": "2026-01-11 14:24:26 UTC",
+  "total_chapters": 58,
+  "last_updated": "2026-01-13 14:31:09 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -460,6 +460,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_057.md",
       "chapter_name": "The Corner Woman",
       "published_date": "2026-01-11 14:24:24 UTC"
+    },
+    {
+      "chapter": 58,
+      "filename": "poem_058.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/3b4613b2e10ce655be9178d17b27fab9bf6756da/poem_058.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_058.md",
+      "chapter_name": "Where the Dust Settles",
+      "published_date": "2026-01-13 14:31:08 UTC"
     }
   ]
 }
