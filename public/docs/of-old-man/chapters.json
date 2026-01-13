@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 141,
-  "last_updated": "2026-01-12 10:21:44 UTC",
+  "total_chapters": 142,
+  "last_updated": "2026-01-13 10:20:22 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1273,6 +1273,15 @@
       "chapter_name": "The Baker's Art",
       "published_date": "2026-01-12 10:21:42 UTC",
       "poetry_type": "Limerick"
+    },
+    {
+      "chapter": 142,
+      "filename": "poem_142.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e5553739fede88710244d8c477abd5c7af11fde7/poem_142.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_142.md",
+      "chapter_name": "The Shadow's Home",
+      "published_date": "2026-01-13 10:20:20 UTC",
+      "poetry_type": "Sestina"
     }
   ]
 }
