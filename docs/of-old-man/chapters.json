@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 143,
-  "last_updated": "2026-01-13 22:18:27 UTC",
+  "total_chapters": 144,
+  "last_updated": "2026-01-14 10:20:38 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1291,6 +1291,15 @@
       "chapter_name": "Evening's Descent",
       "published_date": "2026-01-13 22:18:25 UTC",
       "poetry_type": "Blank verse"
+    },
+    {
+      "chapter": 144,
+      "filename": "poem_144.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/fe354b2d798197a1e86672f44d598cd84bf58845/poem_144.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_144.md",
+      "chapter_name": "Mist at Dawn",
+      "published_date": "2026-01-14 10:20:37 UTC",
+      "poetry_type": "Triolet"
     }
   ]
 }
