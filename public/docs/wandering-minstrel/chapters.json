@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 51,
-  "last_updated": "2026-01-13 14:28:30 UTC",
+  "total_chapters": 52,
+  "last_updated": "2026-01-14 14:28:43 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -466,6 +466,15 @@
       "chapter_name": "The Lament of Gareth's Wood",
       "published_date": "2026-01-13 14:28:29 UTC",
       "poetry_type": "Romantic ballad"
+    },
+    {
+      "chapter": 52,
+      "filename": "poem_052.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/b48f6cc60c0ef5d942cf41f52fdd111362ffcf38/poem_052.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_052.md",
+      "chapter_name": "The Ballad of Lyra's Fall",
+      "published_date": "2026-01-14 14:28:42 UTC",
+      "poetry_type": "Legendary ballad"
     }
   ]
 }
