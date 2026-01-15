@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 59,
-  "last_updated": "2026-01-14 14:31:07 UTC",
+  "total_chapters": 60,
+  "last_updated": "2026-01-15 14:30:08 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -476,6 +476,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_059.md",
       "chapter_name": "The Veins of the Day",
       "published_date": "2026-01-14 14:31:06 UTC"
+    },
+    {
+      "chapter": 60,
+      "filename": "poem_060.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/3b445e79293fdc6bd64078bed92204d13e1b98b6/poem_060.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_060.md",
+      "chapter_name": "The Weight of Sun",
+      "published_date": "2026-01-15 14:30:06 UTC"
     }
   ]
 }
