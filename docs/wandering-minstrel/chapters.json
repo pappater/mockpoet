@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 52,
-  "last_updated": "2026-01-14 14:28:43 UTC",
+  "total_chapters": 53,
+  "last_updated": "2026-01-15 14:27:38 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -475,6 +475,15 @@
       "chapter_name": "The Ballad of Lyra's Fall",
       "published_date": "2026-01-14 14:28:42 UTC",
       "poetry_type": "Legendary ballad"
+    },
+    {
+      "chapter": 53,
+      "filename": "poem_053.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/4cb941b4972d476459f3ddc30f9fbdd0b134defa/poem_053.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_053.md",
+      "chapter_name": "The Willow Maid of Silverstream",
+      "published_date": "2026-01-15 14:27:37 UTC",
+      "poetry_type": "Folklore ballad"
     }
   ]
 }
