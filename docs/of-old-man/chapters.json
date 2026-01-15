@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 145,
-  "last_updated": "2026-01-14 22:18:28 UTC",
+  "total_chapters": 146,
+  "last_updated": "2026-01-15 10:19:58 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1309,6 +1309,15 @@
       "chapter_name": "The Lady of the Tarn",
       "published_date": "2026-01-14 22:18:26 UTC",
       "poetry_type": "Lai"
+    },
+    {
+      "chapter": 146,
+      "filename": "poem_146.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/99f3413d5447254f85e8fc9ce8fbcedd9a33d7e1/poem_146.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_146.md",
+      "chapter_name": "Veil",
+      "published_date": "2026-01-15 10:19:56 UTC",
+      "poetry_type": "Etheree"
     }
   ]
 }
