@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 146,
-  "last_updated": "2026-01-15 10:19:58 UTC",
+  "total_chapters": 147,
+  "last_updated": "2026-01-16 10:19:36 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1318,6 +1318,15 @@
       "chapter_name": "Veil",
       "published_date": "2026-01-15 10:19:56 UTC",
       "poetry_type": "Etheree"
+    },
+    {
+      "chapter": 147,
+      "filename": "poem_147.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/0207c4afb8a7e42a56949d0087e5d96ed6582624/poem_147.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_147.md",
+      "chapter_name": "For Eleonora, Who Listened",
+      "published_date": "2026-01-16 10:19:35 UTC",
+      "poetry_type": "Epitaph"
     }
   ]
 }
