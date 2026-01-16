@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 60,
-  "last_updated": "2026-01-15 14:30:08 UTC",
+  "total_chapters": 61,
+  "last_updated": "2026-01-16 14:29:09 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -484,6 +484,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_060.md",
       "chapter_name": "The Weight of Sun",
       "published_date": "2026-01-15 14:30:06 UTC"
+    },
+    {
+      "chapter": 61,
+      "filename": "poem_061.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/e5e2ec9bd2dc9954c9e277d2a0bd6fe144fd0975/poem_061.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_061.md",
+      "chapter_name": "Pavement Song",
+      "published_date": "2026-01-16 14:29:08 UTC"
     }
   ]
 }
