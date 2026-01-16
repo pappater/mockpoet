@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 53,
-  "last_updated": "2026-01-15 14:27:38 UTC",
+  "total_chapters": 54,
+  "last_updated": "2026-01-16 14:26:51 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -484,6 +484,15 @@
       "chapter_name": "The Willow Maid of Silverstream",
       "published_date": "2026-01-15 14:27:37 UTC",
       "poetry_type": "Folklore ballad"
+    },
+    {
+      "chapter": 54,
+      "filename": "poem_054.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/ab2ee48e793b348fee0b37518f46606ffecff941/poem_054.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_054.md",
+      "chapter_name": "The Ballad of Elara's Watch",
+      "published_date": "2026-01-16 14:26:50 UTC",
+      "poetry_type": "Narrative poem"
     }
   ]
 }
