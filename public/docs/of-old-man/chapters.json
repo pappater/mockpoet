@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 149,
-  "last_updated": "2026-01-17 10:16:34 UTC",
+  "total_chapters": 150,
+  "last_updated": "2026-01-17 22:16:29 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1345,6 +1345,15 @@
       "chapter_name": "The Catalogue of Early Light",
       "published_date": "2026-01-17 10:16:33 UTC",
       "poetry_type": "Catalog poem"
+    },
+    {
+      "chapter": 150,
+      "filename": "poem_150.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/9bd8f515f77b5915eeb56baff4c2e877b8d50ec8/poem_150.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_150.md",
+      "chapter_name": "A Poet's Charge",
+      "published_date": "2026-01-17 22:16:27 UTC",
+      "poetry_type": "Ars Poetica"
     }
   ]
 }
