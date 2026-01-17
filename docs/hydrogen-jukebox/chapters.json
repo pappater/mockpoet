@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 61,
-  "last_updated": "2026-01-16 14:29:09 UTC",
+  "total_chapters": 62,
+  "last_updated": "2026-01-17 14:23:27 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -492,6 +492,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_061.md",
       "chapter_name": "Pavement Song",
       "published_date": "2026-01-16 14:29:08 UTC"
+    },
+    {
+      "chapter": 62,
+      "filename": "poem_062.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/6b86f8a8510e418e94c6bf13f700bb8c333bf0e1/poem_062.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_062.md",
+      "chapter_name": "The Deep Song of Water",
+      "published_date": "2026-01-17 14:23:27 UTC"
     }
   ]
 }
