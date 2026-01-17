@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 148,
-  "last_updated": "2026-01-16 22:18:09 UTC",
+  "total_chapters": 149,
+  "last_updated": "2026-01-17 10:16:34 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1336,6 +1336,15 @@
       "chapter_name": "An Epithalamium for a Blessed Union",
       "published_date": "2026-01-16 22:18:08 UTC",
       "poetry_type": "Epithalamium"
+    },
+    {
+      "chapter": 149,
+      "filename": "poem_149.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/e289d37441d8413ecbb470d876c065c0ca1b8e25/poem_149.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_149.md",
+      "chapter_name": "The Catalogue of Early Light",
+      "published_date": "2026-01-17 10:16:33 UTC",
+      "poetry_type": "Catalog poem"
     }
   ]
 }
