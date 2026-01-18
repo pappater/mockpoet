@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 62,
-  "last_updated": "2026-01-17 14:23:27 UTC",
+  "total_chapters": 63,
+  "last_updated": "2026-01-18 14:23:05 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -500,6 +500,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_062.md",
       "chapter_name": "The Deep Song of Water",
       "published_date": "2026-01-17 14:23:27 UTC"
+    },
+    {
+      "chapter": 63,
+      "filename": "poem_063.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/d543566983929cbeb4db40d8a586b8875b6f1475/poem_063.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_063.md",
+      "chapter_name": "The Stubborn Apple",
+      "published_date": "2026-01-18 14:23:04 UTC"
     }
   ]
 }
