@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 150,
-  "last_updated": "2026-01-17 22:16:29 UTC",
+  "total_chapters": 151,
+  "last_updated": "2026-01-18 10:17:53 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1354,6 +1354,15 @@
       "chapter_name": "A Poet's Charge",
       "published_date": "2026-01-17 22:16:27 UTC",
       "poetry_type": "Ars Poetica"
+    },
+    {
+      "chapter": 151,
+      "filename": "poem_151.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/35e7ea2a057c096cf6b5b607b9b1a66b58a7ab7d/poem_151.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_151.md",
+      "chapter_name": "The Unfiltered Signal",
+      "published_date": "2026-01-18 10:17:51 UTC",
+      "poetry_type": "Performance poem"
     }
   ]
 }
