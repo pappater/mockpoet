@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 55,
-  "last_updated": "2026-01-17 14:21:06 UTC",
+  "total_chapters": 56,
+  "last_updated": "2026-01-18 14:20:39 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -502,6 +502,15 @@
       "chapter_name": "The Sailor's Salt-Kissed Claim",
       "published_date": "2026-01-17 14:21:05 UTC",
       "poetry_type": "Ghost ballad"
+    },
+    {
+      "chapter": 56,
+      "filename": "poem_056.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c9dfe3328466902b959ac357160e450834da373c/poem_056.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_056.md",
+      "chapter_name": "The Ballad of Lyra and the Sunstone",
+      "published_date": "2026-01-18 14:20:38 UTC",
+      "poetry_type": "Adventure ballad"
     }
   ]
 }
