@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 151,
-  "last_updated": "2026-01-18 10:17:53 UTC",
+  "total_chapters": 152,
+  "last_updated": "2026-01-19 10:24:43 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1363,6 +1363,15 @@
       "chapter_name": "The Unfiltered Signal",
       "published_date": "2026-01-18 10:17:51 UTC",
       "poetry_type": "Performance poem"
+    },
+    {
+      "chapter": 152,
+      "filename": "poem_152.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/32ca56f681d9113d1026d44093e5f9377f5a6195/poem_152.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_152.md",
+      "chapter_name": "The River's Great Beast",
+      "published_date": "2026-01-19 10:24:42 UTC",
+      "poetry_type": "Double dactyl"
     }
   ]
 }
