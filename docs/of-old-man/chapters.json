@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 152,
-  "last_updated": "2026-01-19 10:24:43 UTC",
+  "total_chapters": 153,
+  "last_updated": "2026-01-20 10:23:36 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1372,6 +1372,15 @@
       "chapter_name": "The River's Great Beast",
       "published_date": "2026-01-19 10:24:42 UTC",
       "poetry_type": "Double dactyl"
+    },
+    {
+      "chapter": 153,
+      "filename": "poem_153.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/fb69a847e4917597e98ff41c18c1b9c0c6a36b5c/poem_153.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_153.md",
+      "chapter_name": "Elegy for a Voice Now Still",
+      "published_date": "2026-01-20 10:23:34 UTC",
+      "poetry_type": "Elegy"
     }
   ]
 }
