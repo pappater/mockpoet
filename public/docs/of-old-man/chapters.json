@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 153,
-  "last_updated": "2026-01-20 10:23:36 UTC",
+  "total_chapters": 154,
+  "last_updated": "2026-01-20 22:19:27 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1381,6 +1381,15 @@
       "chapter_name": "Elegy for a Voice Now Still",
       "published_date": "2026-01-20 10:23:34 UTC",
       "poetry_type": "Elegy"
+    },
+    {
+      "chapter": 154,
+      "filename": "poem_154.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/76ea261031929b8612fe76823d04eaa704afc202/poem_154.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_154.md",
+      "chapter_name": "Autumn Pavement",
+      "published_date": "2026-01-20 22:19:26 UTC",
+      "poetry_type": "Imagist poem"
     }
   ]
 }
