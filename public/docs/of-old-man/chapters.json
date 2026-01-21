@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 154,
-  "last_updated": "2026-01-20 22:19:27 UTC",
+  "total_chapters": 155,
+  "last_updated": "2026-01-21 10:23:46 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1390,6 +1390,15 @@
       "chapter_name": "Autumn Pavement",
       "published_date": "2026-01-20 22:19:26 UTC",
       "poetry_type": "Imagist poem"
+    },
+    {
+      "chapter": 155,
+      "filename": "poem_155.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/358889ae4640bc5cdc178b78759dbf03e5ebe328/poem_155.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_155.md",
+      "chapter_name": "On Transient Crowns",
+      "published_date": "2026-01-21 10:23:44 UTC",
+      "poetry_type": "Heroic couplet"
     }
   ]
 }
