@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 64,
-  "last_updated": "2026-01-21 14:36:59 UTC",
+  "total_chapters": 65,
+  "last_updated": "2026-01-22 14:36:05 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -516,6 +516,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_064.md",
       "chapter_name": "The Archive of Ash",
       "published_date": "2026-01-21 14:36:58 UTC"
+    },
+    {
+      "chapter": 65,
+      "filename": "poem_065.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/f51e5fc09c9029d64cff59d8d27ea0fc3de18d7e/poem_065.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_065.md",
+      "chapter_name": "when a (green) sun",
+      "published_date": "2026-01-22 14:36:04 UTC"
     }
   ]
 }
