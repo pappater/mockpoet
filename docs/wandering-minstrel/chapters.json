@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 57,
-  "last_updated": "2026-01-21 14:34:27 UTC",
+  "total_chapters": 58,
+  "last_updated": "2026-01-22 14:33:35 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -520,6 +520,15 @@
       "chapter_name": "The Lament of Arthur's Tide",
       "published_date": "2026-01-21 14:34:25 UTC",
       "poetry_type": "Literary ballad"
+    },
+    {
+      "chapter": 58,
+      "filename": "poem_058.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/27711c173e4624dce87b23b9f48009dabf96190f/poem_058.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_058.md",
+      "chapter_name": "The Pearl of the Deep",
+      "published_date": "2026-01-22 14:33:34 UTC",
+      "poetry_type": "Narrative lyric"
     }
   ]
 }
