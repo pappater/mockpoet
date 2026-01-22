@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 156,
-  "last_updated": "2026-01-21 22:20:58 UTC",
+  "total_chapters": 157,
+  "last_updated": "2026-01-22 10:24:08 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1408,6 +1408,15 @@
       "chapter_name": "Dawn's Ascent",
       "published_date": "2026-01-21 22:20:57 UTC",
       "poetry_type": "Etheree"
+    },
+    {
+      "chapter": 157,
+      "filename": "poem_157.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/5e6bab1bdb0bdbbb30e99d9e13f41007139e9d5b/poem_157.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_157.md",
+      "chapter_name": "Sonnet to a Screen",
+      "published_date": "2026-01-22 10:24:06 UTC",
+      "poetry_type": "Parody poem"
     }
   ]
 }
