@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 58,
-  "last_updated": "2026-01-22 14:33:35 UTC",
+  "total_chapters": 59,
+  "last_updated": "2026-01-23 14:28:36 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -529,6 +529,15 @@
       "chapter_name": "The Pearl of the Deep",
       "published_date": "2026-01-22 14:33:34 UTC",
       "poetry_type": "Narrative lyric"
+    },
+    {
+      "chapter": 59,
+      "filename": "poem_059.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/d7b1607ac4d7c052127ca37a4c03806eb84bc683/poem_059.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_059.md",
+      "chapter_name": "The Lament of Willie o' the Moss",
+      "published_date": "2026-01-23 14:28:34 UTC",
+      "poetry_type": "Border ballad"
     }
   ]
 }
