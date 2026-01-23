@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 157,
-  "last_updated": "2026-01-22 10:24:08 UTC",
+  "total_chapters": 158,
+  "last_updated": "2026-01-23 10:20:29 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1417,6 +1417,15 @@
       "chapter_name": "Sonnet to a Screen",
       "published_date": "2026-01-22 10:24:06 UTC",
       "poetry_type": "Parody poem"
+    },
+    {
+      "chapter": 158,
+      "filename": "poem_158.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/3634253126d8e0de1170fc23872ec2490eea66be/poem_158.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_158.md",
+      "chapter_name": "Here Lies Thomas",
+      "published_date": "2026-01-23 10:20:27 UTC",
+      "poetry_type": "Epitaph"
     }
   ]
 }
