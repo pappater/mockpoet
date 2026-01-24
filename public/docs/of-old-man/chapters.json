@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 158,
-  "last_updated": "2026-01-23 10:20:29 UTC",
+  "total_chapters": 159,
+  "last_updated": "2026-01-24 10:17:44 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1426,6 +1426,15 @@
       "chapter_name": "Here Lies Thomas",
       "published_date": "2026-01-23 10:20:27 UTC",
       "poetry_type": "Epitaph"
+    },
+    {
+      "chapter": 159,
+      "filename": "poem_159.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/f32e9af8823fdff434c673da65ea657937a34974/poem_159.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_159.md",
+      "chapter_name": "Twilight Hush",
+      "published_date": "2026-01-24 10:17:43 UTC",
+      "poetry_type": "Triolet"
     }
   ]
 }
