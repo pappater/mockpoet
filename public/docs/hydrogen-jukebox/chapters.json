@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 67,
-  "last_updated": "2026-01-24 14:25:10 UTC",
+  "total_chapters": 68,
+  "last_updated": "2026-01-25 14:24:22 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -540,6 +540,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_067.md",
       "chapter_name": "November Thaw",
       "published_date": "2026-01-24 14:25:08 UTC"
+    },
+    {
+      "chapter": 68,
+      "filename": "poem_068.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/c66ad335a0dec28ddbf7927a1598052fb1ff7ef5/poem_068.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_068.md",
+      "chapter_name": "The Well Head",
+      "published_date": "2026-01-25 14:24:21 UTC"
     }
   ]
 }
