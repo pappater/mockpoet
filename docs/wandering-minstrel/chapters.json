@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 60,
-  "last_updated": "2026-01-24 14:21:52 UTC",
+  "total_chapters": 61,
+  "last_updated": "2026-01-25 14:21:46 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -547,6 +547,15 @@
       "chapter_name": "The Ballad of Elara and the Sea-Wraith",
       "published_date": "2026-01-24 14:21:51 UTC",
       "poetry_type": "Literary ballad"
+    },
+    {
+      "chapter": 61,
+      "filename": "poem_061.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/4ffa00b6abc7bea22218dfbcb544d0e49927f5c0/poem_061.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_061.md",
+      "chapter_name": "The Ballad of Thomas of Blackwood",
+      "published_date": "2026-01-25 14:21:45 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
