@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 160,
-  "last_updated": "2026-01-25 10:18:21 UTC",
+  "total_chapters": 161,
+  "last_updated": "2026-01-26 10:22:40 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1444,6 +1444,15 @@
       "chapter_name": "Quiet Ascendance",
       "published_date": "2026-01-25 10:18:19 UTC",
       "poetry_type": "Etheree"
+    },
+    {
+      "chapter": 161,
+      "filename": "poem_161.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/229f9d614680972921590e26edaf7855471a6e6c/poem_161.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_161.md",
+      "chapter_name": "The First Sigh",
+      "published_date": "2026-01-26 10:22:38 UTC",
+      "poetry_type": "Mythic poem"
     }
   ]
 }
