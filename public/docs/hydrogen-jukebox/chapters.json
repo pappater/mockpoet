@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 68,
-  "last_updated": "2026-01-25 14:24:22 UTC",
+  "total_chapters": 69,
+  "last_updated": "2026-01-26 14:34:39 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -548,6 +548,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_068.md",
       "chapter_name": "The Well Head",
       "published_date": "2026-01-25 14:24:21 UTC"
+    },
+    {
+      "chapter": 69,
+      "filename": "poem_069.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/1606323e28a495fd8f13208b2583cf0247ecf30f/poem_069.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_069.md",
+      "chapter_name": "Song of the Dry Moon",
+      "published_date": "2026-01-26 14:34:38 UTC"
     }
   ]
 }
