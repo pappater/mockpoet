@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 161,
-  "last_updated": "2026-01-26 10:22:40 UTC",
+  "total_chapters": 162,
+  "last_updated": "2026-01-26 22:18:29 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1453,6 +1453,15 @@
       "chapter_name": "The First Sigh",
       "published_date": "2026-01-26 10:22:38 UTC",
       "poetry_type": "Mythic poem"
+    },
+    {
+      "chapter": 162,
+      "filename": "poem_162.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/f5f408197c5506048114c00b3cf0092c97f804ef/poem_162.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_162.md",
+      "chapter_name": "The Digital Odyssey of Sir Reginald Buffington",
+      "published_date": "2026-01-26 22:18:28 UTC",
+      "poetry_type": "Mock epic"
     }
   ]
 }
