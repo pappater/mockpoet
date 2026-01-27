@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 62,
-  "last_updated": "2026-01-26 14:31:18 UTC",
+  "total_chapters": 63,
+  "last_updated": "2026-01-27 14:33:13 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -565,6 +565,15 @@
       "chapter_name": "The Seawolf's Doom",
       "published_date": "2026-01-26 14:31:17 UTC",
       "poetry_type": "Sea ballad"
+    },
+    {
+      "chapter": 63,
+      "filename": "poem_063.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/57cb2284a9f5938d091f503f4a31510ee5369cab/poem_063.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_063.md",
+      "chapter_name": "The Ballad of the Kraken's Kiss",
+      "published_date": "2026-01-27 14:33:12 UTC",
+      "poetry_type": "Story ballad"
     }
   ]
 }
