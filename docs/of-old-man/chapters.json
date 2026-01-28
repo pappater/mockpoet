@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 164,
-  "last_updated": "2026-01-28 10:24:40 UTC",
+  "total_chapters": 165,
+  "last_updated": "2026-01-28 22:22:53 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1480,6 +1480,15 @@
       "chapter_name": "The Buffering Scroll",
       "published_date": "2026-01-28 10:24:39 UTC",
       "poetry_type": "Parody poem"
+    },
+    {
+      "chapter": 165,
+      "filename": "poem_165.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/3bafe641565afa86e5af4c068b0c5bcb69735609/poem_165.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_165.md",
+      "chapter_name": "Ballade of the Turning Tide",
+      "published_date": "2026-01-28 22:22:52 UTC",
+      "poetry_type": "Ballade"
     }
   ]
 }
