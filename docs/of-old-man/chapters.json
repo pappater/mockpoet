@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 163,
-  "last_updated": "2026-01-27 10:23:33 UTC",
+  "total_chapters": 164,
+  "last_updated": "2026-01-28 10:24:40 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1471,6 +1471,15 @@
       "chapter_name": "Ocean's Edge",
       "published_date": "2026-01-27 10:23:32 UTC",
       "poetry_type": "Diamante"
+    },
+    {
+      "chapter": 164,
+      "filename": "poem_164.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/9ee6f32b550c16a834b7010a3ea036458c4aca2c/poem_164.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_164.md",
+      "chapter_name": "The Buffering Scroll",
+      "published_date": "2026-01-28 10:24:39 UTC",
+      "poetry_type": "Parody poem"
     }
   ]
 }
