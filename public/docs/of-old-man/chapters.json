@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 165,
-  "last_updated": "2026-01-28 22:22:53 UTC",
+  "total_chapters": 166,
+  "last_updated": "2026-01-29 10:32:48 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1489,6 +1489,15 @@
       "chapter_name": "Ballade of the Turning Tide",
       "published_date": "2026-01-28 22:22:52 UTC",
       "poetry_type": "Ballade"
+    },
+    {
+      "chapter": 166,
+      "filename": "poem_166.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/848946a68b5def43ef0a4c928955845084d72517/poem_166.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_166.md",
+      "chapter_name": "The Verdant Hours",
+      "published_date": "2026-01-29 10:32:47 UTC",
+      "poetry_type": "Pastoral"
     }
   ]
 }
