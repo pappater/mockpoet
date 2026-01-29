@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 71,
-  "last_updated": "2026-01-28 14:36:47 UTC",
+  "total_chapters": 72,
+  "last_updated": "2026-01-29 14:41:54 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -572,6 +572,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_071.md",
       "chapter_name": "A Blue Fact, Or The Mind's Imperium",
       "published_date": "2026-01-28 14:36:45 UTC"
+    },
+    {
+      "chapter": 72,
+      "filename": "poem_072.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/d3c1b697ea1a105ed1e7a04e860a2e0ab4891552/poem_072.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_072.md",
+      "chapter_name": "The Drifting Dharma of Midnight Pavement",
+      "published_date": "2026-01-29 14:41:53 UTC"
     }
   ]
 }
