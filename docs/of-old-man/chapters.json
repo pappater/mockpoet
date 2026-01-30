@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 166,
-  "last_updated": "2026-01-29 10:32:48 UTC",
+  "total_chapters": 167,
+  "last_updated": "2026-01-30 10:29:45 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1498,6 +1498,15 @@
       "chapter_name": "The Verdant Hours",
       "published_date": "2026-01-29 10:32:47 UTC",
       "poetry_type": "Pastoral"
+    },
+    {
+      "chapter": 167,
+      "filename": "poem_167.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/7b295d672a8841e0a8ac9a79b9e2eac35117d5e8/poem_167.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_167.md",
+      "chapter_name": "The Constant Turning",
+      "published_date": "2026-01-30 10:29:43 UTC",
+      "poetry_type": "Cycle poem"
     }
   ]
 }
