@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 65,
-  "last_updated": "2026-01-29 14:39:35 UTC",
+  "total_chapters": 66,
+  "last_updated": "2026-01-30 14:36:52 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -592,6 +592,15 @@
       "chapter_name": "The Ballad of Elara's Song",
       "published_date": "2026-01-29 14:39:34 UTC",
       "poetry_type": "Story poem"
+    },
+    {
+      "chapter": 66,
+      "filename": "poem_066.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/46b57e5159e02a4cfa9a01e213937165e835bbf1/poem_066.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_066.md",
+      "chapter_name": "The Bell of Blackwater Bay",
+      "published_date": "2026-01-30 14:36:51 UTC",
+      "poetry_type": "Folk ballad"
     }
   ]
 }
