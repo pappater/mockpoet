@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 167,
-  "last_updated": "2026-01-30 10:29:45 UTC",
+  "total_chapters": 168,
+  "last_updated": "2026-01-31 10:23:40 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1507,6 +1507,15 @@
       "chapter_name": "The Constant Turning",
       "published_date": "2026-01-30 10:29:43 UTC",
       "poetry_type": "Cycle poem"
+    },
+    {
+      "chapter": 168,
+      "filename": "poem_168.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/8dc828092d3b96bb04bfb5aafccd7db94b8067c3/poem_168.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_168.md",
+      "chapter_name": "Cascade",
+      "published_date": "2026-01-31 10:23:38 UTC",
+      "poetry_type": "Concrete poem"
     }
   ]
 }
