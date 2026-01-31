@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 66,
-  "last_updated": "2026-01-30 14:36:52 UTC",
+  "total_chapters": 67,
+  "last_updated": "2026-01-31 14:26:53 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -601,6 +601,15 @@
       "chapter_name": "The Bell of Blackwater Bay",
       "published_date": "2026-01-30 14:36:51 UTC",
       "poetry_type": "Folk ballad"
+    },
+    {
+      "chapter": 67,
+      "filename": "poem_067.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/4768f49b057dcf3dd38a9736b02e014d07a7b9da/poem_067.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_067.md",
+      "chapter_name": "The Ballad of Lily's Watch",
+      "published_date": "2026-01-31 14:26:52 UTC",
+      "poetry_type": "Story ballad"
     }
   ]
 }
