@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 73,
-  "last_updated": "2026-01-30 14:39:45 UTC",
+  "total_chapters": 74,
+  "last_updated": "2026-01-31 14:29:36 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -588,6 +588,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_073.md",
       "chapter_name": "A Canticle for the Broken Light",
       "published_date": "2026-01-30 14:39:44 UTC"
+    },
+    {
+      "chapter": 74,
+      "filename": "poem_074.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/53a42b324ebc2ce8b566aefc52d3443c4371a1e4/poem_074.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_074.md",
+      "chapter_name": "The Daily Mirror",
+      "published_date": "2026-01-31 14:29:35 UTC"
     }
   ]
 }
