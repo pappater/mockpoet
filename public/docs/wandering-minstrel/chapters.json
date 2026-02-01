@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 67,
-  "last_updated": "2026-01-31 14:26:53 UTC",
+  "total_chapters": 68,
+  "last_updated": "2026-02-01 14:29:01 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -610,6 +610,15 @@
       "chapter_name": "The Ballad of Lily's Watch",
       "published_date": "2026-01-31 14:26:52 UTC",
       "poetry_type": "Story ballad"
+    },
+    {
+      "chapter": 68,
+      "filename": "poem_068.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/1038bbd851d434f083c6e6640e1619da8aff5917/poem_068.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_068.md",
+      "chapter_name": "The Drakon of Shadowfell",
+      "published_date": "2026-02-01 14:29:00 UTC",
+      "poetry_type": "Heroic ballad"
     }
   ]
 }
