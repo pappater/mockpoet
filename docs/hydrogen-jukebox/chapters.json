@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 74,
-  "last_updated": "2026-01-31 14:29:36 UTC",
+  "total_chapters": 75,
+  "last_updated": "2026-02-01 14:31:33 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -596,6 +596,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_074.md",
       "chapter_name": "The Daily Mirror",
       "published_date": "2026-01-31 14:29:35 UTC"
+    },
+    {
+      "chapter": 75,
+      "filename": "poem_075.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/df2fc1b49b3b135ae3522b385b0c3ef2f15d017c/poem_075.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_075.md",
+      "chapter_name": "The Dharma of the Asphalt",
+      "published_date": "2026-02-01 14:31:32 UTC"
     }
   ]
 }
