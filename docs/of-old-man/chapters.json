@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 168,
-  "last_updated": "2026-01-31 10:23:40 UTC",
+  "total_chapters": 169,
+  "last_updated": "2026-02-01 10:21:24 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1516,6 +1516,15 @@
       "chapter_name": "Cascade",
       "published_date": "2026-01-31 10:23:38 UTC",
       "poetry_type": "Concrete poem"
+    },
+    {
+      "chapter": 169,
+      "filename": "poem_169.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/f4819f574b3800f71ddbb09cf12c8d6cc6b04d49/poem_169.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_169.md",
+      "chapter_name": "On the Dedication of Meridian Hall",
+      "published_date": "2026-02-01 10:21:22 UTC",
+      "poetry_type": "Occasional poem"
     }
   ]
 }
