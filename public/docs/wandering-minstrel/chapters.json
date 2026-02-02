@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 68,
-  "last_updated": "2026-02-01 14:29:01 UTC",
+  "total_chapters": 69,
+  "last_updated": "2026-02-02 14:42:44 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -619,6 +619,15 @@
       "chapter_name": "The Drakon of Shadowfell",
       "published_date": "2026-02-01 14:29:00 UTC",
       "poetry_type": "Heroic ballad"
+    },
+    {
+      "chapter": 69,
+      "filename": "poem_069.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/e1c049e8c253b3264f4e72374fd741b5dc6e710f/poem_069.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_069.md",
+      "chapter_name": "The Maiden and the Shadow Knight",
+      "published_date": "2026-02-02 14:42:43 UTC",
+      "poetry_type": "Ballad stanza poem"
     }
   ]
 }
