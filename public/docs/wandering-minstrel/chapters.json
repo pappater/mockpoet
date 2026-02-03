@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 69,
-  "last_updated": "2026-02-02 14:42:44 UTC",
+  "total_chapters": 70,
+  "last_updated": "2026-02-03 14:46:36 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -628,6 +628,15 @@
       "chapter_name": "The Maiden and the Shadow Knight",
       "published_date": "2026-02-02 14:42:43 UTC",
       "poetry_type": "Ballad stanza poem"
+    },
+    {
+      "chapter": 70,
+      "filename": "poem_070.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/d6cd7ae732e19bd5196ae1a8a09ef1b4093f13f4/poem_070.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_070.md",
+      "chapter_name": "The Grey Swan of the Loch",
+      "published_date": "2026-02-03 14:46:35 UTC",
+      "poetry_type": "Folk ballad"
     }
   ]
 }
