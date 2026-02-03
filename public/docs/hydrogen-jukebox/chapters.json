@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 76,
-  "last_updated": "2026-02-02 14:47:31 UTC",
+  "total_chapters": 77,
+  "last_updated": "2026-02-03 14:50:29 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -612,6 +612,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_076.md",
       "chapter_name": "Late October Light",
       "published_date": "2026-02-02 14:47:30 UTC"
+    },
+    {
+      "chapter": 77,
+      "filename": "poem_077.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/0f77cba1e713868451fb6f0950871422fefac4ac/poem_077.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_077.md",
+      "chapter_name": "The Pump-Handle",
+      "published_date": "2026-02-03 14:50:27 UTC"
     }
   ]
 }
