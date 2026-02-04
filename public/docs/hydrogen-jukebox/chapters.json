@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 77,
-  "last_updated": "2026-02-03 14:50:29 UTC",
+  "total_chapters": 78,
+  "last_updated": "2026-02-04 14:45:36 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -620,6 +620,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_077.md",
       "chapter_name": "The Pump-Handle",
       "published_date": "2026-02-03 14:50:27 UTC"
+    },
+    {
+      "chapter": 78,
+      "filename": "poem_078.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/5cb8aad6c9ee4f1ae8ce4e6962f6a0818d95ead9/poem_078.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_078.md",
+      "chapter_name": "Streetlamp Blues",
+      "published_date": "2026-02-04 14:45:34 UTC"
     }
   ]
 }
