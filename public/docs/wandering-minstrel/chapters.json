@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 70,
-  "last_updated": "2026-02-03 14:46:36 UTC",
+  "total_chapters": 71,
+  "last_updated": "2026-02-04 14:41:56 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -637,6 +637,15 @@
       "chapter_name": "The Grey Swan of the Loch",
       "published_date": "2026-02-03 14:46:35 UTC",
       "poetry_type": "Folk ballad"
+    },
+    {
+      "chapter": 71,
+      "filename": "poem_071.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/15d2e1c4baf793b77feb575b4d0986c9c46697fb/poem_071.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_071.md",
+      "chapter_name": "The Wreck of the *Seagull's Cry*",
+      "published_date": "2026-02-04 14:41:54 UTC",
+      "poetry_type": "Sea ballad"
     }
   ]
 }
