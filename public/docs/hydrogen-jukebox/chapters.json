@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 78,
-  "last_updated": "2026-02-04 14:45:36 UTC",
+  "total_chapters": 79,
+  "last_updated": "2026-02-05 14:49:44 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -628,6 +628,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_078.md",
       "chapter_name": "Streetlamp Blues",
       "published_date": "2026-02-04 14:45:34 UTC"
+    },
+    {
+      "chapter": 79,
+      "filename": "poem_079.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/2775e93c2d52387d22d9a1ddf764e1588567f27e/poem_079.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_079.md",
+      "chapter_name": "Mantra of the Flicker-Faced",
+      "published_date": "2026-02-05 14:49:42 UTC"
     }
   ]
 }
