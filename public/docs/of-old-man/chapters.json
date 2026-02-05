@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 173,
-  "last_updated": "2026-02-05 10:36:28 UTC",
+  "total_chapters": 174,
+  "last_updated": "2026-02-05 22:22:41 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1561,6 +1561,15 @@
       "chapter_name": "Ode to Silence",
       "published_date": "2026-02-05 10:36:26 UTC",
       "poetry_type": "Ode"
+    },
+    {
+      "chapter": 174,
+      "filename": "poem_174.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/adbc69fbfe9f58a4a526b0174bb9ab6513b51437/poem_174.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_174.md",
+      "chapter_name": "To a Vanishing Light",
+      "published_date": "2026-02-05 22:22:40 UTC",
+      "poetry_type": "Petrarchan sonnet"
     }
   ]
 }
