@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 72,
-  "last_updated": "2026-02-05 14:45:17 UTC",
+  "total_chapters": 73,
+  "last_updated": "2026-02-06 14:41:10 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -655,6 +655,15 @@
       "chapter_name": "The Ballad of Sir Kaelan and the Gloom",
       "published_date": "2026-02-05 14:45:14 UTC",
       "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 73,
+      "filename": "poem_073.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/501184f09dfb0a587048d809d5a5a2fd63a944ee/poem_073.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_073.md",
+      "chapter_name": "Aethel's Sunken Bell",
+      "published_date": "2026-02-06 14:41:08 UTC",
+      "poetry_type": "Adventure ballad"
     }
   ]
 }
