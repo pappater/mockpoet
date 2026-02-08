@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 81,
-  "last_updated": "2026-02-07 14:32:00 UTC",
+  "total_chapters": 82,
+  "last_updated": "2026-02-08 14:33:58 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -652,6 +652,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_081.md",
       "chapter_name": "The Retail Park",
       "published_date": "2026-02-07 14:31:58 UTC"
+    },
+    {
+      "chapter": 82,
+      "filename": "poem_082.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/2346b57c38624cac5e846377c1521063658d12c7/poem_082.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_082.md",
+      "chapter_name": "The Board",
+      "published_date": "2026-02-08 14:33:56 UTC"
     }
   ]
 }
