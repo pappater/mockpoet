@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 176,
-  "last_updated": "2026-02-07 10:21:34 UTC",
+  "total_chapters": 177,
+  "last_updated": "2026-02-08 10:21:50 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1588,6 +1588,15 @@
       "chapter_name": "The Wayfarer's Trial",
       "published_date": "2026-02-07 10:21:32 UTC",
       "poetry_type": "Allegory poem"
+    },
+    {
+      "chapter": 177,
+      "filename": "poem_177.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/799d398a589d1a7ad181b807b2967204b868da5d/poem_177.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_177.md",
+      "chapter_name": "The Pilgrim of Whisperwind Peak",
+      "published_date": "2026-02-08 10:21:49 UTC",
+      "poetry_type": "Narrative poem"
     }
   ]
 }
