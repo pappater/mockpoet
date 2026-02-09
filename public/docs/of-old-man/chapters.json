@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 178,
-  "last_updated": "2026-02-09 10:53:01 UTC",
+  "total_chapters": 179,
+  "last_updated": "2026-02-09 22:32:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1606,6 +1606,15 @@
       "chapter_name": "The Waking Veil",
       "published_date": "2026-02-09 10:52:56 UTC",
       "poetry_type": "Minute poem"
+    },
+    {
+      "chapter": 179,
+      "filename": "poem_179.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/1c31f9af8dbc3b7d6886332f8fa7cc2285ab5964/poem_179.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_179.md",
+      "chapter_name": "Neon Sign",
+      "published_date": "2026-02-09 22:31:59 UTC",
+      "poetry_type": "Imagist poem"
     }
   ]
 }
