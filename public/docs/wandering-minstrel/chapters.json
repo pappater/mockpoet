@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 75,
-  "last_updated": "2026-02-08 14:31:02 UTC",
+  "total_chapters": 76,
+  "last_updated": "2026-02-09 14:55:21 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -682,6 +682,15 @@
       "chapter_name": "The Grey Rider's Token",
       "published_date": "2026-02-08 14:31:01 UTC",
       "poetry_type": "Dramatic ballad"
+    },
+    {
+      "chapter": 76,
+      "filename": "poem_076.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/9a2d37aaf61a6116c5c8aee878870076f2ed06de/poem_076.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_076.md",
+      "chapter_name": "The Ballad of Greywood Dell",
+      "published_date": "2026-02-09 14:55:19 UTC",
+      "poetry_type": "Narrative lyric"
     }
   ]
 }
