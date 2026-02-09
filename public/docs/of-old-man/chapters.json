@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 177,
-  "last_updated": "2026-02-08 10:21:50 UTC",
+  "total_chapters": 178,
+  "last_updated": "2026-02-09 10:53:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1597,6 +1597,15 @@
       "chapter_name": "The Pilgrim of Whisperwind Peak",
       "published_date": "2026-02-08 10:21:49 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 178,
+      "filename": "poem_178.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/b05e7a17a75ca8cf257d39de647dac0b0103ff61/poem_178.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_178.md",
+      "chapter_name": "The Waking Veil",
+      "published_date": "2026-02-09 10:52:56 UTC",
+      "poetry_type": "Minute poem"
     }
   ]
 }
