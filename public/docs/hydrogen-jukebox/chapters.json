@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 83,
-  "last_updated": "2026-02-09 14:57:15 UTC",
+  "total_chapters": 84,
+  "last_updated": "2026-02-10 15:04:00 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -668,6 +668,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_083.md",
       "chapter_name": "The Crystal Wound",
       "published_date": "2026-02-09 14:57:14 UTC"
+    },
+    {
+      "chapter": 84,
+      "filename": "poem_084.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/090c9cfc7ab892494aef3dca50d15a64888a7995/poem_084.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_084.md",
+      "chapter_name": "The Winter Kitchen",
+      "published_date": "2026-02-10 15:03:59 UTC"
     }
   ]
 }
