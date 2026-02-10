@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 179,
-  "last_updated": "2026-02-09 22:32:01 UTC",
+  "total_chapters": 180,
+  "last_updated": "2026-02-10 10:51:32 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1615,6 +1615,15 @@
       "chapter_name": "Neon Sign",
       "published_date": "2026-02-09 22:31:59 UTC",
       "poetry_type": "Imagist poem"
+    },
+    {
+      "chapter": 180,
+      "filename": "poem_180.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/04b48790159cdb32dbfb83bfc1497cda942e7fbc/poem_180.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_180.md",
+      "chapter_name": "Evening's Return",
+      "published_date": "2026-02-10 10:51:30 UTC",
+      "poetry_type": "Pantoum"
     }
   ]
 }
