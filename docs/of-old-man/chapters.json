@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 180,
-  "last_updated": "2026-02-10 10:51:32 UTC",
+  "total_chapters": 181,
+  "last_updated": "2026-02-11 10:44:50 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1624,6 +1624,15 @@
       "chapter_name": "Evening's Return",
       "published_date": "2026-02-10 10:51:30 UTC",
       "poetry_type": "Pantoum"
+    },
+    {
+      "chapter": 181,
+      "filename": "poem_181.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/bb816ed65c5c33cf6752131fede6e1fa5cda824b/poem_181.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_181.md",
+      "chapter_name": "Relic Light",
+      "published_date": "2026-02-11 10:44:48 UTC",
+      "poetry_type": "Sestina"
     }
   ]
 }
