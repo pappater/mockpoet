@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 85,
-  "last_updated": "2026-02-11 14:59:04 UTC",
+  "total_chapters": 86,
+  "last_updated": "2026-02-12 14:53:18 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -684,6 +684,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_085.md",
       "chapter_name": "The Snow Woman",
       "published_date": "2026-02-11 14:59:02 UTC"
+    },
+    {
+      "chapter": 86,
+      "filename": "poem_086.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/0bf3bc91cc7e403f8e8488c0dfe1971450eb6722/poem_086.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_086.md",
+      "chapter_name": "The Vigil of the Stone Field",
+      "published_date": "2026-02-12 14:53:16 UTC"
     }
   ]
 }
