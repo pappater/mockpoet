@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 181,
-  "last_updated": "2026-02-11 10:44:50 UTC",
+  "total_chapters": 182,
+  "last_updated": "2026-02-12 10:40:45 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1633,6 +1633,15 @@
       "chapter_name": "Relic Light",
       "published_date": "2026-02-11 10:44:48 UTC",
       "poetry_type": "Sestina"
+    },
+    {
+      "chapter": 182,
+      "filename": "poem_182.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/1d0cec1529a7b453620f41fb7b36656674c3c126/poem_182.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_182.md",
+      "chapter_name": "The Un-Silencing",
+      "published_date": "2026-02-12 10:40:43 UTC",
+      "poetry_type": "Slam poetry"
     }
   ]
 }
