@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 183,
-  "last_updated": "2026-02-13 10:35:35 UTC",
+  "total_chapters": 184,
+  "last_updated": "2026-02-13 22:28:20 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1651,6 +1651,15 @@
       "chapter_name": "Twilight's Embrace",
       "published_date": "2026-02-13 10:35:34 UTC",
       "poetry_type": "Nonet"
+    },
+    {
+      "chapter": 184,
+      "filename": "poem_184.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ce03e1bc9e4b33af626c012768738438f64492b3/poem_184.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_184.md",
+      "chapter_name": "Elegy for Fading Light",
+      "published_date": "2026-02-13 22:28:18 UTC",
+      "poetry_type": "Elegy"
     }
   ]
 }
