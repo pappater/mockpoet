@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 182,
-  "last_updated": "2026-02-12 10:40:45 UTC",
+  "total_chapters": 183,
+  "last_updated": "2026-02-13 10:35:35 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1642,6 +1642,15 @@
       "chapter_name": "The Un-Silencing",
       "published_date": "2026-02-12 10:40:43 UTC",
       "poetry_type": "Slam poetry"
+    },
+    {
+      "chapter": 183,
+      "filename": "poem_183.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/9fb9fedda99d5a30175323ee6d4e56bf2822757f/poem_183.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_183.md",
+      "chapter_name": "Twilight's Embrace",
+      "published_date": "2026-02-13 10:35:34 UTC",
+      "poetry_type": "Nonet"
     }
   ]
 }
