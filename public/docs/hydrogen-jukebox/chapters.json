@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 86,
-  "last_updated": "2026-02-12 14:53:18 UTC",
+  "total_chapters": 87,
+  "last_updated": "2026-02-13 14:46:33 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -692,6 +692,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_086.md",
       "chapter_name": "The Vigil of the Stone Field",
       "published_date": "2026-02-12 14:53:16 UTC"
+    },
+    {
+      "chapter": 87,
+      "filename": "poem_087.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/9dc4b303ce3669c608b56effe864479b3d99999c/poem_087.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_087.md",
+      "chapter_name": "The Feed",
+      "published_date": "2026-02-13 14:46:32 UTC"
     }
   ]
 }
