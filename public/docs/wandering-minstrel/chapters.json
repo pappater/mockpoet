@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 80,
-  "last_updated": "2026-02-13 14:42:23 UTC",
+  "total_chapters": 81,
+  "last_updated": "2026-02-14 14:29:50 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -727,6 +727,15 @@
       "chapter_name": "The Ballad of Elara's Tide",
       "published_date": "2026-02-13 14:42:21 UTC",
       "poetry_type": "Story ballad"
+    },
+    {
+      "chapter": 81,
+      "filename": "poem_081.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/af9ab88f5c7fb9566b6feb95ab9e8d3cfb6dc4fc/poem_081.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_081.md",
+      "chapter_name": "The Ballad of Elara's Choice",
+      "published_date": "2026-02-14 14:29:49 UTC",
+      "poetry_type": "Supernatural ballad"
     }
   ]
 }
