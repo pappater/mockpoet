@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 87,
-  "last_updated": "2026-02-13 14:46:33 UTC",
+  "total_chapters": 88,
+  "last_updated": "2026-02-14 14:32:26 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -700,6 +700,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_087.md",
       "chapter_name": "The Feed",
       "published_date": "2026-02-13 14:46:32 UTC"
+    },
+    {
+      "chapter": 88,
+      "filename": "poem_088.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/ea536d0566a5a85a81ae3c25d9c9ca049db99681/poem_088.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_088.md",
+      "chapter_name": "Fugitive Dawn",
+      "published_date": "2026-02-14 14:32:25 UTC"
     }
   ]
 }
