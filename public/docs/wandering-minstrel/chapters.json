@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 81,
-  "last_updated": "2026-02-14 14:29:50 UTC",
+  "total_chapters": 83,
+  "last_updated": "2026-02-16 14:43:14 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -736,6 +736,24 @@
       "chapter_name": "The Ballad of Elara's Choice",
       "published_date": "2026-02-14 14:29:49 UTC",
       "poetry_type": "Supernatural ballad"
+    },
+    {
+      "chapter": 82,
+      "filename": "poem_082.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/313b3932ba8b9c84af3c7ef6e755edfeb37c0a31/poem_082.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_082.md",
+      "chapter_name": "The Bargain of Blackthorn Dell",
+      "published_date": "2026-02-15 14:30:23 UTC",
+      "poetry_type": "Supernatural ballad"
+    },
+    {
+      "chapter": 83,
+      "filename": "poem_083.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/945d46f18ea33a1b7c1e39b3f49a312119999624/poem_083.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_083.md",
+      "chapter_name": "The Beggar's Return",
+      "published_date": "2026-02-16 14:43:12 UTC",
+      "poetry_type": "Narrative poem"
     }
   ]
 }
