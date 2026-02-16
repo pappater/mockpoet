@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 88,
-  "last_updated": "2026-02-15 14:33:03 UTC",
+  "total_chapters": 90,
+  "last_updated": "2026-02-16 14:48:18 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -708,6 +708,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_088.md",
       "chapter_name": "Fugitive Dawn",
       "published_date": "2026-02-14 14:32:25 UTC"
+    },
+    {
+      "chapter": 89,
+      "filename": "poem_089.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/053818d1305315a642240a6db238a576d1b31147/poem_089.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_089.md",
+      "chapter_name": "A Small Machine Asleep",
+      "published_date": "2026-02-15 14:33:02 UTC"
+    },
+    {
+      "chapter": 90,
+      "filename": "poem_090.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/795a5f2e40b134457e25d2995d5feedfda4b9a49/poem_090.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_090.md",
+      "chapter_name": "Corner Music",
+      "published_date": "2026-02-16 14:48:16 UTC"
     }
   ]
 }
