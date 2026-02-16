@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 186,
-  "last_updated": "2026-02-15 10:21:49 UTC",
+  "total_chapters": 187,
+  "last_updated": "2026-02-16 10:44:36 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1678,6 +1678,15 @@
       "chapter_name": "For Elara, Who Loved the Quiet Earth",
       "published_date": "2026-02-15 10:21:48 UTC",
       "poetry_type": "Epitaph"
+    },
+    {
+      "chapter": 187,
+      "filename": "poem_187.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/31514d39af165a164218043d9c8da314cecc9283/poem_187.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_187.md",
+      "chapter_name": "To My Distant Anchor",
+      "published_date": "2026-02-16 10:44:34 UTC",
+      "poetry_type": "Epistolary poem"
     }
   ]
 }
