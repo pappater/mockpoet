@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 188,
-  "last_updated": "2026-02-17 10:40:40 UTC",
+  "total_chapters": 189,
+  "last_updated": "2026-02-17 22:26:48 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1696,6 +1696,15 @@
       "chapter_name": "Upon the Shifting Sands of Time",
       "published_date": "2026-02-17 10:40:38 UTC",
       "poetry_type": "Spenserian sonnet"
+    },
+    {
+      "chapter": 189,
+      "filename": "poem_189.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/84ddb30c9d589d5cd724815fa662d8e2c8d1c5b0/poem_189.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_189.md",
+      "chapter_name": "Grove Echoes",
+      "published_date": "2026-02-17 22:26:46 UTC",
+      "poetry_type": "Renga"
     }
   ]
 }
