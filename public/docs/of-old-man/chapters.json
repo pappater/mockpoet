@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 187,
-  "last_updated": "2026-02-16 10:44:36 UTC",
+  "total_chapters": 188,
+  "last_updated": "2026-02-17 10:40:40 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1687,6 +1687,15 @@
       "chapter_name": "To My Distant Anchor",
       "published_date": "2026-02-16 10:44:34 UTC",
       "poetry_type": "Epistolary poem"
+    },
+    {
+      "chapter": 188,
+      "filename": "poem_188.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/5948a5d0fe893e393f276effe28213114ea7dbc1/poem_188.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_188.md",
+      "chapter_name": "Upon the Shifting Sands of Time",
+      "published_date": "2026-02-17 10:40:38 UTC",
+      "poetry_type": "Spenserian sonnet"
     }
   ]
 }
