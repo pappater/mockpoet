@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 83,
-  "last_updated": "2026-02-16 14:43:14 UTC",
+  "total_chapters": 84,
+  "last_updated": "2026-02-17 14:49:45 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -754,6 +754,15 @@
       "chapter_name": "The Beggar's Return",
       "published_date": "2026-02-16 14:43:12 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 84,
+      "filename": "poem_084.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/f91c6a1c4439fcad3aa2ca88e2bba326c066d27d/poem_084.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_084.md",
+      "chapter_name": "The Maiden of the Grey Shore",
+      "published_date": "2026-02-17 14:49:44 UTC",
+      "poetry_type": "Tragic ballad"
     }
   ]
 }
