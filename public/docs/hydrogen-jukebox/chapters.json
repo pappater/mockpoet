@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 91,
-  "last_updated": "2026-02-17 14:51:57 UTC",
+  "total_chapters": 92,
+  "last_updated": "2026-02-18 14:51:14 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -732,6 +732,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_091.md",
       "chapter_name": "The Mad Prayer of the Night Driver",
       "published_date": "2026-02-17 14:51:56 UTC"
+    },
+    {
+      "chapter": 92,
+      "filename": "poem_092.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/d2e21d4461fbc0e974d1efd2922f484b47af786c/poem_092.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_092.md",
+      "chapter_name": "a little (light)",
+      "published_date": "2026-02-18 14:51:12 UTC"
     }
   ]
 }
