@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 85,
-  "last_updated": "2026-02-18 14:48:39 UTC",
+  "total_chapters": 86,
+  "last_updated": "2026-02-19 14:51:20 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -772,6 +772,15 @@
       "chapter_name": "The Cruel Betrayal of Young Mary",
       "published_date": "2026-02-18 14:48:38 UTC",
       "poetry_type": "Broadside ballad"
+    },
+    {
+      "chapter": 86,
+      "filename": "poem_086.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/35ccdbd6c5c0b0195f4adcfa093393793145db07/poem_086.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_086.md",
+      "chapter_name": "The Phantom Lover of the Tide",
+      "published_date": "2026-02-19 14:51:18 UTC",
+      "poetry_type": "Supernatural ballad"
     }
   ]
 }
