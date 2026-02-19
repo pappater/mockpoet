@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 92,
-  "last_updated": "2026-02-18 14:51:14 UTC",
+  "total_chapters": 93,
+  "last_updated": "2026-02-19 14:53:24 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -740,6 +740,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_092.md",
       "chapter_name": "a little (light)",
       "published_date": "2026-02-18 14:51:12 UTC"
+    },
+    {
+      "chapter": 93,
+      "filename": "poem_093.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/a76f070ab52a595add1f9eb0235808271f11382e/poem_093.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_093.md",
+      "chapter_name": "The Unfolding Shadow",
+      "published_date": "2026-02-19 14:53:22 UTC"
     }
   ]
 }
