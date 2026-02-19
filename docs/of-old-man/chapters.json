@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 190,
-  "last_updated": "2026-02-18 10:40:02 UTC",
+  "total_chapters": 191,
+  "last_updated": "2026-02-19 10:38:45 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1714,6 +1714,15 @@
       "chapter_name": "Ballade of Fading Echoes",
       "published_date": "2026-02-18 10:40:00 UTC",
       "poetry_type": "Ballade"
+    },
+    {
+      "chapter": 191,
+      "filename": "poem_191.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c9208764e52e1fd0be2fae68414570d2b19191a7/poem_191.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_191.md",
+      "chapter_name": "The Hour's Flow",
+      "published_date": "2026-02-19 10:38:42 UTC",
+      "poetry_type": "Couplet"
     }
   ]
 }
