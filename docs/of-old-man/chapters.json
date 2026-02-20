@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 191,
-  "last_updated": "2026-02-19 10:38:45 UTC",
+  "total_chapters": 192,
+  "last_updated": "2026-02-20 10:33:15 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1723,6 +1723,15 @@
       "chapter_name": "The Hour's Flow",
       "published_date": "2026-02-19 10:38:42 UTC",
       "poetry_type": "Couplet"
+    },
+    {
+      "chapter": 192,
+      "filename": "poem_192.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/8fa10735bc992b0803349b0a9f9b2f4fd8d53184/poem_192.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_192.md",
+      "chapter_name": "The Architect's Lament",
+      "published_date": "2026-02-20 10:33:13 UTC",
+      "poetry_type": "Dramatic verse"
     }
   ]
 }
