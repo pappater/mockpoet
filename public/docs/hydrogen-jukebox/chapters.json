@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 93,
-  "last_updated": "2026-02-20 14:43:19 UTC",
+  "total_chapters": 95,
+  "last_updated": "2026-02-21 14:31:56 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -748,6 +748,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_093.md",
       "chapter_name": "The Unfolding Shadow",
       "published_date": "2026-02-19 14:53:22 UTC"
+    },
+    {
+      "chapter": 94,
+      "filename": "poem_094.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/a1acdf3690fe1041340b2847232f31f504a9af68/poem_094.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_094.md",
+      "chapter_name": "An Old Apple Tree",
+      "published_date": "2026-02-20 14:43:17 UTC"
+    },
+    {
+      "chapter": 95,
+      "filename": "poem_095.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/6cba5fe50892c86ab2b270385a34a876016c05fa/poem_095.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_095.md",
+      "chapter_name": "Winter Harbor",
+      "published_date": "2026-02-21 14:31:55 UTC"
     }
   ]
 }
