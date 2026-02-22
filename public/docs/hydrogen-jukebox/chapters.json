@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 95,
-  "last_updated": "2026-02-21 14:31:56 UTC",
+  "total_chapters": 96,
+  "last_updated": "2026-02-22 14:31:55 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -764,6 +764,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_095.md",
       "chapter_name": "Winter Harbor",
       "published_date": "2026-02-21 14:31:55 UTC"
+    },
+    {
+      "chapter": 96,
+      "filename": "poem_096.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/20419042e875f876ecfad0c5c5bf4faf7b977986/poem_096.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_096.md",
+      "chapter_name": "Stone and Star",
+      "published_date": "2026-02-22 14:31:54 UTC"
     }
   ]
 }
