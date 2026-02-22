@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 193,
-  "last_updated": "2026-02-21 10:21:06 UTC",
+  "total_chapters": 194,
+  "last_updated": "2026-02-22 10:21:24 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1741,6 +1741,15 @@
       "chapter_name": "The River of Whispers",
       "published_date": "2026-02-21 10:21:04 UTC",
       "poetry_type": "Ghazal"
+    },
+    {
+      "chapter": 194,
+      "filename": "poem_194.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/31d3173e87d4c8b6263dcee94cd12c289eb7eb2c/poem_194.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_194.md",
+      "chapter_name": "Silent Pond",
+      "published_date": "2026-02-22 10:21:22 UTC",
+      "poetry_type": "Sijo"
     }
   ]
 }
