@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 96,
-  "last_updated": "2026-02-23 14:53:33 UTC",
+  "total_chapters": 98,
+  "last_updated": "2026-02-24 14:56:04 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -772,6 +772,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_096.md",
       "chapter_name": "Stone and Star",
       "published_date": "2026-02-22 14:31:54 UTC"
+    },
+    {
+      "chapter": 97,
+      "filename": "poem_097.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/bc3ab88450e5c496f493d1f1400ee7579fda7143/poem_097.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_097.md",
+      "chapter_name": "(little love)",
+      "published_date": "2026-02-23 14:53:31 UTC"
+    },
+    {
+      "chapter": 98,
+      "filename": "poem_098.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b533fe46cea983b2a97d9db3eae08b3a136542f8/poem_098.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_098.md",
+      "chapter_name": "On Unheard Testimony",
+      "published_date": "2026-02-24 14:56:03 UTC"
     }
   ]
 }
