@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 90,
-  "last_updated": "2026-02-23 14:50:37 UTC",
+  "total_chapters": 91,
+  "last_updated": "2026-02-24 14:53:03 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -817,6 +817,15 @@
       "chapter_name": "The Ballad of John and the Grey Fields",
       "published_date": "2026-02-23 14:50:35 UTC",
       "poetry_type": "War ballad"
+    },
+    {
+      "chapter": 91,
+      "filename": "poem_091.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/89f559d995804cc2083e2abeae732cba58609230/poem_091.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_091.md",
+      "chapter_name": "The Ghost of Blackwood Laird",
+      "published_date": "2026-02-24 14:53:01 UTC",
+      "poetry_type": "Border ballad"
     }
   ]
 }
