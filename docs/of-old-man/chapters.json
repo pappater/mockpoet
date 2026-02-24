@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 196,
-  "last_updated": "2026-02-24 10:43:28 UTC",
+  "total_chapters": 197,
+  "last_updated": "2026-02-24 22:29:02 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1768,6 +1768,15 @@
       "chapter_name": "On Seeing Her",
       "published_date": "2026-02-24 10:43:26 UTC",
       "poetry_type": "Petrarchan sonnet"
+    },
+    {
+      "chapter": 197,
+      "filename": "poem_197.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/b7961a90ca98725dbe53704e374cac4ee07b5bca/poem_197.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_197.md",
+      "chapter_name": "The Constant Quiet",
+      "published_date": "2026-02-24 22:29:00 UTC",
+      "poetry_type": "Kyrielle"
     }
   ]
 }
