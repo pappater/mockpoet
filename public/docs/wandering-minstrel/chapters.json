@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 91,
-  "last_updated": "2026-02-24 14:53:03 UTC",
+  "total_chapters": 92,
+  "last_updated": "2026-02-25 14:52:37 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -826,6 +826,15 @@
       "chapter_name": "The Ghost of Blackwood Laird",
       "published_date": "2026-02-24 14:53:01 UTC",
       "poetry_type": "Border ballad"
+    },
+    {
+      "chapter": 92,
+      "filename": "poem_092.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/2d7d56c5448285d947064610199e8b6374a6d5dd/poem_092.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_092.md",
+      "chapter_name": "The Last Stand of Avenwyck",
+      "published_date": "2026-02-25 14:52:36 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
