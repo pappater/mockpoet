@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 198,
-  "last_updated": "2026-02-25 10:45:57 UTC",
+  "total_chapters": 199,
+  "last_updated": "2026-02-26 10:41:13 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1786,6 +1786,15 @@
       "chapter_name": "The Steady Light",
       "published_date": "2026-02-25 10:45:55 UTC",
       "poetry_type": "Kyrielle"
+    },
+    {
+      "chapter": 199,
+      "filename": "poem_199.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/449dd92859812e54281a7d76dcabefde7b933dc2/poem_199.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_199.md",
+      "chapter_name": "The Ballad of the Blinking Light",
+      "published_date": "2026-02-26 10:41:11 UTC",
+      "poetry_type": "Parody poem"
     }
   ]
 }
