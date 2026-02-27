@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 100,
-  "last_updated": "2026-02-26 14:53:22 UTC",
+  "total_chapters": 101,
+  "last_updated": "2026-02-27 14:43:02 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -804,6 +804,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_100.md",
       "chapter_name": "The Old Apple Tree",
       "published_date": "2026-02-26 14:53:06 UTC"
+    },
+    {
+      "chapter": 101,
+      "filename": "poem_101.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/75293719fbfe2a2fb2186acad9e6c240200b8736/poem_101.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_101.md",
+      "chapter_name": "The Retail Park",
+      "published_date": "2026-02-27 14:43:00 UTC"
     }
   ]
 }
