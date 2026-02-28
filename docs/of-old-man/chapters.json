@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 201,
-  "last_updated": "2026-02-27 10:33:30 UTC",
+  "total_chapters": 202,
+  "last_updated": "2026-02-28 10:19:19 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1813,6 +1813,15 @@
       "chapter_name": "The Static & The Spark",
       "published_date": "2026-02-27 10:33:28 UTC",
       "poetry_type": "Performance poem"
+    },
+    {
+      "chapter": 202,
+      "filename": "poem_202.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/f72c08b2a636b8cae7ee29fa0fa1b52de881d4da/poem_202.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_202.md",
+      "chapter_name": "The Unspoken Path",
+      "published_date": "2026-02-28 10:19:17 UTC",
+      "poetry_type": "Terza rima"
     }
   ]
 }
