@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 102,
-  "last_updated": "2026-02-28 14:28:02 UTC",
+  "total_chapters": 103,
+  "last_updated": "2026-03-01 14:29:09 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -820,6 +820,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_102.md",
       "chapter_name": "The Salt-Licked Hour",
       "published_date": "2026-02-28 14:28:01 UTC"
+    },
+    {
+      "chapter": 103,
+      "filename": "poem_103.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/98a840187ff0dad2e8686fd87071a9dcf3032a59/poem_103.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_103.md",
+      "chapter_name": "The Stone of Doubt",
+      "published_date": "2026-03-01 14:29:07 UTC"
     }
   ]
 }
