@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 94,
-  "last_updated": "2026-02-28 14:25:27 UTC",
+  "total_chapters": 96,
+  "last_updated": "2026-03-01 14:26:49 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -853,6 +853,24 @@
       "chapter_name": "The Ballad of Elara and the Sea's Cruel Call",
       "published_date": "2026-02-27 14:40:43 UTC",
       "poetry_type": "Literary ballad"
+    },
+    {
+      "chapter": 95,
+      "filename": "poem_095.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/b9edb34cd9fe22ddb132a98d4a4c273f7290de76/poem_095.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_095.md",
+      "chapter_name": "The Sailor's Ghostly Bride",
+      "published_date": "2026-02-28 14:25:26 UTC",
+      "poetry_type": "Ghost ballad"
+    },
+    {
+      "chapter": 96,
+      "filename": "poem_096.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/a521be03334df0ece59177c6121298511ffeede1/poem_096.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_096.md",
+      "chapter_name": "The Ballad of Elian and the Mist Maiden",
+      "published_date": "2026-03-01 14:26:44 UTC",
+      "poetry_type": "Mythical ballad"
     }
   ]
 }
