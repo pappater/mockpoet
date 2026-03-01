@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 202,
-  "last_updated": "2026-02-28 10:19:19 UTC",
+  "total_chapters": 203,
+  "last_updated": "2026-03-01 10:21:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1822,6 +1822,15 @@
       "chapter_name": "The Unspoken Path",
       "published_date": "2026-02-28 10:19:17 UTC",
       "poetry_type": "Terza rima"
+    },
+    {
+      "chapter": 203,
+      "filename": "poem_203.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/1f057965483fbd7a2433ebc896c3df70578b5582/poem_203.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_203.md",
+      "chapter_name": "The Scroll",
+      "published_date": "2026-03-01 10:21:00 UTC",
+      "poetry_type": "Senryu"
     }
   ]
 }
