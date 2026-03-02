@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 96,
-  "last_updated": "2026-03-01 14:26:49 UTC",
+  "total_chapters": 97,
+  "last_updated": "2026-03-02 14:43:50 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -871,6 +871,15 @@
       "chapter_name": "The Ballad of Elian and the Mist Maiden",
       "published_date": "2026-03-01 14:26:44 UTC",
       "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 97,
+      "filename": "poem_097.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/107d02e09e3dd8fee5d248ca7e95204781fd5b3a/poem_097.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_097.md",
+      "chapter_name": "The Ballad of Elara's Lament",
+      "published_date": "2026-03-02 14:43:48 UTC",
+      "poetry_type": "Legendary ballad"
     }
   ]
 }
