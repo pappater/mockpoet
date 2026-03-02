@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 204,
-  "last_updated": "2026-03-01 22:19:24 UTC",
+  "total_chapters": 205,
+  "last_updated": "2026-03-02 10:39:22 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1840,6 +1840,15 @@
       "chapter_name": "The Quiet Peak",
       "published_date": "2026-03-01 22:19:22 UTC",
       "poetry_type": "Sijo"
+    },
+    {
+      "chapter": 205,
+      "filename": "poem_205.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/db41899621a5f35d91b8e7315ed198a1a8f6f9c2/poem_205.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_205.md",
+      "chapter_name": "Fire",
+      "published_date": "2026-03-02 10:39:18 UTC",
+      "poetry_type": "Cinquain"
     }
   ]
 }
