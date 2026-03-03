@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 97,
-  "last_updated": "2026-03-02 14:43:50 UTC",
+  "total_chapters": 98,
+  "last_updated": "2026-03-03 14:45:17 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -880,6 +880,15 @@
       "chapter_name": "The Ballad of Elara's Lament",
       "published_date": "2026-03-02 14:43:48 UTC",
       "poetry_type": "Legendary ballad"
+    },
+    {
+      "chapter": 98,
+      "filename": "poem_098.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/99e4286a16b54279c9bfb0ad88d6a587153eb144/poem_098.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_098.md",
+      "chapter_name": "The Ballad of the Salt-Kissed Stone",
+      "published_date": "2026-03-03 14:45:15 UTC",
+      "poetry_type": "Sea ballad"
     }
   ]
 }
