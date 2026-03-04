@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 206,
-  "last_updated": "2026-03-03 10:34:33 UTC",
+  "total_chapters": 207,
+  "last_updated": "2026-03-04 10:32:32 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1858,6 +1858,15 @@
       "chapter_name": "River Leaf",
       "published_date": "2026-03-03 10:34:31 UTC",
       "poetry_type": "Haiku"
+    },
+    {
+      "chapter": 207,
+      "filename": "poem_207.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/4bb87c00aa2c66c54a9fff2e8388d858f8db8be7/poem_207.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_207.md",
+      "chapter_name": "The Final Sleep",
+      "published_date": "2026-03-04 10:32:30 UTC",
+      "poetry_type": "Dirge"
     }
   ]
 }
