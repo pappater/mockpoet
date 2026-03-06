@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 100,
-  "last_updated": "2026-03-05 14:49:07 UTC",
+  "total_chapters": 101,
+  "last_updated": "2026-03-06 14:39:54 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -907,6 +907,15 @@
       "chapter_name": "The Lament of Fair Elara",
       "published_date": "2026-03-05 14:49:05 UTC",
       "poetry_type": "Sea ballad"
+    },
+    {
+      "chapter": 101,
+      "filename": "poem_101.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/aa61750d6bcd24552fb9710755c736919dc08db4/poem_101.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_101.md",
+      "chapter_name": "The Lament of Mary Shore",
+      "published_date": "2026-03-06 14:39:50 UTC",
+      "poetry_type": "Broadside ballad"
     }
   ]
 }
