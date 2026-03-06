@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 208,
-  "last_updated": "2026-03-05 10:34:54 UTC",
+  "total_chapters": 209,
+  "last_updated": "2026-03-06 10:30:32 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1876,6 +1876,15 @@
       "chapter_name": "A Morning's Inventory",
       "published_date": "2026-03-05 10:34:52 UTC",
       "poetry_type": "List poem"
+    },
+    {
+      "chapter": 209,
+      "filename": "poem_209.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/7d6fcf79f726e88203385023b00d86ebc0a8e709/poem_209.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_209.md",
+      "chapter_name": "The Gentle Hush",
+      "published_date": "2026-03-06 10:30:30 UTC",
+      "poetry_type": "Rondeau"
     }
   ]
 }
