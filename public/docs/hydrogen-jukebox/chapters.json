@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 107,
-  "last_updated": "2026-03-05 14:51:45 UTC",
+  "total_chapters": 108,
+  "last_updated": "2026-03-07 14:29:06 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -860,6 +860,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_107.md",
       "chapter_name": "A November Evening Near the Tracks",
       "published_date": "2026-03-05 14:51:43 UTC"
+    },
+    {
+      "chapter": 108,
+      "filename": "poem_108.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/0809d37e1d38da568b4e7787f092b926c390cb1f/poem_108.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_108.md",
+      "chapter_name": "small (rain-bright) miracle",
+      "published_date": "2026-03-07 14:29:04 UTC"
     }
   ]
 }
