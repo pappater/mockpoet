@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 211,
-  "last_updated": "2026-03-07 10:19:22 UTC",
+  "total_chapters": 212,
+  "last_updated": "2026-03-08 10:20:50 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1903,6 +1903,15 @@
       "chapter_name": "Radiance and Veil",
       "published_date": "2026-03-07 10:19:20 UTC",
       "poetry_type": "Diamante"
+    },
+    {
+      "chapter": 212,
+      "filename": "poem_212.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c205bf25f8dbd57017baf6159bbdc73f09e38e77/poem_212.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_212.md",
+      "chapter_name": "The Fading Day",
+      "published_date": "2026-03-08 10:20:49 UTC",
+      "poetry_type": "Minute poem"
     }
   ]
 }
