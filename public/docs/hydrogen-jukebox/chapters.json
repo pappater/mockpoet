@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 108,
-  "last_updated": "2026-03-08 14:30:03 UTC",
+  "total_chapters": 110,
+  "last_updated": "2026-03-09 14:57:00 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -868,6 +868,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_108.md",
       "chapter_name": "small (rain-bright) miracle",
       "published_date": "2026-03-07 14:29:04 UTC"
+    },
+    {
+      "chapter": 109,
+      "filename": "poem_109.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/d6fa0af5f09d757bb698894cf63872f0d4c1dc8e/poem_109.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_109.md",
+      "chapter_name": "The Glare of Gnosis",
+      "published_date": "2026-03-08 14:30:02 UTC"
+    },
+    {
+      "chapter": 110,
+      "filename": "poem_110.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/3f2b465e4b56fad201f3a15b67cc7de50b5f4468/poem_110.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_110.md",
+      "chapter_name": "Small Hours on South Parkway",
+      "published_date": "2026-03-09 14:56:59 UTC"
     }
   ]
 }
