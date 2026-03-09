@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 212,
-  "last_updated": "2026-03-08 10:20:50 UTC",
+  "total_chapters": 213,
+  "last_updated": "2026-03-09 10:41:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1912,6 +1912,15 @@
       "chapter_name": "The Fading Day",
       "published_date": "2026-03-08 10:20:49 UTC",
       "poetry_type": "Minute poem"
+    },
+    {
+      "chapter": 213,
+      "filename": "poem_213.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/62d8c1fe352edc03eafbcea22ba1d3971808fc38/poem_213.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_213.md",
+      "chapter_name": "Here Lies a Zealous Soul",
+      "published_date": "2026-03-09 10:41:00 UTC",
+      "poetry_type": "Epitaph"
     }
   ]
 }
