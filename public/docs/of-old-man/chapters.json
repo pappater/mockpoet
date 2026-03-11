@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 214,
-  "last_updated": "2026-03-10 10:35:05 UTC",
+  "total_chapters": 215,
+  "last_updated": "2026-03-11 10:34:45 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1930,6 +1930,15 @@
       "chapter_name": "The Fading Gleam",
       "published_date": "2026-03-10 10:35:03 UTC",
       "poetry_type": "Lyric poem"
+    },
+    {
+      "chapter": 215,
+      "filename": "poem_215.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ce32eb706f5042ea349d06961dc35f2911c2a3e1/poem_215.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_215.md",
+      "chapter_name": "The Virtuoso of Virtue Signals",
+      "published_date": "2026-03-11 10:34:43 UTC",
+      "poetry_type": "Satirical poem"
     }
   ]
 }
