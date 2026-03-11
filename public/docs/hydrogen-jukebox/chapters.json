@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 111,
-  "last_updated": "2026-03-10 14:55:00 UTC",
+  "total_chapters": 112,
+  "last_updated": "2026-03-11 14:52:37 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -892,6 +892,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_111.md",
       "chapter_name": "The Waiting Arch",
       "published_date": "2026-03-10 14:54:57 UTC"
+    },
+    {
+      "chapter": 112,
+      "filename": "poem_112.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/dfda4358daf1462a2efe5078649248a16ebaa1b6/poem_112.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_112.md",
+      "chapter_name": "unfolding",
+      "published_date": "2026-03-11 14:52:36 UTC"
     }
   ]
 }
