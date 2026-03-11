@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 105,
-  "last_updated": "2026-03-10 14:52:12 UTC",
+  "total_chapters": 106,
+  "last_updated": "2026-03-11 14:50:07 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -952,6 +952,15 @@
       "chapter_name": "Elara's Lament",
       "published_date": "2026-03-10 14:52:10 UTC",
       "poetry_type": "Lyric ballad"
+    },
+    {
+      "chapter": 106,
+      "filename": "poem_106.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c925803108943fcd02345be8bab10e310e16a35c/poem_106.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_106.md",
+      "chapter_name": "The Raven's Warning",
+      "published_date": "2026-03-11 14:50:05 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
