@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 112,
-  "last_updated": "2026-03-11 14:52:37 UTC",
+  "total_chapters": 113,
+  "last_updated": "2026-03-12 14:55:14 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -900,6 +900,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_112.md",
       "chapter_name": "unfolding",
       "published_date": "2026-03-11 14:52:36 UTC"
+    },
+    {
+      "chapter": 113,
+      "filename": "poem_113.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b603a0c96cc782425878af4e3236ef15e48d6594/poem_113.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_113.md",
+      "chapter_name": "The Electric Kaddish",
+      "published_date": "2026-03-12 14:55:13 UTC"
     }
   ]
 }
