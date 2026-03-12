@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 216,
-  "last_updated": "2026-03-12 10:34:24 UTC",
+  "total_chapters": 217,
+  "last_updated": "2026-03-12 22:21:25 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1948,6 +1948,15 @@
       "chapter_name": "Dr. Finch",
       "published_date": "2026-03-12 10:34:22 UTC",
       "poetry_type": "Clerihew"
+    },
+    {
+      "chapter": 217,
+      "filename": "poem_217.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c493bb79cf2022b32c22d3982aba1ea5f32d81ef/poem_217.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_217.md",
+      "chapter_name": "On Time's Relentless Hand",
+      "published_date": "2026-03-12 22:21:24 UTC",
+      "poetry_type": "Sonnet"
     }
   ]
 }
