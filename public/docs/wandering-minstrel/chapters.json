@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 106,
-  "last_updated": "2026-03-11 14:50:07 UTC",
+  "total_chapters": 107,
+  "last_updated": "2026-03-12 14:52:22 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -961,6 +961,15 @@
       "chapter_name": "The Raven's Warning",
       "published_date": "2026-03-11 14:50:05 UTC",
       "poetry_type": "Historical ballad"
+    },
+    {
+      "chapter": 107,
+      "filename": "poem_107.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/d0f02a379fdfc60276f706d3dcb36d4646294ebe/poem_107.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_107.md",
+      "chapter_name": "The Lantern's Last Glow",
+      "published_date": "2026-03-12 14:52:21 UTC",
+      "poetry_type": "Modern narrative verse"
     }
   ]
 }
