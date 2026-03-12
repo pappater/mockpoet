@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 215,
-  "last_updated": "2026-03-11 10:34:45 UTC",
+  "total_chapters": 216,
+  "last_updated": "2026-03-12 10:34:24 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1939,6 +1939,15 @@
       "chapter_name": "The Virtuoso of Virtue Signals",
       "published_date": "2026-03-11 10:34:43 UTC",
       "poetry_type": "Satirical poem"
+    },
+    {
+      "chapter": 216,
+      "filename": "poem_216.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/2499f0f95886bbf16de818b7865b6d47c99c096b/poem_216.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_216.md",
+      "chapter_name": "Dr. Finch",
+      "published_date": "2026-03-12 10:34:22 UTC",
+      "poetry_type": "Clerihew"
     }
   ]
 }
