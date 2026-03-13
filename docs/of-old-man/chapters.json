@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 217,
-  "last_updated": "2026-03-12 22:21:25 UTC",
+  "total_chapters": 218,
+  "last_updated": "2026-03-13 10:32:04 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1957,6 +1957,15 @@
       "chapter_name": "On Time's Relentless Hand",
       "published_date": "2026-03-12 22:21:24 UTC",
       "poetry_type": "Sonnet"
+    },
+    {
+      "chapter": 218,
+      "filename": "poem_218.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/b697e22a228b62c32cc72d5802e49cfb06cbae35/poem_218.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_218.md",
+      "chapter_name": "The Shepherd's Solace",
+      "published_date": "2026-03-13 10:32:02 UTC",
+      "poetry_type": "Pastoral"
     }
   ]
 }
