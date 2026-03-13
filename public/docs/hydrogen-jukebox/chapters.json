@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 113,
-  "last_updated": "2026-03-12 14:55:14 UTC",
+  "total_chapters": 114,
+  "last_updated": "2026-03-13 14:49:21 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -908,6 +908,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_113.md",
       "chapter_name": "The Electric Kaddish",
       "published_date": "2026-03-12 14:55:13 UTC"
+    },
+    {
+      "chapter": 114,
+      "filename": "poem_114.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/dc204a6166a532ad139eaa07bda7f071ce50586b/poem_114.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_114.md",
+      "chapter_name": "Grey Harbor Testament",
+      "published_date": "2026-03-13 14:49:19 UTC"
     }
   ]
 }
