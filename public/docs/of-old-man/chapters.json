@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 218,
-  "last_updated": "2026-03-13 10:32:04 UTC",
+  "total_chapters": 219,
+  "last_updated": "2026-03-13 22:24:28 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1966,6 +1966,15 @@
       "chapter_name": "The Shepherd's Solace",
       "published_date": "2026-03-13 10:32:02 UTC",
       "poetry_type": "Pastoral"
+    },
+    {
+      "chapter": 219,
+      "filename": "poem_219.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/6b0d4976e36b9593bdcb050f0a62ca028e18725f/poem_219.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_219.md",
+      "chapter_name": "The Quiet Turning",
+      "published_date": "2026-03-13 22:24:26 UTC",
+      "poetry_type": "Quatrain"
     }
   ]
 }
