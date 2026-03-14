@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 219,
-  "last_updated": "2026-03-13 22:24:28 UTC",
+  "total_chapters": 220,
+  "last_updated": "2026-03-14 10:24:27 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1975,6 +1975,15 @@
       "chapter_name": "The Quiet Turning",
       "published_date": "2026-03-13 22:24:26 UTC",
       "poetry_type": "Quatrain"
+    },
+    {
+      "chapter": 220,
+      "filename": "poem_220.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/0ad0683aa16f825bae4afe67deb0fc46d4065cba/poem_220.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_220.md",
+      "chapter_name": "The Empty Chair",
+      "published_date": "2026-03-14 10:24:26 UTC",
+      "poetry_type": "Elegy"
     }
   ]
 }
