@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 108,
-  "last_updated": "2026-03-13 14:43:31 UTC",
+  "total_chapters": 109,
+  "last_updated": "2026-03-14 14:31:26 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -979,6 +979,15 @@
       "chapter_name": "The Cold Tide of Finn",
       "published_date": "2026-03-13 14:43:30 UTC",
       "poetry_type": "Dramatic ballad"
+    },
+    {
+      "chapter": 109,
+      "filename": "poem_109.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/51acabc41f757da8b62677a54947a7f3927f5502/poem_109.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_109.md",
+      "chapter_name": "The Price of the Deep",
+      "published_date": "2026-03-14 14:31:25 UTC",
+      "poetry_type": "Story ballad"
     }
   ]
 }
