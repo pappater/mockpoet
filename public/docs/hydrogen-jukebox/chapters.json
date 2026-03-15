@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 115,
-  "last_updated": "2026-03-14 14:34:06 UTC",
+  "total_chapters": 116,
+  "last_updated": "2026-03-15 14:35:57 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -924,6 +924,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_115.md",
       "chapter_name": "Syntax of Ash",
       "published_date": "2026-03-14 14:34:05 UTC"
+    },
+    {
+      "chapter": 116,
+      "filename": "poem_116.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/5d6ce90c9e21eac52b61b3a8eb8d27ed6b6af96b/poem_116.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_116.md",
+      "chapter_name": "The Ochre Wall",
+      "published_date": "2026-03-15 14:35:56 UTC"
     }
   ]
 }
