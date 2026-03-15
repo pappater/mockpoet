@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 220,
-  "last_updated": "2026-03-14 10:24:27 UTC",
+  "total_chapters": 221,
+  "last_updated": "2026-03-15 10:25:15 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1984,6 +1984,15 @@
       "chapter_name": "The Empty Chair",
       "published_date": "2026-03-14 10:24:26 UTC",
       "poetry_type": "Elegy"
+    },
+    {
+      "chapter": 221,
+      "filename": "poem_221.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/42208402d1b5504bc21b62694333745ac247c10c/poem_221.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_221.md",
+      "chapter_name": "A Nuptial Hymn for the Dawning Day",
+      "published_date": "2026-03-15 10:25:13 UTC",
+      "poetry_type": "Epithalamium"
     }
   ]
 }
