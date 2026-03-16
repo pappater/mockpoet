@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 221,
-  "last_updated": "2026-03-15 10:25:15 UTC",
+  "total_chapters": 222,
+  "last_updated": "2026-03-16 10:50:11 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -1993,6 +1993,15 @@
       "chapter_name": "A Nuptial Hymn for the Dawning Day",
       "published_date": "2026-03-15 10:25:13 UTC",
       "poetry_type": "Epithalamium"
+    },
+    {
+      "chapter": 222,
+      "filename": "poem_222.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/5019dac7f85a0f0609d51f458a8e4c372037c726/poem_222.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_222.md",
+      "chapter_name": "The Hearth",
+      "published_date": "2026-03-16 10:50:10 UTC",
+      "poetry_type": "Cinquain"
     }
   ]
 }
