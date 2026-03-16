@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 222,
-  "last_updated": "2026-03-16 10:50:11 UTC",
+  "total_chapters": 223,
+  "last_updated": "2026-03-16 22:28:26 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2002,6 +2002,15 @@
       "chapter_name": "The Hearth",
       "published_date": "2026-03-16 10:50:10 UTC",
       "poetry_type": "Cinquain"
+    },
+    {
+      "chapter": 223,
+      "filename": "poem_223.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/a37ccc175aa09d9932da9665adea9fe5a4dfc0c0/poem_223.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_223.md",
+      "chapter_name": "The Grand Digital Spectacle",
+      "published_date": "2026-03-16 22:28:25 UTC",
+      "poetry_type": "Satirical poem"
     }
   ]
 }
