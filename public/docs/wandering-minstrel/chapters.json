@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 111,
-  "last_updated": "2026-03-16 15:03:00 UTC",
+  "total_chapters": 112,
+  "last_updated": "2026-03-17 14:59:32 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1006,6 +1006,15 @@
       "chapter_name": "The Ballad of Sir Kaelen's Vigil",
       "published_date": "2026-03-16 15:02:59 UTC",
       "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 112,
+      "filename": "poem_112.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/0c20b20dcf91d3d5f367d5fc37c624bcf2f6c4fb/poem_112.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_112.md",
+      "chapter_name": "The Ballad of Salt and Stone",
+      "published_date": "2026-03-17 14:59:30 UTC",
+      "poetry_type": "Contemporary ballad"
     }
   ]
 }
