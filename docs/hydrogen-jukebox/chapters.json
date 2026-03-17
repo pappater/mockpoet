@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 117,
-  "last_updated": "2026-03-16 15:05:24 UTC",
+  "total_chapters": 118,
+  "last_updated": "2026-03-17 15:02:33 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -940,6 +940,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_117.md",
       "chapter_name": "Streetlight Glow",
       "published_date": "2026-03-16 15:05:23 UTC"
+    },
+    {
+      "chapter": 118,
+      "filename": "poem_118.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/6df94a818413eccd1a141a5c56d34b1f071ef7ec/poem_118.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_118.md",
+      "chapter_name": "Song of the Unfolding Present",
+      "published_date": "2026-03-17 15:02:31 UTC"
     }
   ]
 }
