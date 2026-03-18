@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 118,
-  "last_updated": "2026-03-17 15:02:33 UTC",
+  "total_chapters": 119,
+  "last_updated": "2026-03-18 15:09:03 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -948,6 +948,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_118.md",
       "chapter_name": "Song of the Unfolding Present",
       "published_date": "2026-03-17 15:02:31 UTC"
+    },
+    {
+      "chapter": 119,
+      "filename": "poem_119.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/6e243737a50a3de73d21ce4f8f73f8559d09aa97/poem_119.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_119.md",
+      "chapter_name": "What Wisdom Haunts the Blood",
+      "published_date": "2026-03-18 15:09:02 UTC"
     }
   ]
 }
