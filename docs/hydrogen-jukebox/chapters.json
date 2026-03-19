@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 119,
-  "last_updated": "2026-03-18 15:09:03 UTC",
+  "total_chapters": 120,
+  "last_updated": "2026-03-19 14:53:55 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -956,6 +956,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_119.md",
       "chapter_name": "What Wisdom Haunts the Blood",
       "published_date": "2026-03-18 15:09:02 UTC"
+    },
+    {
+      "chapter": 120,
+      "filename": "poem_120.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/a6e918cb8e483182bc08395e479ea69b509eac6e/poem_120.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_120.md",
+      "chapter_name": "The Archive of Breath",
+      "published_date": "2026-03-19 14:53:54 UTC"
     }
   ]
 }
