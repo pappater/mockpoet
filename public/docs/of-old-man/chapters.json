@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 225,
-  "last_updated": "2026-03-18 10:47:23 UTC",
+  "total_chapters": 226,
+  "last_updated": "2026-03-19 10:35:38 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2029,6 +2029,15 @@
       "chapter_name": "The Fading Stream",
       "published_date": "2026-03-18 10:47:21 UTC",
       "poetry_type": "Curtal sonnet"
+    },
+    {
+      "chapter": 226,
+      "filename": "poem_226.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/3a5de8c7a8dd4f3f6bce9c72966ef709ddbd6d2b/poem_226.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_226.md",
+      "chapter_name": "Silent Echoes",
+      "published_date": "2026-03-19 10:35:36 UTC",
+      "poetry_type": "Diamante"
     }
   ]
 }
