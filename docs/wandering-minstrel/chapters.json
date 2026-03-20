@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 114,
-  "last_updated": "2026-03-19 14:51:38 UTC",
+  "total_chapters": 115,
+  "last_updated": "2026-03-20 14:44:06 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1033,6 +1033,15 @@
       "chapter_name": "The Grey Ship of Thomas",
       "published_date": "2026-03-19 14:51:37 UTC",
       "poetry_type": "Tragic ballad"
+    },
+    {
+      "chapter": 115,
+      "filename": "poem_115.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/f1993465f3b9425e3092ad5ac51a56c180a3443d/poem_115.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_115.md",
+      "chapter_name": "The Lay of Gareth's Blade",
+      "published_date": "2026-03-20 14:44:04 UTC",
+      "poetry_type": "Heroic ballad"
     }
   ]
 }
