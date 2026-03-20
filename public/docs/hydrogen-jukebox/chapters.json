@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 120,
-  "last_updated": "2026-03-19 14:53:55 UTC",
+  "total_chapters": 121,
+  "last_updated": "2026-03-20 14:49:19 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -964,6 +964,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_120.md",
       "chapter_name": "The Archive of Breath",
       "published_date": "2026-03-19 14:53:54 UTC"
+    },
+    {
+      "chapter": 121,
+      "filename": "poem_121.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/0637e2c659133fe4c67b7b703afd5160f301cdaf/poem_121.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_121.md",
+      "chapter_name": "The Great American Wheel Blues",
+      "published_date": "2026-03-20 14:49:18 UTC"
     }
   ]
 }
