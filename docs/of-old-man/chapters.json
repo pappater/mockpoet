@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 227,
-  "last_updated": "2026-03-19 22:23:42 UTC",
+  "total_chapters": 228,
+  "last_updated": "2026-03-20 10:34:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2047,6 +2047,15 @@
       "chapter_name": "Morning's Veil",
       "published_date": "2026-03-19 22:23:40 UTC",
       "poetry_type": "Rondelet"
+    },
+    {
+      "chapter": 228,
+      "filename": "poem_228.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/372148384b83ae66e32921fc6198672be41817f4/poem_228.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_228.md",
+      "chapter_name": "The Unfolding Path",
+      "published_date": "2026-03-20 10:33:59 UTC",
+      "poetry_type": "Chain verse"
     }
   ]
 }
