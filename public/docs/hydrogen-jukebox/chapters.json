@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 121,
-  "last_updated": "2026-03-20 14:49:19 UTC",
+  "total_chapters": 122,
+  "last_updated": "2026-03-21 14:32:22 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -972,6 +972,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_121.md",
       "chapter_name": "The Great American Wheel Blues",
       "published_date": "2026-03-20 14:49:18 UTC"
+    },
+    {
+      "chapter": 122,
+      "filename": "poem_122.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/32034b84a4c1e553d2a2822381e53f6249f629a2/poem_122.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_122.md",
+      "chapter_name": "A Quiet Mania",
+      "published_date": "2026-03-21 14:32:21 UTC"
     }
   ]
 }
