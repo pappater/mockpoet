@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 122,
-  "last_updated": "2026-03-21 14:32:22 UTC",
+  "total_chapters": 123,
+  "last_updated": "2026-03-22 14:33:43 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -980,6 +980,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_122.md",
       "chapter_name": "A Quiet Mania",
       "published_date": "2026-03-21 14:32:21 UTC"
+    },
+    {
+      "chapter": 123,
+      "filename": "poem_123.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/c0391bf3c6d3488fd9ad7fb248d3c10c26a1f52a/poem_123.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_123.md",
+      "chapter_name": "The Hum of the Common Earth",
+      "published_date": "2026-03-22 14:33:42 UTC"
     }
   ]
 }
