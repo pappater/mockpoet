@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 229,
-  "last_updated": "2026-03-21 10:21:58 UTC",
+  "total_chapters": 230,
+  "last_updated": "2026-03-22 10:22:53 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2065,6 +2065,15 @@
       "chapter_name": "The Evening's Inventory",
       "published_date": "2026-03-21 10:21:56 UTC",
       "poetry_type": "Catalog poem"
+    },
+    {
+      "chapter": 230,
+      "filename": "poem_230.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ca4e77e1f0f205633c0c846062858d79e7bf2c52/poem_230.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_230.md",
+      "chapter_name": "An Epistle to My Friend, On the Art of Living Well",
+      "published_date": "2026-03-22 10:22:52 UTC",
+      "poetry_type": "Epistle (letter poem)"
     }
   ]
 }
