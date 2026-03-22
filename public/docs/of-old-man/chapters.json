@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 230,
-  "last_updated": "2026-03-22 10:22:53 UTC",
+  "total_chapters": 231,
+  "last_updated": "2026-03-22 22:21:08 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2074,6 +2074,15 @@
       "chapter_name": "An Epistle to My Friend, On the Art of Living Well",
       "published_date": "2026-03-22 10:22:52 UTC",
       "poetry_type": "Epistle (letter poem)"
+    },
+    {
+      "chapter": 231,
+      "filename": "poem_231.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/1a7919cf2744845a8f77d47bad2b843e3a07c9ce/poem_231.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_231.md",
+      "chapter_name": "The Sentinel's Vigil",
+      "published_date": "2026-03-22 22:21:05 UTC",
+      "poetry_type": "Ekphrastic poem"
     }
   ]
 }
