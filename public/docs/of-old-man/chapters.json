@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 231,
-  "last_updated": "2026-03-22 22:21:08 UTC",
+  "total_chapters": 232,
+  "last_updated": "2026-03-23 10:49:50 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2083,6 +2083,15 @@
       "chapter_name": "The Sentinel's Vigil",
       "published_date": "2026-03-22 22:21:05 UTC",
       "poetry_type": "Ekphrastic poem"
+    },
+    {
+      "chapter": 232,
+      "filename": "poem_232.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/1a7412ffe60df4dbf9469a4eda6f461fd5254562/poem_232.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_232.md",
+      "chapter_name": "The Soul's High Calling",
+      "published_date": "2026-03-23 10:49:48 UTC",
+      "poetry_type": "Chant royal"
     }
   ]
 }
