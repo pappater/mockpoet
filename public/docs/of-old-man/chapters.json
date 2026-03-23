@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 232,
-  "last_updated": "2026-03-23 10:49:50 UTC",
+  "total_chapters": 233,
+  "last_updated": "2026-03-23 22:27:33 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2092,6 +2092,15 @@
       "chapter_name": "The Soul's High Calling",
       "published_date": "2026-03-23 10:49:48 UTC",
       "poetry_type": "Chant royal"
+    },
+    {
+      "chapter": 233,
+      "filename": "poem_233.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/76737221725a760b89749f2b373588eaf60601aa/poem_233.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_233.md",
+      "chapter_name": "A Quiet Persistence",
+      "published_date": "2026-03-23 22:27:32 UTC",
+      "poetry_type": "Free verse"
     }
   ]
 }
