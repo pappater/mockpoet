@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 233,
-  "last_updated": "2026-03-23 22:27:33 UTC",
+  "total_chapters": 234,
+  "last_updated": "2026-03-24 10:47:48 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2101,6 +2101,15 @@
       "chapter_name": "A Quiet Persistence",
       "published_date": "2026-03-23 22:27:32 UTC",
       "poetry_type": "Free verse"
+    },
+    {
+      "chapter": 234,
+      "filename": "poem_234.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/7f523b6411dd4863035d4986297a0918921d09fe/poem_234.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_234.md",
+      "chapter_name": "The Algorithm's Echo",
+      "published_date": "2026-03-24 10:47:47 UTC",
+      "poetry_type": "Slam poetry"
     }
   ]
 }
