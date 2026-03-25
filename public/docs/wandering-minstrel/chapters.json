@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 119,
-  "last_updated": "2026-03-24 15:00:50 UTC",
+  "total_chapters": 120,
+  "last_updated": "2026-03-25 15:02:07 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1078,6 +1078,15 @@
       "chapter_name": "The Grey Ship of Fair Elara",
       "published_date": "2026-03-24 15:00:47 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 120,
+      "filename": "poem_120.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/bdc17e1a95adaf6be1b7cf7f021731ef8c6e6b15/poem_120.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_120.md",
+      "chapter_name": "The Quest for the Frost-Flower's Bloom",
+      "published_date": "2026-03-25 15:02:05 UTC",
+      "poetry_type": "Quest ballad"
     }
   ]
 }
