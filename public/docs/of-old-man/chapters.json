@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 234,
-  "last_updated": "2026-03-24 10:47:48 UTC",
+  "total_chapters": 235,
+  "last_updated": "2026-03-25 10:43:42 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2110,6 +2110,15 @@
       "chapter_name": "The Algorithm's Echo",
       "published_date": "2026-03-24 10:47:47 UTC",
       "poetry_type": "Slam poetry"
+    },
+    {
+      "chapter": 235,
+      "filename": "poem_235.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/cd41ea5fffbc2b72bb4525b74a000c1b14cd6ffa/poem_235.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_235.md",
+      "chapter_name": "The Silent Hymn",
+      "published_date": "2026-03-25 10:43:40 UTC",
+      "poetry_type": "Madrigal"
     }
   ]
 }
