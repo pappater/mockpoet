@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 126,
-  "last_updated": "2026-03-25 15:05:06 UTC",
+  "total_chapters": 127,
+  "last_updated": "2026-03-26 15:11:04 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1012,6 +1012,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_126.md",
       "chapter_name": "The Growth In The Old Road",
       "published_date": "2026-03-25 15:05:04 UTC"
+    },
+    {
+      "chapter": 127,
+      "filename": "poem_127.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/e73092cede26e818d72d2e75871a0f0d2dc505b2/poem_127.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_127.md",
+      "chapter_name": "The Glazed Eye",
+      "published_date": "2026-03-26 15:11:03 UTC"
     }
   ]
 }
