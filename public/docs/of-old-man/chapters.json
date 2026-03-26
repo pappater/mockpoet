@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 235,
-  "last_updated": "2026-03-25 10:43:42 UTC",
+  "total_chapters": 236,
+  "last_updated": "2026-03-26 10:50:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2119,6 +2119,15 @@
       "chapter_name": "The Silent Hymn",
       "published_date": "2026-03-25 10:43:40 UTC",
       "poetry_type": "Madrigal"
+    },
+    {
+      "chapter": 236,
+      "filename": "poem_236.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/0ed4013b172ae65605c96d3b8b6184f167f437f0/poem_236.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_236.md",
+      "chapter_name": "Letter to Eleanor",
+      "published_date": "2026-03-26 10:49:59 UTC",
+      "poetry_type": "Epistolary poem"
     }
   ]
 }
