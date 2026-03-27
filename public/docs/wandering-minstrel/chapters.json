@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 121,
-  "last_updated": "2026-03-26 15:06:48 UTC",
+  "total_chapters": 122,
+  "last_updated": "2026-03-27 14:52:48 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1096,6 +1096,15 @@
       "chapter_name": "The Maid of Blackwater Cove",
       "published_date": "2026-03-26 15:06:46 UTC",
       "poetry_type": "Sea ballad"
+    },
+    {
+      "chapter": 122,
+      "filename": "poem_122.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/5a030b47c87a41ba298a95012db5086744da4144/poem_122.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_122.md",
+      "chapter_name": "The Sailor's Spectral Vow",
+      "published_date": "2026-03-27 14:52:47 UTC",
+      "poetry_type": "Ghost ballad"
     }
   ]
 }
