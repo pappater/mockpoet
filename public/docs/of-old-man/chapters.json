@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 236,
-  "last_updated": "2026-03-26 10:50:01 UTC",
+  "total_chapters": 237,
+  "last_updated": "2026-03-27 10:43:10 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2128,6 +2128,15 @@
       "chapter_name": "Letter to Eleanor",
       "published_date": "2026-03-26 10:49:59 UTC",
       "poetry_type": "Epistolary poem"
+    },
+    {
+      "chapter": 237,
+      "filename": "poem_237.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/d91e38e4dfee2b50c0c65d84b673817f4b9b60bd/poem_237.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_237.md",
+      "chapter_name": "Threads of Night",
+      "published_date": "2026-03-27 10:43:09 UTC",
+      "poetry_type": "Acrostic"
     }
   ]
 }
