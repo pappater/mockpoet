@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 127,
-  "last_updated": "2026-03-26 15:11:04 UTC",
+  "total_chapters": 128,
+  "last_updated": "2026-03-27 14:55:59 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1020,6 +1020,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_127.md",
       "chapter_name": "The Glazed Eye",
       "published_date": "2026-03-26 15:11:03 UTC"
+    },
+    {
+      "chapter": 128,
+      "filename": "poem_128.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/717ad8bd6d35eb20d6998d98fee49304b0d14718/poem_128.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_128.md",
+      "chapter_name": "The Road to Bellaire",
+      "published_date": "2026-03-27 14:55:57 UTC"
     }
   ]
 }
