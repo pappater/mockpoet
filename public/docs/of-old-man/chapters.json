@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 237,
-  "last_updated": "2026-03-27 10:43:10 UTC",
+  "total_chapters": 238,
+  "last_updated": "2026-03-27 22:28:07 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2137,6 +2137,15 @@
       "chapter_name": "Threads of Night",
       "published_date": "2026-03-27 10:43:09 UTC",
       "poetry_type": "Acrostic"
+    },
+    {
+      "chapter": 238,
+      "filename": "poem_238.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/289cc1ee3a5835a4a759f4e4a9f10b4e116a06dc/poem_238.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_238.md",
+      "chapter_name": "The Day's Turning Wheel",
+      "published_date": "2026-03-27 22:28:06 UTC",
+      "poetry_type": "Palindrome poem"
     }
   ]
 }
