@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 128,
-  "last_updated": "2026-03-27 14:55:59 UTC",
+  "total_chapters": 129,
+  "last_updated": "2026-03-28 14:37:03 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1028,6 +1028,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_128.md",
       "chapter_name": "The Road to Bellaire",
       "published_date": "2026-03-27 14:55:57 UTC"
+    },
+    {
+      "chapter": 129,
+      "filename": "poem_129.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/16e072fa12f77ff02868beba2438f2211c56e000/poem_129.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_129.md",
+      "chapter_name": "El Silencio de las Ra\u00edces Muertas",
+      "published_date": "2026-03-28 14:37:01 UTC"
     }
   ]
 }
