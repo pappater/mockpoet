@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 238,
-  "last_updated": "2026-03-27 22:28:07 UTC",
+  "total_chapters": 239,
+  "last_updated": "2026-03-28 10:28:07 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2146,6 +2146,15 @@
       "chapter_name": "The Day's Turning Wheel",
       "published_date": "2026-03-27 22:28:06 UTC",
       "poetry_type": "Palindrome poem"
+    },
+    {
+      "chapter": 239,
+      "filename": "poem_239.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/0f72023addec927673023e1d39f3233f2dd3494c/poem_239.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_239.md",
+      "chapter_name": "The Enduring Sentinel",
+      "published_date": "2026-03-28 10:28:05 UTC",
+      "poetry_type": "Septet"
     }
   ]
 }
