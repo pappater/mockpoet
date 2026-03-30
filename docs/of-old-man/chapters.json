@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 240,
-  "last_updated": "2026-03-29 10:28:40 UTC",
+  "total_chapters": 241,
+  "last_updated": "2026-03-30 10:58:18 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2164,6 +2164,15 @@
       "chapter_name": "Old Forest",
       "published_date": "2026-03-29 10:28:38 UTC",
       "poetry_type": "Cinquain"
+    },
+    {
+      "chapter": 241,
+      "filename": "poem_241.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/2625864326a61070176638a290c5035fb1d87ba2/poem_241.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_241.md",
+      "chapter_name": "A Dirge for the Vanished Star",
+      "published_date": "2026-03-30 10:58:17 UTC",
+      "poetry_type": "Dirge"
     }
   ]
 }
