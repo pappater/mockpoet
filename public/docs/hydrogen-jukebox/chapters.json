@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 130,
-  "last_updated": "2026-03-29 14:38:05 UTC",
+  "total_chapters": 131,
+  "last_updated": "2026-03-30 15:08:20 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1044,6 +1044,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_130.md",
       "chapter_name": "The Wellhead Stone",
       "published_date": "2026-03-29 14:38:04 UTC"
+    },
+    {
+      "chapter": 131,
+      "filename": "poem_131.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/3eb2eb800774707b5ad8f00016e69d6d49902fa4/poem_131.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_131.md",
+      "chapter_name": "Obsidian Breath",
+      "published_date": "2026-03-30 15:08:19 UTC"
     }
   ]
 }
