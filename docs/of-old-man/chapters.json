@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 241,
-  "last_updated": "2026-03-30 10:58:18 UTC",
+  "total_chapters": 242,
+  "last_updated": "2026-03-31 10:50:07 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2173,6 +2173,15 @@
       "chapter_name": "A Dirge for the Vanished Star",
       "published_date": "2026-03-30 10:58:17 UTC",
       "poetry_type": "Dirge"
+    },
+    {
+      "chapter": 242,
+      "filename": "poem_242.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c85a08bf2faf557b9ebff619213df72d14703121/poem_242.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_242.md",
+      "chapter_name": "Stone and Stream",
+      "published_date": "2026-03-31 10:50:05 UTC",
+      "poetry_type": "Quatrain"
     }
   ]
 }
