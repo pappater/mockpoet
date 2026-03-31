@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 131,
-  "last_updated": "2026-03-30 15:08:20 UTC",
+  "total_chapters": 132,
+  "last_updated": "2026-03-31 15:07:23 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1052,6 +1052,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_131.md",
       "chapter_name": "Obsidian Breath",
       "published_date": "2026-03-30 15:08:19 UTC"
+    },
+    {
+      "chapter": 132,
+      "filename": "poem_132.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/1c5df7037234ddd24bcb33418d53a1ed387db26a/poem_132.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_132.md",
+      "chapter_name": "Alchemies of Soot",
+      "published_date": "2026-03-31 15:07:22 UTC"
     }
   ]
 }
