@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 242,
-  "last_updated": "2026-03-31 10:50:07 UTC",
+  "total_chapters": 243,
+  "last_updated": "2026-03-31 22:30:41 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2182,6 +2182,15 @@
       "chapter_name": "Stone and Stream",
       "published_date": "2026-03-31 10:50:05 UTC",
       "poetry_type": "Quatrain"
+    },
+    {
+      "chapter": 243,
+      "filename": "poem_243.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/3819ccdb8c84ef0a3d79d3f39fbcb1bc6771940d/poem_243.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_243.md",
+      "chapter_name": "Dusk's Descent",
+      "published_date": "2026-03-31 22:30:38 UTC",
+      "poetry_type": "Nonet"
     }
   ]
 }
