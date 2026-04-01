@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 126,
-  "last_updated": "2026-03-31 15:04:28 UTC",
+  "total_chapters": 127,
+  "last_updated": "2026-04-01 15:07:04 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1141,6 +1141,15 @@
       "chapter_name": "The Maid of Blackwood Glen",
       "published_date": "2026-03-31 15:04:26 UTC",
       "poetry_type": "Dramatic ballad"
+    },
+    {
+      "chapter": 127,
+      "filename": "poem_127.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/79e1e9cafbda16900785b1e4b150e7110c816933/poem_127.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_127.md",
+      "chapter_name": "The Ballad of Sir Gareth and the Shadowfell",
+      "published_date": "2026-04-01 15:07:02 UTC",
+      "poetry_type": "Heroic ballad"
     }
   ]
 }
