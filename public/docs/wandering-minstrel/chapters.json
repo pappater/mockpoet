@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 127,
-  "last_updated": "2026-04-01 15:07:04 UTC",
+  "total_chapters": 128,
+  "last_updated": "2026-04-02 14:58:18 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1150,6 +1150,15 @@
       "chapter_name": "The Ballad of Sir Gareth and the Shadowfell",
       "published_date": "2026-04-01 15:07:02 UTC",
       "poetry_type": "Heroic ballad"
+    },
+    {
+      "chapter": 128,
+      "filename": "poem_128.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/ddf4885ddfac2904b8bc1084445d41cbaadc0c4a/poem_128.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_128.md",
+      "chapter_name": "The Grey Coast Road",
+      "published_date": "2026-04-02 14:58:16 UTC",
+      "poetry_type": "Contemporary ballad"
     }
   ]
 }
