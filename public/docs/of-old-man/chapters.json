@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 244,
-  "last_updated": "2026-04-01 10:50:41 UTC",
+  "total_chapters": 245,
+  "last_updated": "2026-04-02 10:48:00 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2200,6 +2200,15 @@
       "chapter_name": "The Lingering Haze",
       "published_date": "2026-04-01 10:50:39 UTC",
       "poetry_type": "Spenserian sonnet"
+    },
+    {
+      "chapter": 245,
+      "filename": "poem_245.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ac26a7d914e0c8f4c0b3cff5e15152b1453a2e01/poem_245.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_245.md",
+      "chapter_name": "Descent of Light",
+      "published_date": "2026-04-02 10:47:58 UTC",
+      "poetry_type": "Villanelle"
     }
   ]
 }
