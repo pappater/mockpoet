@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 245,
-  "last_updated": "2026-04-02 10:48:00 UTC",
+  "total_chapters": 246,
+  "last_updated": "2026-04-03 10:39:15 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2209,6 +2209,15 @@
       "chapter_name": "Descent of Light",
       "published_date": "2026-04-02 10:47:58 UTC",
       "poetry_type": "Villanelle"
+    },
+    {
+      "chapter": 246,
+      "filename": "poem_246.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/3911bf184b9bd96b8836263eb4baee59dce2976a/poem_246.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_246.md",
+      "chapter_name": "The Elder Oak",
+      "published_date": "2026-04-03 10:39:14 UTC",
+      "poetry_type": "Curtal sonnet"
     }
   ]
 }
