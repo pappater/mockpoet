@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 134,
-  "last_updated": "2026-04-02 15:01:38 UTC",
+  "total_chapters": 135,
+  "last_updated": "2026-04-03 14:50:40 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1076,6 +1076,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_134.md",
       "chapter_name": "The Filament and the Stone",
       "published_date": "2026-04-02 15:01:36 UTC"
+    },
+    {
+      "chapter": 135,
+      "filename": "poem_135.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/3734c6c7080ff4544d5c5b9184641aa51ca5fcfb/poem_135.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_135.md",
+      "chapter_name": "Ballad of the Fading Signal",
+      "published_date": "2026-04-03 14:50:39 UTC"
     }
   ]
 }
