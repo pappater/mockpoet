@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 129,
-  "last_updated": "2026-04-03 14:44:55 UTC",
+  "total_chapters": 130,
+  "last_updated": "2026-04-04 14:35:35 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1168,6 +1168,15 @@
       "chapter_name": "The Ballad of Sir Kaelen's Quest",
       "published_date": "2026-04-03 14:44:54 UTC",
       "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 130,
+      "filename": "poem_130.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/1082bf96ac84c40ce1adc93687706fe1e77f1a54/poem_130.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_130.md",
+      "chapter_name": "The Lament of Elara's Gate",
+      "published_date": "2026-04-04 14:35:33 UTC",
+      "poetry_type": "Lyric ballad"
     }
   ]
 }
