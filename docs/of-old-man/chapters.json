@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 247,
-  "last_updated": "2026-04-04 10:28:39 UTC",
+  "total_chapters": 248,
+  "last_updated": "2026-04-05 10:29:18 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2227,6 +2227,15 @@
       "chapter_name": "The Great Assembly of the Book-Shrine",
       "published_date": "2026-04-04 10:28:36 UTC",
       "poetry_type": "Mock epic"
+    },
+    {
+      "chapter": 248,
+      "filename": "poem_248.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/b82dfa9a6b04912bdf7edd42f20793e49a94db13/poem_248.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_248.md",
+      "chapter_name": "Crimson Descent",
+      "published_date": "2026-04-05 10:29:17 UTC",
+      "poetry_type": "Minute poem"
     }
   ]
 }
