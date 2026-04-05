@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 136,
-  "last_updated": "2026-04-04 14:38:14 UTC",
+  "total_chapters": 137,
+  "last_updated": "2026-04-05 14:38:59 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1092,6 +1092,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_136.md",
       "chapter_name": "The Stone and the Dream",
       "published_date": "2026-04-04 14:38:13 UTC"
+    },
+    {
+      "chapter": 137,
+      "filename": "poem_137.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/29f1b680664e877d5a54d5c0236d3a2ef7c05925/poem_137.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_137.md",
+      "chapter_name": "The River of Green Silence",
+      "published_date": "2026-04-05 14:38:58 UTC"
     }
   ]
 }
