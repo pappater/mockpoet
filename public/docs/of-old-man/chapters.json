@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 248,
-  "last_updated": "2026-04-05 10:29:18 UTC",
+  "total_chapters": 249,
+  "last_updated": "2026-04-06 10:52:23 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2236,6 +2236,15 @@
       "chapter_name": "Crimson Descent",
       "published_date": "2026-04-05 10:29:17 UTC",
       "poetry_type": "Minute poem"
+    },
+    {
+      "chapter": 249,
+      "filename": "poem_249.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c2ace0fa0885917bf128dd3eda8156c747b425ff/poem_249.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_249.md",
+      "chapter_name": "To My Unsent Letter",
+      "published_date": "2026-04-06 10:52:21 UTC",
+      "poetry_type": "Epistolary poem"
     }
   ]
 }
