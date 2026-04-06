@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 137,
-  "last_updated": "2026-04-05 14:38:59 UTC",
+  "total_chapters": 138,
+  "last_updated": "2026-04-06 14:54:27 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1100,6 +1100,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_137.md",
       "chapter_name": "The River of Green Silence",
       "published_date": "2026-04-05 14:38:58 UTC"
+    },
+    {
+      "chapter": 138,
+      "filename": "poem_138.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/cf71d02f8f80cc6046eb40f3f7cf26e2eecabea6/poem_138.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_138.md",
+      "chapter_name": "The Unseen City",
+      "published_date": "2026-04-06 14:54:25 UTC"
     }
   ]
 }
