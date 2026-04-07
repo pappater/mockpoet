@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 250,
-  "last_updated": "2026-04-07 10:51:29 UTC",
+  "total_chapters": 251,
+  "last_updated": "2026-04-07 22:34:09 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2254,6 +2254,15 @@
       "chapter_name": "The Dirge of the Unpaired Footwear",
       "published_date": "2026-04-07 10:51:28 UTC",
       "poetry_type": "Parody poem"
+    },
+    {
+      "chapter": 251,
+      "filename": "poem_251.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/96c60bfef029290f82e37beee064672c9776f765/poem_251.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_251.md",
+      "chapter_name": "The Constant Hum",
+      "published_date": "2026-04-07 22:34:07 UTC",
+      "poetry_type": "Performance poem"
     }
   ]
 }
