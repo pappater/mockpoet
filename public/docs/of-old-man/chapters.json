@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 251,
-  "last_updated": "2026-04-07 22:34:09 UTC",
+  "total_chapters": 252,
+  "last_updated": "2026-04-08 10:53:06 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2263,6 +2263,15 @@
       "chapter_name": "The Constant Hum",
       "published_date": "2026-04-07 22:34:07 UTC",
       "poetry_type": "Performance poem"
+    },
+    {
+      "chapter": 252,
+      "filename": "poem_252.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/de812a320b2e6ae872c68d34db0f03932ffe7cea/poem_252.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_252.md",
+      "chapter_name": "Ghazal of the Hidden Fire",
+      "published_date": "2026-04-08 10:53:05 UTC",
+      "poetry_type": "Ghazal"
     }
   ]
 }
