@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 252,
-  "last_updated": "2026-04-08 10:53:06 UTC",
+  "total_chapters": 253,
+  "last_updated": "2026-04-09 22:37:01 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2272,6 +2272,15 @@
       "chapter_name": "Ghazal of the Hidden Fire",
       "published_date": "2026-04-08 10:53:05 UTC",
       "poetry_type": "Ghazal"
+    },
+    {
+      "chapter": 253,
+      "filename": "poem_253.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/f662f9473b51c6e0084c0332051ce6972eb1606b/poem_253.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_253.md",
+      "chapter_name": "A Carol for the Nuptial Morn",
+      "published_date": "2026-04-09 22:36:59 UTC",
+      "poetry_type": "Epithalamium"
     }
   ]
 }
