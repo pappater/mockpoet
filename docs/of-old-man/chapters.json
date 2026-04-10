@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 253,
-  "last_updated": "2026-04-09 22:37:01 UTC",
+  "total_chapters": 254,
+  "last_updated": "2026-04-10 22:32:53 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2281,6 +2281,15 @@
       "chapter_name": "A Carol for the Nuptial Morn",
       "published_date": "2026-04-09 22:36:59 UTC",
       "poetry_type": "Epithalamium"
+    },
+    {
+      "chapter": 254,
+      "filename": "poem_254.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/6e7dc41d2687de0415653c2f9dd126a5885cdefb/poem_254.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_254.md",
+      "chapter_name": "A Sequence on Transience",
+      "published_date": "2026-04-10 22:32:52 UTC",
+      "poetry_type": "Sequence poem"
     }
   ]
 }
