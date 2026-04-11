@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 138,
-  "last_updated": "2026-04-06 14:54:27 UTC",
+  "total_chapters": 139,
+  "last_updated": "2026-04-11 14:40:19 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1108,6 +1108,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_138.md",
       "chapter_name": "The Unseen City",
       "published_date": "2026-04-06 14:54:25 UTC"
+    },
+    {
+      "chapter": 139,
+      "filename": "poem_139.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/97c79b1acf47c11d12d6fcc1a58d5aec73647039/poem_139.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_139.md",
+      "chapter_name": "Gathering Light",
+      "published_date": "2026-04-11 14:40:18 UTC"
     }
   ]
 }
