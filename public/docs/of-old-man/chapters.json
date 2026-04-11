@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 254,
-  "last_updated": "2026-04-10 22:32:53 UTC",
+  "total_chapters": 255,
+  "last_updated": "2026-04-11 10:30:18 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2290,6 +2290,15 @@
       "chapter_name": "A Sequence on Transience",
       "published_date": "2026-04-10 22:32:52 UTC",
       "poetry_type": "Sequence poem"
+    },
+    {
+      "chapter": 255,
+      "filename": "poem_255.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ce7481464110351d4bdec87090592452a4fae204/poem_255.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_255.md",
+      "chapter_name": "The Peculiar Predicament of Percival Piffle",
+      "published_date": "2026-04-11 10:30:16 UTC",
+      "poetry_type": "Light verse"
     }
   ]
 }
