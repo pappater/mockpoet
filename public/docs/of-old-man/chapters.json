@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 255,
-  "last_updated": "2026-04-11 10:30:18 UTC",
+  "total_chapters": 256,
+  "last_updated": "2026-04-12 10:35:12 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2299,6 +2299,15 @@
       "chapter_name": "The Peculiar Predicament of Percival Piffle",
       "published_date": "2026-04-11 10:30:16 UTC",
       "poetry_type": "Light verse"
+    },
+    {
+      "chapter": 256,
+      "filename": "poem_256.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/ee04616c0b864b2cfcd3d52b3ee7e0fd353e9ae2/poem_256.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_256.md",
+      "chapter_name": "The Raven's Lay",
+      "published_date": "2026-04-12 10:35:10 UTC",
+      "poetry_type": "Lai"
     }
   ]
 }
