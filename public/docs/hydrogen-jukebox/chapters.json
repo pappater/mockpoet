@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 139,
-  "last_updated": "2026-04-11 14:40:19 UTC",
+  "total_chapters": 140,
+  "last_updated": "2026-04-13 15:19:38 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1116,6 +1116,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_139.md",
       "chapter_name": "Gathering Light",
       "published_date": "2026-04-11 14:40:18 UTC"
+    },
+    {
+      "chapter": 140,
+      "filename": "poem_140.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/cd1dd51e9cf6a4ff4f5386d190884cfb14f20bf4/poem_140.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_140.md",
+      "chapter_name": "The Patient Surface",
+      "published_date": "2026-04-13 15:19:36 UTC"
     }
   ]
 }
