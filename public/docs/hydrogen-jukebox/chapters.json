@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 140,
-  "last_updated": "2026-04-13 15:19:38 UTC",
+  "total_chapters": 141,
+  "last_updated": "2026-04-15 15:09:57 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1124,6 +1124,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_140.md",
       "chapter_name": "The Patient Surface",
       "published_date": "2026-04-13 15:19:36 UTC"
+    },
+    {
+      "chapter": 141,
+      "filename": "poem_141.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/067f1f7e7a2590f90a33c7b4a0bf0bd580c67a73/poem_141.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_141.md",
+      "chapter_name": "The Armchair",
+      "published_date": "2026-04-15 15:09:56 UTC"
     }
   ]
 }
