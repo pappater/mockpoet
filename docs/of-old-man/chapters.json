@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 261,
-  "last_updated": "2026-04-16 22:35:57 UTC",
+  "total_chapters": 262,
+  "last_updated": "2026-04-17 22:34:24 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2353,6 +2353,15 @@
       "chapter_name": "The Autumnal Letter",
       "published_date": "2026-04-16 22:35:55 UTC",
       "poetry_type": "Epistolary poem"
+    },
+    {
+      "chapter": 262,
+      "filename": "poem_262.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c2798e074a14cc09bb8c0f90e44f07d9df633120/poem_262.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_262.md",
+      "chapter_name": "The Great Disruption of the Digital Domain",
+      "published_date": "2026-04-17 22:34:22 UTC",
+      "poetry_type": "Mock epic"
     }
   ]
 }
