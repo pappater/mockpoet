@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 262,
-  "last_updated": "2026-04-17 22:34:24 UTC",
+  "total_chapters": 263,
+  "last_updated": "2026-04-18 10:36:03 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2362,6 +2362,15 @@
       "chapter_name": "The Great Disruption of the Digital Domain",
       "published_date": "2026-04-17 22:34:22 UTC",
       "poetry_type": "Mock epic"
+    },
+    {
+      "chapter": 263,
+      "filename": "poem_263.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/0544bff2448a1582c166c69cd1e6d9e6fdaf66df/poem_263.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_263.md",
+      "chapter_name": "Fading Green",
+      "published_date": "2026-04-18 10:36:01 UTC",
+      "poetry_type": "Curtal sonnet"
     }
   ]
 }
