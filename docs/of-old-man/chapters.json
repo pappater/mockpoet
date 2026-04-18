@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 263,
-  "last_updated": "2026-04-18 10:36:03 UTC",
+  "total_chapters": 264,
+  "last_updated": "2026-04-18 22:29:45 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2371,6 +2371,15 @@
       "chapter_name": "Fading Green",
       "published_date": "2026-04-18 10:36:01 UTC",
       "poetry_type": "Curtal sonnet"
+    },
+    {
+      "chapter": 264,
+      "filename": "poem_264.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/34b69455a2424caeabed1c15608fd4d2a7405df2/poem_264.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_264.md",
+      "chapter_name": "The Untidy Scholar",
+      "published_date": "2026-04-18 22:29:43 UTC",
+      "poetry_type": "Clerihew"
     }
   ]
 }
