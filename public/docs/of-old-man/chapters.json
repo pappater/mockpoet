@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 264,
-  "last_updated": "2026-04-18 22:29:45 UTC",
+  "total_chapters": 265,
+  "last_updated": "2026-04-19 10:35:24 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2380,6 +2380,15 @@
       "chapter_name": "The Untidy Scholar",
       "published_date": "2026-04-18 22:29:43 UTC",
       "poetry_type": "Clerihew"
+    },
+    {
+      "chapter": 265,
+      "filename": "poem_265.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/3bc0426a1c21aef0a70e5656966d4e9f43cf54c9/poem_265.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_265.md",
+      "chapter_name": "The Empty Hour",
+      "published_date": "2026-04-19 10:35:22 UTC",
+      "poetry_type": "Triolet"
     }
   ]
 }
