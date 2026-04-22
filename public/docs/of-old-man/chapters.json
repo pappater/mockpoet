@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 266,
-  "last_updated": "2026-04-21 11:02:43 UTC",
+  "total_chapters": 267,
+  "last_updated": "2026-04-22 22:43:03 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2398,6 +2398,15 @@
       "chapter_name": "The Softest Roar",
       "published_date": "2026-04-21 11:02:41 UTC",
       "poetry_type": "Slam poetry"
+    },
+    {
+      "chapter": 267,
+      "filename": "poem_267.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/030a1712c55acd881714651622d97cbc703c5949/poem_267.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_267.md",
+      "chapter_name": "The Song of the Gated Dawn",
+      "published_date": "2026-04-22 22:43:01 UTC",
+      "poetry_type": "Epic"
     }
   ]
 }
