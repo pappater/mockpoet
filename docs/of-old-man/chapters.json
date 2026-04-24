@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 268,
-  "last_updated": "2026-04-23 22:39:28 UTC",
+  "total_chapters": 269,
+  "last_updated": "2026-04-24 22:35:35 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2416,6 +2416,15 @@
       "chapter_name": "Vesper Light",
       "published_date": "2026-04-23 22:39:26 UTC",
       "poetry_type": "Octave"
+    },
+    {
+      "chapter": 269,
+      "filename": "poem_269.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/0089a994bdd5e397a25c7e2a8927451d57d56ebf/poem_269.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_269.md",
+      "chapter_name": "A Prelude to Rain",
+      "published_date": "2026-04-24 22:35:33 UTC",
+      "poetry_type": "List poem"
     }
   ]
 }
