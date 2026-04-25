@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 135,
-  "last_updated": "2026-04-18 14:41:58 UTC",
+  "total_chapters": 136,
+  "last_updated": "2026-04-25 14:43:40 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1222,6 +1222,15 @@
       "chapter_name": "The Silver Grey Mare",
       "published_date": "2026-04-18 14:41:57 UTC",
       "poetry_type": "Border ballad"
+    },
+    {
+      "chapter": 136,
+      "filename": "poem_136.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/a92a31c159523ff63b13824b18015a2f3d5b37a8/poem_136.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_136.md",
+      "chapter_name": "The Lament of Lady Elara",
+      "published_date": "2026-04-25 14:43:38 UTC",
+      "poetry_type": "Traditional ballad"
     }
   ]
 }
