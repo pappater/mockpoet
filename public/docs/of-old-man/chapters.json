@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 269,
-  "last_updated": "2026-04-24 22:35:35 UTC",
+  "total_chapters": 270,
+  "last_updated": "2026-04-25 10:38:58 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2425,6 +2425,15 @@
       "chapter_name": "A Prelude to Rain",
       "published_date": "2026-04-24 22:35:33 UTC",
       "poetry_type": "List poem"
+    },
+    {
+      "chapter": 270,
+      "filename": "poem_270.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/8d65feec8a0f7728a4744e05cb9865e87139df84/poem_270.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_270.md",
+      "chapter_name": "Pine's Resolve",
+      "published_date": "2026-04-25 10:38:57 UTC",
+      "poetry_type": "Sijo"
     }
   ]
 }
