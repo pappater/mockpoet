@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 144,
-  "last_updated": "2026-04-25 14:49:14 UTC",
+  "total_chapters": 145,
+  "last_updated": "2026-04-26 14:51:36 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1156,6 +1156,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_144.md",
       "chapter_name": "The Stillness After",
       "published_date": "2026-04-25 14:49:12 UTC"
+    },
+    {
+      "chapter": 145,
+      "filename": "poem_145.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/46e2484b2bdd72db25d591ac04c3245fbc00cf00/poem_145.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_145.md",
+      "chapter_name": "a (small and) bright",
+      "published_date": "2026-04-26 14:51:35 UTC"
     }
   ]
 }
