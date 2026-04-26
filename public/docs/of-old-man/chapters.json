@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 270,
-  "last_updated": "2026-04-25 10:38:58 UTC",
+  "total_chapters": 271,
+  "last_updated": "2026-04-26 10:41:13 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2434,6 +2434,15 @@
       "chapter_name": "Pine's Resolve",
       "published_date": "2026-04-25 10:38:57 UTC",
       "poetry_type": "Sijo"
+    },
+    {
+      "chapter": 271,
+      "filename": "poem_271.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/3d0c864554051c81d734a75e41086013f05eddda/poem_271.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_271.md",
+      "chapter_name": "The Whimsical Doctor",
+      "published_date": "2026-04-26 10:41:12 UTC",
+      "poetry_type": "Clerihew"
     }
   ]
 }
