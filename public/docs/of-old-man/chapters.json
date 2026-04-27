@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 271,
-  "last_updated": "2026-04-26 10:41:13 UTC",
+  "total_chapters": 272,
+  "last_updated": "2026-04-27 22:47:09 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2443,6 +2443,15 @@
       "chapter_name": "The Whimsical Doctor",
       "published_date": "2026-04-26 10:41:12 UTC",
       "poetry_type": "Clerihew"
+    },
+    {
+      "chapter": 272,
+      "filename": "poem_272.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/6e1c023256d8ef1eeef82c78bf103a0aa4f0ab25/poem_272.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_272.md",
+      "chapter_name": "The Minister's Cabinet",
+      "published_date": "2026-04-27 22:47:07 UTC",
+      "poetry_type": "Dramatic verse"
     }
   ]
 }
