@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 273,
-  "last_updated": "2026-04-28 11:43:05 UTC",
+  "total_chapters": 274,
+  "last_updated": "2026-04-28 22:53:19 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2461,6 +2461,15 @@
       "chapter_name": "An Epithalamion: Upon the Joining of Two Souls",
       "published_date": "2026-04-28 11:43:02 UTC",
       "poetry_type": "Epithalamium"
+    },
+    {
+      "chapter": 274,
+      "filename": "poem_274.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/9ed7f45b30ea150d076a325e8bce9d50c2dfe5c9/poem_274.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_274.md",
+      "chapter_name": "Ember Glow",
+      "published_date": "2026-04-28 22:53:17 UTC",
+      "poetry_type": "Blitz poem"
     }
   ]
 }
