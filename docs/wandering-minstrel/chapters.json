@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 137,
-  "last_updated": "2026-04-26 14:47:20 UTC",
+  "total_chapters": 138,
+  "last_updated": "2026-04-28 16:07:58 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1240,6 +1240,15 @@
       "chapter_name": "Eamon's Last Ride",
       "published_date": "2026-04-26 14:47:18 UTC",
       "poetry_type": "Historical ballad"
+    },
+    {
+      "chapter": 138,
+      "filename": "poem_138.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/28a51b8312114c07d90004b047ee0f7239a8a57f/poem_138.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_138.md",
+      "chapter_name": "The Ballad of Eleanor's Lament",
+      "published_date": "2026-04-28 16:07:56 UTC",
+      "poetry_type": "Ballad stanza poem"
     }
   ]
 }
