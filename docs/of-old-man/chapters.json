@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 274,
-  "last_updated": "2026-04-28 22:53:19 UTC",
+  "total_chapters": 275,
+  "last_updated": "2026-04-29 22:53:26 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2470,6 +2470,15 @@
       "chapter_name": "Ember Glow",
       "published_date": "2026-04-28 22:53:17 UTC",
       "poetry_type": "Blitz poem"
+    },
+    {
+      "chapter": 275,
+      "filename": "poem_275.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/9c13deec6ab2b4f8c900d15fdc273cb7229e35ae/poem_275.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_275.md",
+      "chapter_name": "The Veil of Verdure",
+      "published_date": "2026-04-29 22:53:24 UTC",
+      "poetry_type": "Allegory poem"
     }
   ]
 }
