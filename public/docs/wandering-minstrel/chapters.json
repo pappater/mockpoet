@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 138,
-  "last_updated": "2026-04-28 16:07:58 UTC",
+  "total_chapters": 139,
+  "last_updated": "2026-04-30 15:48:06 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1249,6 +1249,15 @@
       "chapter_name": "The Ballad of Eleanor's Lament",
       "published_date": "2026-04-28 16:07:56 UTC",
       "poetry_type": "Ballad stanza poem"
+    },
+    {
+      "chapter": 139,
+      "filename": "poem_139.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/8296d586abc065d9ef216c4b436b6569e45e59df/poem_139.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_139.md",
+      "chapter_name": "The Ballad of Sir Kael",
+      "published_date": "2026-04-30 15:48:05 UTC",
+      "poetry_type": "Heroic ballad"
     }
   ]
 }
