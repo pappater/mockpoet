@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 275,
-  "last_updated": "2026-04-29 22:53:26 UTC",
+  "total_chapters": 276,
+  "last_updated": "2026-04-30 11:25:23 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2479,6 +2479,15 @@
       "chapter_name": "The Veil of Verdure",
       "published_date": "2026-04-29 22:53:24 UTC",
       "poetry_type": "Allegory poem"
+    },
+    {
+      "chapter": 276,
+      "filename": "poem_276.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/a81c28aed6faac62d421f5cea8574c12c216080e/poem_276.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_276.md",
+      "chapter_name": "The River's Call",
+      "published_date": "2026-04-30 11:25:21 UTC",
+      "poetry_type": "Chant poem"
     }
   ]
 }
