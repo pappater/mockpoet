@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 277,
-  "last_updated": "2026-04-30 22:50:42 UTC",
+  "total_chapters": 278,
+  "last_updated": "2026-05-01 11:03:23 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2497,6 +2497,15 @@
       "chapter_name": "The Lay of Kael and the Ever-Frost",
       "published_date": "2026-04-30 22:50:40 UTC",
       "poetry_type": "Epic"
+    },
+    {
+      "chapter": 278,
+      "filename": "poem_278.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/0b252f626457ea37bc439346288c1aea9c683552/poem_278.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_278.md",
+      "chapter_name": "Autumn's Sigh",
+      "published_date": "2026-05-01 11:03:21 UTC",
+      "poetry_type": "Sijo"
     }
   ]
 }
