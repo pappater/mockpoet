@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 278,
-  "last_updated": "2026-05-01 11:03:23 UTC",
+  "total_chapters": 279,
+  "last_updated": "2026-05-02 10:46:02 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2506,6 +2506,15 @@
       "chapter_name": "Autumn's Sigh",
       "published_date": "2026-05-01 11:03:21 UTC",
       "poetry_type": "Sijo"
+    },
+    {
+      "chapter": 279,
+      "filename": "poem_279.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/fcd9d14895d123307855a70940339e76e98c728a/poem_279.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_279.md",
+      "chapter_name": "Tide's Return",
+      "published_date": "2026-05-02 10:46:00 UTC",
+      "poetry_type": "Palindrome poem"
     }
   ]
 }
