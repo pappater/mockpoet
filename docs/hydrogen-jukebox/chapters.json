@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 145,
-  "last_updated": "2026-04-26 14:51:36 UTC",
+  "total_chapters": 146,
+  "last_updated": "2026-05-02 14:53:35 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1164,6 +1164,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_145.md",
       "chapter_name": "a (small and) bright",
       "published_date": "2026-04-26 14:51:35 UTC"
+    },
+    {
+      "chapter": 146,
+      "filename": "poem_146.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/0ca27aa697207c7070d0c62fb2a4f15fc6e06c06/poem_146.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_146.md",
+      "chapter_name": "The Winter-Sealed Well",
+      "published_date": "2026-05-02 14:53:34 UTC"
     }
   ]
 }
