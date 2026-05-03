@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 279,
-  "last_updated": "2026-05-02 10:46:02 UTC",
+  "total_chapters": 280,
+  "last_updated": "2026-05-03 10:51:05 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2515,6 +2515,15 @@
       "chapter_name": "Tide's Return",
       "published_date": "2026-05-02 10:46:00 UTC",
       "poetry_type": "Palindrome poem"
+    },
+    {
+      "chapter": 280,
+      "filename": "poem_280.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/87b0aefd9581c714c402cfcc97066ca6c5082f07/poem_280.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_280.md",
+      "chapter_name": "On the Public Virtue, Digitally Gleamed",
+      "published_date": "2026-05-03 10:51:03 UTC",
+      "poetry_type": "Satirical poem"
     }
   ]
 }
