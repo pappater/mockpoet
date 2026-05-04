@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 141,
-  "last_updated": "2026-05-03 14:51:20 UTC",
+  "total_chapters": 142,
+  "last_updated": "2026-05-04 16:02:49 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1276,6 +1276,15 @@
       "chapter_name": "The Shadow of Greyfang Peak",
       "published_date": "2026-05-03 14:51:19 UTC",
       "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 142,
+      "filename": "poem_142.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/f5273c6ba55c5846d8d97a1acd9e5124f51e724c/poem_142.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_142.md",
+      "chapter_name": "The Ballad of Elara's Waiting",
+      "published_date": "2026-05-04 16:02:46 UTC",
+      "poetry_type": "Narrative poem"
     }
   ]
 }
