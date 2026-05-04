@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 281,
-  "last_updated": "2026-05-04 11:44:21 UTC",
+  "total_chapters": 282,
+  "last_updated": "2026-05-04 22:54:09 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2533,6 +2533,15 @@
       "chapter_name": "The Oracle's Pause",
       "published_date": "2026-05-04 11:44:19 UTC",
       "poetry_type": "Epigram"
+    },
+    {
+      "chapter": 282,
+      "filename": "poem_282.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/1bc2438219dfa720fb31c7262626fecc5219aa77/poem_282.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_282.md",
+      "chapter_name": "Evening Bell and Frost",
+      "published_date": "2026-05-04 22:54:07 UTC",
+      "poetry_type": "Renga"
     }
   ]
 }
