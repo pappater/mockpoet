@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 280,
-  "last_updated": "2026-05-03 10:51:05 UTC",
+  "total_chapters": 281,
+  "last_updated": "2026-05-04 11:44:21 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2524,6 +2524,15 @@
       "chapter_name": "On the Public Virtue, Digitally Gleamed",
       "published_date": "2026-05-03 10:51:03 UTC",
       "poetry_type": "Satirical poem"
+    },
+    {
+      "chapter": 281,
+      "filename": "poem_281.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/5d86d06511f75bee706fb80110fc92b348065427/poem_281.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_281.md",
+      "chapter_name": "The Oracle's Pause",
+      "published_date": "2026-05-04 11:44:19 UTC",
+      "poetry_type": "Epigram"
     }
   ]
 }
