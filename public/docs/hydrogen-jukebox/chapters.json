@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 148,
-  "last_updated": "2026-05-04 16:04:11 UTC",
+  "total_chapters": 149,
+  "last_updated": "2026-05-05 15:57:31 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1188,6 +1188,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_148.md",
       "chapter_name": "The Blood-Song of the Root",
       "published_date": "2026-05-04 16:04:09 UTC"
+    },
+    {
+      "chapter": 149,
+      "filename": "poem_149.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/419ee7db14580fd7aa5906706307c214aa7332bd/poem_149.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_149.md",
+      "chapter_name": "The Unseen Chamber",
+      "published_date": "2026-05-05 15:57:29 UTC"
     }
   ]
 }
