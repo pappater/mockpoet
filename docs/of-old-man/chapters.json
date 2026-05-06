@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 284,
-  "last_updated": "2026-05-06 11:45:18 UTC",
+  "total_chapters": 285,
+  "last_updated": "2026-05-06 22:46:23 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2560,6 +2560,15 @@
       "chapter_name": "Ballade of Ephemeral Strain",
       "published_date": "2026-05-06 11:45:16 UTC",
       "poetry_type": "Ballade"
+    },
+    {
+      "chapter": 285,
+      "filename": "poem_285.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/db529903428c51813ce7b47044a00586487a2c92/poem_285.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_285.md",
+      "chapter_name": "River Path",
+      "published_date": "2026-05-06 22:46:21 UTC",
+      "poetry_type": "Renga"
     }
   ]
 }
