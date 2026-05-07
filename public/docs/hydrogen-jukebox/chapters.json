@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 149,
-  "last_updated": "2026-05-05 15:57:31 UTC",
+  "total_chapters": 150,
+  "last_updated": "2026-05-07 16:08:32 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1196,6 +1196,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_149.md",
       "chapter_name": "The Unseen Chamber",
       "published_date": "2026-05-05 15:57:29 UTC"
+    },
+    {
+      "chapter": 150,
+      "filename": "poem_150.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/f03197c7b0c6eb2ffb91e9511050b4e61a9ee64d/poem_150.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_150.md",
+      "chapter_name": "The Interruption of the Hour",
+      "published_date": "2026-05-07 16:08:30 UTC"
     }
   ]
 }
