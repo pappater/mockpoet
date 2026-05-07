@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 142,
-  "last_updated": "2026-05-04 16:02:49 UTC",
+  "total_chapters": 144,
+  "last_updated": "2026-05-07 16:07:00 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1285,6 +1285,24 @@
       "chapter_name": "The Ballad of Elara's Waiting",
       "published_date": "2026-05-04 16:02:46 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 143,
+      "filename": "poem_143.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/74e10314f9180e648fb870096038081a7aeb8c79/poem_143.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_143.md",
+      "chapter_name": "The Lament of Sir Gareth",
+      "published_date": "2026-05-05 15:58:32 UTC",
+      "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 144,
+      "filename": "poem_144.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/2703647a2dc45ef358a8fbcd099e90e3b96f5361/poem_144.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_144.md",
+      "chapter_name": "The Maiden of Grey Sands",
+      "published_date": "2026-05-07 16:06:58 UTC",
+      "poetry_type": "Ghost ballad"
     }
   ]
 }
