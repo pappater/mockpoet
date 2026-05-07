@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 286,
-  "last_updated": "2026-05-07 11:44:00 UTC",
+  "total_chapters": 287,
+  "last_updated": "2026-05-07 22:57:29 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2578,6 +2578,15 @@
       "chapter_name": "The Weaver of the Veil",
       "published_date": "2026-05-07 11:43:58 UTC",
       "poetry_type": "Mythic poem"
+    },
+    {
+      "chapter": 287,
+      "filename": "poem_287.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/63cba657f49072c73d1ddcc0cce07c7c66f087ca/poem_287.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_287.md",
+      "chapter_name": "The Poet's Pen",
+      "published_date": "2026-05-07 22:57:27 UTC",
+      "poetry_type": "Epigram"
     }
   ]
 }
