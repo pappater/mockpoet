@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 288,
-  "last_updated": "2026-05-08 11:08:44 UTC",
+  "total_chapters": 289,
+  "last_updated": "2026-05-08 22:52:44 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2596,6 +2596,15 @@
       "chapter_name": "The Great Disconnect: A Digital Epic",
       "published_date": "2026-05-08 11:08:42 UTC",
       "poetry_type": "Mock epic"
+    },
+    {
+      "chapter": 289,
+      "filename": "poem_289.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/019885fa1e3da10968591bdf047e4ebb1090fea0/poem_289.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_289.md",
+      "chapter_name": "A Still-Unfolding Scroll",
+      "published_date": "2026-05-08 22:52:42 UTC",
+      "poetry_type": "ABC poem"
     }
   ]
 }
