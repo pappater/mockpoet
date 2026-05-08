@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 287,
-  "last_updated": "2026-05-07 22:57:29 UTC",
+  "total_chapters": 288,
+  "last_updated": "2026-05-08 11:08:44 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2587,6 +2587,15 @@
       "chapter_name": "The Poet's Pen",
       "published_date": "2026-05-07 22:57:27 UTC",
       "poetry_type": "Epigram"
+    },
+    {
+      "chapter": 288,
+      "filename": "poem_288.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/c39bb9b7a63260bd4feba942a87bc746eff0b050/poem_288.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_288.md",
+      "chapter_name": "The Great Disconnect: A Digital Epic",
+      "published_date": "2026-05-08 11:08:42 UTC",
+      "poetry_type": "Mock epic"
     }
   ]
 }
