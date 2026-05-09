@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 145,
-  "last_updated": "2026-05-08 15:25:36 UTC",
+  "total_chapters": 146,
+  "last_updated": "2026-05-09 14:53:11 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1312,6 +1312,15 @@
       "chapter_name": "The Ballad of Elara's Leap",
       "published_date": "2026-05-08 15:25:34 UTC",
       "poetry_type": "Tragic ballad"
+    },
+    {
+      "chapter": 146,
+      "filename": "poem_146.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7a8887df21582024613328c121c9f50a5f5a7f91/poem_146.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_146.md",
+      "chapter_name": "The Serpent of Greywood Moor",
+      "published_date": "2026-05-09 14:53:09 UTC",
+      "poetry_type": "Heroic ballad"
     }
   ]
 }
