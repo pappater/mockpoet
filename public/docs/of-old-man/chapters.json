@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 290,
-  "last_updated": "2026-05-09 10:53:36 UTC",
+  "total_chapters": 291,
+  "last_updated": "2026-05-10 10:58:09 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2614,6 +2614,15 @@
       "chapter_name": "Our Steadfast Guide",
       "published_date": "2026-05-09 10:53:34 UTC",
       "poetry_type": "Hymn"
+    },
+    {
+      "chapter": 291,
+      "filename": "poem_291.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/7c37fc3813e14e19e175208858800dc71917bb2b/poem_291.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_291.md",
+      "chapter_name": "SURGE",
+      "published_date": "2026-05-10 10:58:07 UTC",
+      "poetry_type": "Concrete poem"
     }
   ]
 }
