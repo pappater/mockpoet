@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 152,
-  "last_updated": "2026-05-09 14:56:32 UTC",
+  "total_chapters": 153,
+  "last_updated": "2026-05-10 14:57:54 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1220,6 +1220,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_152.md",
       "chapter_name": "The Green Dark and the Blood's Burst",
       "published_date": "2026-05-09 14:56:31 UTC"
+    },
+    {
+      "chapter": 153,
+      "filename": "poem_153.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/4e6a4cd70b1b118c3a52996183ad85ee8e740beb/poem_153.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_153.md",
+      "chapter_name": "The Curbstone",
+      "published_date": "2026-05-10 14:57:53 UTC"
     }
   ]
 }
