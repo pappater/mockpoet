@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 292,
-  "last_updated": "2026-05-11 12:36:34 UTC",
+  "total_chapters": 293,
+  "last_updated": "2026-05-11 22:50:25 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2632,6 +2632,15 @@
       "chapter_name": "The Unfolding Path",
       "published_date": "2026-05-11 12:36:32 UTC",
       "poetry_type": "Sestina"
+    },
+    {
+      "chapter": 293,
+      "filename": "poem_293.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/edbe61369fd999ee0d1ae6a8d9f653f900bf9eda/poem_293.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_293.md",
+      "chapter_name": "The Golden Hour",
+      "published_date": "2026-05-11 22:50:24 UTC",
+      "poetry_type": "Triolet"
     }
   ]
 }
