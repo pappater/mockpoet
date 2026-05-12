@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 293,
-  "last_updated": "2026-05-11 22:50:25 UTC",
+  "total_chapters": 294,
+  "last_updated": "2026-05-12 11:50:32 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2641,6 +2641,15 @@
       "chapter_name": "The Golden Hour",
       "published_date": "2026-05-11 22:50:24 UTC",
       "poetry_type": "Triolet"
+    },
+    {
+      "chapter": 294,
+      "filename": "poem_294.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/098843733694a0a8ac0816c0bbd34ad1332fcf33/poem_294.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_294.md",
+      "chapter_name": "The Desk's Demise",
+      "published_date": "2026-05-12 11:50:31 UTC",
+      "poetry_type": "Light verse"
     }
   ]
 }
