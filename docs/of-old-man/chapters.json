@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 294,
-  "last_updated": "2026-05-12 11:50:32 UTC",
+  "total_chapters": 295,
+  "last_updated": "2026-05-12 22:56:16 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2650,6 +2650,15 @@
       "chapter_name": "The Desk's Demise",
       "published_date": "2026-05-12 11:50:31 UTC",
       "poetry_type": "Light verse"
+    },
+    {
+      "chapter": 295,
+      "filename": "poem_295.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/36f0cd8da8a93130f9089f6da466e114e9c5956a/poem_295.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_295.md",
+      "chapter_name": "River's Whisper",
+      "published_date": "2026-05-12 22:56:14 UTC",
+      "poetry_type": "Sijo"
     }
   ]
 }
