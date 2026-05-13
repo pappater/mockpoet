@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 295,
-  "last_updated": "2026-05-12 22:56:16 UTC",
+  "total_chapters": 296,
+  "last_updated": "2026-05-13 12:00:18 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2659,6 +2659,15 @@
       "chapter_name": "River's Whisper",
       "published_date": "2026-05-12 22:56:14 UTC",
       "poetry_type": "Sijo"
+    },
+    {
+      "chapter": 296,
+      "filename": "poem_296.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/38d6656cf750d5635a84a043d510919371440ad1/poem_296.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_296.md",
+      "chapter_name": "On a Seeker of Quiet",
+      "published_date": "2026-05-13 12:00:16 UTC",
+      "poetry_type": "Epitaph"
     }
   ]
 }
