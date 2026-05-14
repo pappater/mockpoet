@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 149,
-  "last_updated": "2026-05-12 16:20:24 UTC",
+  "total_chapters": 151,
+  "last_updated": "2026-05-14 16:10:10 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1348,6 +1348,24 @@
       "chapter_name": "The Ballad of Finn and the Grey Tide",
       "published_date": "2026-05-12 16:20:22 UTC",
       "poetry_type": "Tale in verse"
+    },
+    {
+      "chapter": 150,
+      "filename": "poem_150.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/f0ab0bbd1d06d440e5397c5e5c98f5e1d6eead2d/poem_150.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_150.md",
+      "chapter_name": "The Ballad of the Ember Stone",
+      "published_date": "2026-05-13 16:23:35 UTC",
+      "poetry_type": "Modern narrative verse"
+    },
+    {
+      "chapter": 151,
+      "filename": "poem_151.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/3db0a0eefa826ff502af1716243340190c1172c9/poem_151.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_151.md",
+      "chapter_name": "The Willow Wept for Elara",
+      "published_date": "2026-05-14 16:10:08 UTC",
+      "poetry_type": "Traditional ballad"
     }
   ]
 }
