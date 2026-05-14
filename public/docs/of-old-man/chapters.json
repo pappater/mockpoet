@@ -1,7 +1,7 @@
 {
   "novel_title": "Of Old Man",
-  "total_chapters": 296,
-  "last_updated": "2026-05-13 12:00:18 UTC",
+  "total_chapters": 297,
+  "last_updated": "2026-05-14 11:48:10 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
   "completed": false,
   "chapters": [
@@ -2668,6 +2668,15 @@
       "chapter_name": "On a Seeker of Quiet",
       "published_date": "2026-05-13 12:00:16 UTC",
       "poetry_type": "Epitaph"
+    },
+    {
+      "chapter": 297,
+      "filename": "poem_297.md",
+      "url": "https://gist.githubusercontent.com/pappater/9fa4af8eb29c0097cc525f2d38503c2e/raw/963f73c7ff4eba394365ef1d718f9596765cf8f8/poem_297.md",
+      "gist_url": "https://gist.github.com/9fa4af8eb29c0097cc525f2d38503c2e#poem_297.md",
+      "chapter_name": "The Daily Shift",
+      "published_date": "2026-05-14 11:48:08 UTC",
+      "poetry_type": "Diamante"
     }
   ]
 }
