@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 155,
-  "last_updated": "2026-05-13 16:23:36 UTC",
+  "total_chapters": 157,
+  "last_updated": "2026-05-15 16:04:56 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1244,6 +1244,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_155.md",
       "chapter_name": "Against the Roar",
       "published_date": "2026-05-13 16:23:34 UTC"
+    },
+    {
+      "chapter": 156,
+      "filename": "poem_156.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/1beaccf96ef0dfcebabe22bea29be701cb0904e5/poem_156.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_156.md",
+      "chapter_name": "The Steady Pulse",
+      "published_date": "2026-05-14 16:10:54 UTC"
+    },
+    {
+      "chapter": 157,
+      "filename": "poem_157.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/323466e279446985ee0bfb3b90115fb1640c7440/poem_157.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_157.md",
+      "chapter_name": "Hedge-Lay",
+      "published_date": "2026-05-15 16:04:54 UTC"
     }
   ]
 }
