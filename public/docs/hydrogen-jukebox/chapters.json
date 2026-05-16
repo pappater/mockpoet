@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 157,
-  "last_updated": "2026-05-15 16:04:56 UTC",
+  "total_chapters": 158,
+  "last_updated": "2026-05-16 15:00:45 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1260,6 +1260,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_157.md",
       "chapter_name": "Hedge-Lay",
       "published_date": "2026-05-15 16:04:54 UTC"
+    },
+    {
+      "chapter": 158,
+      "filename": "poem_158.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/098d55976a77369e726887ca2def80ba7f94a1d8/poem_158.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_158.md",
+      "chapter_name": "A Song for the Multitudes of Now",
+      "published_date": "2026-05-16 15:00:43 UTC"
     }
   ]
 }
