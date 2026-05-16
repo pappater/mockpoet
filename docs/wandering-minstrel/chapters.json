@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 152,
-  "last_updated": "2026-05-15 16:04:02 UTC",
+  "total_chapters": 153,
+  "last_updated": "2026-05-16 14:58:16 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1375,6 +1375,15 @@
       "chapter_name": "The Lay of Kaelen's Heartstone",
       "published_date": "2026-05-15 16:04:00 UTC",
       "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 153,
+      "filename": "poem_153.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/d6ca45614aa797f142ad550751f9329cc985626d/poem_153.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_153.md",
+      "chapter_name": "The Ballad of the Starlight Bloom",
+      "published_date": "2026-05-16 14:58:15 UTC",
+      "poetry_type": "Tale in verse"
     }
   ]
 }
