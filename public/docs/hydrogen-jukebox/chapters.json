@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 158,
-  "last_updated": "2026-05-16 15:00:45 UTC",
+  "total_chapters": 159,
+  "last_updated": "2026-05-17 15:00:47 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1268,6 +1268,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_158.md",
       "chapter_name": "A Song for the Multitudes of Now",
       "published_date": "2026-05-16 15:00:43 UTC"
+    },
+    {
+      "chapter": 159,
+      "filename": "poem_159.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/99889004af322dd786cc4a971b0c488c4198b1a5/poem_159.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_159.md",
+      "chapter_name": "Oilskin Dawn",
+      "published_date": "2026-05-17 15:00:45 UTC"
     }
   ]
 }
