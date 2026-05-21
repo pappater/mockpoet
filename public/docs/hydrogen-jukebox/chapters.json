@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 162,
-  "last_updated": "2026-05-20 16:57:17 UTC",
+  "total_chapters": 163,
+  "last_updated": "2026-05-21 16:40:26 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1300,6 +1300,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_162.md",
       "chapter_name": "Chicory in the Mill Town",
       "published_date": "2026-05-20 16:57:15 UTC"
+    },
+    {
+      "chapter": 163,
+      "filename": "poem_163.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/ef4a0f2ab8e92a239d4d30e8909465bb8022d6cc/poem_163.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_163.md",
+      "chapter_name": "(a cloud passes)",
+      "published_date": "2026-05-21 16:40:25 UTC"
     }
   ]
 }
