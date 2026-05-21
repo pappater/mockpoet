@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 157,
-  "last_updated": "2026-05-20 16:53:02 UTC",
+  "total_chapters": 158,
+  "last_updated": "2026-05-21 16:39:16 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1420,6 +1420,15 @@
       "chapter_name": "Elara's Harvest Moon",
       "published_date": "2026-05-20 16:53:00 UTC",
       "poetry_type": "Traditional ballad"
+    },
+    {
+      "chapter": 158,
+      "filename": "poem_158.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/d0b2adf54907c3e298f99bd538fe8adfa98c3e8b/poem_158.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_158.md",
+      "chapter_name": "The Ballad of Elara's Tears",
+      "published_date": "2026-05-21 16:39:14 UTC",
+      "poetry_type": "Folk ballad"
     }
   ]
 }
