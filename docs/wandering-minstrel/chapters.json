@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 158,
-  "last_updated": "2026-05-21 16:39:16 UTC",
+  "total_chapters": 159,
+  "last_updated": "2026-05-22 16:27:05 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1429,6 +1429,15 @@
       "chapter_name": "The Ballad of Elara's Tears",
       "published_date": "2026-05-21 16:39:14 UTC",
       "poetry_type": "Folk ballad"
+    },
+    {
+      "chapter": 159,
+      "filename": "poem_159.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c813dfb58d0d430c7a08187e253d3043631b0df5/poem_159.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_159.md",
+      "chapter_name": "The Raven's Mark",
+      "published_date": "2026-05-22 16:27:03 UTC",
+      "poetry_type": "Story poem"
     }
   ]
 }
