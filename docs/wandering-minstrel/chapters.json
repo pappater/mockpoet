@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 160,
-  "last_updated": "2026-05-23 15:02:39 UTC",
+  "total_chapters": 161,
+  "last_updated": "2026-05-24 15:05:43 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1447,6 +1447,15 @@
       "chapter_name": "The Isle of Whisper-Stone",
       "published_date": "2026-05-23 15:02:37 UTC",
       "poetry_type": "Sea ballad"
+    },
+    {
+      "chapter": 161,
+      "filename": "poem_161.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/1cced89859b22eb90b9042a7b53a3d81e9ecd166/poem_161.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_161.md",
+      "chapter_name": "The Maiden of Grey Rock Sands",
+      "published_date": "2026-05-24 15:05:41 UTC",
+      "poetry_type": "Story ballad"
     }
   ]
 }
