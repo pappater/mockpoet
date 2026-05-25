@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 165,
-  "last_updated": "2026-05-24 15:08:54 UTC",
+  "total_chapters": 166,
+  "last_updated": "2026-05-25 16:25:03 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1324,6 +1324,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_165.md",
       "chapter_name": "The Silence of the Sycamore",
       "published_date": "2026-05-24 15:08:53 UTC"
+    },
+    {
+      "chapter": 166,
+      "filename": "poem_166.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/86611af40cb896de8e3fc3d30ce1ec69726e1fa6/poem_166.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_166.md",
+      "chapter_name": "The New Shelter",
+      "published_date": "2026-05-25 16:25:01 UTC"
     }
   ]
 }
