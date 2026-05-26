@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 162,
-  "last_updated": "2026-05-25 16:23:51 UTC",
+  "total_chapters": 163,
+  "last_updated": "2026-05-26 17:27:39 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1465,6 +1465,15 @@
       "chapter_name": "The Ballad of Raven's Crag",
       "published_date": "2026-05-25 16:23:49 UTC",
       "poetry_type": "Historical ballad"
+    },
+    {
+      "chapter": 163,
+      "filename": "poem_163.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/9f1260f05ff63e20e608c0433470e46631c32b26/poem_163.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_163.md",
+      "chapter_name": "The Willow by the Weir",
+      "published_date": "2026-05-26 17:27:36 UTC",
+      "poetry_type": "Tragic ballad"
     }
   ]
 }
