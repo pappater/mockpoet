@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 167,
-  "last_updated": "2026-05-27 17:23:00 UTC",
+  "total_chapters": 168,
+  "last_updated": "2026-05-28 17:35:50 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1340,6 +1340,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_167.md",
       "chapter_name": "Salt on the Tongue of Dawn",
       "published_date": "2026-05-27 17:22:58 UTC"
+    },
+    {
+      "chapter": 168,
+      "filename": "poem_168.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/a557052b4417c81840e4e56ad0db6f1426a6b0ea/poem_168.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_168.md",
+      "chapter_name": "A Possum in East Liverpool",
+      "published_date": "2026-05-28 17:35:49 UTC"
     }
   ]
 }
