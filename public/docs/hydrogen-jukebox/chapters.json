@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 168,
-  "last_updated": "2026-05-28 17:35:50 UTC",
+  "total_chapters": 169,
+  "last_updated": "2026-05-29 17:36:04 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1348,6 +1348,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_168.md",
       "chapter_name": "A Possum in East Liverpool",
       "published_date": "2026-05-28 17:35:49 UTC"
+    },
+    {
+      "chapter": 169,
+      "filename": "poem_169.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/f47526b9da53ba81ad6f45128d7ef2d48a20e72d/poem_169.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_169.md",
+      "chapter_name": "The Grain of the Stone",
+      "published_date": "2026-05-29 17:36:02 UTC"
     }
   ]
 }
