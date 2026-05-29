@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 165,
-  "last_updated": "2026-05-28 17:34:48 UTC",
+  "total_chapters": 166,
+  "last_updated": "2026-05-29 17:34:49 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1492,6 +1492,15 @@
       "chapter_name": "The Ballad of Elara's Shore",
       "published_date": "2026-05-28 17:34:45 UTC",
       "poetry_type": "Narrative lyric"
+    },
+    {
+      "chapter": 166,
+      "filename": "poem_166.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/40eb11681870313732c2ec3f6cfd5f5bb7c00d4b/poem_166.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_166.md",
+      "chapter_name": "The Rings of Blackwater",
+      "published_date": "2026-05-29 17:34:47 UTC",
+      "poetry_type": "Legendary ballad"
     }
   ]
 }
