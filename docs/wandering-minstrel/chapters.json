@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 166,
-  "last_updated": "2026-05-29 17:34:49 UTC",
+  "total_chapters": 167,
+  "last_updated": "2026-05-30 15:09:49 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1501,6 +1501,15 @@
       "chapter_name": "The Rings of Blackwater",
       "published_date": "2026-05-29 17:34:47 UTC",
       "poetry_type": "Legendary ballad"
+    },
+    {
+      "chapter": 167,
+      "filename": "poem_167.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/2c5241a1a82240d5a15051a85bf8ecbb0840def3/poem_167.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_167.md",
+      "chapter_name": "The Ballad of Liam's Leave",
+      "published_date": "2026-05-30 15:09:47 UTC",
+      "poetry_type": "Contemporary ballad"
     }
   ]
 }
