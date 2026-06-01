@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 171,
-  "last_updated": "2026-05-31 15:20:14 UTC",
+  "total_chapters": 172,
+  "last_updated": "2026-06-01 19:22:03 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1372,6 +1372,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_171.md",
       "chapter_name": "The Salt-Spill of Morning",
       "published_date": "2026-05-31 15:20:13 UTC"
+    },
+    {
+      "chapter": 172,
+      "filename": "poem_172.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/84d33dd7adb32c8f47f269af9122514e8e467f04/poem_172.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_172.md",
+      "chapter_name": "The Shard of Phidias",
+      "published_date": "2026-06-01 19:22:01 UTC"
     }
   ]
 }
