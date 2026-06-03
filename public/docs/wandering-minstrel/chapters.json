@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 170,
-  "last_updated": "2026-06-02 18:05:42 UTC",
+  "total_chapters": 171,
+  "last_updated": "2026-06-03 18:23:08 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1537,6 +1537,15 @@
       "chapter_name": "The Green Sea's Claim",
       "published_date": "2026-06-02 18:05:40 UTC",
       "poetry_type": "Folklore ballad"
+    },
+    {
+      "chapter": 171,
+      "filename": "poem_171.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/58965bb1aef5969043498595dc3343f0585f9905/poem_171.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_171.md",
+      "chapter_name": "The Cold Wind's Lament",
+      "published_date": "2026-06-03 18:23:06 UTC",
+      "poetry_type": "Ghost ballad"
     }
   ]
 }
