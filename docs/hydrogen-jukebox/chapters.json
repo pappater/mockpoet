@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 173,
-  "last_updated": "2026-06-02 18:06:46 UTC",
+  "total_chapters": 175,
+  "last_updated": "2026-06-04 16:55:47 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1388,6 +1388,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_173.md",
       "chapter_name": "The Inner Weight of Rooms",
       "published_date": "2026-06-02 18:06:44 UTC"
+    },
+    {
+      "chapter": 174,
+      "filename": "poem_174.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/99080614e539c2d000313bb7a82b924fe618eb5b/poem_174.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_174.md",
+      "chapter_name": "The Rumour and the Road",
+      "published_date": "2026-06-03 18:23:43 UTC"
+    },
+    {
+      "chapter": 175,
+      "filename": "poem_175.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/486ccc205adc4f4d57bc28107a98dcfd23efa007/poem_175.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_175.md",
+      "chapter_name": "Winter Apples",
+      "published_date": "2026-06-04 16:55:45 UTC"
     }
   ]
 }
