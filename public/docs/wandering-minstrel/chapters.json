@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 171,
-  "last_updated": "2026-06-03 18:23:08 UTC",
+  "total_chapters": 172,
+  "last_updated": "2026-06-04 16:54:57 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1546,6 +1546,15 @@
       "chapter_name": "The Cold Wind's Lament",
       "published_date": "2026-06-03 18:23:06 UTC",
       "poetry_type": "Ghost ballad"
+    },
+    {
+      "chapter": 172,
+      "filename": "poem_172.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/56e672673fa0984671cd5e974a86f814bcdc5f26/poem_172.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_172.md",
+      "chapter_name": "The Lament of Mary on the Craggy Shore",
+      "published_date": "2026-06-04 16:54:55 UTC",
+      "poetry_type": "Broadside ballad"
     }
   ]
 }
