@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 173,
-  "last_updated": "2026-06-05 16:30:21 UTC",
+  "total_chapters": 174,
+  "last_updated": "2026-06-06 15:17:57 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1564,6 +1564,15 @@
       "chapter_name": "The Ballad of Elara's Watch",
       "published_date": "2026-06-05 16:30:19 UTC",
       "poetry_type": "Literary ballad"
+    },
+    {
+      "chapter": 174,
+      "filename": "poem_174.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/476567e1a93868630c070fa047b6fb18a073d128/poem_174.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_174.md",
+      "chapter_name": "The Ballad of Gareth and the Gloom-Fell",
+      "published_date": "2026-06-06 15:17:56 UTC",
+      "poetry_type": "Epic ballad"
     }
   ]
 }
