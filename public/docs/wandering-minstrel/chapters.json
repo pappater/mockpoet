@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 174,
-  "last_updated": "2026-06-06 15:17:57 UTC",
+  "total_chapters": 175,
+  "last_updated": "2026-06-07 15:25:08 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1573,6 +1573,15 @@
       "chapter_name": "The Ballad of Gareth and the Gloom-Fell",
       "published_date": "2026-06-06 15:17:56 UTC",
       "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 175,
+      "filename": "poem_175.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/ef0d73a7ab78b2eaf4253a6fb5867f96068aa908/poem_175.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_175.md",
+      "chapter_name": "The Ballad of Sir Kael and the Serpent's Eye",
+      "published_date": "2026-06-07 15:25:06 UTC",
+      "poetry_type": "Adventure ballad"
     }
   ]
 }
