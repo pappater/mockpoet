@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 175,
-  "last_updated": "2026-06-04 16:55:47 UTC",
+  "total_chapters": 176,
+  "last_updated": "2026-06-07 15:26:17 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1404,6 +1404,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_175.md",
       "chapter_name": "Winter Apples",
       "published_date": "2026-06-04 16:55:45 UTC"
+    },
+    {
+      "chapter": 176,
+      "filename": "poem_176.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/05542ee34b834b50434cc65d84eda9cd766819a8/poem_176.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_176.md",
+      "chapter_name": "The Bronze Idea of a Lamp",
+      "published_date": "2026-06-07 15:26:15 UTC"
     }
   ]
 }
