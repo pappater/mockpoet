@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 176,
-  "last_updated": "2026-06-07 15:26:17 UTC",
+  "total_chapters": 177,
+  "last_updated": "2026-06-09 16:33:43 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1412,6 +1412,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_176.md",
       "chapter_name": "The Bronze Idea of a Lamp",
       "published_date": "2026-06-07 15:26:15 UTC"
+    },
+    {
+      "chapter": 177,
+      "filename": "poem_177.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/7d2c80c6ddda93a5083e737a4d52321a85d365fa/poem_177.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_177.md",
+      "chapter_name": "The Unlit Room",
+      "published_date": "2026-06-09 16:33:41 UTC"
     }
   ]
 }
