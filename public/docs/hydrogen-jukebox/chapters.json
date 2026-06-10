@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 177,
-  "last_updated": "2026-06-09 16:33:43 UTC",
+  "total_chapters": 178,
+  "last_updated": "2026-06-10 17:24:36 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1420,6 +1420,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_177.md",
       "chapter_name": "The Unlit Room",
       "published_date": "2026-06-09 16:33:41 UTC"
+    },
+    {
+      "chapter": 178,
+      "filename": "poem_178.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/14f557bdaf0ccd28376d15c0411fe69113a86cb2/poem_178.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_178.md",
+      "chapter_name": "Canticle of the Deep Water",
+      "published_date": "2026-06-10 17:24:33 UTC"
     }
   ]
 }
