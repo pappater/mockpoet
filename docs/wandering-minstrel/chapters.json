@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 178,
-  "last_updated": "2026-06-12 16:45:21 UTC",
+  "total_chapters": 179,
+  "last_updated": "2026-06-13 15:43:14 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1609,6 +1609,15 @@
       "chapter_name": "The Ballad of Elara's Grief",
       "published_date": "2026-06-12 16:45:19 UTC",
       "poetry_type": "Lyric ballad"
+    },
+    {
+      "chapter": 179,
+      "filename": "poem_179.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/4b4c2197aad16bfc1b1ff6d1f874dc7a78925d3e/poem_179.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_179.md",
+      "chapter_name": "The Ballad of Lyra's Vow",
+      "published_date": "2026-06-13 15:43:12 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
