@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 179,
-  "last_updated": "2026-06-13 15:43:14 UTC",
+  "total_chapters": 180,
+  "last_updated": "2026-06-14 15:49:10 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1618,6 +1618,15 @@
       "chapter_name": "The Ballad of Lyra's Vow",
       "published_date": "2026-06-13 15:43:12 UTC",
       "poetry_type": "Historical ballad"
+    },
+    {
+      "chapter": 180,
+      "filename": "poem_180.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/b63db0c649a006adc25337fc9cf41e51a7f5b732/poem_180.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_180.md",
+      "chapter_name": "The Ballad of Caelan's Deep Call",
+      "published_date": "2026-06-14 15:49:09 UTC",
+      "poetry_type": "Adventure ballad"
     }
   ]
 }
