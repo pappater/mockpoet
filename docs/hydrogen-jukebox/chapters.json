@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 180,
-  "last_updated": "2026-06-12 16:46:41 UTC",
+  "total_chapters": 183,
+  "last_updated": "2026-06-15 18:42:14 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1444,6 +1444,30 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_180.md",
       "chapter_name": "The Stone's Goad",
       "published_date": "2026-06-12 16:46:38 UTC"
+    },
+    {
+      "chapter": 181,
+      "filename": "poem_181.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/68b0b84433a0ea13132b3a842414e126130c348c/poem_181.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_181.md",
+      "chapter_name": "The Transparent Hour",
+      "published_date": "2026-06-13 15:43:30 UTC"
+    },
+    {
+      "chapter": 182,
+      "filename": "poem_182.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/f321c4713a37b11184861fe8143118a836baa97f/poem_182.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_182.md",
+      "chapter_name": "The Smallest Window",
+      "published_date": "2026-06-14 15:49:56 UTC"
+    },
+    {
+      "chapter": 183,
+      "filename": "poem_183.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/801bdcc38c83a40a36b70d885e774d5ebce05ccc/poem_183.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_183.md",
+      "chapter_name": "The North Shore, November",
+      "published_date": "2026-06-15 18:42:13 UTC"
     }
   ]
 }
