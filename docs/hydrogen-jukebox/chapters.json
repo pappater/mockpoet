@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 183,
-  "last_updated": "2026-06-15 18:42:14 UTC",
+  "total_chapters": 184,
+  "last_updated": "2026-06-16 18:29:14 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1468,6 +1468,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_183.md",
       "chapter_name": "The North Shore, November",
       "published_date": "2026-06-15 18:42:13 UTC"
+    },
+    {
+      "chapter": 184,
+      "filename": "poem_184.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/3152e44d4f1aae1576e39f7cb3abae53aee5b7ed/poem_184.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_184.md",
+      "chapter_name": "a soft (yes)",
+      "published_date": "2026-06-16 18:29:11 UTC"
     }
   ]
 }
