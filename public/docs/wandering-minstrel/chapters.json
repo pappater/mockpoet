@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 181,
-  "last_updated": "2026-06-15 18:28:30 UTC",
+  "total_chapters": 182,
+  "last_updated": "2026-06-16 18:27:15 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1636,6 +1636,15 @@
       "chapter_name": "The Ballad of Greyfell's Gold",
       "published_date": "2026-06-15 18:28:28 UTC",
       "poetry_type": "Dramatic ballad"
+    },
+    {
+      "chapter": 182,
+      "filename": "poem_182.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/ac2098e9cc0ab6847a8af0d346872a6527c4e2f9/poem_182.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_182.md",
+      "chapter_name": "The Grey Stone of Maeve",
+      "published_date": "2026-06-16 18:27:12 UTC",
+      "poetry_type": "Folklore ballad"
     }
   ]
 }
