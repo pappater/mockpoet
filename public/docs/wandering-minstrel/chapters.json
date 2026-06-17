@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 182,
-  "last_updated": "2026-06-16 18:27:15 UTC",
+  "total_chapters": 183,
+  "last_updated": "2026-06-17 16:55:15 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1645,6 +1645,15 @@
       "chapter_name": "The Grey Stone of Maeve",
       "published_date": "2026-06-16 18:27:12 UTC",
       "poetry_type": "Folklore ballad"
+    },
+    {
+      "chapter": 183,
+      "filename": "poem_183.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/37f4a165816431b572db26602b32b5789fa62639/poem_183.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_183.md",
+      "chapter_name": "The Grey Moors' Lament",
+      "published_date": "2026-06-17 16:55:13 UTC",
+      "poetry_type": "Border ballad"
     }
   ]
 }
