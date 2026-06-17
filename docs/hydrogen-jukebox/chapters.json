@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 184,
-  "last_updated": "2026-06-16 18:29:14 UTC",
+  "total_chapters": 185,
+  "last_updated": "2026-06-17 16:56:07 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1476,6 +1476,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_184.md",
       "chapter_name": "a soft (yes)",
       "published_date": "2026-06-16 18:29:11 UTC"
+    },
+    {
+      "chapter": 185,
+      "filename": "poem_185.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/88dce6214df8770b1ff33a058ea3a75fdf16d7a6/poem_185.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_185.md",
+      "chapter_name": "The Murmur and the Magnitude",
+      "published_date": "2026-06-17 16:56:05 UTC"
     }
   ]
 }
