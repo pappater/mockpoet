@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 185,
-  "last_updated": "2026-06-19 16:32:25 UTC",
+  "total_chapters": 186,
+  "last_updated": "2026-06-20 15:45:57 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1672,6 +1672,15 @@
       "chapter_name": "The Ghost of Greyhaven Sea",
       "published_date": "2026-06-19 16:32:23 UTC",
       "poetry_type": "Lyric ballad"
+    },
+    {
+      "chapter": 186,
+      "filename": "poem_186.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c996f4faac33cbcf5a465b8711e6b8efb7325714/poem_186.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_186.md",
+      "chapter_name": "The Blackwood Stream",
+      "published_date": "2026-06-20 15:45:55 UTC",
+      "poetry_type": "Tragic ballad"
     }
   ]
 }
