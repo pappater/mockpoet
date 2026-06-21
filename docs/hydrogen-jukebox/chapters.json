@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 186,
-  "last_updated": "2026-06-18 17:16:51 UTC",
+  "total_chapters": 188,
+  "last_updated": "2026-06-21 15:57:02 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1492,6 +1492,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_186.md",
       "chapter_name": "Nightwind & Holy Hopes",
       "published_date": "2026-06-18 17:16:49 UTC"
+    },
+    {
+      "chapter": 187,
+      "filename": "poem_187.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/5e75b4066c26b2e143b8efa10c30b8c2835ad38f/poem_187.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_187.md",
+      "chapter_name": "My Crown of Frost",
+      "published_date": "2026-06-19 16:33:00 UTC"
+    },
+    {
+      "chapter": 188,
+      "filename": "poem_188.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/906a14b74712313b66ad60b516532f54577d4c6a/poem_188.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_188.md",
+      "chapter_name": "The Unspoken Archive",
+      "published_date": "2026-06-20 15:46:27 UTC"
     }
   ]
 }
