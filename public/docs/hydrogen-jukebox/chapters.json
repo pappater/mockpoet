@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 188,
-  "last_updated": "2026-06-21 15:57:02 UTC",
+  "total_chapters": 190,
+  "last_updated": "2026-06-22 18:14:05 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1508,6 +1508,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_188.md",
       "chapter_name": "The Unspoken Archive",
       "published_date": "2026-06-20 15:46:27 UTC"
+    },
+    {
+      "chapter": 189,
+      "filename": "poem_189.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/3d13d2535ea6c6923feabd903c0c9848759063ed/poem_189.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_189.md",
+      "chapter_name": "Morning Fruit",
+      "published_date": "2026-06-21 15:57:00 UTC"
+    },
+    {
+      "chapter": 190,
+      "filename": "poem_190.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/55bfbcc3ade790b3fee5a70a4b3b066db4461d25/poem_190.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_190.md",
+      "chapter_name": "By the Clock Tower",
+      "published_date": "2026-06-22 18:14:03 UTC"
     }
   ]
 }
