@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 187,
-  "last_updated": "2026-06-21 15:53:57 UTC",
+  "total_chapters": 188,
+  "last_updated": "2026-06-22 18:12:18 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1690,6 +1690,15 @@
       "chapter_name": "The Ballad of Rosamund's Shore",
       "published_date": "2026-06-21 15:53:56 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 188,
+      "filename": "poem_188.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/19616d3bc6c48c6b521218fdc4db225336306d0c/poem_188.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_188.md",
+      "chapter_name": "The Ballad of the Sea-Lorn Knight",
+      "published_date": "2026-06-22 18:12:16 UTC",
+      "poetry_type": "Literary ballad"
     }
   ]
 }
