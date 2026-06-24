@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 189,
-  "last_updated": "2026-06-23 16:27:21 UTC",
+  "total_chapters": 190,
+  "last_updated": "2026-06-24 16:23:11 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1708,6 +1708,15 @@
       "chapter_name": "The Ballad of Sir Kaelan and the Sunstone",
       "published_date": "2026-06-23 16:27:19 UTC",
       "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 190,
+      "filename": "poem_190.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/b166797ba08267d97881e63a1104541aca1ea12f/poem_190.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_190.md",
+      "chapter_name": "The Grey Heath Line",
+      "published_date": "2026-06-24 16:23:09 UTC",
+      "poetry_type": "War ballad"
     }
   ]
 }
