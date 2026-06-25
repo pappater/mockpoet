@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 190,
-  "last_updated": "2026-06-22 18:14:05 UTC",
+  "total_chapters": 192,
+  "last_updated": "2026-06-25 16:28:48 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1524,6 +1524,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_190.md",
       "chapter_name": "By the Clock Tower",
       "published_date": "2026-06-22 18:14:03 UTC"
+    },
+    {
+      "chapter": 191,
+      "filename": "poem_191.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/724485d2c3b1406e146e49aaa2023165696b0f3a/poem_191.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_191.md",
+      "chapter_name": "The Theory of the Refracted Day",
+      "published_date": "2026-06-23 16:28:05 UTC"
+    },
+    {
+      "chapter": 192,
+      "filename": "poem_192.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/76731fe31c5c3661edf4c69e3fa4ec4f9a6788fc/poem_192.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_192.md",
+      "chapter_name": "The Signal Fades",
+      "published_date": "2026-06-25 16:28:46 UTC"
     }
   ]
 }
