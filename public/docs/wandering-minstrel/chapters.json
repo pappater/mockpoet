@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 190,
-  "last_updated": "2026-06-24 16:23:11 UTC",
+  "total_chapters": 191,
+  "last_updated": "2026-06-26 16:19:42 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1716,6 +1716,15 @@
       "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_190.md",
       "chapter_name": "The Grey Heath Line",
       "published_date": "2026-06-24 16:23:09 UTC",
+      "poetry_type": "War ballad"
+    },
+    {
+      "chapter": 191,
+      "filename": "poem_191.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7a29688cf358c585526e897fd016daceaa1813b6/poem_191.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_191.md",
+      "chapter_name": "The Grey Fields of Morning",
+      "published_date": "2026-06-26 16:19:39 UTC",
       "poetry_type": "War ballad"
     }
   ]
