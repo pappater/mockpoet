@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 192,
-  "last_updated": "2026-06-25 16:28:48 UTC",
+  "total_chapters": 193,
+  "last_updated": "2026-06-26 16:20:24 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1540,6 +1540,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_192.md",
       "chapter_name": "The Signal Fades",
       "published_date": "2026-06-25 16:28:46 UTC"
+    },
+    {
+      "chapter": 193,
+      "filename": "poem_193.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/af4a5119d0b6bc63bd79976237fd9e89f12e0202/poem_193.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_193.md",
+      "chapter_name": "The Sycamore at Dusk",
+      "published_date": "2026-06-26 16:20:22 UTC"
     }
   ]
 }
