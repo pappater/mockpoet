@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 192,
-  "last_updated": "2026-06-27 15:16:52 UTC",
+  "total_chapters": 193,
+  "last_updated": "2026-06-28 15:19:11 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1735,6 +1735,15 @@
       "chapter_name": "The Last Ride of Sir Kaelen",
       "published_date": "2026-06-27 15:16:50 UTC",
       "poetry_type": "Heroic ballad"
+    },
+    {
+      "chapter": 193,
+      "filename": "poem_193.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7653325e27a49b1ce7dfb1a0d0d69649a9f907a3/poem_193.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_193.md",
+      "chapter_name": "The Ballad of Sir Kaelan and the Moor-Wyrm",
+      "published_date": "2026-06-28 15:19:10 UTC",
+      "poetry_type": "Epic ballad"
     }
   ]
 }
