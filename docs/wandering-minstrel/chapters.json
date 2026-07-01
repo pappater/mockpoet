@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 195,
-  "last_updated": "2026-06-30 16:23:33 UTC",
+  "total_chapters": 196,
+  "last_updated": "2026-07-01 16:27:47 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1762,6 +1762,15 @@
       "chapter_name": "The Ghost Ship of Greyhaven",
       "published_date": "2026-06-30 16:23:32 UTC",
       "poetry_type": "Dramatic ballad"
+    },
+    {
+      "chapter": 196,
+      "filename": "poem_196.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7eed822771228677a6b92eb26c353fdc4dcd9f08/poem_196.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_196.md",
+      "chapter_name": "The Ballad of Elara's Ransom",
+      "published_date": "2026-07-01 16:27:45 UTC",
+      "poetry_type": "Quest ballad"
     }
   ]
 }
