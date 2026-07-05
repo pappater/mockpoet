@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 199,
-  "last_updated": "2026-07-04 15:06:40 UTC",
+  "total_chapters": 200,
+  "last_updated": "2026-07-05 15:14:08 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1798,6 +1798,15 @@
       "chapter_name": "The Ballad of Grey Moor",
       "published_date": "2026-07-04 15:06:39 UTC",
       "poetry_type": "War ballad"
+    },
+    {
+      "chapter": 200,
+      "filename": "poem_200.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/53be1315cd2ce42d5f762922d315937b6cd8d6f5/poem_200.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_200.md",
+      "chapter_name": "The Lady of the Willow Grave",
+      "published_date": "2026-07-05 15:14:07 UTC",
+      "poetry_type": "Romantic ballad"
     }
   ]
 }
