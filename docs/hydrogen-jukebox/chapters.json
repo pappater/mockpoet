@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 201,
-  "last_updated": "2026-07-04 15:09:38 UTC",
+  "total_chapters": 202,
+  "last_updated": "2026-07-06 16:53:29 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1612,6 +1612,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_201.md",
       "chapter_name": "The Ballad of the Flickering Sign",
       "published_date": "2026-07-04 15:09:36 UTC"
+    },
+    {
+      "chapter": 202,
+      "filename": "poem_202.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/902243a12e2c2761ebee429bbc8508c100db7ff6/poem_202.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_202.md",
+      "chapter_name": "Municipal Bench",
+      "published_date": "2026-07-06 16:53:27 UTC"
     }
   ]
 }
