@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 200,
-  "last_updated": "2026-07-05 15:14:08 UTC",
+  "total_chapters": 201,
+  "last_updated": "2026-07-06 16:52:30 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1807,6 +1807,15 @@
       "chapter_name": "The Lady of the Willow Grave",
       "published_date": "2026-07-05 15:14:07 UTC",
       "poetry_type": "Romantic ballad"
+    },
+    {
+      "chapter": 201,
+      "filename": "poem_201.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/916af383f0ba01e1007b447149eb77ea1cfb7f48/poem_201.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_201.md",
+      "chapter_name": "The Merrow's Song",
+      "published_date": "2026-07-06 16:52:27 UTC",
+      "poetry_type": "Story ballad"
     }
   ]
 }
