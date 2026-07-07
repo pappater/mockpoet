@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 202,
-  "last_updated": "2026-07-06 16:53:29 UTC",
+  "total_chapters": 203,
+  "last_updated": "2026-07-07 16:34:31 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1620,6 +1620,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_202.md",
       "chapter_name": "Municipal Bench",
       "published_date": "2026-07-06 16:53:27 UTC"
+    },
+    {
+      "chapter": 203,
+      "filename": "poem_203.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/04e5e0c5da99dc06ff08a7c2239f50f11af3332b/poem_203.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_203.md",
+      "chapter_name": "The Screaming Pixel",
+      "published_date": "2026-07-07 16:34:30 UTC"
     }
   ]
 }
