@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 203,
-  "last_updated": "2026-07-08 16:02:35 UTC",
+  "total_chapters": 204,
+  "last_updated": "2026-07-09 16:28:37 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1834,6 +1834,15 @@
       "chapter_name": "The Ballad of Lyra's Shore",
       "published_date": "2026-07-08 16:02:33 UTC",
       "poetry_type": "Narrative lyric"
+    },
+    {
+      "chapter": 204,
+      "filename": "poem_204.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/8514923e62b3d8456e4fda3bd11d919095049d8c/poem_204.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_204.md",
+      "chapter_name": "The Quest for the Sunpetal Bloom",
+      "published_date": "2026-07-09 16:28:35 UTC",
+      "poetry_type": "Quest ballad"
     }
   ]
 }
