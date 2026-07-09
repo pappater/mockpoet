@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 203,
-  "last_updated": "2026-07-07 16:34:31 UTC",
+  "total_chapters": 205,
+  "last_updated": "2026-07-09 16:29:46 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1628,6 +1628,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_203.md",
       "chapter_name": "The Screaming Pixel",
       "published_date": "2026-07-07 16:34:30 UTC"
+    },
+    {
+      "chapter": 204,
+      "filename": "poem_204.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/512bfde6527b395f802ab4c949b0474fa0cac97b/poem_204.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_204.md",
+      "chapter_name": "The Steadfast Song",
+      "published_date": "2026-07-08 16:03:02 UTC"
+    },
+    {
+      "chapter": 205,
+      "filename": "poem_205.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/6267ab5f07201ab30ae17450ac8c98ecb0eb2608/poem_205.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_205.md",
+      "chapter_name": "The Unburnt Seed",
+      "published_date": "2026-07-09 16:29:44 UTC"
     }
   ]
 }
