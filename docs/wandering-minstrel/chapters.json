@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 205,
-  "last_updated": "2026-07-10 16:26:30 UTC",
+  "total_chapters": 206,
+  "last_updated": "2026-07-11 14:56:01 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1852,6 +1852,15 @@
       "chapter_name": "The Sailor's Vow",
       "published_date": "2026-07-10 16:26:28 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 206,
+      "filename": "poem_206.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/db1653f6ff6c576af5329ad33fe0b62b297eeb48/poem_206.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_206.md",
+      "chapter_name": "The Ballad of Sir Kaelen and the Gloom-Beast",
+      "published_date": "2026-07-11 14:55:59 UTC",
+      "poetry_type": "Epic ballad"
     }
   ]
 }
