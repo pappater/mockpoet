@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 205,
-  "last_updated": "2026-07-09 16:29:46 UTC",
+  "total_chapters": 207,
+  "last_updated": "2026-07-11 14:58:33 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1644,6 +1644,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_205.md",
       "chapter_name": "The Unburnt Seed",
       "published_date": "2026-07-09 16:29:44 UTC"
+    },
+    {
+      "chapter": 206,
+      "filename": "poem_206.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b75f3ac10c4af027ee3dd14da8ce45067143685b/poem_206.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_206.md",
+      "chapter_name": "The Salt of the Sun",
+      "published_date": "2026-07-10 16:27:07 UTC"
+    },
+    {
+      "chapter": 207,
+      "filename": "poem_207.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/2ae386c32b50e88371e2368b3be49c0f542dc317/poem_207.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_207.md",
+      "chapter_name": "The Echo in the Stairwell",
+      "published_date": "2026-07-11 14:58:32 UTC"
     }
   ]
 }
