@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 206,
-  "last_updated": "2026-07-11 14:56:01 UTC",
+  "total_chapters": 207,
+  "last_updated": "2026-07-12 14:58:16 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1860,6 +1860,15 @@
       "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_206.md",
       "chapter_name": "The Ballad of Sir Kaelen and the Gloom-Beast",
       "published_date": "2026-07-11 14:55:59 UTC",
+      "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 207,
+      "filename": "poem_207.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/b7730c3f1e1299af803f5eb55a83673c0e0ec75a/poem_207.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_207.md",
+      "chapter_name": "The Ballad of Sir Kaelen and the Shadowfen Wyrm",
+      "published_date": "2026-07-12 14:58:14 UTC",
       "poetry_type": "Epic ballad"
     }
   ]
