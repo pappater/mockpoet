@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 208,
-  "last_updated": "2026-07-12 15:01:05 UTC",
+  "total_chapters": 209,
+  "last_updated": "2026-07-13 16:37:11 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1668,6 +1668,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_208.md",
       "chapter_name": "A Howl for the Fiber Optic Soul",
       "published_date": "2026-07-12 15:01:03 UTC"
+    },
+    {
+      "chapter": 209,
+      "filename": "poem_209.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/9600b352b800457b7e1b646fabb4695ec8f0555f/poem_209.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_209.md",
+      "chapter_name": "The Unkept Path",
+      "published_date": "2026-07-13 16:37:09 UTC"
     }
   ]
 }
