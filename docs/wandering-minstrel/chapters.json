@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 207,
-  "last_updated": "2026-07-12 14:58:16 UTC",
+  "total_chapters": 208,
+  "last_updated": "2026-07-13 16:35:39 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1870,6 +1870,15 @@
       "chapter_name": "The Ballad of Sir Kaelen and the Shadowfen Wyrm",
       "published_date": "2026-07-12 14:58:14 UTC",
       "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 208,
+      "filename": "poem_208.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/aafbd9cc3b0bca3baa350f01ba719a8131b8aaa5/poem_208.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_208.md",
+      "chapter_name": "The Whistle Blew No More",
+      "published_date": "2026-07-13 16:35:37 UTC",
+      "poetry_type": "Contemporary ballad"
     }
   ]
 }
