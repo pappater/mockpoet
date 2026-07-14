@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 209,
-  "last_updated": "2026-07-13 16:37:11 UTC",
+  "total_chapters": 210,
+  "last_updated": "2026-07-14 15:25:52 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1676,6 +1676,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_209.md",
       "chapter_name": "The Unkept Path",
       "published_date": "2026-07-13 16:37:09 UTC"
+    },
+    {
+      "chapter": 210,
+      "filename": "poem_210.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/e3623964524d56fc14a2c6d14ad8c7e825129459/poem_210.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_210.md",
+      "chapter_name": "The Earth Knows Your Name",
+      "published_date": "2026-07-14 15:25:50 UTC"
     }
   ]
 }
