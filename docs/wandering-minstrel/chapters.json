@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 208,
-  "last_updated": "2026-07-13 16:35:39 UTC",
+  "total_chapters": 209,
+  "last_updated": "2026-07-14 15:24:27 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1879,6 +1879,15 @@
       "chapter_name": "The Whistle Blew No More",
       "published_date": "2026-07-13 16:35:37 UTC",
       "poetry_type": "Contemporary ballad"
+    },
+    {
+      "chapter": 209,
+      "filename": "poem_209.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/48dd004f0be94ffc5d05f98bb379ca31673ba356/poem_209.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_209.md",
+      "chapter_name": "The Ballad of Sir Kael and the Shadow Wood",
+      "published_date": "2026-07-14 15:24:26 UTC",
+      "poetry_type": "Traditional ballad"
     }
   ]
 }
