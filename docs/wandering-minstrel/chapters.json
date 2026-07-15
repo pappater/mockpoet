@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 209,
-  "last_updated": "2026-07-14 15:24:27 UTC",
+  "total_chapters": 210,
+  "last_updated": "2026-07-15 15:26:56 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1888,6 +1888,15 @@
       "chapter_name": "The Ballad of Sir Kael and the Shadow Wood",
       "published_date": "2026-07-14 15:24:26 UTC",
       "poetry_type": "Traditional ballad"
+    },
+    {
+      "chapter": 210,
+      "filename": "poem_210.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/6d44d90ab5b9afd4c5353508785958cb634664e4/poem_210.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_210.md",
+      "chapter_name": "The Ballad of Lady Isolde",
+      "published_date": "2026-07-15 15:26:54 UTC",
+      "poetry_type": "Narrative lyric"
     }
   ]
 }
