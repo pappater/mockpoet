@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 210,
-  "last_updated": "2026-07-15 15:26:56 UTC",
+  "total_chapters": 211,
+  "last_updated": "2026-07-16 15:40:07 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1897,6 +1897,15 @@
       "chapter_name": "The Ballad of Lady Isolde",
       "published_date": "2026-07-15 15:26:54 UTC",
       "poetry_type": "Narrative lyric"
+    },
+    {
+      "chapter": 211,
+      "filename": "poem_211.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7087523c2aac15bac5e9163eca484cd4de6dacfe/poem_211.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_211.md",
+      "chapter_name": "The Weeping Willow's Lament",
+      "published_date": "2026-07-16 15:40:06 UTC",
+      "poetry_type": "Supernatural ballad"
     }
   ]
 }
