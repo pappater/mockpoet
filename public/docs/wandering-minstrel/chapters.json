@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 211,
-  "last_updated": "2026-07-16 15:40:07 UTC",
+  "total_chapters": 212,
+  "last_updated": "2026-07-17 15:15:00 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1906,6 +1906,15 @@
       "chapter_name": "The Weeping Willow's Lament",
       "published_date": "2026-07-16 15:40:06 UTC",
       "poetry_type": "Supernatural ballad"
+    },
+    {
+      "chapter": 212,
+      "filename": "poem_212.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/807a02f10cf369ad40bcd89f8bc92ba40d834f9d/poem_212.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_212.md",
+      "chapter_name": "The Maiden of Saltwood Shore",
+      "published_date": "2026-07-17 15:14:57 UTC",
+      "poetry_type": "Tragic ballad"
     }
   ]
 }
