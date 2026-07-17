@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 211,
-  "last_updated": "2026-07-15 15:36:47 UTC",
+  "total_chapters": 213,
+  "last_updated": "2026-07-17 15:16:55 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1692,6 +1692,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_211.md",
       "chapter_name": "Shadows on the Asphalt",
       "published_date": "2026-07-15 15:36:45 UTC"
+    },
+    {
+      "chapter": 212,
+      "filename": "poem_212.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/43ea6b8b0ec844e2472576bc706a56c05b168665/poem_212.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_212.md",
+      "chapter_name": "The Eel-Grass",
+      "published_date": "2026-07-16 15:40:43 UTC"
+    },
+    {
+      "chapter": 213,
+      "filename": "poem_213.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/36a248a870c46443c1e1f407ef4d03f08475eaaa/poem_213.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_213.md",
+      "chapter_name": "The Geometry of Dust",
+      "published_date": "2026-07-17 15:16:53 UTC"
     }
   ]
 }
