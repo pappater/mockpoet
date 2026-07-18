@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 213,
-  "last_updated": "2026-07-17 15:16:55 UTC",
+  "total_chapters": 214,
+  "last_updated": "2026-07-18 14:58:23 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1708,6 +1708,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_213.md",
       "chapter_name": "The Geometry of Dust",
       "published_date": "2026-07-17 15:16:53 UTC"
+    },
+    {
+      "chapter": 214,
+      "filename": "poem_214.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/da0833974cd33ab274a81e708f5375831038d9b9/poem_214.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_214.md",
+      "chapter_name": "Your Body, a Slow River",
+      "published_date": "2026-07-18 14:58:22 UTC"
     }
   ]
 }
