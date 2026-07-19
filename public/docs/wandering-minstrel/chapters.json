@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 213,
-  "last_updated": "2026-07-18 14:54:55 UTC",
+  "total_chapters": 214,
+  "last_updated": "2026-07-19 14:57:22 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1924,6 +1924,15 @@
       "chapter_name": "The Whisper-Witch of Oakhaven",
       "published_date": "2026-07-18 14:54:52 UTC",
       "poetry_type": "Supernatural ballad"
+    },
+    {
+      "chapter": 214,
+      "filename": "poem_214.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/769c8a81edecfee94ce0d0ac896d2f483d266f9e/poem_214.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_214.md",
+      "chapter_name": "The Last Light of Fairhaven",
+      "published_date": "2026-07-19 14:57:20 UTC",
+      "poetry_type": "Contemporary ballad"
     }
   ]
 }
