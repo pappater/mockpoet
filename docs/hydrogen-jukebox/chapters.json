@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 214,
-  "last_updated": "2026-07-18 14:58:23 UTC",
+  "total_chapters": 215,
+  "last_updated": "2026-07-19 15:00:46 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1716,6 +1716,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_214.md",
       "chapter_name": "Your Body, a Slow River",
       "published_date": "2026-07-18 14:58:22 UTC"
+    },
+    {
+      "chapter": 215,
+      "filename": "poem_215.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/0e42c08c3c3866a74583423665bd5730b13dcbd3/poem_215.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_215.md",
+      "chapter_name": "Epiphany of the Cobbles",
+      "published_date": "2026-07-19 15:00:44 UTC"
     }
   ]
 }
