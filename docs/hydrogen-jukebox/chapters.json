@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 215,
-  "last_updated": "2026-07-19 15:00:46 UTC",
+  "total_chapters": 216,
+  "last_updated": "2026-07-20 15:53:53 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1724,6 +1724,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_215.md",
       "chapter_name": "Epiphany of the Cobbles",
       "published_date": "2026-07-19 15:00:44 UTC"
+    },
+    {
+      "chapter": 216,
+      "filename": "poem_216.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/eeb42288f541d5fa4dd695868c4d460f3de4d80f/poem_216.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_216.md",
+      "chapter_name": "Kaddish for the Algorithm",
+      "published_date": "2026-07-20 15:53:51 UTC"
     }
   ]
 }
