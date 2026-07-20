@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 214,
-  "last_updated": "2026-07-19 14:57:22 UTC",
+  "total_chapters": 215,
+  "last_updated": "2026-07-20 15:51:58 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1933,6 +1933,15 @@
       "chapter_name": "The Last Light of Fairhaven",
       "published_date": "2026-07-19 14:57:20 UTC",
       "poetry_type": "Contemporary ballad"
+    },
+    {
+      "chapter": 215,
+      "filename": "poem_215.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/42f44c6fdb87136486bc46bc46c9a5ae04cf9afb/poem_215.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_215.md",
+      "chapter_name": "The Ballad of the Serpent's Tear",
+      "published_date": "2026-07-20 15:51:55 UTC",
+      "poetry_type": "Quest ballad"
     }
   ]
 }
