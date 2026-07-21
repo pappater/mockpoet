@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 215,
-  "last_updated": "2026-07-20 15:51:58 UTC",
+  "total_chapters": 216,
+  "last_updated": "2026-07-21 15:45:18 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1942,6 +1942,15 @@
       "chapter_name": "The Ballad of the Serpent's Tear",
       "published_date": "2026-07-20 15:51:55 UTC",
       "poetry_type": "Quest ballad"
+    },
+    {
+      "chapter": 216,
+      "filename": "poem_216.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/4f0c7b79261c8ba9ae0d814e0848b59f6a577a29/poem_216.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_216.md",
+      "chapter_name": "The Spectre of Blackwater Bay",
+      "published_date": "2026-07-21 15:45:16 UTC",
+      "poetry_type": "Supernatural ballad"
     }
   ]
 }
