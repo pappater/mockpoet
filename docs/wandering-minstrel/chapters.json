@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 216,
-  "last_updated": "2026-07-21 15:45:18 UTC",
+  "total_chapters": 217,
+  "last_updated": "2026-07-22 15:43:37 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1951,6 +1951,15 @@
       "chapter_name": "The Spectre of Blackwater Bay",
       "published_date": "2026-07-21 15:45:16 UTC",
       "poetry_type": "Supernatural ballad"
+    },
+    {
+      "chapter": 217,
+      "filename": "poem_217.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c39da6fb38d33eb1b0fc8d8721516c3a358f9534/poem_217.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_217.md",
+      "chapter_name": "The Ballad of Bleakwood Fen",
+      "published_date": "2026-07-22 15:43:35 UTC",
+      "poetry_type": "Legendary ballad"
     }
   ]
 }
