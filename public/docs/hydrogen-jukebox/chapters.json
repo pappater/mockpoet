@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 216,
-  "last_updated": "2026-07-21 15:46:40 UTC",
+  "total_chapters": 218,
+  "last_updated": "2026-07-22 15:44:22 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1732,6 +1732,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_216.md",
       "chapter_name": "Kaddish for the Algorithm",
       "published_date": "2026-07-20 15:53:51 UTC"
+    },
+    {
+      "chapter": 217,
+      "filename": "poem_217.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/0270ea0d7ef91d45b71215e8ce1361da0ba50cd4/poem_217.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_217.md",
+      "chapter_name": "The Silence in the Static",
+      "published_date": "2026-07-21 15:46:38 UTC"
+    },
+    {
+      "chapter": 218,
+      "filename": "poem_218.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b5c50edacfce40adaefd16bb08ae857465171d8f/poem_218.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_218.md",
+      "chapter_name": "The Notice Board",
+      "published_date": "2026-07-22 15:44:20 UTC"
     }
   ]
 }
