@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 217,
-  "last_updated": "2026-07-22 15:43:37 UTC",
+  "total_chapters": 218,
+  "last_updated": "2026-07-23 15:56:01 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1960,6 +1960,15 @@
       "chapter_name": "The Ballad of Bleakwood Fen",
       "published_date": "2026-07-22 15:43:35 UTC",
       "poetry_type": "Legendary ballad"
+    },
+    {
+      "chapter": 218,
+      "filename": "poem_218.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/04262c0e2bbfb76c2cdcd91347ebcf09432c8083/poem_218.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_218.md",
+      "chapter_name": "The Ballad of Sir Kaelen's Light",
+      "published_date": "2026-07-23 15:55:58 UTC",
+      "poetry_type": "Epic ballad"
     }
   ]
 }
