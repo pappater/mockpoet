@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 220,
-  "last_updated": "2026-07-24 15:27:33 UTC",
+  "total_chapters": 221,
+  "last_updated": "2026-07-25 15:07:15 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1764,6 +1764,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_220.md",
       "chapter_name": "The Archive of Dust",
       "published_date": "2026-07-24 15:27:32 UTC"
+    },
+    {
+      "chapter": 221,
+      "filename": "poem_221.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/5012094b733fd2e5dcd1bd764652f7c177c1c7c1/poem_221.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_221.md",
+      "chapter_name": "The Regulator",
+      "published_date": "2026-07-25 15:07:13 UTC"
     }
   ]
 }
