@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 219,
-  "last_updated": "2026-07-24 15:26:14 UTC",
+  "total_chapters": 220,
+  "last_updated": "2026-07-25 15:04:22 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1978,6 +1978,15 @@
       "chapter_name": "The Maid's Long Watch",
       "published_date": "2026-07-24 15:26:12 UTC",
       "poetry_type": "Story poem"
+    },
+    {
+      "chapter": 220,
+      "filename": "poem_220.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/0aaac6c6b015aebd2d87a44922be8fde091869de/poem_220.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_220.md",
+      "chapter_name": "The Ballad of Greyfell Pass",
+      "published_date": "2026-07-25 15:04:20 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
