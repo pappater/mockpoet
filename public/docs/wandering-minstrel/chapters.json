@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 220,
-  "last_updated": "2026-07-25 15:04:22 UTC",
+  "total_chapters": 221,
+  "last_updated": "2026-07-26 15:06:34 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -1987,6 +1987,15 @@
       "chapter_name": "The Ballad of Greyfell Pass",
       "published_date": "2026-07-25 15:04:20 UTC",
       "poetry_type": "Historical ballad"
+    },
+    {
+      "chapter": 221,
+      "filename": "poem_221.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/440f893764bf54fafd6c4079a8759a5a5279a902/poem_221.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_221.md",
+      "chapter_name": "The Ballad of Kaelan's Bloom",
+      "published_date": "2026-07-26 15:06:32 UTC",
+      "poetry_type": "Legendary ballad"
     }
   ]
 }
