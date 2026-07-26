@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 221,
-  "last_updated": "2026-07-25 15:07:15 UTC",
+  "total_chapters": 222,
+  "last_updated": "2026-07-26 15:08:56 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1772,6 +1772,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_221.md",
       "chapter_name": "The Regulator",
       "published_date": "2026-07-25 15:07:13 UTC"
+    },
+    {
+      "chapter": 222,
+      "filename": "poem_222.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/7594b075df34e559c8b79122c9323b093e4558e3/poem_222.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_222.md",
+      "chapter_name": "Interlude in Grey",
+      "published_date": "2026-07-26 15:08:54 UTC"
     }
   ]
 }
