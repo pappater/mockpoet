@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 225,
-  "last_updated": "2026-07-29 15:51:10 UTC",
+  "total_chapters": 226,
+  "last_updated": "2026-07-30 15:54:07 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1804,6 +1804,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_225.md",
       "chapter_name": "The Bent Man and the Blue Kite",
       "published_date": "2026-07-29 15:51:09 UTC"
+    },
+    {
+      "chapter": 226,
+      "filename": "poem_226.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/41b5882fe8bad1fbe61d0ad3920a7d3b02586f88/poem_226.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_226.md",
+      "chapter_name": "Pavement's Fever, Blue Hour",
+      "published_date": "2026-07-30 15:54:05 UTC"
     }
   ]
 }
