@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 224,
-  "last_updated": "2026-07-29 15:49:46 UTC",
+  "total_chapters": 225,
+  "last_updated": "2026-07-30 15:51:57 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2023,6 +2023,15 @@
       "chapter_name": "The Ballad of Finn and the Fading Tide",
       "published_date": "2026-07-29 15:49:45 UTC",
       "poetry_type": "Contemporary ballad"
+    },
+    {
+      "chapter": 225,
+      "filename": "poem_225.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/fff232543e5fb9e02a840dd37bc179cc416ed586/poem_225.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_225.md",
+      "chapter_name": "The Ballad of Elara's Watch",
+      "published_date": "2026-07-30 15:51:55 UTC",
+      "poetry_type": "Story poem"
     }
   ]
 }
