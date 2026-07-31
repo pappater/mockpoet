@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 225,
-  "last_updated": "2026-07-30 15:51:57 UTC",
+  "total_chapters": 226,
+  "last_updated": "2026-07-31 16:02:13 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2032,6 +2032,15 @@
       "chapter_name": "The Ballad of Elara's Watch",
       "published_date": "2026-07-30 15:51:55 UTC",
       "poetry_type": "Story poem"
+    },
+    {
+      "chapter": 226,
+      "filename": "poem_226.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/5d40b4f823640c5b916b5ee80cdad56ee1b4e2f1/poem_226.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_226.md",
+      "chapter_name": "The Keeper's Vigil",
+      "published_date": "2026-07-31 16:02:10 UTC",
+      "poetry_type": "Modern narrative verse"
     }
   ]
 }
