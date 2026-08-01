@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 226,
-  "last_updated": "2026-07-31 16:02:13 UTC",
+  "total_chapters": 227,
+  "last_updated": "2026-08-01 15:01:22 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2041,6 +2041,15 @@
       "chapter_name": "The Keeper's Vigil",
       "published_date": "2026-07-31 16:02:10 UTC",
       "poetry_type": "Modern narrative verse"
+    },
+    {
+      "chapter": 227,
+      "filename": "poem_227.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7c046dedcc9b885c3505a845c0315ee3615fbbf0/poem_227.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_227.md",
+      "chapter_name": "The Silver Locket of Blackwood Dell",
+      "published_date": "2026-08-01 15:01:20 UTC",
+      "poetry_type": "Contemporary ballad"
     }
   ]
 }
