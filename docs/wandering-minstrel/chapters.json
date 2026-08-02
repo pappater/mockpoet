@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 227,
-  "last_updated": "2026-08-01 15:01:22 UTC",
+  "total_chapters": 228,
+  "last_updated": "2026-08-02 15:03:29 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2050,6 +2050,15 @@
       "chapter_name": "The Silver Locket of Blackwood Dell",
       "published_date": "2026-08-01 15:01:20 UTC",
       "poetry_type": "Contemporary ballad"
+    },
+    {
+      "chapter": 228,
+      "filename": "poem_228.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/9caa8ef057c6d0dae3d4d453b09f22c25c547d58/poem_228.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_228.md",
+      "chapter_name": "The Grey Sea's Toll",
+      "published_date": "2026-08-02 15:03:28 UTC",
+      "poetry_type": "Traditional ballad"
     }
   ]
 }
