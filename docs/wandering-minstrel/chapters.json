@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 228,
-  "last_updated": "2026-08-02 15:03:29 UTC",
+  "total_chapters": 229,
+  "last_updated": "2026-08-03 16:27:13 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2059,6 +2059,15 @@
       "chapter_name": "The Grey Sea's Toll",
       "published_date": "2026-08-02 15:03:28 UTC",
       "poetry_type": "Traditional ballad"
+    },
+    {
+      "chapter": 229,
+      "filename": "poem_229.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/95c887f7a43d989001cdf8cc57f15b03098a284f/poem_229.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_229.md",
+      "chapter_name": "The Whispering Stone of Greyfen",
+      "published_date": "2026-08-03 16:27:12 UTC",
+      "poetry_type": "Story ballad"
     }
   ]
 }
