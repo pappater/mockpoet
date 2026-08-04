@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 229,
-  "last_updated": "2026-08-03 16:27:13 UTC",
+  "total_chapters": 230,
+  "last_updated": "2026-08-04 16:13:01 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2068,6 +2068,15 @@
       "chapter_name": "The Whispering Stone of Greyfen",
       "published_date": "2026-08-03 16:27:12 UTC",
       "poetry_type": "Story ballad"
+    },
+    {
+      "chapter": 230,
+      "filename": "poem_230.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/babe07a4104483c0b0b5cdd437a505fff236ab4f/poem_230.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_230.md",
+      "chapter_name": "The Sunstone of Aethel",
+      "published_date": "2026-08-04 16:12:59 UTC",
+      "poetry_type": "Quest ballad"
     }
   ]
 }
