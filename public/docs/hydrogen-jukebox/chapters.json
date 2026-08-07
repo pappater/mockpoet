@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 231,
-  "last_updated": "2026-08-04 16:13:47 UTC",
+  "total_chapters": 233,
+  "last_updated": "2026-08-07 14:56:29 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1852,6 +1852,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_231.md",
       "chapter_name": "Lament for the Data Stream",
       "published_date": "2026-08-04 16:13:45 UTC"
+    },
+    {
+      "chapter": 232,
+      "filename": "poem_232.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/bd1c3a37f4a1b5902d02e04b48923dd41b06d5ca/poem_232.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_232.md",
+      "chapter_name": "Stone Language",
+      "published_date": "2026-08-05 16:02:41 UTC"
+    },
+    {
+      "chapter": 233,
+      "filename": "poem_233.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/163cd1e4b7629595a5db278f0a7ec27ae40ad4fe/poem_233.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_233.md",
+      "chapter_name": "My Snow-Bound Soul",
+      "published_date": "2026-08-07 14:56:27 UTC"
     }
   ]
 }
