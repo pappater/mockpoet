@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 231,
-  "last_updated": "2026-08-05 16:01:53 UTC",
+  "total_chapters": 232,
+  "last_updated": "2026-08-07 14:53:58 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2086,6 +2086,15 @@
       "chapter_name": "The Maid of Wetherby Moor",
       "published_date": "2026-08-05 16:01:51 UTC",
       "poetry_type": "Broadside ballad"
+    },
+    {
+      "chapter": 232,
+      "filename": "poem_232.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/a651d26b83fc12cb72b6e567fd9636af3e42d0e3/poem_232.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_232.md",
+      "chapter_name": "The Ballad of Thomas and the Sea-Maid",
+      "published_date": "2026-08-07 14:53:56 UTC",
+      "poetry_type": "Dramatic ballad"
     }
   ]
 }
