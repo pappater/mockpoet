@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 233,
-  "last_updated": "2026-08-07 14:56:29 UTC",
+  "total_chapters": 234,
+  "last_updated": "2026-08-08 14:35:29 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1868,6 +1868,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_233.md",
       "chapter_name": "My Snow-Bound Soul",
       "published_date": "2026-08-07 14:56:27 UTC"
+    },
+    {
+      "chapter": 234,
+      "filename": "poem_234.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/beff3da1f5ce429354e912da338735770d93550a/poem_234.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_234.md",
+      "chapter_name": "(unheard yes)",
+      "published_date": "2026-08-08 14:35:28 UTC"
     }
   ]
 }
