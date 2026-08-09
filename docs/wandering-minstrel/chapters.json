@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 232,
-  "last_updated": "2026-08-08 14:32:59 UTC",
+  "total_chapters": 234,
+  "last_updated": "2026-08-09 14:35:49 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2095,6 +2095,24 @@
       "chapter_name": "The Ballad of Thomas and the Sea-Maid",
       "published_date": "2026-08-07 14:53:56 UTC",
       "poetry_type": "Dramatic ballad"
+    },
+    {
+      "chapter": 233,
+      "filename": "poem_233.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/f3bdc787c7cfcbc64dfd04c5cace35f005057440/poem_233.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_233.md",
+      "chapter_name": "The Star-Crown of Eldoria",
+      "published_date": "2026-08-08 14:32:57 UTC",
+      "poetry_type": "Epic ballad"
+    },
+    {
+      "chapter": 234,
+      "filename": "poem_234.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/a9ae8d18b5d58c21738aa4b7280cf0d1fcce559f/poem_234.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_234.md",
+      "chapter_name": "The Ballad of Finn and the Star-Stone",
+      "published_date": "2026-08-09 14:35:48 UTC",
+      "poetry_type": "Adventure ballad"
     }
   ]
 }
