@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 237,
-  "last_updated": "2026-08-11 15:01:51 UTC",
+  "total_chapters": 238,
+  "last_updated": "2026-08-12 15:01:06 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1900,6 +1900,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_237.md",
       "chapter_name": "(un)seen leaf",
       "published_date": "2026-08-11 15:01:48 UTC"
+    },
+    {
+      "chapter": 238,
+      "filename": "poem_238.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/53f66eb5f6666e02cd8c7647a2e843783919fbe2/poem_238.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_238.md",
+      "chapter_name": "Song of the Wired City and the Unseen Thread",
+      "published_date": "2026-08-12 15:01:04 UTC"
     }
   ]
 }
