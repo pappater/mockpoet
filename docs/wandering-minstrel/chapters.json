@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 238,
-  "last_updated": "2026-08-14 14:52:48 UTC",
+  "total_chapters": 240,
+  "last_updated": "2026-08-15 14:24:10 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2149,6 +2149,24 @@
       "chapter_name": "The Ballad of Lyra's Shore",
       "published_date": "2026-08-13 14:58:52 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 239,
+      "filename": "poem_239.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/f514d70334158bea2081289635df6736439f5e93/poem_239.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_239.md",
+      "chapter_name": "The Ballad of Sir Gareth's Shield",
+      "published_date": "2026-08-14 14:52:47 UTC",
+      "poetry_type": "Historical ballad"
+    },
+    {
+      "chapter": 240,
+      "filename": "poem_240.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/56c6dd339c6f9eccc4622784cef046f9329d915b/poem_240.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_240.md",
+      "chapter_name": "The Phantom Tide",
+      "published_date": "2026-08-15 14:24:07 UTC",
+      "poetry_type": "Legendary ballad"
     }
   ]
 }
