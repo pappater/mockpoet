@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 240,
-  "last_updated": "2026-08-14 14:55:29 UTC",
+  "total_chapters": 241,
+  "last_updated": "2026-08-15 14:27:07 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1924,6 +1924,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_240.md",
       "chapter_name": "My Kingdom of Stone",
       "published_date": "2026-08-14 14:55:27 UTC"
+    },
+    {
+      "chapter": 241,
+      "filename": "poem_241.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/56c533cfa3b1578b1c78816e0128497da1c39c6e/poem_241.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_241.md",
+      "chapter_name": "Echo in the Pavement",
+      "published_date": "2026-08-15 14:27:05 UTC"
     }
   ]
 }
