@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 241,
-  "last_updated": "2026-08-15 14:27:07 UTC",
+  "total_chapters": 242,
+  "last_updated": "2026-08-16 14:27:00 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1932,6 +1932,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_241.md",
       "chapter_name": "Echo in the Pavement",
       "published_date": "2026-08-15 14:27:05 UTC"
+    },
+    {
+      "chapter": 242,
+      "filename": "poem_242.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/9c26b67eda3512c6a0db570cee2ba416d046cabb/poem_242.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_242.md",
+      "chapter_name": "The Daily Census",
+      "published_date": "2026-08-16 14:26:58 UTC"
     }
   ]
 }
