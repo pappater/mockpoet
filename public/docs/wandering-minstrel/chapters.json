@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 240,
-  "last_updated": "2026-08-15 14:24:10 UTC",
+  "total_chapters": 241,
+  "last_updated": "2026-08-16 14:24:16 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2167,6 +2167,15 @@
       "chapter_name": "The Phantom Tide",
       "published_date": "2026-08-15 14:24:07 UTC",
       "poetry_type": "Legendary ballad"
+    },
+    {
+      "chapter": 241,
+      "filename": "poem_241.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/b5eff2db2645b009f6155a590c6baff195cc39f0/poem_241.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_241.md",
+      "chapter_name": "The Ballad of Grey-Kin Craig",
+      "published_date": "2026-08-16 14:24:14 UTC",
+      "poetry_type": "Border ballad"
     }
   ]
 }
