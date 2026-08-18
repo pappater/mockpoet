@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 242,
-  "last_updated": "2026-08-17 14:29:21 UTC",
+  "total_chapters": 243,
+  "last_updated": "2026-08-18 14:35:07 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2185,6 +2185,15 @@
       "chapter_name": "The Knight's Vow",
       "published_date": "2026-08-17 14:29:19 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 243,
+      "filename": "poem_243.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/769fd85bf0c2f040bfcfc06c2665bcf7112edebd/poem_243.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_243.md",
+      "chapter_name": "The Ballad of Sir Kael and the Shadow-Foe",
+      "published_date": "2026-08-18 14:35:05 UTC",
+      "poetry_type": "Heroic ballad"
     }
   ]
 }
