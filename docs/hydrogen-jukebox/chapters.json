@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 243,
-  "last_updated": "2026-08-17 14:32:10 UTC",
+  "total_chapters": 244,
+  "last_updated": "2026-08-18 14:37:10 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1948,6 +1948,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_243.md",
       "chapter_name": "The Maidenhair",
       "published_date": "2026-08-17 14:32:08 UTC"
+    },
+    {
+      "chapter": 244,
+      "filename": "poem_244.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/f6d5a3cbe4f0b8784c6132519773a7a6d5dbf912/poem_244.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_244.md",
+      "chapter_name": "The Frost Crown",
+      "published_date": "2026-08-18 14:37:07 UTC"
     }
   ]
 }
