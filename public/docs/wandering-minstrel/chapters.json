@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 244,
-  "last_updated": "2026-08-19 14:35:02 UTC",
+  "total_chapters": 245,
+  "last_updated": "2026-08-20 14:37:52 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2203,6 +2203,15 @@
       "chapter_name": "The Cruel Sea's Call",
       "published_date": "2026-08-19 14:34:59 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 245,
+      "filename": "poem_245.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/2b74fce879d251f98943e636e5b23f730e01820f/poem_245.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_245.md",
+      "chapter_name": "The Fall of Blackwood Keep",
+      "published_date": "2026-08-20 14:37:50 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
