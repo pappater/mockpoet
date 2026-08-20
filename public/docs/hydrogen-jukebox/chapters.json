@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 245,
-  "last_updated": "2026-08-19 14:37:57 UTC",
+  "total_chapters": 246,
+  "last_updated": "2026-08-20 14:39:30 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1964,6 +1964,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_245.md",
       "chapter_name": "The Salt of the Day",
       "published_date": "2026-08-19 14:37:55 UTC"
+    },
+    {
+      "chapter": 246,
+      "filename": "poem_246.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b5b8642b70098803be31782a7b12667e57324c77/poem_246.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_246.md",
+      "chapter_name": "The New Sprouts",
+      "published_date": "2026-08-20 14:39:28 UTC"
     }
   ]
 }
