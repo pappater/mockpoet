@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 246,
-  "last_updated": "2026-08-20 14:39:30 UTC",
+  "total_chapters": 247,
+  "last_updated": "2026-08-21 14:39:08 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1972,6 +1972,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_246.md",
       "chapter_name": "The New Sprouts",
       "published_date": "2026-08-20 14:39:28 UTC"
+    },
+    {
+      "chapter": 247,
+      "filename": "poem_247.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b4b83be0a537faf97a98bde47d8785c316e8bff1/poem_247.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_247.md",
+      "chapter_name": "Laundromat, Early Morning",
+      "published_date": "2026-08-21 14:39:06 UTC"
     }
   ]
 }
