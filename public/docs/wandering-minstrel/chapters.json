@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 246,
-  "last_updated": "2026-08-21 14:36:45 UTC",
+  "total_chapters": 247,
+  "last_updated": "2026-08-22 14:23:07 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2221,6 +2221,15 @@
       "chapter_name": "The Hawthorn Tryst",
       "published_date": "2026-08-21 14:36:43 UTC",
       "poetry_type": "Border ballad"
+    },
+    {
+      "chapter": 247,
+      "filename": "poem_247.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c15fac907a4016e98851a83bc83cb349e7890bab/poem_247.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_247.md",
+      "chapter_name": "The Ballad of Blackwood Keep",
+      "published_date": "2026-08-22 14:23:05 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
