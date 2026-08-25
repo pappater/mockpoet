@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 249,
-  "last_updated": "2026-08-24 14:46:58 UTC",
+  "total_chapters": 250,
+  "last_updated": "2026-08-25 14:50:22 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -1996,6 +1996,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_249.md",
       "chapter_name": "The Dandelion's White",
       "published_date": "2026-08-24 14:46:56 UTC"
+    },
+    {
+      "chapter": 250,
+      "filename": "poem_250.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/bec7f80b675c815148328e61560a4df499c6ca1e/poem_250.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_250.md",
+      "chapter_name": "The Earth's Quiet Breath",
+      "published_date": "2026-08-25 14:50:21 UTC"
     }
   ]
 }
