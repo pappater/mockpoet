@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 250,
-  "last_updated": "2026-08-25 14:50:22 UTC",
+  "total_chapters": 251,
+  "last_updated": "2026-08-26 14:49:10 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2004,6 +2004,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_250.md",
       "chapter_name": "The Earth's Quiet Breath",
       "published_date": "2026-08-25 14:50:21 UTC"
+    },
+    {
+      "chapter": 251,
+      "filename": "poem_251.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/6e1c96cca68a35c18f0acf05407ffa9266c1a396/poem_251.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_251.md",
+      "chapter_name": "The Unheated Conservatory",
+      "published_date": "2026-08-26 14:49:08 UTC"
     }
   ]
 }
