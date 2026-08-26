@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 250,
-  "last_updated": "2026-08-25 14:46:57 UTC",
+  "total_chapters": 251,
+  "last_updated": "2026-08-26 14:45:31 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2257,6 +2257,15 @@
       "chapter_name": "The Ballad of Elara's Watch",
       "published_date": "2026-08-25 14:46:54 UTC",
       "poetry_type": "Narrative lyric"
+    },
+    {
+      "chapter": 251,
+      "filename": "poem_251.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/be7350a38da8751cd29ed8b24e951f6cdb039805/poem_251.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_251.md",
+      "chapter_name": "The Ballad of Redwater Plain",
+      "published_date": "2026-08-26 14:45:29 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
