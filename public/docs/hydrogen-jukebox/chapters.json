@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 251,
-  "last_updated": "2026-08-26 14:49:10 UTC",
+  "total_chapters": 252,
+  "last_updated": "2026-08-27 23:40:47 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2012,6 +2012,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_251.md",
       "chapter_name": "The Unheated Conservatory",
       "published_date": "2026-08-26 14:49:08 UTC"
+    },
+    {
+      "chapter": 252,
+      "filename": "poem_252.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/75f49d3be4063c6d54ddca56fd9937fd2306d098/poem_252.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_252.md",
+      "chapter_name": "(a small yes)",
+      "published_date": "2026-08-27 23:40:46 UTC"
     }
   ]
 }
