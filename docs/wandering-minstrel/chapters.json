@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 252,
-  "last_updated": "2026-08-27 23:39:28 UTC",
+  "total_chapters": 253,
+  "last_updated": "2026-08-28 23:27:59 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2275,6 +2275,15 @@
       "chapter_name": "The Ballad of Grey-Mist Isle",
       "published_date": "2026-08-27 23:39:26 UTC",
       "poetry_type": "Story ballad"
+    },
+    {
+      "chapter": 253,
+      "filename": "poem_253.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/59ddace2cc3876ff5cad6845a83b6947e3cc8823/poem_253.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_253.md",
+      "chapter_name": "The Ballad of Eldrin's Star",
+      "published_date": "2026-08-28 23:27:57 UTC",
+      "poetry_type": "Epic ballad"
     }
   ]
 }
