@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 253,
-  "last_updated": "2026-08-28 23:29:15 UTC",
+  "total_chapters": 254,
+  "last_updated": "2026-08-29 17:36:55 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2028,6 +2028,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_253.md",
       "chapter_name": "The Stone's Patience",
       "published_date": "2026-08-28 23:29:13 UTC"
+    },
+    {
+      "chapter": 254,
+      "filename": "poem_254.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/261719b50c3ff376f9e7e9df3913d082b9eed192/poem_254.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_254.md",
+      "chapter_name": "The Sleep of Olives",
+      "published_date": "2026-08-29 17:36:53 UTC"
     }
   ]
 }
