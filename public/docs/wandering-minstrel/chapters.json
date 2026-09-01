@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 256,
-  "last_updated": "2026-08-31 19:52:23 UTC",
+  "total_chapters": 257,
+  "last_updated": "2026-09-01 17:41:12 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2311,6 +2311,15 @@
       "chapter_name": "The Ballad of Elara's Waiting",
       "published_date": "2026-08-31 19:52:21 UTC",
       "poetry_type": "Story ballad"
+    },
+    {
+      "chapter": 257,
+      "filename": "poem_257.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/18b737834a4653f5f0d51df02f0135f405c60c38/poem_257.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_257.md",
+      "chapter_name": "The Phantom Sailor of the Fenwick Shoals",
+      "published_date": "2026-09-01 17:41:09 UTC",
+      "poetry_type": "Supernatural ballad"
     }
   ]
 }
