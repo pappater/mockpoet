@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 257,
-  "last_updated": "2026-09-01 17:41:12 UTC",
+  "total_chapters": 258,
+  "last_updated": "2026-09-02 17:41:10 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2320,6 +2320,15 @@
       "chapter_name": "The Phantom Sailor of the Fenwick Shoals",
       "published_date": "2026-09-01 17:41:09 UTC",
       "poetry_type": "Supernatural ballad"
+    },
+    {
+      "chapter": 258,
+      "filename": "poem_258.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/103a1e05d794267dac7f7011ad4775b91d086762/poem_258.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_258.md",
+      "chapter_name": "The Silence of the Turning Key",
+      "published_date": "2026-09-02 17:41:08 UTC",
+      "poetry_type": "Contemporary ballad"
     }
   ]
 }
