@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 258,
-  "last_updated": "2026-09-02 17:46:12 UTC",
+  "total_chapters": 259,
+  "last_updated": "2026-09-03 17:41:45 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2068,6 +2068,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_258.md",
       "chapter_name": "Fragments for a Thursday Morning",
       "published_date": "2026-09-02 17:46:10 UTC"
+    },
+    {
+      "chapter": 259,
+      "filename": "poem_259.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/adc75091e19e59d129cb2fa18e960281d396087c/poem_259.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_259.md",
+      "chapter_name": "The Daily Calculation",
+      "published_date": "2026-09-03 17:41:43 UTC"
     }
   ]
 }
