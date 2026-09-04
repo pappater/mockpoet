@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 259,
-  "last_updated": "2026-09-03 17:36:19 UTC",
+  "total_chapters": 260,
+  "last_updated": "2026-09-04 17:27:38 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2338,6 +2338,15 @@
       "chapter_name": "The Lament of Fair Alice by the Wave",
       "published_date": "2026-09-03 17:36:17 UTC",
       "poetry_type": "Broadside ballad"
+    },
+    {
+      "chapter": 260,
+      "filename": "poem_260.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/942344007c7c565cfa62135f824899c6aff3831c/poem_260.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_260.md",
+      "chapter_name": "The Ballad of Elara's Shore",
+      "published_date": "2026-09-04 17:27:35 UTC",
+      "poetry_type": "Folk ballad"
     }
   ]
 }
