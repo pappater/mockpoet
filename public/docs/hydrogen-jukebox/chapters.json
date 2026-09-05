@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 260,
-  "last_updated": "2026-09-04 17:29:14 UTC",
+  "total_chapters": 261,
+  "last_updated": "2026-09-05 16:40:17 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2084,6 +2084,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_260.md",
       "chapter_name": "A Gleam, Unbought",
       "published_date": "2026-09-04 17:29:13 UTC"
+    },
+    {
+      "chapter": 261,
+      "filename": "poem_261.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/be4de82071032917cbac9fada8effc6423687088/poem_261.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_261.md",
+      "chapter_name": "The Moth in the Ancestral House",
+      "published_date": "2026-09-05 16:40:15 UTC"
     }
   ]
 }
