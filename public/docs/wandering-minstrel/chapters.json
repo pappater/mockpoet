@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 261,
-  "last_updated": "2026-09-05 16:36:40 UTC",
+  "total_chapters": 262,
+  "last_updated": "2026-09-06 16:45:16 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2355,6 +2355,15 @@
       "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_261.md",
       "chapter_name": "The Ballad of Elara's Vow",
       "published_date": "2026-09-05 16:36:39 UTC",
+      "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 262,
+      "filename": "poem_262.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/4e498fe10002a5814989e22da62ea8ab90437738/poem_262.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_262.md",
+      "chapter_name": "The Ballad of Finn and the Willow Maid",
+      "published_date": "2026-09-06 16:45:13 UTC",
       "poetry_type": "Mythical ballad"
     }
   ]
