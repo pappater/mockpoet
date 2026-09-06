@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 261,
-  "last_updated": "2026-09-05 16:40:17 UTC",
+  "total_chapters": 262,
+  "last_updated": "2026-09-06 16:47:18 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2092,6 +2092,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_261.md",
       "chapter_name": "The Moth in the Ancestral House",
       "published_date": "2026-09-05 16:40:15 UTC"
+    },
+    {
+      "chapter": 262,
+      "filename": "poem_262.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/9ca5ed118dc2924deb0d8b0c76fa6f6545bbd567/poem_262.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_262.md",
+      "chapter_name": "The Sprinkler Head",
+      "published_date": "2026-09-06 16:47:16 UTC"
     }
   ]
 }
