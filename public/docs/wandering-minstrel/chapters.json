@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 264,
-  "last_updated": "2026-09-08 17:48:11 UTC",
+  "total_chapters": 265,
+  "last_updated": "2026-09-09 17:41:59 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2383,6 +2383,15 @@
       "chapter_name": "The Sailor's Last Return",
       "published_date": "2026-09-08 17:48:09 UTC",
       "poetry_type": "Tale in verse"
+    },
+    {
+      "chapter": 265,
+      "filename": "poem_265.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/ba1648cb4608ab9fdbbe5b48ff84563f2848a704/poem_265.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_265.md",
+      "chapter_name": "The Maiden's Waiting Heart",
+      "published_date": "2026-09-09 17:41:56 UTC",
+      "poetry_type": "Love ballad"
     }
   ]
 }
