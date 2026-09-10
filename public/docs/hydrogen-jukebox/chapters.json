@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 264,
-  "last_updated": "2026-09-08 17:50:41 UTC",
+  "total_chapters": 265,
+  "last_updated": "2026-09-10 17:35:45 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2116,6 +2116,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_264.md",
       "chapter_name": "The Woman at Her Window",
       "published_date": "2026-09-08 17:50:39 UTC"
+    },
+    {
+      "chapter": 265,
+      "filename": "poem_265.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/cba8610c37bd3131c3410a30a6fede880ec964bc/poem_265.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_265.md",
+      "chapter_name": "The Ancient Gleam",
+      "published_date": "2026-09-10 17:35:42 UTC"
     }
   ]
 }
