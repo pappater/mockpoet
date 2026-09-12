@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 265,
-  "last_updated": "2026-09-10 17:35:45 UTC",
+  "total_chapters": 267,
+  "last_updated": "2026-09-12 16:52:03 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2124,6 +2124,22 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_265.md",
       "chapter_name": "The Ancient Gleam",
       "published_date": "2026-09-10 17:35:42 UTC"
+    },
+    {
+      "chapter": 266,
+      "filename": "poem_266.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/6c7800d573810b8f48f3cbe1618d83e1e94e6626/poem_266.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_266.md",
+      "chapter_name": "(rain or i)",
+      "published_date": "2026-09-11 17:39:44 UTC"
+    },
+    {
+      "chapter": 267,
+      "filename": "poem_267.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/4c98ba67e9ffe1db74355deaecb67b47744f5db3/poem_267.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_267.md",
+      "chapter_name": "Sleep of the Salted Stone",
+      "published_date": "2026-09-12 16:52:01 UTC"
     }
   ]
 }
