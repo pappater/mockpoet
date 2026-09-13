@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 267,
-  "last_updated": "2026-09-12 16:52:03 UTC",
+  "total_chapters": 268,
+  "last_updated": "2026-09-13 17:20:54 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2140,6 +2140,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_267.md",
       "chapter_name": "Sleep of the Salted Stone",
       "published_date": "2026-09-12 16:52:01 UTC"
+    },
+    {
+      "chapter": 268,
+      "filename": "poem_268.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/fe326c6ed6b38a1c3a159a549560691974ace33f/poem_268.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_268.md",
+      "chapter_name": "The Pulse-Drum of the Day",
+      "published_date": "2026-09-13 17:20:52 UTC"
     }
   ]
 }
