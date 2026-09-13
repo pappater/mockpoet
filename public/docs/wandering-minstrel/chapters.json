@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 267,
-  "last_updated": "2026-09-11 17:38:46 UTC",
+  "total_chapters": 269,
+  "last_updated": "2026-09-13 17:19:29 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2410,6 +2410,24 @@
       "chapter_name": "The Ballad of Eleanor's Grief",
       "published_date": "2026-09-11 17:38:44 UTC",
       "poetry_type": "Narrative lyric"
+    },
+    {
+      "chapter": 268,
+      "filename": "poem_268.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c19bfe016075048aa3f8e363211d03797bfc685b/poem_268.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_268.md",
+      "chapter_name": "The Ballad of Captain Grey",
+      "published_date": "2026-09-12 16:53:26 UTC",
+      "poetry_type": "Sea ballad"
+    },
+    {
+      "chapter": 269,
+      "filename": "poem_269.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/72581a692f83b0c4cf5845580c958bc90f983b15/poem_269.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_269.md",
+      "chapter_name": "The Ballad of Liddesdale Brae",
+      "published_date": "2026-09-13 17:19:26 UTC",
+      "poetry_type": "Historical ballad"
     }
   ]
 }
