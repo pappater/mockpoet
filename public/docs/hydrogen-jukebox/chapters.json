@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 268,
-  "last_updated": "2026-09-13 17:20:54 UTC",
+  "total_chapters": 269,
+  "last_updated": "2026-09-14 19:07:39 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2148,6 +2148,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_268.md",
       "chapter_name": "The Pulse-Drum of the Day",
       "published_date": "2026-09-13 17:20:52 UTC"
+    },
+    {
+      "chapter": 269,
+      "filename": "poem_269.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/ec03d4f41770aed3f28b5ba242549d48a28501e5/poem_269.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_269.md",
+      "chapter_name": "The Stone and the Star",
+      "published_date": "2026-09-14 19:07:37 UTC"
     }
   ]
 }
