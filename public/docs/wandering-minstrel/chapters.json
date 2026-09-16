@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 270,
-  "last_updated": "2026-09-14 19:04:52 UTC",
+  "total_chapters": 272,
+  "last_updated": "2026-09-16 18:00:15 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2436,6 +2436,24 @@
       "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_270.md",
       "chapter_name": "The Ballad of Lyra's Tide",
       "published_date": "2026-09-14 19:04:51 UTC",
+      "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 271,
+      "filename": "poem_271.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/480a8c1f061754d8fbf6ed03938282d201fb1aee/poem_271.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_271.md",
+      "chapter_name": "The Maid Who Waited",
+      "published_date": "2026-09-15 18:03:31 UTC",
+      "poetry_type": "Love ballad"
+    },
+    {
+      "chapter": 272,
+      "filename": "poem_272.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/17c214d8abf6b23ef2edd18e2ff7c0d2bfa67429/poem_272.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_272.md",
+      "chapter_name": "The Ballad of Lyra and the Moss-Maiden",
+      "published_date": "2026-09-16 18:00:12 UTC",
       "poetry_type": "Mythical ballad"
     }
   ]
