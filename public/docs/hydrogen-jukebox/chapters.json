@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 270,
-  "last_updated": "2026-09-15 18:02:57 UTC",
+  "total_chapters": 271,
+  "last_updated": "2026-09-16 18:02:04 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2164,6 +2164,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_270.md",
       "chapter_name": "(a single falling)",
       "published_date": "2026-09-15 18:02:54 UTC"
+    },
+    {
+      "chapter": 271,
+      "filename": "poem_271.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/76ed7d3b0a829ebd03eea9c87beeb1bd37b91440/poem_271.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_271.md",
+      "chapter_name": "The Trench",
+      "published_date": "2026-09-16 18:02:02 UTC"
     }
   ]
 }
