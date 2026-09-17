@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 272,
-  "last_updated": "2026-09-16 18:00:15 UTC",
+  "total_chapters": 273,
+  "last_updated": "2026-09-17 17:58:54 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2455,6 +2455,15 @@
       "chapter_name": "The Ballad of Lyra and the Moss-Maiden",
       "published_date": "2026-09-16 18:00:12 UTC",
       "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 273,
+      "filename": "poem_273.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/0e1eb54e74368caf4098709f83fc3f7b8a5c2baa/poem_273.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_273.md",
+      "chapter_name": "The Lady's Silent Plea",
+      "published_date": "2026-09-17 17:58:52 UTC",
+      "poetry_type": "Legendary ballad"
     }
   ]
 }
