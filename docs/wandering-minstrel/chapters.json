@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 274,
-  "last_updated": "2026-09-18 17:34:21 UTC",
+  "total_chapters": 275,
+  "last_updated": "2026-09-19 17:02:20 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2473,6 +2473,15 @@
       "chapter_name": "Elara's Waiting",
       "published_date": "2026-09-18 17:34:19 UTC",
       "poetry_type": "Folk ballad"
+    },
+    {
+      "chapter": 275,
+      "filename": "poem_275.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/8ee451fe928df60cbd8f145f58f0f88ce1af4101/poem_275.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_275.md",
+      "chapter_name": "The Ballad of Finn and the Whispering Isles",
+      "published_date": "2026-09-19 17:02:18 UTC",
+      "poetry_type": "Mythical ballad"
     }
   ]
 }
