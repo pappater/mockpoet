@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 273,
-  "last_updated": "2026-09-18 17:35:40 UTC",
+  "total_chapters": 274,
+  "last_updated": "2026-09-19 17:05:52 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2188,6 +2188,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_273.md",
       "chapter_name": "The Burning Docks of Sleep",
       "published_date": "2026-09-18 17:35:38 UTC"
+    },
+    {
+      "chapter": 274,
+      "filename": "poem_274.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/7c3ef11c96818663ec68478b2596655f73fee048/poem_274.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_274.md",
+      "chapter_name": "The Perforated Blue of Evening",
+      "published_date": "2026-09-19 17:05:50 UTC"
     }
   ]
 }
