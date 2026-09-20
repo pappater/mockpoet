@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 274,
-  "last_updated": "2026-09-19 17:05:52 UTC",
+  "total_chapters": 275,
+  "last_updated": "2026-09-20 17:21:25 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2196,6 +2196,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_274.md",
       "chapter_name": "The Perforated Blue of Evening",
       "published_date": "2026-09-19 17:05:50 UTC"
+    },
+    {
+      "chapter": 275,
+      "filename": "poem_275.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/37627ca76e39ba036df020e5056fe06001423088/poem_275.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_275.md",
+      "chapter_name": "Song of the Unseen Currents",
+      "published_date": "2026-09-20 17:21:23 UTC"
     }
   ]
 }
