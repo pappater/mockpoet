@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 275,
-  "last_updated": "2026-09-19 17:02:20 UTC",
+  "total_chapters": 276,
+  "last_updated": "2026-09-20 17:20:09 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2482,6 +2482,15 @@
       "chapter_name": "The Ballad of Finn and the Whispering Isles",
       "published_date": "2026-09-19 17:02:18 UTC",
       "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 276,
+      "filename": "poem_276.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7e173e96639f17b93c6f939e15afaf22bea7cf1e/poem_276.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_276.md",
+      "chapter_name": "The Ballad of Liam and the Sunstone",
+      "published_date": "2026-09-20 17:20:07 UTC",
+      "poetry_type": "Adventure ballad"
     }
   ]
 }
