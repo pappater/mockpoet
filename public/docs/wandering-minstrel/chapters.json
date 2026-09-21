@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 276,
-  "last_updated": "2026-09-20 17:20:09 UTC",
+  "total_chapters": 277,
+  "last_updated": "2026-09-21 19:07:56 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2491,6 +2491,15 @@
       "chapter_name": "The Ballad of Liam and the Sunstone",
       "published_date": "2026-09-20 17:20:07 UTC",
       "poetry_type": "Adventure ballad"
+    },
+    {
+      "chapter": 277,
+      "filename": "poem_277.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/039b0d1da29060b4765cb47c5f0f71c7d3249805/poem_277.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_277.md",
+      "chapter_name": "The Quest for Eldoria's Harp",
+      "published_date": "2026-09-21 19:07:54 UTC",
+      "poetry_type": "Quest ballad"
     }
   ]
 }
