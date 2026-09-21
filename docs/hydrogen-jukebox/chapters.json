@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 275,
-  "last_updated": "2026-09-20 17:21:25 UTC",
+  "total_chapters": 276,
+  "last_updated": "2026-09-21 19:10:17 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2204,6 +2204,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_275.md",
       "chapter_name": "Song of the Unseen Currents",
       "published_date": "2026-09-20 17:21:23 UTC"
+    },
+    {
+      "chapter": 276,
+      "filename": "poem_276.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/f5e7e350a19f49fefbb35bd65c863c5d1b3926d9/poem_276.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_276.md",
+      "chapter_name": "The Calculus of Dust",
+      "published_date": "2026-09-21 19:10:15 UTC"
     }
   ]
 }
