@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 277,
-  "last_updated": "2026-09-21 19:07:56 UTC",
+  "total_chapters": 278,
+  "last_updated": "2026-09-22 17:59:58 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2500,6 +2500,15 @@
       "chapter_name": "The Quest for Eldoria's Harp",
       "published_date": "2026-09-21 19:07:54 UTC",
       "poetry_type": "Quest ballad"
+    },
+    {
+      "chapter": 278,
+      "filename": "poem_278.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/5f1135499b46b889fc36d8c6dce2901514fe9c5f/poem_278.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_278.md",
+      "chapter_name": "The Ballad of Sir Kaelen's Quest",
+      "published_date": "2026-09-22 17:59:55 UTC",
+      "poetry_type": "Heroic ballad"
     }
   ]
 }
