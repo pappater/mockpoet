@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 279,
-  "last_updated": "2026-09-23 18:17:52 UTC",
+  "total_chapters": 280,
+  "last_updated": "2026-09-24 18:17:43 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2518,6 +2518,15 @@
       "chapter_name": "The Sea-Wife's Call",
       "published_date": "2026-09-23 18:17:50 UTC",
       "poetry_type": "Romantic ballad"
+    },
+    {
+      "chapter": 280,
+      "filename": "poem_280.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/1bb5a1c5bc52598cfc16abd787a1fb9021db3986/poem_280.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_280.md",
+      "chapter_name": "The Ballad of Elara's Vigil",
+      "published_date": "2026-09-24 18:17:40 UTC",
+      "poetry_type": "Narrative lyric"
     }
   ]
 }
