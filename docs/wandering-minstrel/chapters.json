@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 281,
-  "last_updated": "2026-09-25 18:17:35 UTC",
+  "total_chapters": 282,
+  "last_updated": "2026-09-26 17:38:59 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2536,6 +2536,15 @@
       "chapter_name": "The Ballad of Greyfell Keep",
       "published_date": "2026-09-25 18:17:33 UTC",
       "poetry_type": "Historical ballad"
+    },
+    {
+      "chapter": 282,
+      "filename": "poem_282.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/6c4d7c5ed73b0c69ba3fe898275aab3a55d36bf4/poem_282.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_282.md",
+      "chapter_name": "Elara and the Lake-Ghost",
+      "published_date": "2026-09-26 17:38:57 UTC",
+      "poetry_type": "Story poem"
     }
   ]
 }
