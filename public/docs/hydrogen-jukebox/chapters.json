@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 280,
-  "last_updated": "2026-09-25 18:22:04 UTC",
+  "total_chapters": 281,
+  "last_updated": "2026-09-26 17:40:37 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2244,6 +2244,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_280.md",
       "chapter_name": "Nocturne of the Black Cypress",
       "published_date": "2026-09-25 18:22:02 UTC"
+    },
+    {
+      "chapter": 281,
+      "filename": "poem_281.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/7e07b8cee3479e7a03bcf7078331a49fffc916cd/poem_281.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_281.md",
+      "chapter_name": "The Steady Corner",
+      "published_date": "2026-09-26 17:40:35 UTC"
     }
   ]
 }
