@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 282,
-  "last_updated": "2026-09-27 18:10:24 UTC",
+  "total_chapters": 283,
+  "last_updated": "2026-09-28 20:26:58 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2260,6 +2260,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_282.md",
       "chapter_name": "The Heron at Mud Creek",
       "published_date": "2026-09-27 18:10:23 UTC"
+    },
+    {
+      "chapter": 283,
+      "filename": "poem_283.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/c69a73421f7345f9c1993a6985e8d31835caf18e/poem_283.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_283.md",
+      "chapter_name": "The Last Drift",
+      "published_date": "2026-09-28 20:26:55 UTC"
     }
   ]
 }
