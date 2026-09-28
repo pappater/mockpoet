@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 283,
-  "last_updated": "2026-09-27 18:05:43 UTC",
+  "total_chapters": 284,
+  "last_updated": "2026-09-28 20:25:15 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2554,6 +2554,15 @@
       "chapter_name": "The Ballad of Lady Elara",
       "published_date": "2026-09-27 18:05:41 UTC",
       "poetry_type": "Traditional ballad"
+    },
+    {
+      "chapter": 284,
+      "filename": "poem_284.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/e1f2595e7477ce9afba9a17814387ef29c07d6ed/poem_284.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_284.md",
+      "chapter_name": "The Ballad of Elara's Watch",
+      "published_date": "2026-09-28 20:25:13 UTC",
+      "poetry_type": "Narrative lyric"
     }
   ]
 }
