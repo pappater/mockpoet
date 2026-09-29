@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 283,
-  "last_updated": "2026-09-28 20:26:58 UTC",
+  "total_chapters": 284,
+  "last_updated": "2026-09-29 19:13:02 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2268,6 +2268,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_283.md",
       "chapter_name": "The Last Drift",
       "published_date": "2026-09-28 20:26:55 UTC"
+    },
+    {
+      "chapter": 284,
+      "filename": "poem_284.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/73ca3eadcdd7de25cad9c30f41fc6d3508b2efc4/poem_284.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_284.md",
+      "chapter_name": "The Plot",
+      "published_date": "2026-09-29 19:13:00 UTC"
     }
   ]
 }
