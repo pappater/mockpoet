@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 284,
-  "last_updated": "2026-09-29 19:13:02 UTC",
+  "total_chapters": 285,
+  "last_updated": "2026-09-30 18:57:55 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2276,6 +2276,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_284.md",
       "chapter_name": "The Plot",
       "published_date": "2026-09-29 19:13:00 UTC"
+    },
+    {
+      "chapter": 285,
+      "filename": "poem_285.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/a725f963f1d407688c6af3e2c1d7b93e15fa350e/poem_285.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_285.md",
+      "chapter_name": "The Cup",
+      "published_date": "2026-09-30 18:57:52 UTC"
     }
   ]
 }
