@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 286,
-  "last_updated": "2026-09-30 18:52:08 UTC",
+  "total_chapters": 287,
+  "last_updated": "2026-10-01 19:19:05 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2581,6 +2581,15 @@
       "chapter_name": "The Ballad of the Shadow Bloom",
       "published_date": "2026-09-30 18:52:05 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 287,
+      "filename": "poem_287.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/24b478917d28e521c9894987a67a7fd70c66820c/poem_287.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_287.md",
+      "chapter_name": "The Maid of Tide and Stone",
+      "published_date": "2026-10-01 19:19:03 UTC",
+      "poetry_type": "Story poem"
     }
   ]
 }
