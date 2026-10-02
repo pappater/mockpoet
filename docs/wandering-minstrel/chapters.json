@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 287,
-  "last_updated": "2026-10-01 19:19:05 UTC",
+  "total_chapters": 288,
+  "last_updated": "2026-10-02 19:02:38 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2590,6 +2590,15 @@
       "chapter_name": "The Maid of Tide and Stone",
       "published_date": "2026-10-01 19:19:03 UTC",
       "poetry_type": "Story poem"
+    },
+    {
+      "chapter": 288,
+      "filename": "poem_288.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/161c4844843980e6402090be15ac5ce26667f932/poem_288.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_288.md",
+      "chapter_name": "The Grey Mist of Eldoria",
+      "published_date": "2026-10-02 19:02:35 UTC",
+      "poetry_type": "Mythical ballad"
     }
   ]
 }
