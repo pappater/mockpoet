@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 286,
-  "last_updated": "2026-10-01 19:21:04 UTC",
+  "total_chapters": 287,
+  "last_updated": "2026-10-03 17:51:56 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2292,6 +2292,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_286.md",
       "chapter_name": "The Concrete Birdbath",
       "published_date": "2026-10-01 19:21:01 UTC"
+    },
+    {
+      "chapter": 287,
+      "filename": "poem_287.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/62ebd755dfbd112b5ef584b65fcb1d7996cf73cd/poem_287.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_287.md",
+      "chapter_name": "Song of the Global Current",
+      "published_date": "2026-10-03 17:51:54 UTC"
     }
   ]
 }
