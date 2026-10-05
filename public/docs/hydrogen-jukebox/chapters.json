@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 287,
-  "last_updated": "2026-10-03 17:51:56 UTC",
+  "total_chapters": 288,
+  "last_updated": "2026-10-05 21:25:15 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2300,6 +2300,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_287.md",
       "chapter_name": "Song of the Global Current",
       "published_date": "2026-10-03 17:51:54 UTC"
+    },
+    {
+      "chapter": 288,
+      "filename": "poem_288.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/135f0580725ac146af5a3f4001f802a9f47053e3/poem_288.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_288.md",
+      "chapter_name": "The Waiting Stone",
+      "published_date": "2026-10-05 21:25:13 UTC"
     }
   ]
 }
