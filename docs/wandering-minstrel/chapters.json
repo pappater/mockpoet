@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 289,
-  "last_updated": "2026-10-03 17:50:09 UTC",
+  "total_chapters": 291,
+  "last_updated": "2026-10-06 19:20:16 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2608,6 +2608,24 @@
       "chapter_name": "The Ballad of Elara's Tide",
       "published_date": "2026-10-03 17:50:07 UTC",
       "poetry_type": "Folk ballad"
+    },
+    {
+      "chapter": 290,
+      "filename": "poem_290.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/e915f994689467f7504ef44690dbf9a71929ac2a/poem_290.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_290.md",
+      "chapter_name": "The Ballad of Blackwater Jim",
+      "published_date": "2026-10-05 21:28:31 UTC",
+      "poetry_type": "Broadside ballad"
+    },
+    {
+      "chapter": 291,
+      "filename": "poem_291.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/7fa58926e9496e2085a1b9ed563dd8e8bfb47a75/poem_291.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_291.md",
+      "chapter_name": "The Sailor's Return and Jenny's Cruel Fate",
+      "published_date": "2026-10-06 19:20:14 UTC",
+      "poetry_type": "Broadside ballad"
     }
   ]
 }
