@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 292,
-  "last_updated": "2026-10-07 19:47:08 UTC",
+  "total_chapters": 293,
+  "last_updated": "2026-10-08 19:42:26 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2635,6 +2635,15 @@
       "chapter_name": "The Ballad of Elara's Tide",
       "published_date": "2026-10-07 19:47:05 UTC",
       "poetry_type": "Narrative poem"
+    },
+    {
+      "chapter": 293,
+      "filename": "poem_293.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/c60010f98e39e94fd9c3de9109bcf25f4323d080/poem_293.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_293.md",
+      "chapter_name": "The Willow Maid",
+      "published_date": "2026-10-08 19:42:23 UTC",
+      "poetry_type": "Traditional ballad"
     }
   ]
 }
