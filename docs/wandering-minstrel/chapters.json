@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 293,
-  "last_updated": "2026-10-08 19:42:26 UTC",
+  "total_chapters": 294,
+  "last_updated": "2026-10-09 19:19:03 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2644,6 +2644,15 @@
       "chapter_name": "The Willow Maid",
       "published_date": "2026-10-08 19:42:23 UTC",
       "poetry_type": "Traditional ballad"
+    },
+    {
+      "chapter": 294,
+      "filename": "poem_294.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/d656c25e0f8bef7d60b84e4d97cbd25aba6e7b85/poem_294.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_294.md",
+      "chapter_name": "The Grey Man of the Mist",
+      "published_date": "2026-10-09 19:19:01 UTC",
+      "poetry_type": "Mythical ballad"
     }
   ]
 }
