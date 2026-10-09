@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 291,
-  "last_updated": "2026-10-08 19:44:28 UTC",
+  "total_chapters": 292,
+  "last_updated": "2026-10-09 19:21:27 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2332,6 +2332,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_291.md",
       "chapter_name": "The White Dress",
       "published_date": "2026-10-08 19:44:26 UTC"
+    },
+    {
+      "chapter": 292,
+      "filename": "poem_292.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/25133f8cd2d34b8e43c2e4edaec2a22a2fdaf21a/poem_292.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_292.md",
+      "chapter_name": "The Wellhead",
+      "published_date": "2026-10-09 19:21:25 UTC"
     }
   ]
 }
