@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 292,
-  "last_updated": "2026-10-09 19:21:27 UTC",
+  "total_chapters": 293,
+  "last_updated": "2026-10-10 18:20:44 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2340,6 +2340,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_292.md",
       "chapter_name": "The Wellhead",
       "published_date": "2026-10-09 19:21:25 UTC"
+    },
+    {
+      "chapter": 293,
+      "filename": "poem_293.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/780c423e383fbaf9b3064aaa53f091b706c651f6/poem_293.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_293.md",
+      "chapter_name": "Subway Hum",
+      "published_date": "2026-10-10 18:20:43 UTC"
     }
   ]
 }
