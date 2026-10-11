@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 295,
-  "last_updated": "2026-10-10 18:16:12 UTC",
+  "total_chapters": 296,
+  "last_updated": "2026-10-11 18:40:34 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2662,6 +2662,15 @@
       "chapter_name": "The Sailor's Vow",
       "published_date": "2026-10-10 18:16:10 UTC",
       "poetry_type": "Love ballad"
+    },
+    {
+      "chapter": 296,
+      "filename": "poem_296.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/8a614e4593a5f1c3591174092fd85e05fa12a2a3/poem_296.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_296.md",
+      "chapter_name": "The Grey Lord's Kiss",
+      "published_date": "2026-10-11 18:40:31 UTC",
+      "poetry_type": "Mythical ballad"
     }
   ]
 }
