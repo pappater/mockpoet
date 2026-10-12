@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 294,
-  "last_updated": "2026-10-11 18:42:51 UTC",
+  "total_chapters": 295,
+  "last_updated": "2026-10-12 22:01:02 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2356,6 +2356,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_294.md",
       "chapter_name": "Rhythm of the Stone",
       "published_date": "2026-10-11 18:42:49 UTC"
+    },
+    {
+      "chapter": 295,
+      "filename": "poem_295.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/e3c35aebb35eb1e04ffea464fcbb0242c0e6f3ab/poem_295.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_295.md",
+      "chapter_name": "The Flicker, The Glyph",
+      "published_date": "2026-10-12 22:00:59 UTC"
     }
   ]
 }
