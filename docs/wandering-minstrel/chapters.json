@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 296,
-  "last_updated": "2026-10-11 18:40:34 UTC",
+  "total_chapters": 297,
+  "last_updated": "2026-10-12 21:59:47 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2671,6 +2671,15 @@
       "chapter_name": "The Grey Lord's Kiss",
       "published_date": "2026-10-11 18:40:31 UTC",
       "poetry_type": "Mythical ballad"
+    },
+    {
+      "chapter": 297,
+      "filename": "poem_297.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/6d8356134edf238e022023cbc8af3a10e065bfe4/poem_297.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_297.md",
+      "chapter_name": "The Ballad of Elara's Watch",
+      "published_date": "2026-10-12 21:59:45 UTC",
+      "poetry_type": "Modern narrative verse"
     }
   ]
 }
