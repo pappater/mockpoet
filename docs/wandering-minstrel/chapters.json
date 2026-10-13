@@ -2,8 +2,8 @@
   "novel_title": "Wandering Minstrel",
   "genre": "Poetry",
   "subgenre": "Ballad",
-  "total_chapters": 297,
-  "last_updated": "2026-10-12 21:59:47 UTC",
+  "total_chapters": 298,
+  "last_updated": "2026-10-13 20:07:14 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
   "completed": false,
   "max_poems": 300,
@@ -2680,6 +2680,15 @@
       "chapter_name": "The Ballad of Elara's Watch",
       "published_date": "2026-10-12 21:59:45 UTC",
       "poetry_type": "Modern narrative verse"
+    },
+    {
+      "chapter": 298,
+      "filename": "poem_298.md",
+      "url": "https://gist.githubusercontent.com/pappater/d1e19d73ef4f0c8949b184d368f11493/raw/84a0bbca923c8567a47f941f8ad0984cb46c3ab2/poem_298.md",
+      "gist_url": "https://gist.github.com/d1e19d73ef4f0c8949b184d368f11493#poem_298.md",
+      "chapter_name": "The Ballad of the Whispering Tide",
+      "published_date": "2026-10-13 20:07:12 UTC",
+      "poetry_type": "Tale in verse"
     }
   ]
 }
