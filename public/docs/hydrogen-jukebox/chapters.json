@@ -1,7 +1,7 @@
 {
   "novel_title": "Hydrogen Jukebox",
-  "total_chapters": 297,
-  "last_updated": "2026-10-14 18:23:58 UTC",
+  "total_chapters": 298,
+  "last_updated": "2026-10-15 18:06:45 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
   "completed": false,
   "chapters": [
@@ -2380,6 +2380,14 @@
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_297.md",
       "chapter_name": "The Evening Forecast",
       "published_date": "2026-10-14 18:23:55 UTC"
+    },
+    {
+      "chapter": 298,
+      "filename": "poem_298.md",
+      "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b08c7fd822a9ab756c3387996f1025f4e07e0a43/poem_298.md",
+      "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_298.md",
+      "chapter_name": "The Indifferent Forest",
+      "published_date": "2026-10-15 18:06:43 UTC"
     }
   ]
 }
