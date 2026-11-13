@@ -1,0 +1,39 @@
+name: Daily Pocket Wisdom Generator
+
+on:
+  schedule:
+    - cron: '30 14 * * *'  # Daily at 14:30 UTC
+  workflow_dispatch:
+
+jobs:
+  generate-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r scripts/pocket-wisdom/requirements.txt
+
+      - name: Generate and publish daily reflection
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-4-hydrogen
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          POCKET_WISDOM_GIST_ID: ${{ secrets.POCKET_WISDOM_GIST_ID }}
+        run: |
+          python scripts/pocket-wisdom/pocket_wisdom_daily_to_gist.py
+
+      - name: Commit updated chapters.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/pocket-wisdom/chapters.json public/docs/pocket-wisdom/chapters.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update Pocket Wisdom chapters.json"
+          git push

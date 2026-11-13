@@ -17,16 +17,26 @@ describe('BookCard', () => {
     novelKey: 'test-novel',
     title: 'Test Novel',
     chapters: 5,
-    lastUpdated: '2025-01-01'
+    lastUpdated: '2025-01-01',
   };
 
-  it('renders book title', () => {
+  it('renders book title and ongoing status', () => {
     render(
       <BrowserRouter>
         <BookCard {...defaultProps} />
       </BrowserRouter>
     );
     expect(screen.getByText('Test Novel')).toBeInTheDocument();
+    expect(screen.getByText('Ongoing')).toBeInTheDocument();
+  });
+
+  it('displays Completed status when completed is true', () => {
+    render(
+      <BrowserRouter>
+        <BookCard {...defaultProps} completed={true} />
+      </BrowserRouter>
+    );
+    expect(screen.getByText('Completed')).toBeInTheDocument();
   });
 
   it('displays chapter count', () => {
@@ -56,7 +66,7 @@ describe('BookCard', () => {
     expect(screen.getByText(/Last updated:/)).toBeInTheDocument();
   });
 
-  it('displays short stories count for short story collections', () => {
+  it('displays short stories count', () => {
     render(
       <BrowserRouter>
         <BookCard {...defaultProps} chapters={3} isShortStories={true} />
@@ -65,30 +75,37 @@ describe('BookCard', () => {
     expect(screen.getByText('3 Short Stories Available')).toBeInTheDocument();
   });
 
-  it('displays single short story text correctly', () => {
+  it('displays poems count and language indicator', () => {
     render(
       <BrowserRouter>
-        <BookCard {...defaultProps} chapters={1} isShortStories={true} />
-      </BrowserRouter>
-    );
-    expect(screen.getByText('1 Short Story Available')).toBeInTheDocument();
-  });
-
-  it('displays poems count for poem collections', () => {
-    render(
-      <BrowserRouter>
-        <BookCard {...defaultProps} chapters={3} isPoems={true} />
+        <BookCard {...defaultProps} chapters={3} isPoems={true} language="Tamil" />
       </BrowserRouter>
     );
     expect(screen.getByText('3 Poems Available')).toBeInTheDocument();
+    expect(screen.getByText('Tamil')).toBeInTheDocument();
   });
 
-  it('displays single poem text correctly', () => {
-    render(
+  it('displays essays count, drama scenes count, and quotes reflections count', () => {
+    const { rerender } = render(
       <BrowserRouter>
-        <BookCard {...defaultProps} chapters={1} isPoems={true} />
+        <BookCard {...defaultProps} chapters={6} isEssays={true} />
       </BrowserRouter>
     );
-    expect(screen.getByText('1 Poem Available')).toBeInTheDocument();
+    expect(screen.getByText('6 Essays Available')).toBeInTheDocument();
+
+    rerender(
+      <BrowserRouter>
+        <BookCard {...defaultProps} chapters={2} isDrama={true} plannedChapters={12} />
+      </BrowserRouter>
+    );
+    expect(screen.getByText('2 Scenes Available')).toBeInTheDocument();
+    expect(screen.getByText('2 / 12 planned')).toBeInTheDocument();
+
+    rerender(
+      <BrowserRouter>
+        <BookCard {...defaultProps} chapters={6} isQuotes={true} />
+      </BrowserRouter>
+    );
+    expect(screen.getByText('6 Reflections Available')).toBeInTheDocument();
   });
 });

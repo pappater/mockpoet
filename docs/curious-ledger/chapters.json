@@ -1,0 +1,73 @@
+{
+  "novel_title": "The Curious Ledger",
+  "genre": "Non-Fiction",
+  "subgenre": "Essays",
+  "difficulty": "mixed",
+  "update_frequency": "Updated daily (Low / Medium / High)",
+  "total_chapters": 6,
+  "last_updated": "2026-11-13 16:00:00 UTC",
+  "gist_id": "",
+  "completed": false,
+  "chapters": [
+    {
+      "chapter": 1,
+      "filename": "essay_001.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "The Quiet Ethics of Borrowing a Book",
+      "difficulty": "low",
+      "topic": "The quiet ethics of borrowing a book",
+      "published_date": "2026-11-08 16:00:00 UTC"
+    },
+    {
+      "chapter": 2,
+      "filename": "essay_002.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Why Small Towns Remember Differently Than Cities",
+      "difficulty": "low",
+      "topic": "Why small towns remember differently than cities",
+      "published_date": "2026-11-09 16:00:00 UTC"
+    },
+    {
+      "chapter": 3,
+      "filename": "essay_003.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "How Clocks Changed the Human Sense of Patience",
+      "difficulty": "medium",
+      "topic": "How clocks changed the human sense of patience",
+      "published_date": "2026-11-10 16:00:00 UTC"
+    },
+    {
+      "chapter": 4,
+      "filename": "essay_004.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Rain as an Acoustic Architecture",
+      "difficulty": "medium",
+      "topic": "Rain as an acoustic architecture",
+      "published_date": "2026-11-11 16:00:00 UTC"
+    },
+    {
+      "chapter": 5,
+      "filename": "essay_005.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Translation as an Act of Hospitality",
+      "difficulty": "high",
+      "topic": "Why translation is always an act of hospitality",
+      "published_date": "2026-11-12 16:00:00 UTC"
+    },
+    {
+      "chapter": 6,
+      "filename": "essay_006.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "The Paradox of Effortless Photography and Imperfect Memory",
+      "difficulty": "high",
+      "topic": "What happens to memory when photography becomes effortless",
+      "published_date": "2026-11-13 16:00:00 UTC"
+    }
+  ]
+}

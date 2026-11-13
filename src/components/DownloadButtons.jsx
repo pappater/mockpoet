@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { generatePDF, generateEPUB } from '../utils/downloadUtils';
+import { generatePDF, generateEPUB, generateKindleEPUB } from '../utils/downloadUtils';
 import './DownloadButtons.css';
 
 export default function DownloadButtons({ bookTitle, chapters }) {
@@ -10,24 +10,25 @@ export default function DownloadButtons({ bookTitle, chapters }) {
     setIsGenerating(true);
     setErrorMessage('');
     try {
-      // If chapters is a function, call it to get the actual chapters data
       const chaptersData = typeof chapters === 'function' ? await chapters() : chapters;
-      
+
       if (!chaptersData || chaptersData.length === 0) {
-        setErrorMessage('No chapters available to download.');
+        setErrorMessage('No entries available to download.');
         return;
       }
-      
-      if (format === 'pdf') {
+
+      if (format === 'kindle') {
+        await generateKindleEPUB(bookTitle, chaptersData);
+      } else if (format === 'pdf') {
         generatePDF(bookTitle, chaptersData);
-      } else if (format === 'epub') {
+      } else if (format === 'html') {
         generateEPUB(bookTitle, chaptersData);
       }
     } catch (error) {
       console.error(`Error generating ${format}:`, error);
       setErrorMessage(`Failed to generate ${format.toUpperCase()}. Please try again.`);
     } finally {
-      setTimeout(() => setIsGenerating(false), 1000);
+      setTimeout(() => setIsGenerating(false), 600);
     }
   };
 
@@ -35,22 +36,34 @@ export default function DownloadButtons({ bookTitle, chapters }) {
     <div className="download-buttons-container">
       <div className="download-buttons">
         <button
+          type="button"
+          onClick={() => handleDownload('kindle')}
+          disabled={isGenerating}
+          className="download-button download-kindle"
+          aria-label="Download Kindle EPUB"
+          title="Download .epub for Kindle & e-readers (supports English & Tamil)"
+        >
+          {isGenerating ? 'Preparing…' : 'Kindle (.epub)'}
+        </button>
+        <button
+          type="button"
           onClick={() => handleDownload('pdf')}
           disabled={isGenerating}
           className="download-button download-pdf"
           aria-label="Download as PDF"
-          title="Download as PDF"
+          title="Download / Print PDF (full Tamil & English support)"
         >
-          {isGenerating ? '⏳' : '📄 PDF'}
+          {isGenerating ? '…' : 'PDF'}
         </button>
         <button
-          onClick={() => handleDownload('epub')}
+          type="button"
+          onClick={() => handleDownload('html')}
           disabled={isGenerating}
           className="download-button download-epub"
           aria-label="Download as HTML"
-          title="Download as HTML"
+          title="Download standalone UTF-8 HTML"
         >
-          {isGenerating ? '⏳' : '📚 HTML'}
+          {isGenerating ? '…' : 'HTML'}
         </button>
       </div>
       {errorMessage && (

@@ -1,0 +1,16 @@
+You are writing an original literary and reflective essay on the following topic:
+
+TOPIC: {topic}
+DIFFICULTY LEVEL: {difficulty}
+TARGET LENGTH: {min_words} to {max_words} words
+
+DIFFICULTY GUIDELINES:
+- low: Clear, warm, conversational prose; accessible everyday vocabulary; concrete stories and vivid observations; easy to follow in a single sitting.
+- medium: Thoughtful editorial voice (like The New Yorker or Aeon); balanced narrative and reflection; nuanced vocabulary and layered examples.
+- high: Rigorous philosophical and literary depth (like Montaigne, Borges, or Susan Sontag); dense conceptual synthesis, rich historical/literary allusions, intricate syntax, and demanding intellectual argument.
+
+FORMAT:
+1. Essay title on first line (`# [Title]`)
+2. Blank line
+3. Well-structured essay paragraphs (with optional section subheadings `## ...` if helpful for medium/high essays)
+4. Do NOT include meta-commentary about difficulty or word count.

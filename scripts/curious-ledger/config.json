@@ -1,0 +1,8 @@
+{
+  "difficulty_levels": ["low", "medium", "high"],
+  "word_count_by_difficulty": {
+    "low": [650, 950],
+    "medium": [1000, 1500],
+    "high": [1600, 2400]
+  }
+}

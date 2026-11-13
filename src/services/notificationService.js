@@ -1,48 +1,40 @@
-/**
- * Notification service for mockpoet
- * Handles requesting permission and sending notifications for new Twitter poems
- */
+import { getUserSettings } from './gistSettingsService';
+import { getQuoteForNotification } from './quoteService';
 
 const NOTIFICATION_PERMISSION_KEY = 'mockpoet_notification_permission_requested';
 const NOTIFICATION_ENABLED_KEY = 'mockpoet_notifications_enabled';
 const LAST_NOTIFICATION_KEY = 'mockpoet_last_notification_time';
 
-/**
- * Check if browser supports notifications
- */
+let pollingTimerId = null;
+
 export function supportsNotifications() {
-  return 'Notification' in window;
+  return typeof window !== 'undefined' && 'Notification' in window;
 }
 
-/**
- * Check if this is the user's first visit
- */
 export function isFirstVisit() {
   return !localStorage.getItem(NOTIFICATION_PERMISSION_KEY);
 }
 
-/**
- * Mark that we've requested permission
- */
 function markPermissionRequested() {
   localStorage.setItem(NOTIFICATION_PERMISSION_KEY, 'true');
 }
 
-/**
- * Check if notifications are enabled
- */
-export function areNotificationsEnabled() {
-  return localStorage.getItem(NOTIFICATION_ENABLED_KEY) === 'true' && 
-         Notification.permission === 'granted';
+export function markPromptDismissed() {
+  markPermissionRequested();
+  localStorage.setItem(NOTIFICATION_ENABLED_KEY, 'false');
 }
 
-/**
- * Request notification permission from user
- * @returns {Promise<boolean>} True if permission granted
- */
+export function areNotificationsEnabled() {
+  const settings = getUserSettings();
+  return (
+    supportsNotifications() &&
+    (localStorage.getItem(NOTIFICATION_ENABLED_KEY) === 'true' || settings.notifications?.enabled) &&
+    Notification.permission === 'granted'
+  );
+}
+
 export async function requestNotificationPermission() {
   if (!supportsNotifications()) {
-    console.log('Notifications not supported');
     return false;
   }
 
@@ -50,14 +42,9 @@ export async function requestNotificationPermission() {
 
   try {
     const permission = await Notification.requestPermission();
-    
-    if (permission === 'granted') {
-      localStorage.setItem(NOTIFICATION_ENABLED_KEY, 'true');
-      return true;
-    } else {
-      localStorage.setItem(NOTIFICATION_ENABLED_KEY, 'false');
-      return false;
-    }
+    const granted = permission === 'granted';
+    localStorage.setItem(NOTIFICATION_ENABLED_KEY, granted ? 'true' : 'false');
+    return granted;
   } catch (error) {
     console.error('Error requesting notification permission:', error);
     localStorage.setItem(NOTIFICATION_ENABLED_KEY, 'false');
@@ -65,119 +52,87 @@ export async function requestNotificationPermission() {
   }
 }
 
-/**
- * Send a notification about a new Twitter poem
- * @param {Object} poemData - The poem data
- */
-export function sendPoemNotification(poemData = {}) {
-  if (!areNotificationsEnabled()) {
-    return;
+export function sendPoemNotification(data = {}) {
+  if (!supportsNotifications() || Notification.permission !== 'granted') {
+    return false;
   }
 
-  const title = poemData.title || 'New Poem Posted!';
-  const body = poemData.body || 'A new poem has been posted to @mockpoet';
-  const icon = poemData.icon || '/mockpoet/favicon.ico';
+  const title = data.title || 'mockpoet · Daily Quote';
+  const body =
+    data.body ||
+    'Fresh stories, Tamil & English poetry, leveled essays, and new drama scenes are ready to read.';
 
   try {
     const notification = new Notification(title, {
       body,
-      icon,
-      badge: icon,
-      tag: 'mockpoet-poem',
-      renotify: true,
-      requireInteraction: false
+      tag: 'mockpoet-quote',
+      requireInteraction: false,
     });
 
     notification.onclick = () => {
-      window.open('https://x.com/mockpoet', '_blank');
+      window.focus();
       notification.close();
     };
 
-    // Update last notification time
     localStorage.setItem(LAST_NOTIFICATION_KEY, Date.now().toString());
+    return true;
   } catch (error) {
     console.error('Error sending notification:', error);
+    return false;
   }
 }
 
-/**
- * Get time since last notification in hours
- */
+export async function triggerQuoteNotification(settingsOverride = null) {
+  if (!supportsNotifications() || Notification.permission !== 'granted') {
+    return { sent: false, reason: 'Notification permission not granted' };
+  }
+
+  const settings = settingsOverride || getUserSettings();
+  const notifCfg = settings.notifications || {};
+  const quote = await getQuoteForNotification({
+    language: notifCfg.language || 'both',
+    contentTypes: notifCfg.contentTypes || ['quotes', 'poems', 'short_stories', 'essays'],
+  });
+
+  const sent = sendPoemNotification({
+    title: quote.title,
+    body: quote.body,
+  });
+
+  return { sent, quote };
+}
+
 export function getHoursSinceLastNotification() {
   const lastTime = localStorage.getItem(LAST_NOTIFICATION_KEY);
-  if (!lastTime) {
-    return Infinity;
-  }
-  
-  const now = Date.now();
-  const diff = now - parseInt(lastTime, 10);
-  return diff / (1000 * 60 * 60); // Convert to hours
+  if (!lastTime) return Infinity;
+  return (Date.now() - parseInt(lastTime, 10)) / (1000 * 60 * 60);
 }
 
-/**
- * Check if it's time to send a notification (every 2 hours)
- */
 export function shouldSendNotification() {
-  return areNotificationsEnabled() && getHoursSinceLastNotification() >= 2;
+  const settings = getUserSettings();
+  const intervalHours = Math.max(0.25, (settings.notifications?.intervalMinutes || 120) / 60);
+  return areNotificationsEnabled() && getHoursSinceLastNotification() >= intervalHours;
 }
 
-/**
- * Calculate minutes until next poem post (every 2 hours on the hour)
- * Twitter bot runs at 00:00, 02:00, 04:00, etc. UTC
- */
-function getMinutesUntilNextPost() {
-  const now = new Date();
-  const currentMinutes = now.getUTCMinutes();
-  const currentHour = now.getUTCHours();
-  
-  // Calculate minutes until the next even hour
-  const minutesUntilNextHour = 60 - currentMinutes;
-  
-  // If current hour is even, next post is in minutesUntilNextHour
-  // If current hour is odd, next post is in minutesUntilNextHour + 60
-  if (currentHour % 2 === 0) {
-    return minutesUntilNextHour;
-  } else {
-    return minutesUntilNextHour + 60;
-  }
-}
-
-/**
- * Initialize notification polling
- * Sends notifications aligned with Twitter bot's 2-hour posting schedule
- * Twitter bot posts every 2 hours on the hour (00:00, 02:00, 04:00, etc. UTC)
- */
 export function initializeNotificationPolling() {
+  if (pollingTimerId) {
+    clearInterval(pollingTimerId);
+    pollingTimerId = null;
+  }
+
   if (!areNotificationsEnabled()) {
     return;
   }
 
-  // Function to schedule next notification
-  function scheduleNextNotification() {
-    const minutesUntil = getMinutesUntilNextPost();
-    // Add 2 minutes buffer after the post time to ensure poem is published
-    const delay = (minutesUntil + 2) * 60 * 1000;
-    
-    setTimeout(() => {
-      sendPoemNotification({
-        title: '📝 New Poem at @mockpoet',
-        body: 'A new poem has just been posted! Check it out on Twitter.'
-      });
-      
-      // Schedule the next notification (2 hours from now)
-      scheduleNextNotification();
-    }, delay);
+  if (shouldSendNotification()) {
+    triggerQuoteNotification().catch(() => {});
   }
 
-  // Check if we missed a recent post (within last 5 minutes)
-  const hoursSinceLast = getHoursSinceLastNotification();
-  if (hoursSinceLast >= 2 && hoursSinceLast < 2.1) {
-    sendPoemNotification({
-      title: '📝 New Poem at @mockpoet',
-      body: 'A new poem has been posted! Check it out on Twitter.'
-    });
-  }
-  
-  // Start the notification schedule
-  scheduleNextNotification();
+  const settings = getUserSettings();
+  const intervalMs = Math.max(15, settings.notifications?.intervalMinutes || 120) * 60 * 1000;
+  pollingTimerId = setInterval(() => {
+    if (areNotificationsEnabled()) {
+      triggerQuoteNotification().catch(() => {});
+    }
+  }, intervalMs);
 }

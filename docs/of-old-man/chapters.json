@@ -3,7 +3,7 @@
   "total_chapters": 297,
   "last_updated": "2026-11-13 17:28:18 UTC",
   "gist_id": "9fa4af8eb29c0097cc525f2d38503c2e",
-  "completed": false,
+  "completed": true,
   "chapters": [
     {
       "chapter": 1,
@@ -2678,5 +2678,9 @@
       "published_date": "2026-05-14 11:48:08 UTC",
       "poetry_type": "Diamante"
     }
-  ]
+  ],
+  "genre": "Poetry",
+  "subgenre": "Formal Verse",
+  "difficulty": "medium",
+  "update_frequency": "Completed (297 poems)"
 }

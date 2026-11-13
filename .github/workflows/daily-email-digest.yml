@@ -1,0 +1,30 @@
+name: Daily Literary Email Digest
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # Daily at 15:00 UTC
+  workflow_dispatch:
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PyGithub
+        run: pip install PyGithub>=2.1.1
+
+      - name: Send daily digest emails (free Gmail SMTP)
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          SUBSCRIBERS_GIST_ID: ${{ secrets.SUBSCRIBERS_GIST_ID }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SITE_URL: https://pappater.github.io/mockpoet/
+        run: python scripts/email-digest/send_daily_digest.py

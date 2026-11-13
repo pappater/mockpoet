@@ -1,11 +1,7 @@
 name: Daily Gemini Novel Chapter to Gist
 
 on:
-  # Run daily at 10:00 UTC
-  schedule:
-    - cron: '0 10 * * *'
-  
-  # Allow manual triggering
+  # Stopped: The Weight of Promises is now complete.
   workflow_dispatch:
 
 jobs:

@@ -1,52 +1,33 @@
-/* Text to Speech Styles */
 .text-to-speech {
-  display: flex;
-  gap: var(--spacing-sm);
-  margin-bottom: var(--spacing-lg);
-  align-items: center;
-}
-
-.tts-button {
-  padding: var(--spacing-sm) var(--spacing-md);
-  background: var(--secondary-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 6px;
-  color: var(--primary-color);
-  font-size: 0.95rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 
-.tts-button:hover {
-  background: var(--hover-bg);
-  transform: translateY(-1px);
+.tts-button,
+.tts-speed-btn {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 6px 11px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background: var(--surface-elevated);
+  color: var(--primary-color);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
 }
 
-.tts-button:active {
-  transform: translateY(0);
+.tts-button:hover,
+.tts-speed-btn:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-.tts-play, .tts-resume {
-  background: var(--primary-color);
-  color: var(--bg-color);
-  border-color: var(--primary-color);
-}
-
-.tts-play:hover, .tts-resume:hover {
-  opacity: 0.9;
-  background: var(--primary-color);
-}
-
-@media (max-width: 768px) {
-  .text-to-speech {
-    flex-wrap: wrap;
-  }
-  
-  .tts-button {
-    font-size: 0.9rem;
-    padding: var(--spacing-xs) var(--spacing-sm);
-  }
+.tts-speed-btn {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--muted-color);
 }

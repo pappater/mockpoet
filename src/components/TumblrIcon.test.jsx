@@ -1,43 +1,26 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { describe, it, expect } from 'vitest';
+import { render, screen } from '@testing-library/react';
 import TumblrIcon from './TumblrIcon';
 
 describe('TumblrIcon', () => {
-  let windowOpenSpy;
-
-  beforeEach(() => {
-    // Mock window.open
-    windowOpenSpy = vi.spyOn(window, 'open').mockImplementation(() => null);
-  });
-
-  afterEach(() => {
-    windowOpenSpy.mockRestore();
-  });
-
-  it('renders tumblr icon button', () => {
+  it('renders tumblr link', () => {
     render(<TumblrIcon />);
-    const button = screen.getByLabelText('Follow us on Tumblr');
-    expect(button).toBeInTheDocument();
+    const link = screen.getByLabelText('Follow us on Tumblr');
+    expect(link).toBeInTheDocument();
   });
 
-  it('opens Tumblr link in new tab when clicked', () => {
+  it('points to Tumblr in a new tab safely', () => {
     render(<TumblrIcon />);
-    const button = screen.getByLabelText('Follow us on Tumblr');
-    
-    fireEvent.click(button);
-    
-    expect(windowOpenSpy).toHaveBeenCalledTimes(1);
-    expect(windowOpenSpy).toHaveBeenCalledWith(
-      'https://mockpoet.tumblr.com/',
-      '_blank',
-      'noopener,noreferrer'
-    );
+    const link = screen.getByLabelText('Follow us on Tumblr');
+    expect(link).toHaveAttribute('href', 'https://mockpoet.tumblr.com/');
+    expect(link).toHaveAttribute('target', '_blank');
+    expect(link).toHaveAttribute('rel', 'noopener noreferrer');
   });
 
   it('has correct CSS class', () => {
     render(<TumblrIcon />);
-    const button = screen.getByLabelText('Follow us on Tumblr');
-    expect(button).toHaveClass('tumblr-icon-button');
+    const link = screen.getByLabelText('Follow us on Tumblr');
+    expect(link).toHaveClass('tumblr-icon-button');
   });
 
   it('contains SVG icon', () => {

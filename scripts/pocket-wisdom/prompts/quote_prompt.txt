@@ -1,0 +1,8 @@
+Write an original, deeply resonant literary quote or aphorism accompanied by a brief 2-3 sentence micro-reflection in {language}.
+
+Requirements:
+- Language: {language} (If Tamil, write authentic, lyrical Tamil script with an optional English title subtitle in parentheses; if English, write crisp literary prose).
+- Line 1: Markdown H1 title (`# Title`)
+- Line 3: Blockquote (`> "..."`) containing one memorable, standalone quote or Tamil poetic couplet (1-2 sentences max, suitable for desktop notifications).
+- Following paragraph: A short, thoughtful 2-3 sentence reflection unpacking the quote's imagery.
+- Output ONLY the markdown content cleanly with no preamble or meta-commentary.

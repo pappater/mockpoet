@@ -1,223 +1,94 @@
 # mockpoet
 
-A reading platform for AI-generated novels with daily chapter updates.
+**Live Reading Room (GitHub Pages):** [https://pappater.github.io/mockpoet/](https://pappater.github.io/mockpoet/)
+
+An archival, zero-cost literary reading room hosting completed novels, daily short fiction, English & Tamil poetry, leveled essays, serialized dramas, and bilingual quotes—powered by **Google Gemini (`gemini-4-hydrogen`)**, **GitHub Gists**, and **GitHub Pages**.
+
+---
 
 ## Features
 
-- **Multiple Novels**: Read different AI-generated novels in one platform
-- **Daily Updates**: New chapters generated automatically every day
-- **Clean UI**: Simple, elegant interface for reading
-- **Mobile Responsive**: Read on any device
-- **Theme Support**: Light and dark mode
+- **Six Literary Sections**: Novels, Short Stories, Poetry Collections (English & Tamil), Essays (Low / Medium / High difficulty), Serialized Stage Dramas, and Bilingual Quotes & Micro-Reflections.
+- **Kindle & Tamil E-Reader Downloads**: Download any complete book or collection as a standards-compliant **Kindle `.epub`**, **UTF-8 HTML**, or **PDF** (with native Unicode print-to-PDF support for Tamil script).
+- **Google Sign-In & Personal Gist Settings**: Sign in with Google and save your preferences, bookmarks, and reading streak inside your own free **GitHub Gist** (`mockpoet_user_settings.json`)—zero database or paid backend required.
+- **macOS & Windows Desktop Notifications**: Opt into native OS notifications delivering curated English or Tamil quotes, Kurals, poetry stanzas, and short reflections on your chosen cadence.
+- **Free Email Digests**: Opt into daily short-story gist + quote email digests via signed-in Gmail or automated GitHub Actions Gmail SMTP.
+- **Distraction-Free Editorial Reader**: Warm Paper (light) & Deep Ink (dark) themes, serif/sans switching, column width & font controls, Focus Mode, Tamil-aware Text-to-Speech, reading progress tracking, and keyboard navigation.
 
-## Available Novels
+---
 
-### The Weight of Promises
-A Dostoevsky-inspired psychological novel exploring themes of debt, mercy, and moral obligation.
-- **Style**: Rich, philosophical prose with deep character introspection
-- **Chapters**: 7 available (ongoing)
-- **Generated**: Daily at 10:00 UTC
+## Library Catalog
 
-### The Indifferent Shore
-A Camus-inspired existentialist novel exploring themes of absurdism, alienation, and the indifference of the universe.
-- **Style**: Sparse, declarative prose with focus on sensory detail
-- **Chapters**: ~18-20 planned (~200 pages)
-- **Generated**: Daily at 11:00 UTC
+### 1. Novels (Completed Editions)
+| Title | Style / Genre | Chapters | Status |
+|---|---|---|---|
+| **The Weight of Promises** | Philosophical Fiction (Dostoevskian) | 31 | Completed |
+| **The Indifferent Shore** | Existential Fiction (Camusian) | 28 | Completed |
+| **Moonbound Devotion** | Paranormal Romance | 45 | Completed |
+| **The Sun Also Rises Again** | Post-war Literary Prose | 25 | Completed |
+| **Clueless Mind** | Psychological Chronicle | 67 | Completed |
+| **The Bureaucratic Odyssey** | Corporate Satire | 31 | Completed |
 
-### Moonbound Devotion
-A contemporary werewolf fantasy romance in the style of popular Wattpad stories, featuring fated mates, complete devotion, and passionate love.
-- **Style**: Emotional, contemporary romance with rich fantasy world-building
-- **Chapters**: 25 planned (~500-600 pages)
-- **Generated**: Daily at 12:00 UTC
+### 2. Short Stories
+- **The Paper Lantern** *(Ongoing · Daily at 13:00 UTC)* — Daily literary short stories inspired by classic world storytellers.
+- **Flying Banana** *(Completed · 297 Stories)* — Complete archive of short stories inspired by modern classic authors.
 
-### Flying Banana
-A collection of short stories, each written in the distinctive style of a randomly selected modern classic author.
-- **Style**: Varies by author - emulating Hemingway, Camus, García Márquez, Morrison, and 21 other literary masters
-- **Stories**: Ongoing collection (never-ending series)
-- **Length**: 5,000-7,500 words per story
-- **Generated**: Daily at 13:00 UTC
+### 3. Poetry Collections (English & Tamil)
+- **Salt & Amber** *(Ongoing · Daily at 14:00 UTC)* — Daily English poetry across lyric and formal traditions.
+- **காற்றில் கலந்த கவிதை (Tamil Poetry)** *(Ongoing · Daily at 15:00 UTC)* — Daily Tamil poetry spanning Sangam landscapes, Bharathiyar style, Venba couplets, and modern Pudukkavithai.
+- **Hydrogen Jukebox** *(Completed · 298 Poems)*
+- **Of Old Man** *(Completed · 297 Poems)*
+- **Wandering Minstrel** *(Completed · 298 Ballads)*
+- **Tumblr Poem Bot** *(Active · Hourly)* — Posts original poems to [@mockpoet on Tumblr](https://mockpoet.tumblr.com/).
 
-### Hydrogen Jukebox
-A poetry collection featuring poems in the distinctive styles of modern classic poets.
-- **Style**: Varies by poet - emulating Yeats, Frost, Rilke, Plath, Ginsberg, and 26 other modern classic poets
-- **Poems**: Ongoing collection (never-ending series)
-- **Generated**: Daily at 14:00 UTC
+### 4. Essays
+- **The Curious Ledger** *(Ongoing · Daily at 16:00 UTC)* — Daily essays with a randomly selected reading difficulty of **Low**, **Medium**, or **High**.
 
-### Of Old Man
-A poetry collection exploring the full spectrum of poetic forms and traditions.
-- **Style**: Varies by poetry type - 93 different forms including Sonnet, Haiku, Villanelle, Ghazal, Free verse, and many more
-- **Poems**: Ongoing collection (never-ending series)
-- **Generated**: Twice daily at 10:00 UTC and 22:00 UTC
+### 5. Drama
+- **The Clockmaker's Alibi** *(Ongoing · Daily at 17:00 UTC)* — 3-act chamber mystery (12 planned scenes; auto-completes upon finale).
+- **Glass Houses on Monsoon Street** *(Ongoing · Daily at 18:00 UTC)* — 3-act courtyard tragicomedy (12 planned scenes; auto-completes upon finale).
+- **The Absurd Ascent** *(Completed · 14 Scenes across 3 Acts)* — Completed theatrical farce.
 
-### Tumblr Poem Bot (NEW!)
-An automated Tumblr bot that posts poems to Tumblr.
-- **Style**: Varies by poetry type - 100 different forms including all classical and modern poetry types
-- **Poems**: Full-length poems in various styles
-- **Posted**: Every hour to Tumblr
-- **Hashtags**: Automatically includes relevant poetry hashtags for better reach
-- **Setup**: See [SETUP_TUMBLR_BOT.md](SETUP_TUMBLR_BOT.md) for Tumblr API configuration
+### 6. Quotes & Micro-Reflections
+- **Pocket Wisdom & Kurals** *(Ongoing · Daily at 14:30 UTC)* — Bilingual English aphorisms & Tamil couplets built for quick reading, desktop alerts, and email digests.
 
-### Twitter Poem Bot
-An automated Twitter bot that posts short poems to Twitter/X.
-- **Style**: Varies by poetry type - 100 different forms including all classical and modern poetry types
-- **Poems**: Concise poems optimized for Twitter (max 280 characters)
-- **Posted**: Every 2 hours to Twitter/X
-- **Setup**: See [SETUP_TWITTER_BOT.md](SETUP_TWITTER_BOT.md) for Twitter API configuration
+---
 
-### The Absurd Ascent
-A completed farce drama exploring themes of ambition, social climbing, and the absurdity of high society.
-- **Genre**: Drama (Farce)
-- **Style**: Theatrical comedy with witty dialogue and satirical social commentary
-- **Scenes**: 14 scenes across 3 acts (completed)
-- **Status**: Completed
-- **Setup**: See [SETUP_FARCE_DRAMA.md](SETUP_FARCE_DRAMA.md) for configuration details
+## Automated GitHub Actions & Secrets
 
-## Quick Start
+All daily generators use the free-tier **`gemini-4-hydrogen`** model via the `google-genai` Python SDK.
 
-1. Visit the [deployed site](#) or run locally:
-   ```bash
-   npm install
-   npm run dev
-   ```
+### Required Repository Secrets
+- `GEMINI_API_KEY` — Google Gemini API key
+- `GIST_TOKEN` — GitHub Personal Access Token with `gist` scope
+- Collection Gist IDs: `PAPER_LANTERN_GIST_ID`, `SALT_AND_AMBER_GIST_ID`, `TAMIL_POETRY_GIST_ID`, `CURIOUS_LEDGER_GIST_ID`, `CLOCKMAKERS_ALIBI_GIST_ID`, `MONSOON_STREET_GIST_ID`, `POCKET_WISDOM_GIST_ID`
+- Optional Free Daily Email Digest Secrets: `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`, `SUBSCRIBERS_GIST_ID`
+- Tumblr Bot Secrets (untouched): `TUMBLR_CONSUMER_KEY`, `TUMBLR_CONSUMER_SECRET`, `TUMBLR_OAUTH_TOKEN`, `TUMBLR_OAUTH_SECRET`, `TUMBLR_BLOG_NAME`
 
-2. Browse available novels on the home page
-3. Click a novel to start reading
-4. Navigate between chapters using the sidebar
+---
 
-## Setup
+## Local Development & Deployment
 
-For detailed setup instructions, see:
-- [SETUP_TUMBLR_BOT.md](SETUP_TUMBLR_BOT.md) - Setup for Tumblr Poem Bot (NEW!)
-- [SETUP_TWITTER_BOT.md](SETUP_TWITTER_BOT.md) - Setup for Twitter Poem Bot
-- [SETUP_FARCE_DRAMA.md](SETUP_FARCE_DRAMA.md) - Setup for "The Absurd Ascent"
-- [SETUP_STRANGER_NOVEL.md](SETUP_STRANGER_NOVEL.md) - Setup for "The Indifferent Shore"
-- [SETUP_WEREWOLF_NOVEL.md](SETUP_WEREWOLF_NOVEL.md) - Setup for "Moonbound Devotion"
-- [SETUP_FLYING_BANANA.md](SETUP_FLYING_BANANA.md) - Setup for "Flying Banana"
-- [SETUP_OF_OLD_MAN.md](SETUP_OF_OLD_MAN.md) - Setup for "Of Old Man"
-- [docs/flying-banana/README.md](docs/flying-banana/README.md) - Documentation for "Flying Banana"
-- [docs/of-old-man/README.md](docs/of-old-man/README.md) - Documentation for "Of Old Man"
-- [docs/farce-drama/README.md](docs/farce-drama/README.md) - Documentation for "The Absurd Ascent"
-- [ENVIRONMENT_VARIABLES.md](ENVIRONMENT_VARIABLES.md) - Environment variables reference
-- [docs/novel-gist/README.md](docs/novel-gist/README.md) - Original novel documentation
-
-## Repository Structure
-
-```
-mockpoet/
-├── .github/workflows/          # GitHub Actions workflows
-│   ├── daily-novel-gist.yml   # The Weight of Promises
-│   ├── daily-stranger-novel.yml # The Indifferent Shore
-│   ├── daily-werewolf-novel.yml # Moonbound Devotion
-│   ├── daily-flying-banana.yml # Flying Banana
-│   ├── daily-hydrogen-jukebox.yml # Hydrogen Jukebox
-│   ├── hourly-of-old-man.yml  # Of Old Man (twice daily)
-│   ├── tumblr-poem-bot.yml    # Tumblr Poem Bot (every hour)
-│   ├── twitter-poem-bot.yml   # Twitter Poem Bot (every 2 hours)
-│   └── deploy.yml             # Deploy React app to GitHub Pages
-├── docs/                       # Novel content files
-│   ├── novel-gist/            # The Weight of Promises
-│   ├── stranger-novel/        # The Indifferent Shore
-│   ├── werewolf-novel/        # Moonbound Devotion
-│   ├── flying-banana/         # Flying Banana
-│   ├── hydrogen-jukebox/      # Hydrogen Jukebox
-│   └── of-old-man/            # Of Old Man
-├── public/                     # Static assets (copied to dist)
-│   └── docs/                  # Novel content (symlinked)
-├── scripts/                    # Backend scripts
-│   ├── novel/                 # Weight of Promises generation
-│   ├── stranger-novel/        # Indifferent Shore generation
-│   ├── werewolf-novel/        # Moonbound Devotion generation
-│   ├── flying-banana/         # Flying Banana generation
-│   ├── hydrogen-jukebox/      # Hydrogen Jukebox generation
-│   ├── of-old-man/            # Of Old Man generation
-│   ├── tumblr-poem-bot/       # Tumblr Poem Bot generation
-│   └── twitter-poem-bot/      # Twitter Poem Bot generation
-├── src/                        # React source code
-│   ├── components/            # Reusable React components
-│   ├── pages/                 # Page components (Home, Reader)
-│   ├── services/              # API service
-│   ├── hooks/                 # Custom hooks (useTheme)
-│   └── test/                  # Test setup
-├── index.html                  # Vite entry point
-├── vite.config.js             # Vite configuration
-├── package.json               # Node.js dependencies
-└── README.md                  # This file
-```
-
-## Technology
-
-- **Frontend**: React 19, React Router, Vite 7
-- **Testing**: Vitest, React Testing Library
-- **AI**: Google Gemini AI (gemini-2.5-flash)
-- **Storage**: GitHub Gists
-- **Automation**: GitHub Actions
-
-## Development
-
-### Prerequisites
-- Node.js 20 or higher
-- npm
-
-### Commands
 ```bash
 # Install dependencies
 npm install
 
-# Run development server
+# Run local development server (port 3000)
 npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
 
 # Run tests
 npm test
 
-# Run linter
+# Lint & build for GitHub Pages
 npm run lint
+VITE_BASE_PATH=/mockpoet/ npm run build
 ```
 
-### Marking a Book as Complete
+Pushing changes to the `main` branch automatically triggers `.github/workflows/deploy.yml` to build and publish the site to [https://pappater.github.io/mockpoet/](https://pappater.github.io/mockpoet/).
 
-When a novel reaches its final chapter and is complete:
+## Technology
 
-1. **Update chapters.json**: Set the `completed` field to `true` in the location:
-   - `docs/[novel-folder]/chapters.json`
-   
-   Example:
-   ```json
-   {
-     "novel_title": "The Weight of Promises",
-     "total_chapters": 16,
-     "completed": true,
-     ...
-   }
-   ```
-
-2. **Disable the Cron Job**: Update the corresponding workflow file in `.github/workflows/`:
-   - For "The Weight of Promises": `.github/workflows/daily-novel-gist.yml`
-   - For "The Indifferent Shore": `.github/workflows/daily-stranger-novel.yml`
-   - For "Moonbound Devotion": `.github/workflows/daily-werewolf-novel.yml`
-   
-   Comment out or remove the `schedule` section:
-   ```yaml
-   on:
-     # schedule:
-     #   - cron: '0 10 * * *'
-     workflow_dispatch:  # Keep manual trigger for debugging
-   ```
-
-3. **Effects of Completion**:
-   - A "— The End —" indicator will appear at the end of the final chapter
-   - No more chapters will be generated automatically
-   - The manual workflow trigger remains available for maintenance
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues.
-
-## License
-
-[Add your license here]
+- **Frontend**: React 19, React Router 7, Vite 7, JSZip (Kindle `.epub`), jsPDF
+- **Authentication & Gmail**: Firebase Auth (Google Sign-In) & Gmail API (zero-cost OAuth)
+- **AI Generation**: Google Gemini (`gemini-4-hydrogen`) via `google-genai`
+- **Persistence & Hosting**: GitHub Gists + GitHub Pages + GitHub Actions

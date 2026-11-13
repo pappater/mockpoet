@@ -1,12 +1,16 @@
 .reader-layout {
   display: flex;
-  height: 100vh;
-  overflow: hidden;
+  min-height: calc(100vh - 61px);
+  background: var(--bg-color);
+}
+
+.reader-layout.focus-mode .chapter-content {
+  padding-top: 12px;
 }
 
 @media (max-width: 768px) {
   .reader-layout {
-    flex-direction: row;
-    position: relative;
+    display: block;
+    min-height: calc(100vh - 57px);
   }
 }

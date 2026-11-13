@@ -1,132 +1,315 @@
-/* Chapter Content Component Styles */
 .chapter-content {
   flex: 1;
-  padding: var(--spacing-xl) calc(var(--spacing-xl) * 2);
+  min-width: 0;
+  padding: 0 32px 64px;
+  position: relative;
   overflow-y: auto;
-  background: var(--bg-color);
+}
+
+.reading-progress-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: transparent;
+  z-index: 20;
+  margin: 0 -32px 24px;
+}
+
+.reading-progress-fill {
+  height: 100%;
+  background: var(--accent-color);
+  transition: width 0.12s linear;
+}
+
+.chapter-article-shell {
+  max-width: var(--reader-measure, 68ch);
+  margin: 0 auto;
+  transition: max-width 0.2s ease;
 }
 
 .chapter-content-header {
-  margin-bottom: var(--spacing-xl);
-  padding-bottom: var(--spacing-lg);
-  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 18px;
+}
+
+.chapter-kicker-line {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--muted-color);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.chapter-work-name {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.kicker-sep {
+  color: var(--border-strong);
+}
+
+.chapter-diff-badge.level-low {
+  color: var(--status-complete);
+  font-weight: 600;
+}
+
+.chapter-diff-badge.level-medium {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.chapter-diff-badge.level-high {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.chapter-style-note {
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--secondary-color);
 }
 
 .chapter-content-title {
-  font-size: 2rem;
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3vw, 2.55rem);
+  line-height: 1.18;
   color: var(--primary-color);
-  margin-bottom: var(--spacing-sm);
-  letter-spacing: -0.5px;
+  margin: 0 0 12px 0;
 }
 
-.chapter-published-date {
-  font-size: 0.9rem;
-  color: var(--secondary-color);
-  font-style: italic;
-  margin-top: var(--spacing-xs);
+.chapter-meta-strip {
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  color: var(--muted-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
 }
 
-.chapter-content-body {
-  max-width: 800px;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: var(--text-color);
+.reader-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 28px;
 }
 
-.chapter-content-body h1,
-.chapter-content-body h2,
-.chapter-content-body h3 {
-  margin-top: var(--spacing-xl);
-  margin-bottom: var(--spacing-md);
-  font-weight: 600;
+.toolbar-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
-.chapter-content-body p {
-  margin-bottom: var(--spacing-lg);
-  text-align: justify;
-}
-
-.chapter-content-loading {
-  text-align: center;
-  padding: var(--spacing-xl);
-  color: var(--secondary-color);
-  font-style: italic;
-}
-
-.chapter-content-error {
-  text-align: center;
-  padding: var(--spacing-xl);
-  color: #e74c3c;
-  background-color: var(--secondary-bg);
-  border: 1px solid #e74c3c;
+.toolbar-btn {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 6px 10px;
   border-radius: 6px;
-  margin: var(--spacing-lg);
+  border: 1px solid var(--border-color);
+  background: var(--surface-elevated);
+  color: var(--secondary-color);
+  white-space: nowrap;
 }
 
-.chapter-end-indicator {
-  text-align: center;
-  padding: var(--spacing-xl) 0;
-  margin-top: var(--spacing-xl);
-  border-top: 2px solid var(--border-color);
+.toolbar-btn:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-.chapter-end-indicator p {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  font-style: italic;
-  letter-spacing: 2px;
-  margin-bottom: 0;
+.toolbar-btn.active {
+  background: var(--accent-color);
+  color: #ffffff;
+  border-color: var(--accent-color);
 }
 
-/* Hide mobile header on desktop */
 .mobile-chapter-header {
   display: none;
 }
 
+.prose-canvas {
+  font-family: var(--font-body);
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.prose-canvas.font-sans {
+  font-family: var(--font-sans);
+  line-height: 1.75;
+}
+
+.prose-canvas p {
+  margin-bottom: 1.35em;
+}
+
+.prose-canvas.with-dropcap > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  float: left;
+  font-size: 3.4em;
+  line-height: 0.86;
+  padding-right: 10px;
+  padding-top: 4px;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.prose-canvas h2 {
+  font-family: var(--font-display);
+  font-size: 1.45em;
+  margin: 1.8em 0 0.7em;
+}
+
+.prose-canvas h3 {
+  font-family: var(--font-display);
+  font-size: 1.2em;
+  margin: 1.5em 0 0.6em;
+}
+
+.prose-canvas blockquote {
+  margin: 1.6em 0;
+  padding: 12px 20px;
+  border-left: 2px solid var(--accent-color);
+  background: var(--surface-color);
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.prose-canvas blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.prose-canvas ul {
+  margin: 1em 0 1.4em 1.5em;
+}
+
+.prose-canvas li {
+  margin-bottom: 0.45em;
+}
+
+.prose-canvas .editorial-rule {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 2em auto;
+  width: 36%;
+}
+
+/* Poetry Styling */
+.prose-canvas.book-type-poems {
+  padding: 12px 0;
+}
+
+.prose-canvas.book-type-poems p {
+  margin-bottom: 1.65em;
+  line-height: 1.9;
+}
+
+/* Drama Styling */
+.prose-canvas.book-type-drama .drama-speaker {
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--accent-color);
+  margin-top: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+.prose-canvas.book-type-drama .stage-direction {
+  font-style: italic;
+  color: var(--muted-color);
+}
+
+.chapter-end-indicator {
+  text-align: center;
+  margin: 40px 0 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--muted-color);
+}
+
+.chapter-bottom-nav {
+  margin-top: 44px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.bottom-nav-btn {
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: var(--surface-elevated);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.bottom-nav-btn.next {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.bottom-nav-btn:hover {
+  border-color: var(--accent-color);
+}
+
+.bottom-nav-dir {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-color);
+}
+
+.bottom-nav-name {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.chapter-content-loading,
+.chapter-content-error {
+  padding: 48px 0;
+  text-align: center;
+  color: var(--muted-color);
+}
+
+.chapter-content-error {
+  color: var(--accent-color);
+}
+
 @media (max-width: 768px) {
   .chapter-content {
-    padding: var(--spacing-md) var(--spacing-md);
-    width: 100%;
-    margin-left: 0;
+    padding: 0 16px 48px;
   }
 
-  .chapter-content-header {
-    display: none;
+  .reading-progress-bar {
+    margin: 0 -16px 18px;
   }
 
-  .mobile-chapter-header {
-    display: block;
-    margin-bottom: var(--spacing-md);
-  }
-
-  .mobile-chapter-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--primary-color);
-    margin-bottom: var(--spacing-xs);
-    letter-spacing: -0.5px;
-  }
-
-  .mobile-chapter-date {
-    font-size: 0.85rem;
-    color: var(--secondary-color);
-    font-style: italic;
-    margin-bottom: var(--spacing-sm);
-  }
-
-  .chapter-content-title {
-    font-size: 1.5rem;
-  }
-
-  .chapter-content-body {
-    font-size: 1.05rem;
-    line-height: 1.75;
-  }
-
-  .chapter-content-body p {
-    text-align: left;
-    margin-bottom: var(--spacing-md);
+  .chapter-bottom-nav {
+    grid-template-columns: 1fr;
   }
 }

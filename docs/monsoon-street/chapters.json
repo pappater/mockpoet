@@ -1,0 +1,34 @@
+{
+  "novel_title": "Glass Houses on Monsoon Street",
+  "genre": "Drama",
+  "subgenre": "Tragicomedy",
+  "difficulty": "medium",
+  "update_frequency": "Updated daily (2 of 12 scenes)",
+  "total_chapters": 2,
+  "planned_chapters": 12,
+  "last_updated": "2026-11-13 18:00:00 UTC",
+  "gist_id": "",
+  "completed": false,
+  "chapters": [
+    {
+      "chapter": 1,
+      "act": 1,
+      "scene": 1,
+      "filename": "act_1_scene_01.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Act 1, Scene 1: The Leaking Skylight",
+      "published_date": "2026-11-12 18:00:00 UTC"
+    },
+    {
+      "chapter": 2,
+      "act": 1,
+      "scene": 2,
+      "filename": "act_1_scene_02.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Act 1, Scene 2: The Sealed Envelope",
+      "published_date": "2026-11-13 18:00:00 UTC"
+    }
+  ]
+}

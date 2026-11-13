@@ -12,7 +12,9 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
+    "firebase": "^13.3.0",
     "jspdf": "^3.0.2",
+    "jszip": "^3.10.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.1.5"

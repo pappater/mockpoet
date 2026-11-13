@@ -1,74 +1,104 @@
-/* Footer Styles */
 .app-footer {
-  text-align: center;
-  padding: var(--spacing-md);
-  color: var(--secondary-color);
-  font-size: 0.9rem;
-  background: var(--bg-color);
   border-top: 1px solid var(--border-color);
+  background-color: var(--surface-color);
+  color: var(--muted-color);
+  margin-top: var(--spacing-2xl);
+  padding: var(--spacing-xl) 24px;
 }
 
-.app-footer p {
-  margin: 0;
+.footer-inner {
+  max-width: 1312px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-xl);
+  flex-wrap: wrap;
 }
 
-.app-footer .footer-link {
+.footer-brand-col {
+  max-width: 480px;
+}
+
+.footer-wordmark {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
   color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 600;
-  transition: opacity 0.2s ease;
+  margin-bottom: 6px;
 }
 
-.app-footer .footer-link:hover {
-  opacity: 0.7;
-  text-decoration: underline;
+.footer-tagline {
+  font-size: 0.92rem;
+  color: var(--muted-color);
+  margin-bottom: 0;
+  line-height: 1.55;
 }
 
-/* Genre rotation container */
+.footer-meta-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
 .genre-container {
-  position: relative;
-  height: 24px;
-  overflow: hidden;
-  margin-bottom: var(--spacing-sm);
-  font-weight: 500;
-  color: var(--primary-color);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.genre-prefix {
+  color: var(--muted-color);
 }
 
 .genre-text {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  display: inline-block;
+  color: var(--primary-color);
 }
 
-/* Rolling animation - out */
-.genre-text.roll-out {
-  animation: rollOut 0.5s ease-in-out forwards;
+.roll-in {
+  animation: fadeSlideUp 0.45s ease;
 }
 
-/* Rolling animation - in */
-.genre-text.roll-in {
-  animation: rollIn 0.5s ease-in-out forwards;
-}
-
-@keyframes rollOut {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-24px);
+@keyframes fadeSlideUp {
+  from {
     opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@keyframes rollIn {
-  0% {
-    transform: translateY(24px);
-    opacity: 0;
+.footer-links-row {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--muted-color);
+  margin-bottom: 0;
+}
+
+.footer-link {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-link:hover {
+  color: var(--accent-hover);
+}
+
+@media (max-width: 768px) {
+  .app-footer {
+    padding: var(--spacing-lg) 16px;
   }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
+
+  .footer-meta-col {
+    align-items: flex-start;
   }
 }

@@ -1,11 +1,7 @@
 name: Daily Gemini Werewolf Novel Chapter to Gist
 
 on:
-  # Run daily at 12:00 UTC (different from other novels to avoid conflicts)
-  schedule:
-    - cron: '0 12 * * *'
-  
-  # Allow manual triggering
+  # Stopped: Moonbound Devotion is now complete.
   workflow_dispatch:
 
 jobs:

@@ -1,0 +1,18 @@
+You are writing Act {act_num}, Scene {scene_num} ({scene_title}) of a 3-act theatrical tragicomedy titled "Glass Houses on Monsoon Street".
+
+SERIES BIBLE:
+{series_bible}
+
+OUTLINE:
+{outline}
+
+PREVIOUS SCENES SUMMARY:
+{previous_summary}
+
+FORMAT:
+- First line: `# Act {act_num}, Scene {scene_num}: {scene_title}`
+- Scene setting description in italics
+- CHARACTER NAMES in CAPS before dialogue
+- Stage directions in brackets `[...]` or italics
+- Approximately 1,200 to 1,800 words
+- Balance sharp family wit with emotional truth and end on a compelling theatrical turn.

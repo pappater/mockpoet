@@ -1,11 +1,8 @@
 name: Twice Daily Of Old Man Poem to Gist
 
 on:
-  # Run twice daily at 10:00 UTC and 22:00 UTC
-  schedule:
-    - cron: '0 10,22 * * *'
-  
-  # Allow manual triggering
+  # Stopped: Of Old Man collection is marked completed.
+  # Allow manual triggering only
   workflow_dispatch:
 
 jobs:

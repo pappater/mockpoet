@@ -38,6 +38,8 @@ jobs:
         run: npm ci
       
       - name: Build React app
+        env:
+          VITE_BASE_PATH: /mockpoet/
         run: npm run build
       
       - name: Setup Pages

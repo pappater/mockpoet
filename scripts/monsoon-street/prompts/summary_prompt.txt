@@ -1,0 +1,3 @@
+Summarize Act {act_num}, Scene {scene_num} concisely (3-5 sentences) for continuity, noting emotional shifts, secrets revealed, and family dynamics:
+
+{scene_text}

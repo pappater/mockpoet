@@ -312,6 +312,11 @@ def main():
     print("=" * 60)
     print("Flying Banana Daily Short Story Generator")
     print("=" * 60)
+
+    chapters_meta = load_json(DOCS_DIR / "chapters.json")
+    if chapters_meta and chapters_meta.get("completed", False):
+        print("Collection is already marked as COMPLETED. Exiting without generating.")
+        sys.exit(0)
     
     # Load configuration
     config_data = load_json(CONFIG_FILE)

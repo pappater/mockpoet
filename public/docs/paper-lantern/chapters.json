@@ -1,0 +1,40 @@
+{
+  "novel_title": "The Paper Lantern",
+  "genre": "Fiction",
+  "subgenre": "Short Stories",
+  "difficulty": "medium",
+  "update_frequency": "Updated daily",
+  "total_chapters": 3,
+  "last_updated": "2026-11-13 13:00:00 UTC",
+  "gist_id": "",
+  "completed": false,
+  "chapters": [
+    {
+      "chapter": 1,
+      "filename": "story_001.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "The Cartographer of Fog",
+      "author_style": "Italo Calvino",
+      "published_date": "2026-11-11 13:00:00 UTC"
+    },
+    {
+      "chapter": 2,
+      "filename": "story_002.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "The Second Key on the Ring",
+      "author_style": "Anton Chekhov",
+      "published_date": "2026-11-12 13:00:00 UTC"
+    },
+    {
+      "chapter": 3,
+      "filename": "story_003.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Postcards from an Unbuilt Station",
+      "author_style": "Jhumpa Lahiri",
+      "published_date": "2026-11-13 13:00:00 UTC"
+    }
+  ]
+}

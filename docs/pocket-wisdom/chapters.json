@@ -1,0 +1,74 @@
+{
+  "novel_title": "Pocket Wisdom & Kurals",
+  "genre": "Aphorisms & Quotes",
+  "subgenre": "Bilingual Reflections",
+  "language": "English & Tamil",
+  "difficulty": "low",
+  "update_frequency": "Updated daily",
+  "total_chapters": 6,
+  "last_updated": "2026-11-13 14:30:00 UTC",
+  "gist_id": "",
+  "completed": false,
+  "chapters": [
+    {
+      "chapter": 1,
+      "filename": "quote_001.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "On Unhurried Attention",
+      "language": "English",
+      "quote": "What we do not hurry past becomes a landmark; what we label too quickly becomes invisible.",
+      "published_date": "2026-11-08 14:30:00 UTC"
+    },
+    {
+      "chapter": 2,
+      "filename": "quote_002.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "சொல்லின் ஈரம் (The Moisture of a Gentle Word)",
+      "language": "Tamil",
+      "quote": "இனிய உளவாக இன்னாத கூறல் கனியிருப்பக் காய்கவர்ந் தற்று.",
+      "published_date": "2026-11-09 14:30:00 UTC"
+    },
+    {
+      "chapter": 3,
+      "filename": "quote_003.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Margins Are Where Readers Live",
+      "language": "English",
+      "quote": "A book is finished by its author, yet it only begins to breathe when someone argues gently in its margins.",
+      "published_date": "2026-11-10 14:30:00 UTC"
+    },
+    {
+      "chapter": 4,
+      "filename": "quote_004.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "சிறிய விளக்கும் பெருங்காரிருளும் (A Small Lamp in Deep Night)",
+      "language": "Tamil",
+      "quote": "நெடும் இருள் தனக்குத்தானே அஞ்சுவதில்லை; ஓர் அகல் விளக்கின் நடுங்கும் சுடருக்கே அஞ்சுகிறது.",
+      "published_date": "2026-11-11 14:30:00 UTC"
+    },
+    {
+      "chapter": 5,
+      "filename": "quote_005.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "The Architecture of Small Promises",
+      "language": "English",
+      "quote": "Grand declarations are easy to draft in moonlight; quiet reliability is written in ordinary Tuesdays.",
+      "published_date": "2026-11-12 14:30:00 UTC"
+    },
+    {
+      "chapter": 6,
+      "filename": "quote_006.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "மழையும் மனமும் (Rain and the Unburdened Mind)",
+      "language": "Tamil",
+      "quote": "மழை கற்றுத்தரும் பாடம் ஒன்றே: எதையும் தேக்கி வைக்காமல் பெய்து முடித்துவிட்டு வானத்தைத் தெளிவாக்குவது.",
+      "published_date": "2026-11-13 14:30:00 UTC"
+    }
+  ]
+}

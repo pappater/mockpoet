@@ -1,11 +1,7 @@
 name: Daily Gemini Satire Novel Chapter to Gist
 
 on:
-  # Run daily at 14:00 UTC (different from other novels to avoid conflicts)
-  schedule:
-    - cron: '0 14 * * *'
-  
-  # Allow manual triggering
+  # Stopped: The Bureaucratic Odyssey is now complete.
   workflow_dispatch:
 
 jobs:

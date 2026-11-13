@@ -1,11 +1,8 @@
 name: Daily Flying Banana Short Story to Gist
 
 on:
-  # Run daily at 13:00 UTC (different from other novels to avoid conflicts)
-  schedule:
-    - cron: '0 13 * * *'
-  
-  # Allow manual triggering
+  # Stopped: Flying Banana reached 297 stories and is marked completed.
+  # Allow manual triggering only (guarded by completed check)
   workflow_dispatch:
 
 jobs:

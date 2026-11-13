@@ -1,0 +1,67 @@
+name: Daily Clockmaker's Alibi Drama Scene
+
+on:
+  schedule:
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-scene:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check if drama is complete
+        id: check_completion
+        run: |
+          if [ -f docs/clockmakers-alibi/chapters.json ]; then
+            COMPLETED=$(jq -r '.completed' docs/clockmakers-alibi/chapters.json)
+            if [ "$COMPLETED" = "true" ]; then
+              echo "skip_generation=true" >> $GITHUB_OUTPUT
+            else
+              echo "skip_generation=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "skip_generation=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Install dependencies
+        if: steps.check_completion.outputs.skip_generation != 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/clockmakers-alibi/requirements.txt
+
+      - name: Generate and publish next scene
+        if: steps.check_completion.outputs.skip_generation != 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-4-hydrogen
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          CLOCKMAKERS_ALIBI_GIST_ID: ${{ secrets.CLOCKMAKERS_ALIBI_GIST_ID }}
+        run: |
+          python scripts/clockmakers-alibi/drama_daily_to_gist.py
+
+      - name: Sync to public folder
+        if: steps.check_completion.outputs.skip_generation != 'true'
+        run: |
+          mkdir -p public/docs/clockmakers-alibi
+          cp docs/clockmakers-alibi/chapters.json public/docs/clockmakers-alibi/chapters.json
+
+      - name: Commit and push updated files
+        if: steps.check_completion.outputs.skip_generation != 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/clockmakers-alibi/ public/docs/clockmakers-alibi/
+          git diff --staged --quiet || git commit -m "Update Clockmaker's Alibi drama scene"
+          git push

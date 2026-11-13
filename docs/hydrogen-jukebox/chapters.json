@@ -3,7 +3,7 @@
   "total_chapters": 298,
   "last_updated": "2026-11-13 20:48:26 UTC",
   "gist_id": "f80e0314b03be59d97a32e27f1fce44c",
-  "completed": false,
+  "completed": true,
   "chapters": [
     {
       "chapter": 1,
@@ -66,7 +66,7 @@
       "filename": "poem_008.md",
       "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/b3a61f97eaa0d7d4b020fe81d5595a1cdc05e20c/poem_008.md",
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_008.md",
-      "chapter_name": "Le Souffle des Lampes \u00c9teintes",
+      "chapter_name": "Le Souffle des Lampes Éteintes",
       "published_date": "2025-11-12 14:26:35 UTC"
     },
     {
@@ -170,7 +170,7 @@
       "filename": "poem_021.md",
       "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/1584c621f77f5e7f660fd53d9227ddfc50fa797e/poem_021.md",
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_021.md",
-      "chapter_name": "L'Encre des Chim\u00e8res",
+      "chapter_name": "L'Encre des Chimères",
       "published_date": "2025-11-27 14:25:17 UTC"
     },
     {
@@ -562,7 +562,7 @@
       "filename": "poem_070.md",
       "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/993df8a6bbefa9a6f9d8775d3202d7635aaea3a8/poem_070.md",
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_070.md",
-      "chapter_name": "Canci\u00f3n del Pozo Sin Eco",
+      "chapter_name": "Canción del Pozo Sin Eco",
       "published_date": "2026-01-27 14:36:04 UTC"
     },
     {
@@ -1034,7 +1034,7 @@
       "filename": "poem_129.md",
       "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/16e072fa12f77ff02868beba2438f2211c56e000/poem_129.md",
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_129.md",
-      "chapter_name": "El Silencio de las Ra\u00edces Muertas",
+      "chapter_name": "El Silencio de las Raíces Muertas",
       "published_date": "2026-03-28 14:37:01 UTC"
     },
     {
@@ -1210,7 +1210,7 @@
       "filename": "poem_151.md",
       "url": "https://gist.githubusercontent.com/pappater/f80e0314b03be59d97a32e27f1fce44c/raw/1c8ee7ab9a4b418490c4379084d4c254be7660af/poem_151.md",
       "gist_url": "https://gist.github.com/f80e0314b03be59d97a32e27f1fce44c#poem_151.md",
-      "chapter_name": "L'Alchimie des Pav\u00e9s",
+      "chapter_name": "L'Alchimie des Pavés",
       "published_date": "2026-05-08 15:27:05 UTC"
     },
     {
@@ -2389,5 +2389,9 @@
       "chapter_name": "The Indifferent Forest",
       "published_date": "2026-10-15 18:06:43 UTC"
     }
-  ]
+  ],
+  "genre": "Poetry",
+  "subgenre": "Modernist Verse",
+  "difficulty": "medium",
+  "update_frequency": "Completed (298 poems)"
 }

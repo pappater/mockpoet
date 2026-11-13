@@ -1,0 +1,49 @@
+{
+  "novel_title": "Salt & Amber",
+  "genre": "Poetry",
+  "subgenre": "Modern Verse",
+  "difficulty": "medium",
+  "update_frequency": "Updated daily",
+  "total_chapters": 4,
+  "last_updated": "2026-11-13 14:00:00 UTC",
+  "gist_id": "",
+  "completed": false,
+  "chapters": [
+    {
+      "chapter": 1,
+      "filename": "poem_001.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Inventory of a Coastal Kitchen",
+      "poet_style": "Elizabeth Bishop",
+      "published_date": "2026-11-10 14:00:00 UTC"
+    },
+    {
+      "chapter": 2,
+      "filename": "poem_002.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Before the Lamps Are Lit",
+      "poet_style": "Mary Oliver",
+      "published_date": "2026-11-11 14:00:00 UTC"
+    },
+    {
+      "chapter": 3,
+      "filename": "poem_003.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Letters Never Mailed in Autumn",
+      "poet_style": "Rainer Maria Rilke",
+      "published_date": "2026-11-12 14:00:00 UTC"
+    },
+    {
+      "chapter": 4,
+      "filename": "poem_004.md",
+      "url": "",
+      "gist_url": "",
+      "chapter_name": "Salt & Amber",
+      "poet_style": "Ocean Vuong",
+      "published_date": "2026-11-13 14:00:00 UTC"
+    }
+  ]
+}

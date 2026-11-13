@@ -1,0 +1,49 @@
+name: Daily Paper Lantern Short Story to Gist
+
+on:
+  schedule:
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-story:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/paper-lantern/requirements.txt
+
+      - name: Generate and publish short story
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-4-hydrogen
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          PAPER_LANTERN_GIST_ID: ${{ secrets.PAPER_LANTERN_GIST_ID }}
+        run: |
+          python scripts/paper-lantern/paper_lantern_daily_to_gist.py
+
+      - name: Sync chapters.json to public folder
+        run: |
+          mkdir -p public/docs/paper-lantern
+          cp docs/paper-lantern/chapters.json public/docs/paper-lantern/chapters.json
+
+      - name: Commit and push updated files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/paper-lantern/chapters.json public/docs/paper-lantern/chapters.json
+          git diff --staged --quiet || git commit -m "Update Paper Lantern files after story generation"
+          git push

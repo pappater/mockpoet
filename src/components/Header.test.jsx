@@ -4,13 +4,16 @@ import { BrowserRouter } from 'react-router-dom';
 import Header from './Header';
 
 describe('Header', () => {
-  it('renders title', () => {
+  it('renders title and section nav links on home', () => {
     render(
       <BrowserRouter>
         <Header onThemeToggle={() => {}} />
       </BrowserRouter>
     );
     expect(screen.getByText('mockpoet')).toBeInTheDocument();
+    expect(screen.getByText('Novels')).toBeInTheDocument();
+    expect(screen.getByText('Essays')).toBeInTheDocument();
+    expect(screen.getByText('Drama')).toBeInTheDocument();
   });
 
   it('calls onThemeToggle when theme button is clicked', () => {
@@ -20,7 +23,7 @@ describe('Header', () => {
         <Header onThemeToggle={mockToggle} />
       </BrowserRouter>
     );
-    
+
     const themeButton = screen.getByLabelText('Toggle theme');
     fireEvent.click(themeButton);
     expect(mockToggle).toHaveBeenCalledTimes(1);
@@ -44,21 +47,22 @@ describe('Header', () => {
     expect(screen.getByLabelText('Toggle chapter list')).toBeInTheDocument();
   });
 
-  it('shows twitter icon on home page (showBack is false)', () => {
+  it('shows Tumblr icon on home page and omits Twitter', () => {
     render(
       <BrowserRouter>
         <Header onThemeToggle={() => {}} showBack={false} />
       </BrowserRouter>
     );
-    expect(screen.getByLabelText('Follow us on Twitter')).toBeInTheDocument();
+    expect(screen.getByLabelText('Follow us on Tumblr')).toBeInTheDocument();
+    expect(screen.queryByLabelText('Follow us on Twitter')).not.toBeInTheDocument();
   });
 
-  it('does not show twitter icon on reader page (showBack is true)', () => {
+  it('hides Tumblr icon on reader page (showBack is true)', () => {
     render(
       <BrowserRouter>
         <Header onThemeToggle={() => {}} showBack={true} />
       </BrowserRouter>
     );
-    expect(screen.queryByLabelText('Follow us on Twitter')).not.toBeInTheDocument();
+    expect(screen.queryByLabelText('Follow us on Tumblr')).not.toBeInTheDocument();
   });
 });

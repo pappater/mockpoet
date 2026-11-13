@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ChapterList from '../components/ChapterList';
 import ChapterContent from '../components/ChapterContent';
 import { fetchChaptersData, fetchChapterContent, parseMarkdown, getBookType } from '../services/api';
-import { slugify, findChapterBySlug } from '../utils/slugify';
+import { findChapterBySlug, getChapterSlug } from '../utils/slugify';
+import { recordReadingProgress, getReadingProgress } from '../utils/readingState';
 import './Reader.css';
 
 export default function Reader() {
@@ -15,63 +16,68 @@ export default function Reader() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
-  // Determine novelKey from URL parameter, sessionStorage, or default
+  const [isFocusMode, setIsFocusMode] = useState(false);
+  const [visitedChapters, setVisitedChapters] = useState([]);
+
   const novelKey = urlNovelKey || sessionStorage.getItem('selectedNovel') || 'weight_of_promises';
   const bookType = getBookType(novelKey);
-  
-  // If novelKey is not in URL, redirect to include it
+
   useEffect(() => {
     if (!urlNovelKey && novelKey) {
       navigate(`/reader/${novelKey}`, { replace: true });
     }
   }, [urlNovelKey, novelKey, navigate]);
 
-  // Handle chapter slug from URL
+  const navigateToChapter = useCallback(
+    (chapterObj, replace = true) => {
+      if (!chapterObj) return;
+      const slug = getChapterSlug(chapterObj);
+      navigate(`/reader/${novelKey}/${encodeURIComponent(slug)}`, { replace });
+    },
+    [navigate, novelKey]
+  );
+
+  // Sync URL chapterSlug with currentChapter
   useEffect(() => {
     if (chapterSlug && chaptersData) {
       const chapter = findChapterBySlug(chaptersData.chapters, chapterSlug);
       if (chapter) {
         setCurrentChapter(chapter.chapter);
-      } else {
-        // If slug is invalid, redirect to first chapter
-        const firstChapter = chaptersData.chapters[0];
-        if (firstChapter?.chapter_name) {
-          navigate(`/reader/${novelKey}/${slugify(firstChapter.chapter_name)}`, { replace: true });
-        } else {
-          navigate(`/reader/${novelKey}`, { replace: true });
-        }
+      } else if (chaptersData.chapters.length > 0) {
+        navigateToChapter(chaptersData.chapters[0], true);
       }
     }
-  }, [chapterSlug, chaptersData, novelKey, navigate]);
+  }, [chapterSlug, chaptersData, navigateToChapter]);
 
+  // Load metadata for selected work
   useEffect(() => {
     async function loadChaptersData() {
       try {
         setLoading(true);
+        setError(null);
         const data = await fetchChaptersData(novelKey);
         setChaptersData(data);
-        document.title = `${data.novel_title} - mockpoet`;
-        setLoading(false);
-        
-        // If no chapter slug in URL, redirect to first or random chapter with slug
+        document.title = `${data.novel_title} — mockpoet`;
+
+        const saved = getReadingProgress()[novelKey];
+        if (saved?.visitedChapters) {
+          setVisitedChapters(saved.visitedChapters);
+        }
+
         if (!chapterSlug && data.chapters.length > 0) {
           let selectedChapter;
-          
-          // For poems and short_stories, select random chapter
-          if (bookType === 'poems' || bookType === 'short_stories') {
-            const randomIndex = Math.floor(Math.random() * data.chapters.length);
-            selectedChapter = data.chapters[randomIndex];
+          if (bookType === 'poems' || bookType === 'short_stories' || bookType === 'essays') {
+            selectedChapter = data.chapters[data.chapters.length - 1];
+          } else if (saved?.chapterNum) {
+            selectedChapter =
+              data.chapters.find((c) => c.chapter === saved.chapterNum) || data.chapters[0];
           } else {
-            // For novels, use the first chapter
             selectedChapter = data.chapters[0];
           }
-          
-          if (selectedChapter.chapter_name) {
-            const slug = slugify(selectedChapter.chapter_name);
-            navigate(`/reader/${novelKey}/${slug}`, { replace: true });
-          }
+          setCurrentChapter(selectedChapter.chapter);
+          navigateToChapter(selectedChapter, true);
         }
+        setLoading(false);
       } catch (err) {
         setError(err.message);
         setLoading(false);
@@ -79,31 +85,29 @@ export default function Reader() {
     }
 
     loadChaptersData();
-  }, [novelKey, chapterSlug, navigate, bookType]);
+  }, [novelKey, chapterSlug, bookType, navigateToChapter]);
 
   useEffect(() => {
-    const handleToggle = () => {
-      setIsMenuOpen(prev => !prev);
-    };
-
+    const handleToggle = () => setIsMenuOpen((prev) => !prev);
     window.addEventListener('toggleChapterList', handleToggle);
     return () => window.removeEventListener('toggleChapterList', handleToggle);
   }, []);
 
+  // Load current entry markdown & record reading progress
   useEffect(() => {
     async function loadChapter() {
-      if (!chaptersData) return;
+      if (!chaptersData || !chaptersData.chapters?.length) return;
 
       try {
         setLoading(true);
         setError(null);
-        
-        const chapterData = chaptersData.chapters.find(
-          ch => ch.chapter === currentChapter
-        );
-        
+
+        const chapterData =
+          chaptersData.chapters.find((ch) => ch.chapter === currentChapter) ||
+          chaptersData.chapters[0];
+
         if (!chapterData) {
-          throw new Error('Chapter not found');
+          throw new Error('Entry not found');
         }
 
         const content = await fetchChapterContent(
@@ -111,8 +115,22 @@ export default function Reader() {
           chapterData.filename,
           novelKey
         );
-        const html = parseMarkdown(content);
+        const html = parseMarkdown(content, bookType);
         setChapterContent(html);
+
+        recordReadingProgress({
+          novelKey,
+          bookTitle: chaptersData.novel_title,
+          chapterNum: chapterData.chapter,
+          chapterName: chapterData.chapter_name || `Entry ${chapterData.chapter}`,
+          bookType,
+          totalChapters: chaptersData.total_chapters,
+        });
+        const updatedProgress = getReadingProgress()[novelKey];
+        if (updatedProgress?.visitedChapters) {
+          setVisitedChapters([...updatedProgress.visitedChapters]);
+        }
+
         setLoading(false);
       } catch (err) {
         setError(err.message);
@@ -121,34 +139,67 @@ export default function Reader() {
     }
 
     loadChapter();
-  }, [currentChapter, chaptersData, novelKey]);
+  }, [currentChapter, chaptersData, novelKey, bookType]);
 
-  const handleChapterSelect = (chapterNum) => {
-    setCurrentChapter(chapterNum);
-    
-    // Update URL with chapter slug if chapter has a name
-    if (chaptersData) {
-      const chapter = chaptersData.chapters.find(ch => ch.chapter === chapterNum);
-      if (chapter?.chapter_name) {
-        const slug = slugify(chapter.chapter_name);
-        navigate(`/reader/${novelKey}/${slug}`, { replace: true });
-      } else {
-        navigate(`/reader/${novelKey}`, { replace: true });
+  const handleChapterSelect = useCallback(
+    (chapterNum) => {
+      setCurrentChapter(chapterNum);
+      if (chaptersData) {
+        const chapter = chaptersData.chapters.find((ch) => ch.chapter === chapterNum);
+        if (chapter) {
+          navigateToChapter(chapter, false);
+        }
       }
-    }
-  };
+    },
+    [chaptersData, navigateToChapter]
+  );
 
-  const handleMenuClose = () => {
-    setIsMenuOpen(false);
+  const handleRandomChapter = useCallback(() => {
+    if (!chaptersData || chaptersData.chapters.length <= 1) return;
+    const candidates = chaptersData.chapters.filter((ch) => ch.chapter !== currentChapter);
+    const picked = candidates[Math.floor(Math.random() * candidates.length)];
+    if (picked) {
+      handleChapterSelect(picked.chapter);
+    }
+  }, [chaptersData, currentChapter, handleChapterSelect]);
+
+  const currentIndex = chaptersData
+    ? chaptersData.chapters.findIndex((ch) => ch.chapter === currentChapter)
+    : -1;
+  const prevChapterObj = currentIndex > 0 ? chaptersData.chapters[currentIndex - 1] : null;
+  const nextChapterObj =
+    chaptersData && currentIndex >= 0 && currentIndex < chaptersData.chapters.length - 1
+      ? chaptersData.chapters[currentIndex + 1]
+      : null;
+
+  useEffect(() => {
+    const onKeyDown = (e) => {
+      if (e.target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) return;
+      if (e.key === 'ArrowLeft' && prevChapterObj) {
+        handleChapterSelect(prevChapterObj.chapter);
+      } else if (e.key === 'ArrowRight' && nextChapterObj) {
+        handleChapterSelect(nextChapterObj.chapter);
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [prevChapterObj, nextChapterObj, handleChapterSelect]);
+
+  const formatTitle = (chapterData, fallbackNum) => {
+    if (chapterData?.chapter_name) {
+      if (bookType === 'novel') {
+        return `Chapter ${chapterData.chapter}: ${chapterData.chapter_name}`;
+      }
+      return chapterData.chapter_name;
+    }
+    if (bookType === 'drama') return `Scene ${fallbackNum}`;
+    return bookType === 'novel' ? `Chapter ${fallbackNum}` : `Entry ${fallbackNum}`;
   };
 
   if (!chaptersData && loading) {
     return (
       <div className="reader-layout">
-        <ChapterContent 
-          title="Loading..."
-          loading={true}
-        />
+        <ChapterContent title="Loading..." loading={true} />
       </div>
     );
   }
@@ -156,117 +207,79 @@ export default function Reader() {
   if (error && !chaptersData) {
     return (
       <div className="reader-layout">
-        <ChapterContent 
-          title="Error"
-          error={error}
-        />
+        <ChapterContent title="Error" error={error} />
       </div>
     );
   }
 
-  const getChapterTitle = () => {
-    if (!chaptersData) return bookType === 'novel' ? `Chapter ${currentChapter}` : 'Loading...';
-    
-    const chapterData = chaptersData.chapters.find(
-      ch => ch.chapter === currentChapter
-    );
-    
-    if (chapterData?.chapter_name) {
-      // For dramas, show the full chapter_name as-is (already includes act/scene info)
-      // For novels, show "Chapter X: Title", for others just the title
-      if (bookType === 'drama') {
-        return chapterData.chapter_name;
-      }
-      if (bookType === 'novel') {
-        return `Chapter ${currentChapter}: ${chapterData.chapter_name}`;
-      }
-      return chapterData.chapter_name;
-    }
-    
-    // Fallback
-    if (bookType === 'drama') {
-      return `Scene ${currentChapter}`;
-    }
-    return bookType === 'novel' ? `Chapter ${currentChapter}` : `Entry ${currentChapter}`;
-  };
+  const currentMeta = chaptersData?.chapters.find((ch) => ch.chapter === currentChapter) || null;
 
-  const isLastChapter = () => {
-    if (!chaptersData) return false;
-    return currentChapter === chaptersData.total_chapters;
-  };
-
-  const isBookComplete = () => {
-    return chaptersData?.completed || false;
-  };
-
-  const getPublishedDate = () => {
-    if (!chaptersData) return null;
-    const chapterData = chaptersData.chapters.find(
-      ch => ch.chapter === currentChapter
-    );
-    return chapterData?.published_date || null;
-  };
-
-  // Prepare chapters data for download (with placeholders for unloaded content)
   const getAllChaptersForDownload = async () => {
     if (!chaptersData) return [];
-    
-    const downloadChapters = await Promise.all(
-      chaptersData.chapters.map(async (chapter) => {
-        try {
-          const content = await fetchChapterContent(
-            chapter.url,
-            chapter.filename,
-            novelKey
-          );
-          const html = parseMarkdown(content);
-          
-          let title;
-          if (chapter.chapter_name) {
-            title = bookType === 'novel' 
-              ? `Chapter ${chapter.chapter}: ${chapter.chapter_name}`
-              : chapter.chapter_name;
-          } else {
-            title = bookType === 'novel' 
-              ? `Chapter ${chapter.chapter}` 
-              : `Entry ${chapter.chapter}`;
+    const results = [];
+    const batchSize = 8;
+
+    for (let i = 0; i < chaptersData.chapters.length; i += batchSize) {
+      const batch = chaptersData.chapters.slice(i, i + batchSize);
+      const batchResults = await Promise.all(
+        batch.map(async (chapter) => {
+          try {
+            const content = await fetchChapterContent(chapter.url, chapter.filename, novelKey);
+            const html = parseMarkdown(content, bookType);
+            return {
+              title: formatTitle(chapter, chapter.chapter),
+              content: html,
+              publishedDate: chapter.published_date || null,
+            };
+          } catch (err) {
+            console.error(`Failed to load entry ${chapter.chapter}:`, err);
+            return null;
           }
-          
-          return {
-            title,
-            content: html,
-            publishedDate: chapter.published_date || null
-          };
-        } catch (err) {
-          console.error(`Failed to load chapter ${chapter.chapter}:`, err);
-          return null;
-        }
-      })
-    );
-    
-    return downloadChapters.filter(ch => ch !== null);
+        })
+      );
+      results.push(...batchResults.filter(Boolean));
+    }
+    return results;
   };
 
   return (
-    <div className="reader-layout">
-      <ChapterList
-        chapters={chaptersData?.chapters || []}
-        currentChapter={currentChapter}
-        onChapterSelect={handleChapterSelect}
-        isOpen={isMenuOpen}
-        onClose={handleMenuClose}
-        bookType={bookType}
-        bookTitle={chaptersData?.novel_title}
-        allChaptersData={chaptersData ? getAllChaptersForDownload : null}
-      />
+    <div className={`reader-layout ${isFocusMode ? 'focus-mode' : ''}`}>
+      {!isFocusMode && (
+        <ChapterList
+          chapters={chaptersData?.chapters || []}
+          currentChapter={currentChapter}
+          onChapterSelect={handleChapterSelect}
+          isOpen={isMenuOpen}
+          onClose={() => setIsMenuOpen(false)}
+          bookType={bookType}
+          bookTitle={chaptersData?.novel_title}
+          allChaptersData={chaptersData ? getAllChaptersForDownload : null}
+          visitedChapters={visitedChapters}
+          onSelectRandom={handleRandomChapter}
+        />
+      )}
       <ChapterContent
-        title={getChapterTitle()}
+        novelKey={novelKey}
+        bookTitle={chaptersData?.novel_title || ''}
+        bookType={bookType}
+        chapterNum={currentChapter}
+        chapterMeta={currentMeta}
+        title={formatTitle(currentMeta, currentChapter)}
         content={chapterContent}
         loading={loading}
         error={error}
-        isLastChapter={isLastChapter()}
-        isBookComplete={isBookComplete()}
-        publishedDate={getPublishedDate()}
+        isLastChapter={Boolean(chaptersData && currentChapter === chaptersData.total_chapters)}
+        isBookComplete={Boolean(chaptersData?.completed)}
+        publishedDate={currentMeta?.published_date || null}
+        hasPrev={Boolean(prevChapterObj)}
+        hasNext={Boolean(nextChapterObj)}
+        prevTitle={prevChapterObj ? formatTitle(prevChapterObj, prevChapterObj.chapter) : ''}
+        nextTitle={nextChapterObj ? formatTitle(nextChapterObj, nextChapterObj.chapter) : ''}
+        onPrev={() => prevChapterObj && handleChapterSelect(prevChapterObj.chapter)}
+        onNext={() => nextChapterObj && handleChapterSelect(nextChapterObj.chapter)}
+        onRandomChapter={chaptersData?.chapters?.length > 1 ? handleRandomChapter : null}
+        isFocusMode={isFocusMode}
+        onToggleFocus={() => setIsFocusMode((prev) => !prev)}
       />
     </div>
   );

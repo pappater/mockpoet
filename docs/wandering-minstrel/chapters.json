@@ -5,7 +5,7 @@
   "total_chapters": 298,
   "last_updated": "2026-11-13 20:47:04 UTC",
   "gist_id": "d1e19d73ef4f0c8949b184d368f11493",
-  "completed": false,
+  "completed": true,
   "max_poems": 300,
   "chapters": [
     {
@@ -2690,5 +2690,7 @@
       "published_date": "2026-10-13 20:07:12 UTC",
       "poetry_type": "Tale in verse"
     }
-  ]
+  ],
+  "difficulty": "easy",
+  "update_frequency": "Completed (298 ballads)"
 }

@@ -24,7 +24,7 @@
       "filename": "chapter_003.md",
       "url": "https://gist.githubusercontent.com/pappater/3a3f09a5c44889a6f40419f080b15437/raw/chapter_003.md",
       "gist_url": "https://gist.github.com/3a3f09a5c44889a6f40419f080b15437#chapter_003.md",
-      "chapter_name": "It\u2019s the stage"
+      "chapter_name": "It’s the stage"
     },
     {
       "chapter": 4,
@@ -122,7 +122,7 @@
       "filename": "chapter_017.md",
       "url": "https://gist.githubusercontent.com/pappater/3a3f09a5c44889a6f40419f080b15437/raw/chapter_017.md",
       "gist_url": "https://gist.github.com/3a3f09a5c44889a6f40419f080b15437#chapter_017.md",
-      "chapter_name": "\u201cIt is strange"
+      "chapter_name": "“It is strange"
     },
     {
       "chapter": 18,
@@ -339,7 +339,7 @@
       "filename": "chapter_048.md",
       "url": "https://gist.githubusercontent.com/pappater/3a3f09a5c44889a6f40419f080b15437/raw/chapter_048.md",
       "gist_url": "https://gist.github.com/3a3f09a5c44889a6f40419f080b15437#chapter_048.md",
-      "chapter_name": "\u201cAndha light oru"
+      "chapter_name": "“Andha light oru"
     },
     {
       "chapter": 49,
@@ -474,5 +474,9 @@
       "gist_url": "https://gist.github.com/3a3f09a5c44889a6f40419f080b15437#chapter_067.md",
       "chapter_name": "I was listening"
     }
-  ]
+  ],
+  "genre": "Fiction",
+  "subgenre": "Psychological Fiction",
+  "difficulty": "medium",
+  "update_frequency": "Complete novel"
 }

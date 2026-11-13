@@ -3,7 +3,7 @@
   "total_chapters": 297,
   "last_updated": "2026-11-13 20:24:10 UTC",
   "gist_id": "efc9cfe56f7bc265ec0043f0ffbd533c",
-  "completed": false,
+  "completed": true,
   "chapters": [
     {
       "chapter": 1,
@@ -130,7 +130,7 @@
       "filename": "story_016.md",
       "url": "https://gist.githubusercontent.com/pappater/efc9cfe56f7bc265ec0043f0ffbd533c/raw/30849a32ad8905873192f78706b17d09902f5d18/story_016.md",
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_016.md",
-      "chapter_name": "The Earth\u2019s Unquiet Ledger",
+      "chapter_name": "The Earth’s Unquiet Ledger",
       "published_date": "2025-11-20 13:34:20 UTC"
     },
     {
@@ -2125,5 +2125,9 @@
       "gist_url": "https://gist.github.com/efc9cfe56f7bc265ec0043f0ffbd533c#story_297.md",
       "chapter_name": "Story 2026-11-13"
     }
-  ]
+  ],
+  "genre": "Fiction",
+  "subgenre": "Short Stories",
+  "difficulty": "medium",
+  "update_frequency": "Completed (297 stories)"
 }

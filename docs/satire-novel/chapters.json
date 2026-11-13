@@ -5,7 +5,7 @@
   "total_chapters": 31,
   "last_updated": "2025-12-14 14:18:45 UTC",
   "gist_id": "ff59af4ea49a2da689e6e9ba91909ccf",
-  "completed": false,
+  "completed": true,
   "chapters": [
     {
       "chapter": 1,
@@ -186,37 +186,45 @@
       "chapter": 26,
       "filename": "chapter_026.md",
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/b2a2028259d5ea04f67a142603fcd311df10f916/chapter_026.md",
-      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_026.md"
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_026.md",
+      "chapter_name": "Optimal Humanity Quotient"
     },
     {
       "chapter": 27,
       "filename": "chapter_027.md",
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/01c8f1da58342a9e28aaf1a26cabbda6fb96c6bb/chapter_027.md",
-      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_027.md"
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_027.md",
+      "chapter_name": "The Magenta Swirl"
     },
     {
       "chapter": 28,
       "filename": "chapter_028.md",
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/c4e1636a9982150cb735a01c841cc762a8a83099/chapter_028.md",
-      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_028.md"
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_028.md",
+      "chapter_name": "Emotional Manifestations"
     },
     {
       "chapter": 29,
       "filename": "chapter_029.md",
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/171c332463c65205b9c431d7fe6166be6dbd9280/chapter_029.md",
-      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_029.md"
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_029.md",
+      "chapter_name": "Narrative Harmonization"
     },
     {
       "chapter": 30,
       "filename": "chapter_030.md",
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/a655dde37c3fd6596ac8c2bf455e5d4f8f2cc548/chapter_030.md",
-      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_030.md"
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_030.md",
+      "chapter_name": "Protocol Version 2.0"
     },
     {
       "chapter": 31,
       "filename": "chapter_031.md",
       "url": "https://gist.githubusercontent.com/pappater/ff59af4ea49a2da689e6e9ba91909ccf/raw/44351305477c7b197de1d64cc471c6fbf2f6678f/chapter_031.md",
-      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_031.md"
+      "gist_url": "https://gist.github.com/ff59af4ea49a2da689e6e9ba91909ccf#chapter_031.md",
+      "chapter_name": "Form NDRF-7"
     }
-  ]
+  ],
+  "difficulty": "medium",
+  "update_frequency": "Complete novel"
 }

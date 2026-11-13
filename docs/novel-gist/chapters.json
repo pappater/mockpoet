@@ -1,9 +1,9 @@
 {
   "novel_title": "The Weight of Promises",
-  "total_chapters": 30,
-  "last_updated": "2025-11-28 10:21:50 UTC",
+  "total_chapters": 31,
+  "last_updated": "2026-11-13 21:15:00 UTC",
   "gist_id": "51893c25959355bda1884804375ec3d8",
-  "completed": false,
+  "completed": true,
   "chapters": [
     {
       "chapter": 1,
@@ -93,109 +93,138 @@
       "chapter": 13,
       "filename": "chapter_013.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/a11d2ecba633321c96883f6bdfea2741ad6bb751/chapter_013.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_013.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_013.md",
+      "chapter_name": "The Unfinished Account"
     },
     {
       "chapter": 14,
       "filename": "chapter_014.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/ee3eac7c7f04b4744f72aebeb9f949633e78c5f3/chapter_014.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_014.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_014.md",
+      "chapter_name": "Krasny’s Ledgers"
     },
     {
       "chapter": 15,
       "filename": "chapter_015.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/1a9528a207858696b2fb1d4ef803d3506e6715df/chapter_015.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_015.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_015.md",
+      "chapter_name": "The Ruin of Verkhnyaya"
     },
     {
       "chapter": 16,
       "filename": "chapter_016.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/3b524525f1bb6411e0987861f06d6392525bd4ce/chapter_016.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_016.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_016.md",
+      "chapter_name": "The Weight of Despair"
     },
     {
       "chapter": 17,
       "filename": "chapter_017.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/024c28ea083d12c2dfe33352441e1cbbdebf2b53/chapter_017.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_017.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_017.md",
+      "chapter_name": "Conduit for Mercy"
     },
     {
       "chapter": 18,
       "filename": "chapter_018.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/886f5f50985feb337a6022fb92206d1a2263786f/chapter_018.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_018.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_018.md",
+      "chapter_name": "The Artisan’s Quarter"
     },
     {
       "chapter": 19,
       "filename": "chapter_019.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/e29ef85abade0ae5a562ca6e8f913372bfa526dc/chapter_019.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_019.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_019.md",
+      "chapter_name": "A Flicker in the Dust"
     },
     {
       "chapter": 20,
       "filename": "chapter_020.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/5269eb7e4feccf0d7397ed383969ece4f409a2d0/chapter_020.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_020.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_020.md",
+      "chapter_name": "The Spring Thaw"
     },
     {
       "chapter": 21,
       "filename": "chapter_021.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/6df9fda6757f205ba59f04a23262893c660db853/chapter_021.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_021.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_021.md",
+      "chapter_name": "Sorokin’s Cooperage"
     },
     {
       "chapter": 22,
       "filename": "chapter_022.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/9546983dc1d113ce320f46550d74891691bfa5a7/chapter_022.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_022.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_022.md",
+      "chapter_name": "The Ancestral Land"
     },
     {
       "chapter": 23,
       "filename": "chapter_023.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/7009070321d832c5c9a0db005777dc34082394cf/chapter_023.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_023.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_023.md",
+      "chapter_name": "Morozov’s Bargain"
     },
     {
       "chapter": 24,
       "filename": "chapter_024.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/9ee1a60ed350d03955802e4fc4a90cf2fedc97ea/chapter_024.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_024.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_024.md",
+      "chapter_name": "The Arithmetic of Guilt"
     },
     {
       "chapter": 25,
       "filename": "chapter_025.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/e00b0eb35d4f8fa7943bc3377273bfe7b52d2cf5/chapter_025.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_025.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_025.md",
+      "chapter_name": "The Perpetual Clause"
     },
     {
       "chapter": 26,
       "filename": "chapter_026.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/d68ed5da28fa932fac8db32592f0a08ec4c118e2/chapter_026.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_026.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_026.md",
+      "chapter_name": "Sixty Years of Timber"
     },
     {
       "chapter": 27,
       "filename": "chapter_027.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/cd37df9479951d0e6b82b822f92bd6b86847cdee/chapter_027.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_027.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_027.md",
+      "chapter_name": "The Generational Debt"
     },
     {
       "chapter": 28,
       "filename": "chapter_028.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/0002b5f6ecab81c0cb3ea53a1d71bde9b5003e72/chapter_028.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_028.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_028.md",
+      "chapter_name": "The Ledger’s Shadow"
     },
     {
       "chapter": 29,
       "filename": "chapter_029.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/0a75d0800bf5d7cc9bfce1fe06ae849f6152fcc4/chapter_029.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_029.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_029.md",
+      "chapter_name": "Substantial Divestment"
     },
     {
       "chapter": 30,
       "filename": "chapter_030.md",
       "url": "https://gist.githubusercontent.com/pappater/51893c25959355bda1884804375ec3d8/raw/52773c22e45310015aa6165ca1a9494b611795ff/chapter_030.md",
-      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_030.md"
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_030.md",
+      "chapter_name": "The Western Fields"
+    },
+    {
+      "chapter": 31,
+      "filename": "chapter_031.md",
+      "url": "",
+      "gist_url": "https://gist.github.com/51893c25959355bda1884804375ec3d8#chapter_031.md",
+      "chapter_name": "The Grove Felled"
     }
-  ]
+  ],
+  "genre": "Fiction",
+  "subgenre": "Philosophical Fiction",
+  "difficulty": "medium",
+  "update_frequency": "Complete novel"
 }

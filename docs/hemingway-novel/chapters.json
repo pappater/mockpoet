@@ -17,7 +17,7 @@
       "filename": "chapter_002.md",
       "url": "https://gist.githubusercontent.com/pappater/a438cb90b4c76029c58cf54d66b22135/raw/chapter_002.md",
       "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_002.md",
-      "chapter_name": "El\u2019s Entrance"
+      "chapter_name": "El’s Entrance"
     },
     {
       "chapter": 3,
@@ -180,5 +180,9 @@
       "gist_url": "https://gist.github.com/a438cb90b4c76029c58cf54d66b22135#chapter_025.md",
       "chapter_name": "The Unspoken Future"
     }
-  ]
+  ],
+  "genre": "Fiction",
+  "subgenre": "Literary Fiction",
+  "difficulty": "medium",
+  "update_frequency": "Complete novel"
 }
