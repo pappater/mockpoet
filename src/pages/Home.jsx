@@ -10,13 +10,13 @@ import {
   getReadingStreak,
 } from '../utils/readingState';
 
-import heroImage from '../assets/images/hero_literary_desk_1794604392274.jpg';
-import coverNovels from '../assets/images/cover_novels_harbor_1794604392045.jpg';
-import coverStories from '../assets/images/cover_stories_lantern_1794604392848.jpg';
-import coverPoetry from '../assets/images/cover_poetry_lamp_1794604392964.jpg';
-import coverEssays from '../assets/images/cover_essays_colonnade_1794604393601.jpg';
-import coverDrama from '../assets/images/cover_drama_stage_1794604395454.jpg';
-import coverQuotes from '../assets/images/cover_quotes_hourglass_1794605706382.jpg';
+import heroImage from '../assets/images/hero_editorial_library_1794643940917.jpg';
+import coverNovels from '../assets/images/cover_novels_oil_1794643940892.jpg';
+import coverStories from '../assets/images/cover_stories_oil_1794643942339.jpg';
+import coverPoetry from '../assets/images/cover_poetry_oil_1794643944055.jpg';
+import coverEssays from '../assets/images/cover_essays_oil_1794643993988.jpg';
+import coverDrama from '../assets/images/cover_drama_oil_1794643994011.jpg';
+import coverQuotes from '../assets/images/cover_quotes_oil_1794643992441.jpg';
 
 import './Home.css';
 

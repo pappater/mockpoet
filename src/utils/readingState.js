@@ -3,6 +3,8 @@ const BOOKMARKS_KEY = 'mockpoet_bookmarks_v1';
 const APPRECIATION_KEY = 'mockpoet_appreciation_v1';
 const STREAK_KEY = 'mockpoet_reading_streak_v1';
 const PREFS_KEY = 'mockpoet_reader_prefs_v1';
+const HIGHLIGHTS_KEY = 'mockpoet_highlights_v1';
+const NOTES_KEY = 'mockpoet_margin_notes_v1';
 
 function safeParse(key, fallback) {
   try {
@@ -119,13 +121,91 @@ function updateReadingStreak() {
 }
 
 export function getReaderPrefs() {
-  return safeParse(PREFS_KEY, {
+  const saved = safeParse(PREFS_KEY, {});
+  return {
     fontSize: 18,
     fontFamily: 'serif',
+    lineHeight: 'cozy',
     measure: 'standard',
-  });
+    paperTone: 'auto',
+    readMode: 'scroll',
+    ...saved,
+  };
 }
 
 export function saveReaderPrefs(prefs) {
   safeSave(PREFS_KEY, prefs);
+}
+
+export function getHighlights() {
+  return safeParse(HIGHLIGHTS_KEY, {});
+}
+
+export function getChapterHighlights(novelKey, chapterNum) {
+  if (!novelKey || !chapterNum) return [];
+  const all = getHighlights();
+  return Array.isArray(all[`${novelKey}:${chapterNum}`]) ? all[`${novelKey}:${chapterNum}`] : [];
+}
+
+export function toggleParagraphHighlight(novelKey, chapterNum, blockIndex, excerpt = '') {
+  if (!novelKey || !chapterNum) return [];
+  const all = getHighlights();
+  const key = `${novelKey}:${chapterNum}`;
+  const current = Array.isArray(all[key]) ? all[key] : [];
+  const exists = current.some((item) => item.blockIndex === blockIndex);
+  const next = exists
+    ? current.filter((item) => item.blockIndex !== blockIndex)
+    : [...current, { blockIndex, excerpt: excerpt.slice(0, 160), savedAt: Date.now() }];
+  if (next.length === 0) {
+    delete all[key];
+  } else {
+    all[key] = next;
+  }
+  safeSave(HIGHLIGHTS_KEY, all);
+  return next;
+}
+
+export function getMarginNotes() {
+  return safeParse(NOTES_KEY, {});
+}
+
+export function getChapterNotes(novelKey, chapterNum) {
+  if (!novelKey || !chapterNum) return [];
+  const all = getMarginNotes();
+  return Array.isArray(all[`${novelKey}:${chapterNum}`]) ? all[`${novelKey}:${chapterNum}`] : [];
+}
+
+export function addMarginNote(novelKey, chapterNum, noteText, blockIndex = null, excerpt = '') {
+  if (!novelKey || !chapterNum || !noteText?.trim()) return [];
+  const all = getMarginNotes();
+  const key = `${novelKey}:${chapterNum}`;
+  const current = Array.isArray(all[key]) ? all[key] : [];
+  const next = [
+    {
+      id: `${Date.now()}_${Math.random().toString(36).slice(2, 7)}`,
+      note: noteText.trim(),
+      blockIndex,
+      excerpt: excerpt.slice(0, 140),
+      createdAt: Date.now(),
+    },
+    ...current,
+  ];
+  all[key] = next;
+  safeSave(NOTES_KEY, all);
+  return next;
+}
+
+export function deleteMarginNote(novelKey, chapterNum, noteId) {
+  if (!novelKey || !chapterNum) return [];
+  const all = getMarginNotes();
+  const key = `${novelKey}:${chapterNum}`;
+  const current = Array.isArray(all[key]) ? all[key] : [];
+  const next = current.filter((n) => n.id !== noteId);
+  if (next.length === 0) {
+    delete all[key];
+  } else {
+    all[key] = next;
+  }
+  safeSave(NOTES_KEY, all);
+  return next;
 }

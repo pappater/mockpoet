@@ -11,6 +11,10 @@
   transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 
+body.reader-zen-mode .floating-header {
+  display: none;
+}
+
 .floating-header-inner {
   max-width: 1360px;
   margin: 0 auto;

@@ -62,7 +62,7 @@ export default function Header({
               onClick={onOpenSettings}
               className="settings-trigger-btn"
               aria-label="Open settings"
-              title="Settings, Google Sign-In, Gist Sync & Notifications"
+              title="Account, Quote Notifications & Email Digest"
             >
               {user?.photoURL ? (
                 <img src={user.photoURL} alt={user.displayName || 'Account'} className="header-user-avatar" referrerPolicy="no-referrer" />

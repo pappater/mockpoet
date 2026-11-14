@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import ChapterContent from './ChapterContent';
 
 describe('ChapterContent', () => {
@@ -102,5 +102,38 @@ describe('ChapterContent', () => {
       />
     );
     expect(screen.queryByText('— The End —')).not.toBeInTheDocument();
+  });
+
+  it('renders interactive Paper & Type popover controls and switches paper tone', () => {
+    const { container } = render(
+      <ChapterContent
+        novelKey="weight_of_promises"
+        title="Chapter 1"
+        content="<p>Sample prose paragraph for testing paper tone.</p>"
+        loading={false}
+        error={null}
+      />
+    );
+    const aaBtn = screen.getByText(/Aa Paper & Type/i);
+    fireEvent.click(aaBtn);
+    const sepiaBtn = screen.getByText('Sepia');
+    fireEvent.click(sepiaBtn);
+    expect(container.querySelector('.chapter-content')).toHaveClass('paper-tone-sepia');
+  });
+
+  it('extracts drama cast members into interactive cast spotlight bar', () => {
+    render(
+      <ChapterContent
+        novelKey="clockmakers_alibi"
+        bookType="drama"
+        title="Scene 1"
+        content='<p class="drama-speaker">ALICE:</p><p>The clock stopped at midnight.</p><p class="drama-speaker">INSPECTOR:</p><p>Did anyone hear the chime?</p>'
+        loading={false}
+        error={null}
+      />
+    );
+    expect(screen.getByText('Cast Spotlight:')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'ALICE' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'INSPECTOR' })).toBeInTheDocument();
   });
 });

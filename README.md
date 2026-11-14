@@ -2,7 +2,7 @@
 
 **Live Reading Room (GitHub Pages):** [https://pappater.github.io/mockpoet/](https://pappater.github.io/mockpoet/)
 
-An archival, zero-cost literary reading room hosting completed novels, daily short fiction, English & Tamil poetry, leveled essays, serialized dramas, and bilingual quotes—powered by **Google Gemini (`gemini-4-hydrogen`)**, **GitHub Gists**, and **GitHub Pages**.
+An archival literary reading room hosting completed novels, daily short fiction, English & Tamil poetry, leveled essays, serialized dramas, and bilingual quotes—powered by **Google Gemini (`gemini-4-hydrogen`)** and **GitHub Pages**.
 
 ---
 
@@ -10,10 +10,10 @@ An archival, zero-cost literary reading room hosting completed novels, daily sho
 
 - **Six Literary Sections**: Novels, Short Stories, Poetry Collections (English & Tamil), Essays (Low / Medium / High difficulty), Serialized Stage Dramas, and Bilingual Quotes & Micro-Reflections.
 - **Kindle & Tamil E-Reader Downloads**: Download any complete book or collection as a standards-compliant **Kindle `.epub`**, **UTF-8 HTML**, or **PDF** (with native Unicode print-to-PDF support for Tamil script).
-- **Google Sign-In & Personal Gist Settings**: Sign in with Google and save your preferences, bookmarks, and reading streak inside your own free **GitHub Gist** (`mockpoet_user_settings.json`)—zero database or paid backend required.
+- **Google Sign-In**: Single Sign in with Google keeps your notification preferences, bookmarks, highlights, margin notes, and reading streak saved privately to your account.
 - **macOS & Windows Desktop Notifications**: Opt into native OS notifications delivering curated English or Tamil quotes, Kurals, poetry stanzas, and short reflections on your chosen cadence.
-- **Free Email Digests**: Opt into daily short-story gist + quote email digests via signed-in Gmail or automated GitHub Actions Gmail SMTP.
-- **Distraction-Free Editorial Reader**: Warm Paper (light) & Deep Ink (dark) themes, serif/sans switching, column width & font controls, Focus Mode, Tamil-aware Text-to-Speech, reading progress tracking, and keyboard navigation.
+- **Daily Email Digests**: Opt into daily short-story gist + quote email digests via signed-in Gmail or automated GitHub Actions Gmail SMTP.
+- **Interactive Reading Studio**: Four paper tones (Warm Paper, Sepia, Slate Soft, Midnight Ink), Scroll & Book Pages modes, interactive paragraph highlights & margin notes, drama cast spotlight, slide-over table of contents, and sentence-synced audio narration.
 
 ---
 

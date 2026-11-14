@@ -66,7 +66,7 @@ export default function Reader() {
 
         if (!chapterSlug && data.chapters.length > 0) {
           let selectedChapter;
-          if (bookType === 'poems' || bookType === 'short_stories' || bookType === 'essays') {
+          if (bookType === 'poems' || bookType === 'short_stories' || bookType === 'essays' || bookType === 'quotes') {
             selectedChapter = data.chapters[data.chapters.length - 1];
           } else if (saved?.chapterNum) {
             selectedChapter =
@@ -92,6 +92,13 @@ export default function Reader() {
     window.addEventListener('toggleChapterList', handleToggle);
     return () => window.removeEventListener('toggleChapterList', handleToggle);
   }, []);
+
+  useEffect(() => {
+    document.body.classList.toggle('reader-zen-mode', isFocusMode);
+    return () => {
+      document.body.classList.remove('reader-zen-mode');
+    };
+  }, [isFocusMode]);
 
   // Load current entry markdown & record reading progress
   useEffect(() => {
@@ -172,19 +179,6 @@ export default function Reader() {
       ? chaptersData.chapters[currentIndex + 1]
       : null;
 
-  useEffect(() => {
-    const onKeyDown = (e) => {
-      if (e.target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) return;
-      if (e.key === 'ArrowLeft' && prevChapterObj) {
-        handleChapterSelect(prevChapterObj.chapter);
-      } else if (e.key === 'ArrowRight' && nextChapterObj) {
-        handleChapterSelect(nextChapterObj.chapter);
-      }
-    };
-    window.addEventListener('keydown', onKeyDown);
-    return () => window.removeEventListener('keydown', onKeyDown);
-  }, [prevChapterObj, nextChapterObj, handleChapterSelect]);
-
   const formatTitle = (chapterData, fallbackNum) => {
     if (chapterData?.chapter_name) {
       if (bookType === 'novel') {
@@ -244,25 +238,26 @@ export default function Reader() {
 
   return (
     <div className={`reader-layout ${isFocusMode ? 'focus-mode' : ''}`}>
-      {!isFocusMode && (
-        <ChapterList
-          chapters={chaptersData?.chapters || []}
-          currentChapter={currentChapter}
-          onChapterSelect={handleChapterSelect}
-          isOpen={isMenuOpen}
-          onClose={() => setIsMenuOpen(false)}
-          bookType={bookType}
-          bookTitle={chaptersData?.novel_title}
-          allChaptersData={chaptersData ? getAllChaptersForDownload : null}
-          visitedChapters={visitedChapters}
-          onSelectRandom={handleRandomChapter}
-        />
-      )}
+      <ChapterList
+        chapters={chaptersData?.chapters || []}
+        currentChapter={currentChapter}
+        onChapterSelect={handleChapterSelect}
+        isOpen={isMenuOpen}
+        onClose={() => setIsMenuOpen(false)}
+        bookType={bookType}
+        bookTitle={chaptersData?.novel_title}
+        allChaptersData={chaptersData ? getAllChaptersForDownload : null}
+        visitedChapters={visitedChapters}
+        onSelectRandom={handleRandomChapter}
+      />
+
       <ChapterContent
         novelKey={novelKey}
         bookTitle={chaptersData?.novel_title || ''}
         bookType={bookType}
         chapterNum={currentChapter}
+        totalChapters={chaptersData?.total_chapters || chaptersData?.chapters?.length || 1}
+        currentPosition={currentIndex >= 0 ? currentIndex + 1 : 1}
         chapterMeta={currentMeta}
         title={formatTitle(currentMeta, currentChapter)}
         content={chapterContent}
@@ -278,6 +273,8 @@ export default function Reader() {
         onPrev={() => prevChapterObj && handleChapterSelect(prevChapterObj.chapter)}
         onNext={() => nextChapterObj && handleChapterSelect(nextChapterObj.chapter)}
         onRandomChapter={chaptersData?.chapters?.length > 1 ? handleRandomChapter : null}
+        onOpenContents={() => setIsMenuOpen(true)}
+        allChaptersData={chaptersData ? getAllChaptersForDownload : null}
         isFocusMode={isFocusMode}
         onToggleFocus={() => setIsFocusMode((prev) => !prev)}
       />

@@ -3,14 +3,7 @@ import { googleSignIn, googleSignOut, getAccessToken, sendGmailDigest } from '..
 import {
   getUserSettings,
   saveUserSettings,
-  getLinkedGistId,
-  setLinkedGistId,
-  getMemoryGithubToken,
-  setMemoryGithubToken,
-  loadSettingsFromGist,
-  saveSettingsToGist,
-  applyGistPayload,
-  buildGistPayload,
+  restorePrivateProfile,
 } from '../services/gistSettingsService';
 import {
   supportsNotifications,
@@ -30,8 +23,6 @@ const CONTENT_TYPE_OPTIONS = [
 
 export default function SettingsModal({ isOpen, onClose, user }) {
   const [settings, setSettings] = useState(() => getUserSettings(user));
-  const [gistId, setGistId] = useState(() => getLinkedGistId(user));
-  const [githubToken, setGithubToken] = useState(() => getMemoryGithubToken());
   const [statusMessage, setStatusMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [busyAction, setBusyAction] = useState('');
@@ -40,7 +31,6 @@ export default function SettingsModal({ isOpen, onClose, user }) {
   useEffect(() => {
     if (isOpen) {
       setSettings(getUserSettings(user));
-      setGistId(getLinkedGistId(user));
       setStatusMessage('');
       setErrorMessage('');
       setEmailPreview(null);
@@ -61,10 +51,10 @@ export default function SettingsModal({ isOpen, onClose, user }) {
     try {
       const res = await googleSignIn();
       if (res?.user) {
-        const loaded = getUserSettings(res.user);
+        const loaded = restorePrivateProfile(res.user);
         setSettings(loaded);
-        setGistId(getLinkedGistId(res.user));
-        setStatusMessage(`Signed in as ${res.user.email}`);
+        saveUserSettings(loaded, res.user);
+        setStatusMessage(`Signed in as ${res.user.email}. Your preferences are saved privately.`);
       }
     } catch (err) {
       setErrorMessage(err.message || 'Google Sign-In could not be completed.');
@@ -150,58 +140,6 @@ export default function SettingsModal({ isOpen, onClose, user }) {
     });
   };
 
-  const handleSaveGist = async () => {
-    setBusyAction('save-gist');
-    setErrorMessage('');
-    setStatusMessage('');
-    try {
-      setMemoryGithubToken(githubToken);
-      const res = await saveSettingsToGist({
-        gistId,
-        githubToken,
-        user,
-        settings,
-      });
-      setGistId(res.gistId);
-      setStatusMessage(`Settings & bookmarks synced to Gist (${res.gistId}).`);
-    } catch (err) {
-      setErrorMessage(err.message);
-    } finally {
-      setBusyAction('');
-    }
-  };
-
-  const handleLoadGist = async () => {
-    setBusyAction('load-gist');
-    setErrorMessage('');
-    setStatusMessage('');
-    try {
-      setMemoryGithubToken(githubToken);
-      const res = await loadSettingsFromGist(gistId, githubToken);
-      applyGistPayload(res.payload, user);
-      setLinkedGistId(res.gistId, user);
-      setSettings(getUserSettings(user));
-      setStatusMessage(`Restored personal settings from Gist (${res.gistId}).`);
-    } catch (err) {
-      setErrorMessage(err.message);
-    } finally {
-      setBusyAction('');
-    }
-  };
-
-  const handleExportJson = () => {
-    const payload = buildGistPayload(user, settings);
-    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'mockpoet_user_settings.json';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  };
-
   const handlePrepareEmailDigest = async () => {
     setBusyAction('prepare-email');
     setErrorMessage('');
@@ -241,7 +179,7 @@ export default function SettingsModal({ isOpen, onClose, user }) {
         htmlBody: emailPreview.htmlBody,
         plainText: emailPreview.plainText,
       });
-      setStatusMessage(`Digest email sent to ${emailPreview.toEmail} via Gmail.`);
+      setStatusMessage(`Digest email sent to ${emailPreview.toEmail}.`);
       setEmailPreview(null);
     } catch (err) {
       setErrorMessage(err.message);
@@ -261,8 +199,8 @@ export default function SettingsModal({ isOpen, onClose, user }) {
       >
         <div className="settings-header">
           <div>
-            <div className="settings-eyebrow">Personal Reading Room · Zero-Cost Storage</div>
-            <h2 className="settings-title">Settings, Gist Sync &amp; Notifications</h2>
+            <div className="settings-eyebrow">Reader Preferences</div>
+            <h2 className="settings-title">Account &amp; Notifications</h2>
           </div>
           <button type="button" className="settings-close-btn" onClick={onClose} aria-label="Close settings">
             ✕
@@ -273,11 +211,11 @@ export default function SettingsModal({ isOpen, onClose, user }) {
           {statusMessage && <div className="settings-banner success">{statusMessage}</div>}
           {errorMessage && <div className="settings-banner error">{errorMessage}</div>}
 
-          {/* 1. Google Login & GitHub Gist Storage */}
+          {/* 1. Google Account */}
           <section className="settings-section">
-            <h3 className="settings-section-title">1. Google Profile &amp; GitHub Gist Settings</h3>
+            <h3 className="settings-section-title">1. Account</h3>
             <p className="settings-section-desc">
-              Sign in with Google and save your preferences, bookmarks, and reading streak inside a free GitHub Gist JSON file—no database required.
+              Sign in with Google to keep your notification settings, bookmarks, highlights, and reading progress saved privately to your account.
             </p>
 
             {user ? (
@@ -315,42 +253,6 @@ export default function SettingsModal({ isOpen, onClose, user }) {
                 </button>
               </div>
             )}
-
-            <div className="settings-form-grid">
-              <label className="settings-field">
-                <span>Personal GitHub Gist ID (leave blank to create a new secret Gist)</span>
-                <input
-                  type="text"
-                  value={gistId}
-                  onChange={(e) => {
-                    setGistId(e.target.value);
-                    setLinkedGistId(e.target.value, user);
-                  }}
-                  placeholder="e.g. 51893c25959355bda1884804375ec3d8"
-                />
-              </label>
-              <label className="settings-field">
-                <span>GitHub Token (gist scope, held in memory only for saving)</span>
-                <input
-                  type="password"
-                  value={githubToken}
-                  onChange={(e) => setGithubToken(e.target.value)}
-                  placeholder="ghp_... (needed only to write to Gist)"
-                />
-              </label>
-            </div>
-
-            <div className="settings-btn-row">
-              <button type="button" className="settings-btn-primary" onClick={handleSaveGist} disabled={busyAction === 'save-gist'}>
-                {busyAction === 'save-gist' ? 'Syncing…' : 'Save Settings to Gist'}
-              </button>
-              <button type="button" className="settings-btn-outline" onClick={handleLoadGist} disabled={busyAction === 'load-gist' || !gistId.trim()}>
-                {busyAction === 'load-gist' ? 'Loading…' : 'Load from Gist'}
-              </button>
-              <button type="button" className="settings-btn-ghost" onClick={handleExportJson}>
-                Download JSON Backup
-              </button>
-            </div>
           </section>
 
           {/* 2. macOS / Windows Desktop Notifications */}
@@ -429,11 +331,11 @@ export default function SettingsModal({ isOpen, onClose, user }) {
             </div>
           </section>
 
-          {/* 3. Free Email Digest (Gmail + GitHub Actions) */}
+          {/* 3. Email Digest */}
           <section className="settings-section">
-            <h3 className="settings-section-title">3. Free Email Digest (Short Story Gist &amp; Quotes)</h3>
+            <h3 className="settings-section-title">3. Email Digest (Short Story Gist &amp; Quotes)</h3>
             <p className="settings-section-desc">
-              Opt into daily email digests with a concise short story gist and daily quote at zero cost—either sent directly via your signed-in Gmail or via the free GitHub Actions SMTP digest.
+              Opt into daily email digests with a concise short story gist and daily quote in English or Tamil.
             </p>
 
             <label className="settings-toggle-row">
